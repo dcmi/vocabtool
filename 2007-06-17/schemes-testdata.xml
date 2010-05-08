@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+
+<dc>
+
+	<term>
+		<Anchor>LCSH-003</Anchor>
+		<URI>http://purl.org/dc/terms/LCSH</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>LCSH</Name>
+		<Label>LCSH</Label>
+		<Definition>Library of Congress Subject Headings</Definition>
+		<Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+		<Status>http://dublincore.org/usage/documents/process/#registered</Status>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Date-Modified>2007-xx-xx</Date-Modified>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2007-xx</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#LCSH-002</Version>
+		<Replaces>http://dublincore.org/usage/terms/history/#LCSH-001</Replaces>
+		<Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCSH-003</Is-Replaced-By>
+	</term>
+	
+	<term>
+		<Anchor>LCSH-002</Anchor>
+		<URI>http://purl.org/dc/terms/LCSH</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>LCSH</Name>
+		<Label>LCSH</Label>
+		<Definition>Library of Congress Subject Headings</Definition>
+		<Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+		<Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+		<Status>http://dublincore.org/usage/documents/process/#registered</Status>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Date-Modified>2002-06-15</Date-Modified>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#LCSH-002</Version>
+		<Replaces>http://dublincore.org/usage/terms/history/#LCSH-001</Replaces>
+		<Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCSH-003</Is-Replaced-By>
+	</term>
+	
+	<term>
+		<Anchor>LCSH-001</Anchor>
+		<URI>http://purl.org/dc/terms/LCSH</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>LCSH</Name>
+		<Label>LCSH</Label>
+		<Definition>Library of Congress Subject Headings</Definition>
+		<Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+		<Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#LCSH-001</Version>
+		<Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCSH-002</Is-Replaced-By>
+	</term>
+
+	<term>
+		<Anchor>W3CDTF-003</Anchor>
+		<URI>http://purl.org/dc/terms/W3CDTF</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>W3CDTF</Name>
+		<Label>W3C-DTF</Label>
+		<Definition>W3C Encoding rules for dates and times - a profile based on ISO 8601</Definition>
+		<See>http://www.w3.org/TR/NOTE-datetime</See>
+		<Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Datatype</Type-of-Term>
+		<Status>http://dublincore.org/usage/documents/process/#registered</Status>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Date-Modified>2007-xx-xx</Date-Modified>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2007-xx</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#W3CDTF-003</Version>
+		<Replaces>http://dublincore.org/usage/terms/history/#W3CDTF-002</Replaces>
+	</term>
+
+	<term>
+		<Anchor>W3CDTF-002</Anchor>
+		<URI>http://purl.org/dc/terms/W3CDTF</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>W3CDTF</Name>
+		<Label>W3C-DTF</Label>
+		<Definition>W3C Encoding rules for dates and times - a profile based on ISO 8601</Definition>
+		<See>http://www.w3.org/TR/NOTE-datetime</See>
+		<Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+		<Qualifies>http://purl.org/dc/elements/1.1/date</Qualifies>
+		<Qualifies>http://purl.org/dc/terms/temporal</Qualifies>
+		<Status>http://dublincore.org/usage/documents/process/#registered</Status>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Date-Modified>2002-06-15</Date-Modified>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#W3CDTF-002</Version>
+		<Replaces>http://dublincore.org/usage/terms/history/#W3CDTF-001</Replaces>
+		<Is-Replaced-By>http://dublincore.org/usage/terms/history/#W3CDTF-003</Is-Replaced-By>
+	</term>
+
+	<term>
+		<Anchor>W3CDTF-001</Anchor>
+		<URI>http://purl.org/dc/terms/W3CDTF</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>W3CDTF</Name>
+		<Label>W3C-DTF</Label>
+		<Definition>W3C Encoding rules for dates and times - a profile based on ISO 8601</Definition>
+		<See>http://www.w3.org/TR/NOTE-datetime</See>
+		<Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+		<Qualifies>http://purl.org/dc/elements/1.1/date</Qualifies>
+		<Qualifies>http://purl.org/dc/terms/temporal</Qualifies>
+		<Date-Issued>2000-07-11</Date-Issued>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#W3CDTF-001</Version>
+		<Is-Replaced-By>http://dublincore.org/usage/terms/history/#W3CDTF-002</Is-Replaced-By>
+	</term>
+
+</dc>

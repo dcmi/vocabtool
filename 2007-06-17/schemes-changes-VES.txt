@@ -1,0 +1,65 @@
+======================================================================
+Declaring a DCMI vocabulary encoding scheme - example of dcterms:LCSH
+
+----------------------------------------------------------------------
+OLD - from http://dublincore.org/2006/12/18/dcq.rdf
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+<dcterms:SubjectScheme rdf:about="http://purl.org/dc/terms/LCSH">
+    <rdfs:label xml:lang="en-US">LCSH</rdfs:label>
+    <rdfs:comment xml:lang="en-US">Library of Congress Subject Headings</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:modified>2002-06-15</dcterms:modified>
+    <dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#encoding-scheme"/>
+    <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#LCSH-002"/>
+</dcterms:SubjectScheme>
+<rdfs:Class rdf:about="http://purl.org/dc/terms/SubjectScheme">
+    <rdfs:label xml:lang="en-US">Subject Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of subject encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    <dcterms:references rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+</rdfs:Class>
+</rdf:RDF>
+
+----------------------------------------------------------------------
+NEW -
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcam="http://purl.org/dc/dcam/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+<rdf:Description rdf:about="http://purl.org/dc/terms/LCSH">
+    <rdfs:label xml:lang="en-US">LCSH</rdfs:label>
+    <rdfs:comment xml:lang="en-US">Library of Congress Subject Headings</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:modified>2002-06-15</dcterms:modified>
+    <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+    <dcterms:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#LCSH-002"/>
+</rdf:Description>
+</rdf:RDF>
+
+----------------------------------------------------------------------
+OLD to NEW - differences
+
+-- Change
+   <dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#encoding-scheme"/>
+   to
+   <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
+
+-- Change 
+   <dcterms:SubjectScheme rdf:about="http://purl.org/dc/terms/LCSH"> 
+   to
+   <rdf:Description rdf:about="http://purl.org/dc/terms/LCSH"> 
+
+-- Deprecate SubjectScheme and like constructs (see Global Changes above)
+
+
+

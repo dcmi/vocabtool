@@ -1,0 +1,131 @@
+Vocabulary Management Tool
+
+2010-05-05
+
+This tool was developed in circa 2002 by Mitsuharu Nagamori
+and Harry Wagner.  It is used to generate RDF schemas and Web
+pages for DCMI Metadata Terms from source files in unvalidated
+XML, hand-edited using vi.  We have long recognized that this
+method could be improved but, while somewhat cumbersome,
+it has served us well for eight years given the frequency
+with which we need to make changes.  We are making it available
+in an open source repository and welcome improvements to the 
+code.
+
+Specifically, we are interested in modifying the XSL transforms
+to generate Web pages for DCMI metadata terms that contain its
+formal RDF specification embedded in the attributes using RDFa.
+
+To use the tool, the vocabulary maintainer edits the following
+files, adding terms that have been approved or making changes
+to existing terms:
+
+    http://dublincore.org/usage/xml/dcam.xml
+    http://dublincore.org/usage/xml/dcelements.xml
+    http://dublincore.org/usage/xml/dcterms-classes.xml
+    http://dublincore.org/usage/xml/dcterms-properties.xml
+    http://dublincore.org/usage/xml/dcterms-ses.xml
+    http://dublincore.org/usage/xml/dcterms-ves.xml
+    http://dublincore.org/usage/xml/dctype.xml
+    http://dublincore.org/usage/xml/header-doc-dcterms.xml
+    http://dublincore.org/usage/xml/header-doc-dctype.xml
+    http://dublincore.org/usage/xml/header-doc-history.xml
+    http://dublincore.org/usage/xml/header-rdf-dcam.xml
+    http://dublincore.org/usage/xml/header-rdf-dcelements.xml
+    http://dublincore.org/usage/xml/header-rdf-dcterms.xml
+    http://dublincore.org/usage/xml/header-rdf-dctype.xml
+    http://dublincore.org/usage/xml/intro.dcmi-terms.xsl
+    http://dublincore.org/usage/xml/intro.history.xsl
+
+Note that to change an existing term, a new snapshot is created,
+then edited, so that each historical "description" of the term
+is preserved.  This is analogous to the way DCMI and W3C version
+Web documents -- i.e., snapshots supersede each other and accumulate
+to form the historical record.  DCMI would also welcome feedback
+or suggestions on this versioning model.
+
+To prepare a new release of documentation, the editor copies
+the files listed above to a time-stamped directory under the 
+VMT project (here, vmt:), e.g. as follows:
+
+    vmt:2008-01-14/headers/header-doc-dcterms.xml
+    vmt:2008-01-14/headers/header-doc-dctype.xml
+    vmt:2008-01-14/headers/header-doc-history.xml
+    vmt:2008-01-14/headers/header-rdf-dcam.xml
+    vmt:2008-01-14/headers/header-rdf-dcelements.xml
+    vmt:2008-01-14/headers/header-rdf-dcterms.xml
+    vmt:2008-01-14/headers/header-rdf-dctype.xml
+    vmt:2008-01-14/headers/intro.dcmi-terms.xsl
+    vmt:2008-01-14/headers/intro.history.xsl
+    vmt:2008-01-14/xmldata/dcam.xml
+    vmt:2008-01-14/xmldata/dcelements.xml
+    vmt:2008-01-14/xmldata/dcterms-classes.xml
+    vmt:2008-01-14/xmldata/dcterms-properties.xml
+    vmt:2008-01-14/xmldata/dcterms-ses.xml
+    vmt:2008-01-14/xmldata/dcterms-ves.xml
+    vmt:2008-01-14/xmldata/dctype.xml
+
+Then the following file is edited:
+
+    vmt:build.xml
+
+for example, thus:
+
+    :%s/2008-01-14/2010-04-30/
+
+The build file uses the following XSL files:
+
+    vmt:web/xsl/common-templates.xsl
+    vmt:web/xsl/dcam.xsl
+    vmt:web/xsl/dcelements.xsl
+    vmt:web/xsl/dcterms.xsl
+    vmt:web/xsl/dctype.xsl
+    vmt:web/xsl/html-dcmiterms.xsl
+    vmt:web/xsl/html-dctype.xsl
+    vmt:web/xsl/html-history.xsl
+
+Apache Ant (version 1.7 or higher)[1] is required to run the program.
+After installation of Apache Ant, execute the command:
+
+    $ ant
+
+The output is written to a new directory:
+
+    vmt:build
+
+The output is then installed on the DCMI stage server for publication
+on the production Website.  As a final step, the PURLs for DCMI metadata
+terms are edited to point to the schemas.  See, for example:
+
+    http://dublincore.org/documents/dcmi-terms/
+    -> http://dublincore.org/documents/2008/01/14/dcmi-terms/
+    http://dublincore.org/documents/dcmi-type-vocabulary/
+    -> http://dublincore.org/documents/2008/01/14/dcmi-type-vocabulary/
+    http://dublincore.org/usage/terms/history/
+    -> http://dublincore.org/usage/terms/history/2008/01/14/
+    http://dublincore.org/documents/dces/
+    -> http://dublincore.org/documents/2008/01/14/dces/
+
+    http://purl.org/dc/elements/1.1/
+    -> http://dublincore.org/2008/01/14/dcelements.rdf#
+    http://purl.org/dc/terms/
+    -> http://dublincore.org/2008/01/14/dcterms.rdf#
+    http://purl.org/dc/dcmitype/
+    -> http://dublincore.org/2008/01/14/dctype.rdf#
+    http://purl.org/dc/dcam/
+    -> http://dublincore.org/2008/01/14/dcam.rdf#
+
+Any comments or feedback on this tool or the general approach
+to publishing DCMI Metadata Terms (such as versioning) is 
+most welcome.  To submit a comment, please either subscribe to
+the dc-architecture mailing list [2] and post there or send 
+comments to tbaker@tbaker.de indicating whether or not they are 
+intended also for posting to the list.
+
+Tom Baker <tbaker@tbaker.de>
+CIO, Dublin Core Metadata Initiative Ltd.
+http://dublincore.org
+
+
+[1] http://ant.apache.org/
+[2] http://www.jiscmail.ac.uk/lists/dc-architecture.html

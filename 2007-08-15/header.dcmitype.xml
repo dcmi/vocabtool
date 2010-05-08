@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+
+<H1>
+    <Title>The DCMI Types namespace providing access to its content by means of an RDF Schema</Title> 
+    <Publisher>The Dublin Core Metadata Initiative</Publisher> 
+    <Description xml:lang="en-US">The Dublin Core Types namespace provides URIs for the entries of the DCMI Type Vocabulary. Entries are declared using RDF Schema language to support RDF applications. The Schema will be updated according to dc-usage decisions.</Description> 
+    <Language xml:lang="en-US">English</Language> 
+    <Requires>http://dublincore.org/documents/dcmi-type-vocabulary/</Requires>
+    <Source>http://dublincore.org/documents/dcmi-type-vocabulary/</Source>
+    <Source>http://dublincore.org/usage/terms/</Source>
+    <Requires>http://purl.org/dc/elements/1.1/</Requires>
+    <Is-Referenced-By>http://purl.org/dc/terms/</Is-Referenced-By>
+    <Date-Issued>2000-07-11</Date-Issued> 
+    <Date-Modified>2002-05-22</Date-Modified> 
+<!--
+    <Title>DCMI Type Vocabulary</Title>
+    <Creator label="DCMI Usage Board">mailto:dc-usage@jiscmail.ac.uk</Creator>
+    <Identifier>http://dublincore.org/usage/terms/dcmitype/</Identifier>
+    <Replaces>http://dublincore.org/documents/dcmi-type-vocabulary/</Replaces>
+    <Replaces>http://dublincore.org/documents/2000/07/11/dcmi-type-vocabulary/</Replaces>
+    <Date-Modified>2002-07-13</Date-Modified>
+    <Document-Status>
+    After a final review by the Usage Board, this draft
+    document will replace all other documents as the 
+    definitive expression of the DCMI Type Vocabulary.
+    Its status will be that of a DCMI Recommendation.
+    </Document-Status>
+    <Description>         
+    The DCMI Type Vocabulary provides a general, 
+    cross-domain list of approved terms that may be used 
+    as values for the Resource Type element to identify 
+    the genre of a resource.
+    </Description>
+-->
+</H1>

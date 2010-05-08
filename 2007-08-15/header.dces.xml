@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+
+<H1>
+    <Title>The Dublin Core Element Set v1.1 namespace providing access to its content by means of an RDF Schema</Title> 
+    <Publisher>The Dublin Core Metadata Initiative</Publisher> 
+    <Description>The Dublin Core Element Set v1.1 namespace provides URIs for the Dublin Core Elements v1.1. Entries are declared using RDF Schema language to support RDF applications.</Description> 
+    <Language>English</Language> 
+    <Date-Issued>1999-07-02</Date-Issued> 
+    <Date-Modified>2002-05-22</Date-Modified> 
+    <Source>http://dublincore.org/documents/dces/</Source>
+    <Source>http://dublincore.org/usage/decisions/</Source>
+    <Is-Referenced-By>http://www.dublincore.org/documents/2001/10/26/dcmi-namespace/</Is-Referenced-By>
+    <Is-Required-By>http://purl.org/dc/terms/</Is-Required-By>
+    <Is-Referenced-By>http://purl.org/dc/dcmitype/</Is-Referenced-By>
+<!--
+    <Title>DCMI Elements and Qualifiers</Title>
+    <Creator label="DCMI Usage Board">mailto:dc-usage@jiscmail.ac.uk</Creator>
+    <Identifier>http://dublincore.org/usage/terms/dc/</Identifier>
+    <Replaces>http://dublincore.org/documents/dcmes-qualifiers/</Replaces>
+    <Replaces>http://dublincore.org/documents/dces/</Replaces>
+    <Document-Status>After a final review by the Usage Board, this draft
+    document will replace all other documents as the 
+    definitive expression of DCMI element and qualifier 
+    definitions.</Document-Status>
+    <Date-Modified>2002-10-04</Date-Modified>
+    <Description>This document is a consolidated, historically complete, 
+    and updated representation of all Elements, Element 
+    Refinements, and Encoding Schemes in DCMI-maintained 
+    namespaces.</Description>
+-->
+</H1>

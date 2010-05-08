@@ -1,0 +1,351 @@
+<?xml version='1.0'?>
+
+<dc>
+
+<term>
+    <Anchor>Agent-001</Anchor>
+    <URI>http://purl.org/dc/terms/Agent</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Agent</Name>
+    <Name-for-Table>classes-Agent</Name-for-Table>
+    <Label>Agent</Label>
+    <Definition>A resource that acts or has the power to act.</Definition>
+    <Comment>Examples of Agent include person, organization, and software agent.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Instance-Of>http://purl.org/dc/terms/AgentClass</Instance-Of>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Agent-001</Version>
+</term>
+
+<term>
+    <Anchor>AgentClass-001</Anchor>
+    <URI>http://purl.org/dc/terms/AgentClass</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>AgentClass</Name>
+    <Name-for-Table>classes-AgentClass</Name-for-Table>
+    <Label>Agent Class</Label>
+    <Definition>A group of agents.</Definition>
+    <Comment>Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://www.w3.org/2000/01/rdf-schema#Class</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#AgentClass-001</Version>
+</term>
+
+<term>
+    <Anchor>BibliographicResource-001</Anchor>
+    <URI>http://purl.org/dc/terms/BibliographicResource</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>BibliographicResource</Name>
+    <Name-for-Table>classes-BibliographicResource</Name-for-Table>
+    <Label>Bibliographic Resource</Label>
+    <Definition>A book, article, or other documentary resource.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#BibliographicResource-001</Version>
+</term>
+
+<term>
+    <Anchor>FileFormat-001</Anchor>
+    <URI>http://purl.org/dc/terms/FileFormat</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>FileFormat</Name>
+    <Name-for-Table>classes-FileFormat</Name-for-Table>
+    <Label>File Format</Label>
+    <Definition>A digital resource format.</Definition>
+    <Comment>Examples include the formats defined by the list of Internet Media Types.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/MediaType</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#FileFormat-001</Version>
+</term>
+
+<term>
+    <Anchor>Frequency-001</Anchor>
+    <URI>http://purl.org/dc/terms/Frequency</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Frequency</Name>
+    <Name-for-Table>classes-Frequency</Name-for-Table>
+    <Label>Frequency</Label>
+    <Definition>A rate at which something recurs.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Frequency-001</Version>
+</term>
+
+<term>
+    <Anchor>Jurisdiction-001</Anchor>
+    <URI>http://purl.org/dc/terms/Jurisdiction</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Jurisdiction</Name>
+    <Name-for-Table>classes-Jurisdiction</Name-for-Table>
+    <Label>Jurisdiction</Label>
+    <Definition>The extent or range of judicial, law enforcement, or other authority.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/LocationPeriodOrJurisdiction</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Jurisdiction-001</Version>
+</term>
+
+<term>
+    <Anchor>LicenseDocument-001</Anchor>
+    <URI>http://purl.org/dc/terms/LicenseDocument</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>LicenseDocument</Name>
+    <Name-for-Table>classes-LicenseDocument</Name-for-Table>
+    <Label>License Document</Label>
+    <Definition>A legal document giving official permission to do something with a Resource.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/RightsStatement</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#LicenseDocument-001</Version>
+</term>
+
+<term>
+    <Anchor>LinguisticSystem-001</Anchor>
+    <URI>http://purl.org/dc/terms/LinguisticSystem</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>LinguisticSystem</Name>
+    <Name-for-Table>classes-LinguisticSystem</Name-for-Table>
+    <Label>Linguistic System</Label>
+    <Comment>Examples include written, spoken, sign, and computer languages.</Comment>
+    <Definition>A system of signs, symbols, sounds, gestures, or rules used in communication.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#LinguisticSystem-001</Version>
+</term>
+
+<term>
+    <Anchor>Location-001</Anchor>
+    <URI>http://purl.org/dc/terms/Location</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Location</Name>
+    <Name-for-Table>classes-Location</Name-for-Table>
+    <Label>Location</Label>
+    <Definition>A spatial region or named place.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/LocationPeriodOrJurisdiction</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Location-001</Version>
+</term>
+
+<term>
+    <Anchor>LocationPeriodOrJurisdiction-001</Anchor>
+    <URI>http://purl.org/dc/terms/LocationPeriodOrJurisdiction</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>LocationPeriodOrJurisdiction</Name>
+    <Name-for-Table>classes-LocationPeriodOrJurisdiction</Name-for-Table>
+    <Label>Location, Period, or Jurisdiction</Label>
+    <Definition>A location, period of time, or jurisdiction.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#LocationPeriodOrJurisdiction-001</Version>
+</term>
+
+<term>
+    <Anchor>MediaType-001</Anchor>
+    <URI>http://purl.org/dc/terms/MediaType</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>MediaType</Name>
+    <Name-for-Table>classes-MediaType</Name-for-Table>
+    <Label>Media Type</Label>
+    <Definition>A file format or physical medium.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/MediaTypeOrExtent</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#MediaType-001</Version>
+</term>
+
+<term>
+    <Anchor>MediaTypeOrExtent-001</Anchor>
+    <URI>http://purl.org/dc/terms/MediaTypeOrExtent</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>MediaTypeOrExtent</Name>
+    <Name-for-Table>classes-MediaTypeOrExtent</Name-for-Table>
+    <Label>Media Type or Extent</Label>
+    <Definition>A media type or extent.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#MediaTypeOrExtent-001</Version>
+</term>
+
+<term>
+    <Anchor>MethodOfInstruction-001</Anchor>
+    <URI>http://purl.org/dc/terms/MethodOfInstruction</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>MethodOfInstruction</Name>
+    <Name-for-Table>classes-MethodOfInstruction</Name-for-Table>
+    <Label>Method of Instruction</Label>
+    <Definition>A process that is used to engender knowledge, attitudes, and skills.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#MethodOfInstruction-001</Version>
+</term>
+
+<term>
+    <Anchor>MethodOfAccrual-001</Anchor>
+    <URI>http://purl.org/dc/terms/MethodOfAccrual</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>MethodOfAccrual</Name>
+    <Name-for-Table>classes-MethodOfAccrual</Name-for-Table>
+    <Label>Method of Accrual</Label>
+    <Definition>A method by which resources are added to a collection.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#MethodOfAccrual-001</Version>
+</term>
+
+<term>
+    <Anchor>PeriodOfTime-001</Anchor>
+    <URI>http://purl.org/dc/terms/PeriodOfTime</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>PeriodOfTime</Name>
+    <Name-for-Table>classes-PeriodOfTime</Name-for-Table>
+    <Label>Period of Time</Label>
+    <Definition>An interval of time that is named or defined by its start and end dates.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/LocationPeriodOrJurisdiction</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#PeriodOfTime-001</Version>
+</term>
+
+<term>
+    <Anchor>PhysicalMedium-001</Anchor>
+    <URI>http://purl.org/dc/terms/PhysicalMedium</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>PhysicalMedium</Name>
+    <Name-for-Table>classes-PhysicalMedium</Name-for-Table>
+    <Label>Physical Medium</Label>
+    <Definition>A physical material or carrier.</Definition>
+    <Comment>Examples include paper, canvas, or DVD.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/MediaType</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#PhysicalMedium-001</Version>
+</term>
+
+<term>
+    <Anchor>PhysicalResource-001</Anchor>
+    <URI>http://purl.org/dc/terms/PhysicalResource</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>PhysicalResource</Name>
+    <Name-for-Table>classes-PhysicalResource</Name-for-Table>
+    <Label>Physical Resource</Label>
+    <Definition>A material thing.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#PhysicalResource-001</Version>
+</term>
+
+<term>
+    <Anchor>Policy-001</Anchor>
+    <URI>http://purl.org/dc/terms/Policy</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Policy</Name>
+    <Name-for-Table>classes-Policy</Name-for-Table>
+    <Label>Policy</Label>
+    <Definition>A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Policy-001</Version>
+</term>
+
+<term>
+    <Anchor>ProvenanceStatement-001</Anchor>
+    <URI>http://purl.org/dc/terms/ProvenanceStatement</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>ProvenanceStatement</Name>
+    <Name-for-Table>classes-ProvenanceStatement</Name-for-Table>
+    <Label>Provenance Statement</Label>
+    <Definition>A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#ProvenanceStatement-001</Version>
+</term>
+
+<term>
+    <Anchor>RightsStatement-001</Anchor>
+    <URI>http://purl.org/dc/terms/RightsStatement</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>RightsStatement</Name>
+    <Name-for-Table>classes-RightsStatement</Name-for-Table>
+    <Label>Rights Statement</Label>
+    <Definition>A statement about the intellectual property rights (IPR) held in or over a Resource, a legal document giving official permission to do something with a resource, or a statement about access rights.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#RightsStatement-001</Version>
+</term>
+
+<term>
+    <Anchor>SizeOrDuration-001</Anchor>
+    <URI>http://purl.org/dc/terms/SizeOrDuration</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>SizeOrDuration</Name>
+    <Name-for-Table>classes-SizeOrDuration</Name-for-Table>
+    <Label>Size or Duration</Label>
+    <Definition>A dimension or extent, or a time taken to play or execute.</Definition>
+    <Comment>Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/terms/MediaTypeOrExtent</Narrower-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#SizeOrDuration-001</Version>
+</term>
+
+<term>
+    <Anchor>Standard-001</Anchor>
+    <URI>http://purl.org/dc/terms/Standard</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>Standard</Name>
+    <Name-for-Table>classes-Standard</Name-for-Table>
+    <Label>Standard</Label>
+    <Definition>A basis for comparison; a reference point against which other things can be evaluated.</Definition>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Standard-001</Version>
+</term>
+
+</dc>

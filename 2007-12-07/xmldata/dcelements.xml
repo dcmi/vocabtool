@@ -1,0 +1,1909 @@
+<?xml version='1.0'?>
+
+<dc>
+
+<term>
+    <Anchor>title-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/title</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>title</Name>
+    <Label>Title</Label>
+    <Definition>A name given to the resource.</Definition>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#title-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#title-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>title-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/title</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>title</Name>
+        <Label>Title</Label>
+        <Definition>A name given to the resource.</Definition>
+        <Comment>Typically, a Title will be a name by which 
+        the resource is formally known.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#title-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#title-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#title-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>title-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/title</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>title</Name>
+        <Label>Title</Label>
+        <Definition>A name given to the resource.</Definition>
+        <Comment>Typically, a Title will be a name by which the resource is
+        formally known.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#title-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#title-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#title-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>title-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/title</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <Definition>A name given to the resource.</Definition>
+        <Comment>Typically, a Title will be a name by which the resource is
+        formally known.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#title-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#title-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#title-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>title-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/title</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <Definition>A name given to the resource.</Definition>
+        <Comment>Typically, a Title will be a name by which the resource is
+        formally known.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#title-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#title-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>title-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/title</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <Definition>The name given to the resource, usually by the Creator or
+        Publisher.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#title-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>creator-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/creator</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>creator</Name>
+    <Label>Creator</Label>
+    <Definition>An entity primarily responsible for making the resource.</Definition>
+    <Comment>Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#creator-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#creator-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>creator-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/creator</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>creator</Name>
+        <Label>Creator</Label>
+        <Definition>An entity primarily responsible for making 
+        the resource.</Definition>
+        <Comment>Examples of a Creator include a person, an
+        organization, or a service. Typically, the name
+        of a Creator should be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#creator-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#creator-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#creator-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>creator-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/creator</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>creator</Name>
+        <Label>Creator</Label>
+        <Definition>An entity primarily responsible for making the content 
+        of the resource.</Definition>
+        <Comment>Examples of a Creator include a person, an organisation,
+        or a service.  Typically, the name of a Creator should 
+        be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#creator-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#creator-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#creator-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>creator-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/creator</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Creator</Name>
+        <Label>Creator</Label>
+        <Definition>An entity primarily responsible for making the content 
+        of the resource.</Definition>
+        <Comment>Examples of a Creator include a person, an organisation,
+        or a service.  Typically, the name of a Creator should 
+        be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#creator-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#creator-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#creator-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>creator-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/creator</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Creator</Name>
+        <Label>Creator</Label>
+        <Definition>An entity primarily responsible for making the content of
+        the resource.</Definition>
+        <Comment>Examples of a Creator include a person, an organisation,
+        or a service.  Typically, the name of a Creator should be 
+        used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#creator-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#creator-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>creator-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/creator</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Creator</Name>
+        <Label>Author or Creator</Label>
+        <Definition>The person or organization primarily responsible for
+        creating the intellectual content of the resource.  For
+        example, authors in the case of written documents, 
+        artists, photographers, or illustrators in the case of 
+        visual resources.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#creator-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>subject-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/subject</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>subject</Name>
+    <Label>Subject</Label>
+    <Definition>The topic of the resource.</Definition>
+    <Comment>Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the Coverage element.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#subject-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#subject-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>subject-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/subject</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>subject</Name>
+        <Label>Subject</Label>
+        <Definition>The topic of the resource.</Definition>
+        <Comment>Typically, the topic will be represented using
+        keywords, key phrases, or classification codes.
+        Recommended best practice is to use a controlled
+        vocabulary.  To describe the spatial or temporal 
+        topic of the resource, use the Coverage element.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#subject-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#subject-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#subject-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>subject-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/subject</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>subject</Name>
+        <Label>Subject and Keywords</Label>
+        <Definition>The topic of the content of the resource.</Definition>
+        <Comment>Typically, a Subject will be expressed as keywords,
+        key phrases or classification codes that describe a topic
+        of the resource.  Recommended best practice is to select 
+        a value from a controlled vocabulary or formal 
+        classification scheme.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#subject-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#subject-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#subject-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>subject-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/subject</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Subject</Name>
+        <Label>Subject and Keywords</Label>
+        <Definition>The topic of the content of the resource.</Definition>
+        <Comment>Typically, a Subject will be expressed as keywords,
+        key phrases or classification codes that describe a topic
+        of the resource.  Recommended best practice is to select 
+        a value from a controlled vocabulary or formal 
+        classification scheme.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#subject-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#subject-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#subject-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>subject-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/subject</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Subject</Name>
+        <Label>Subject and Keywords</Label>
+        <Definition>The topic of the content of the resource.</Definition>
+        <Comment>Typically, a Subject will be expressed as keywords,
+        key phrases or classification codes that describe a topic
+        of the resource.  Recommended best practice is to select 
+        a value from a controlled vocabulary or formal 
+        classification scheme.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#subject-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#subject-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>subject-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/subject</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Subject</Name>
+        <Label>Subject and Keywords</Label>
+        <Definition>The topic of the resource.  Typically, subject will be
+        expressed as keywords or phrases that describe the subject
+        or content of the resource.  The use of controlled
+        vocabularies and formal classification schemas is
+        encouraged.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#subject-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>description-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/description</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>description</Name>
+    <Label>Description</Label>
+    <Definition>An account of the resource.</Definition>
+    <Comment>Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#description-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#description-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>description-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/description</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>description</Name>
+        <Label>Description</Label>
+        <Definition>An account of the resource.</Definition>
+        <Comment>Description may include but is not limited to:
+        an abstract, a table of contents, a graphical
+        representation, or a free-text account of
+        the resource.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#description-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#description-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#description-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>description-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/description</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>description</Name>
+        <Label>Description</Label>
+        <Definition>An account of the content of the resource.</Definition>
+        <Comment>Description may include but is not limited to: an abstract,
+        table of contents, reference to a graphical representation
+        of content or a free-text account of the content.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#description-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#description-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#description-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>description-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/description</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Description</Name>
+        <Label>Description</Label>
+        <Definition>An account of the content of the resource.</Definition>
+        <Comment>Description may include but is not limited to: an abstract,
+        table of contents, reference to a graphical representation
+        of content or a free-text account of the content.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#description-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#description-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#description-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>description-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/description</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Description</Name>
+        <Label>Description</Label>
+        <Definition>An account of the content of the resource.</Definition>
+        <Comment>Description may include but is not limited to: an abstract,
+        table of contents, reference to a graphical representation
+        of content or a free-text account of the content.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#description-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#description-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>description-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/description</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Description</Name>
+        <Label>Description</Label>
+        <Definition>A textual description of the content of the resource,
+        including abstracts in the case of document-like objects or
+        content descriptions in the case of visual resources.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#description-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>publisher-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/publisher</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>publisher</Name>
+    <Label>Publisher</Label>
+    <Definition>An entity responsible for making the resource available.</Definition>
+    <Comment>Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#publisher-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#publisher-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>publisher-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/publisher</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>publisher</Name>
+        <Label>Publisher</Label>
+        <Definition>An entity responsible for making the resource 
+        available.</Definition>
+        <Comment>Examples of a Publisher include a person, an
+        organization, or a service. Typically, the name of
+        a Publisher should be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#publisher-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#publisher-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#publisher-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>publisher-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/publisher</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>publisher</Name>
+        <Label>Publisher</Label>
+        <Definition>An entity responsible for making the resource available</Definition>
+        <Comment>Examples of a Publisher include a person, an organisation,
+        or a service.
+        Typically, the name of a Publisher should be used to
+        indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#publisher-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#publisher-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#publisher-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>publisher-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/publisher</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Publisher</Name>
+        <Label>Publisher</Label>
+        <Definition>An entity responsible for making the resource available</Definition>
+        <Comment>Examples of a Publisher include a person, an organisation,
+        or a service.
+        Typically, the name of a Publisher should be used to
+        indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#publisher-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#publisher-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#publisher-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>publisher-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/publisher</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Publisher</Name>
+        <Label>Publisher</Label>
+        <Definition>An entity responsible for making the resource available.</Definition>
+        <Comment>Examples of a Publisher include a person, an organisation,
+        or a service.
+        Typically, the name of a Publisher should be used to
+        indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#publisher-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#publisher-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>publisher-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/publisher</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Publisher</Name>
+        <Label>Publisher</Label>
+        <Definition>The entity responsible for making the resource available 
+        in its present form, such as a publishing house, a 
+        university department, or a corporate entity.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#publisher-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>contributor-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/contributor</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>contributor</Name>
+    <Label>Contributor</Label>
+    <Definition>An entity responsible for making contributions to the resource.</Definition>
+    <Comment>Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#contributor-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#contributor-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>contributor-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/contributor</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>contributor</Name>
+        <Label>Contributor</Label>
+        <Definition>An entity responsible for making
+        contributions to the resource.</Definition>
+        <Comment>Examples of a Contributor include a person,
+        an organization, or a service. Typically, the
+        name of a Contributor should be used to indicate
+        the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#contributor-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#contributor-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#contributor-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>contributor-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/contributor</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>contributor</Name>
+        <Label>Contributor</Label>
+        <Definition>An entity responsible for making contributions to the
+        content of the resource.</Definition>
+        <Comment>Examples of a Contributor include a person, an 
+        organisation, or a service.  Typically, the name of a 
+        Contributor should be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#contributor-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#contributor-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#contributor-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>contributor-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/contributor</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Contributor</Name>
+        <Label>Contributor</Label>
+        <Definition>An entity responsible for making contributions to the
+        content of the resource.</Definition>
+        <Comment>Examples of a Contributor include a person, an 
+        organisation, or a service.  Typically, the name of a 
+        Contributor should be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#contributor-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#contributor-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#contributor-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>contributor-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/contributor</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Contributor</Name>
+        <Label>Contributor</Label>
+        <Definition>An entity responsible for making contributions to the
+        content of the resource.</Definition>
+        <Comment>Examples of a Contributor include a person, an 
+        organisation, or a service.  Typically, the name of a 
+        Contributor should be used to indicate the entity.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#contributor-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#contributor-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>contributor-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/contributor</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Contributor</Name>
+        <Label>Other Contributor</Label>
+        <Definition>A person or organization not specified in a Creator 
+        element who has made significant intellectual 
+        contributions to the resource but whose contribution 
+        is secondary to any person or organization specified 
+        in a Creator element (for example, editor, transcriber, 
+        and illustrator).</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#contributor-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>date-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/date</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>date</Name>
+    <Label>Date</Label>
+    <Definition>A point or period of time associated with an event in the lifecycle of the resource.</Definition>
+    <Comment>Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</Comment>
+    <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#date-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#date-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>date-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/date</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>date</Name>
+        <Label>Date</Label>
+        <Definition>A point or period of time associated with an 
+        event in the lifecycle of the resource.</Definition>
+        <Comment>Date may be used to express temporal information
+        at any level of granularity.  Recommended best 
+        practice is to use an encoding scheme, such as 
+        the W3CDTF profile of ISO 8601 [W3CDTF].</Comment>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#date-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#date-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#date-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>date-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/date</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>date</Name>
+        <Label>Date</Label>
+        <Definition>A date associated with an event in the life cycle of the
+        resource.</Definition>
+        <Comment>Typically, Date will be associated with the creation or
+        availability of the resource.  Recommended best practice
+        for encoding the date value is defined in a profile of
+        ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</Comment>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#date-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#date-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#date-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>date-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/date</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Date</Name>
+        <Label>Date</Label>
+        <Definition>A date associated with an event in the life cycle of the
+        resource.</Definition>
+        <Comment>Typically, Date will be associated with the creation or
+        availability of the resource.  Recommended best practice
+        for encoding the date value is defined in a profile of
+        ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</Comment>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#date-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#date-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#date-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>date-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/date</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Date</Name>
+        <Label>Date</Label>
+        <Definition>A date associated with an event in the life cycle of the
+        resource.</Definition>
+        <Comment>Typically, Date will be associated with the creation or
+        availability of the resource.  Recommended best practice
+        for encoding the date value is defined in a profile of
+        ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</Comment>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#date-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#date-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>date-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/date</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Date</Name>
+        <Label>Date</Label>
+        <Definition>A date associated with the creation or availability of 
+        the resource.  Recommended best practice is defined in 
+        a profile of ISO 8601 [W3CDTF] that includes (among 
+        others) dates of the forms YYYY and YYYY-MM-DD. In this 
+        scheme, the date 1994-11-05 corresponds to November 5, 
+        1994.</Definition>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#date-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>type-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/type</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>type</Name>
+    <Label>Type</Label>
+    <Definition>The nature or genre of the resource.</Definition>
+    <Comment>Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</Comment>
+    <References>[DCMITYPE] http://dublincore.org/documents/dcmi-type-vocabulary/</References>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#type-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#type-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>type-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/type</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>type</Name>
+        <Label>Type</Label>
+        <Definition>The nature or genre of the resource.</Definition>
+        <Comment>Recommended best practice is to use a controlled
+        vocabulary such as the DCMI Type Vocabulary
+        [DCMITYPE]. To describe the file format, physical
+        medium, or dimensions of the resource, use the
+        Format element.</Comment>
+        <References>[DCMITYPE] http://dublincore.org/documents/dcmi-type-vocabulary/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#type-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#type-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#type-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>type-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/type</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>type</Name>
+        <Label>Resource Type</Label>
+        <Definition>The nature or genre of the content of the resource.</Definition>
+        <Comment>Type includes terms describing general categories, functions,
+        genres, or aggregation levels for content. Recommended best
+        practice is to select a value from a controlled vocabulary
+        (for example, the DCMI Type Vocabulary [DCMITYPE]). To 
+        describe the physical or digital manifestation of the 
+        resource, use the Format element.</Comment>
+        <References>[DCMITYPE] http://dublincore.org/documents/dcmi-type-vocabulary/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#type-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#type-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#type-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>type-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/type</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Type</Name>
+        <Label>Resource Type</Label>
+        <Definition>The nature or genre of the content of the resource.</Definition>
+        <Comment>Type includes terms describing general categories, functions,
+        genres, or aggregation levels for content. Recommended best
+        practice is to select a value from a controlled vocabulary
+        (for example, the DCMI Type Vocabulary [DCMITYPE]). To 
+        describe the physical or digital manifestation of the 
+        resource, use the Format element.</Comment>
+        <References>[DCMITYPE] http://dublincore.org/documents/dcmi-type-vocabulary/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#type-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#type-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#type-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>type-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/type</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Type</Name>
+        <Label>Resource Type</Label>
+        <Definition>The nature or genre of the content of the resource.</Definition>
+        <Comment>Type includes terms describing general categories, functions,
+        genres, or aggregation levels for content. Recommended best
+        practice is to select a value from a controlled vocabulary
+        (for example, the working draft list of Dublin Core Types
+        [DCT1]). To describe the physical or digital manifestation
+        of the resource, use the FORMAT element.</Comment>
+        <References>[DCT1] http://dublincore.org/documents/dcmi-type-vocabulary/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#type-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#type-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>type-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/type</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Type</Name>
+        <Label>Resource Type</Label>
+        <Definition>The category of the resource, such as home page, novel,
+        poem, working paper, technical report, essay, dictionary.
+        For the sake of interoperability, Type should be selected
+        from an enumerated list that is under development in the
+        workshop series.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#type-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>format-007</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/format</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>format</Name>
+    <Label>Format</Label>
+    <Definition>The file format, physical medium, or dimensions of the resource.</Definition>
+    <Comment>Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</Comment>
+    <References>[MIME] http://www.iana.org/assignments/media-types/</References>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#format-007</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#format-006</Replaces>
+</term>
+
+    <term>
+        <Anchor>format-006</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>format</Name>
+        <Label>Format</Label>
+        <Definition>The file format, physical medium, or dimensions
+        of the resource.</Definition>
+        <Comment>Examples of dimensions include
+        size and duration. Recommended best practice is
+        to use a controlled vocabulary such as the list
+        of Internet Media Types [MIME].</Comment>
+        <References>[MIME] http://www.iana.org/assignments/media-types/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-006</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#format-005</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#format-007</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>format-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>format</Name>
+        <Label>Format</Label>
+        <Definition>The physical or digital manifestation of the resource.</Definition>
+        <Comment>Typically, Format may include the media-type or dimensions of
+        the resource. Format may be used to determine the software,
+        hardware or other equipment needed to display or operate the
+        resource. Examples of dimensions include size and duration.
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the list of Internet Media
+        Types [MIME] defining computer media formats).</Comment>
+        <References>[MIME] http://www.iana.org/assignments/media-types/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2004-12-17</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2004-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#format-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#format-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>format-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>format</Name>
+        <Label>Format</Label>
+        <Definition>The physical or digital manifestation of the resource.</Definition>
+        <Comment>Typically, Format may include the media-type or dimensions of
+        the resource. Format may be used to determine the software,
+        hardware or other equipment needed to display or operate the
+        resource. Examples of dimensions include size and duration.
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the list of Internet Media
+        Types [MIME] defining computer media formats).</Comment>
+        <References>[MIME] http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#format-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#format-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>format-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Format</Name>
+        <Label>Format</Label>
+        <Definition>The physical or digital manifestation of the resource.</Definition>
+        <Comment>Typically, Format may include the media-type or dimensions of
+        the resource. Format may be used to determine the software,
+        hardware or other equipment needed to display or operate the
+        resource. Examples of dimensions include size and duration.
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the list of Internet Media
+        Types [MIME] defining computer media formats).</Comment>
+        <References>[MIME] http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#format-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#format-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>format-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Format</Name>
+        <Label>Format</Label>
+        <Definition>The physical or digital manifestation of the resource.</Definition>
+        <Comment>Typically, Format may include the media-type or dimensions of
+        the resource. Format may be used to determine the software,
+        hardware or other equipment needed to display or operate the
+        resource. Examples of dimensions include size and duration.
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the list of Internet Media
+        Types [MIME] defining computer media formats).</Comment>
+        <References>[MIME] http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#format-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>format-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/format</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Format</Name>
+        <Label>Format</Label>
+        <Definition>The data format and, optionally, dimensions (e.g., size,
+        duration) of the resource.  The format is used to identify
+        the software and possibly hardware that might be needed to
+        display or operate the resource.  For the sake of
+        interoperability, the format should be selected from an
+        enumerated list that is currently under development in the
+        workshop series.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#format-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>identifier-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/identifier</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>identifier</Name>
+    <Label>Identifier</Label>
+    <Definition>An unambiguous reference to the resource within a given context.</Definition>
+    <Comment>Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#identifier-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#identifier-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>identifier-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/identifier</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>identifier</Name>
+        <Label>Identifier</Label>
+        <Definition>An unambiguous reference to the resource within
+        a given context.</Definition>
+        <Comment>Recommended best practice is to identify the
+        resource by means of a string conforming
+        to a formal identification system. </Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#identifier-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#identifier-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#identifier-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>identifier-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/identifier</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>identifier</Name>
+        <Label>Resource Identifier</Label>
+        <Definition>An unambiguous reference to the resource within a given context.</Definition>
+        <Comment>Recommended best practice is to identify the resource by means
+        of a string or number conforming to a formal identification
+        system.
+        Example formal identification systems include the Uniform
+        Resource Identifier (URI) (including the Uniform Resource
+        Locator (URL)), the Digital Object Identifier (DOI) and the
+        International Standard Book Number (ISBN).</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#identifier-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#identifier-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#identifier-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>identifier-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/identifier</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Identifier</Name>
+        <Label>Resource Identifier</Label>
+        <Definition>An unambiguous reference to the resource within a given context.</Definition>
+        <Comment>Recommended best practice is to identify the resource by means
+        of a string or number conforming to a formal identification
+        system.
+        Example formal identification systems include the Uniform
+        Resource Identifier (URI) (including the Uniform Resource
+        Locator (URL)), the Digital Object Identifier (DOI) and the
+        International Standard Book Number (ISBN).</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#identifier-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#identifier-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#identifier-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>identifier-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/identifier</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Identifier</Name>
+        <Label>Resource Identifier</Label>
+        <Definition>An unambiguous reference to the resource within a given context.</Definition>
+        <Comment>Recommended best practice is to identify the resource by means
+        of a string or number conforming to a formal identification
+        system.
+        Example formal identification systems include the Uniform
+        Resource Identifier (URI) (including the Uniform Resource
+        Locator (URL)), the Digital Object Identifier (DOI) and the
+        International Standard Book Number (ISBN).</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#identifier-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#identifier-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>identifier-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/identifier</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Identifier</Name>
+        <Label>Resource Identifier</Label>
+        <Definition>A string or number used to uniquely identify the resource.
+        Examples for networked resources include URLs and URNs (when
+        implemented).  Other globally-unique identifiers, such as
+        International Standard Book Numbers (ISBN) or other formal
+        names would also be candidates for this element.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#identifier-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>source-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/source</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>source</Name>
+    <Label>Source</Label>
+    <Definition>A related resource from which the described resource is derived.</Definition>
+    <Comment>The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#source-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#source-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>source-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/source</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>source</Name>
+        <Label>Source</Label>
+        <Definition>The resource from which the described 
+        resource is derived.</Definition>
+        <Comment>The described resource may be derived from the
+        related resource in whole or in part. Recommended
+        best practice is to identify the related resource
+        by means of a string conforming to a formal
+        identification system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#source-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#source-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#source-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>source-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/source</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>source</Name>
+        <Label>Source</Label>
+        <Definition>A reference to a resource from which the present resource
+        is derived.</Definition>
+        <Comment>The present resource may be derived from the Source resource
+        in whole or in part.  Recommended best practice is to reference
+        the resource by means of a string or number conforming to a
+        formal identification system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#source-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#source-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#source-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>source-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/source</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Source</Name>
+        <Label>Source</Label>
+        <Definition>A reference to a resource from which the present resource
+        is derived.</Definition>
+        <Comment>The present resource may be derived from the Source resource
+        in whole or in part.  Recommended best practice is to reference
+        the resource by means of a string or number conforming to a
+        formal identification system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#source-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#source-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#source-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>source-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/source</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Source</Name>
+        <Label>Source</Label>
+        <Definition>A reference to a resource from which the present resource
+        is derived.</Definition>
+        <Comment>The present resource may be derived from the Source resource
+        in whole or in part.  Recommended best practice is to reference
+        the resource by means of a string or number conforming to a
+        formal identification system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#source-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#source-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>source-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/source</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Source</Name>
+        <Label>Source</Label>
+        <Definition>Information about a second resource from which the present
+        resource is derived.  While it is generally recommended that
+        elements contain information about the present resource
+        only, this element may contain metadata for the second
+        resource when it is considered important for discovery of
+        the present resource.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#source-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>language-007</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/language</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>language</Name>
+    <Label>Language</Label>
+    <Definition>A language of the resource.</Definition>
+    <Comment>Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</Comment>
+    <References>[RFC4646] http://www.ietf.org/rfc/rfc4646.txt</References>
+    <See>http://www.ietf.org/rfc/rfc4646.txt</See>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#language-007</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#language-006</Replaces>
+</term>
+
+    <term>
+        <Anchor>language-006</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>language</Name>
+        <Label>Language</Label>
+        <Definition>A language of the resource.</Definition>
+        <Comment>Recommended best practice is to use a controlled
+        vocabulary such as RFC 3066 [RFC3066].</Comment>
+        <References>[RFC3066] http://www.ietf.org/rfc/rfc3066.txt</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-006</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#language-005</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#language-007</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>language-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>language</Name>
+        <Label>Language</Label>
+        <Definition>A language of the intellectual content of the resource.</Definition>
+        <Comment>Recommended best practice is to use RFC 3066 [RFC3066],
+        which, in conjunction with ISO 639 [ISO639], defines two-
+        and three-letter primary language tags with optional
+        subtags.  Examples include "en" or "eng" for English,
+        "akk" for Akkadian, and "en-GB" for English used in the
+        United Kingdom.</Comment>
+        <References>[RFC3066] http://www.ietf.org/rfc/rfc3066.txt</References>
+        <References>[ISO639] http://www.loc.gov/standards/iso639-2/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#language-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#language-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>language-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Language</Name>
+        <Label>Language</Label>
+        <Definition>A language of the intellectual content of the resource.</Definition>
+        <Comment>Recommended best practice is to use RFC 3066 [RFC3066],
+        which, in conjunction with ISO 639 [ISO639], defines two-
+        and three-letter primary language tags with optional
+        subtags.  Examples include "en" or "eng" for English,
+        "akk" for Akkadian, and "en-GB" for English used in the
+        United Kingdom.</Comment>
+        <References>[RFC3066] http://www.ietf.org/rfc/rfc3066.txt</References>
+        <References>[ISO639] http://www.loc.gov/standards/iso639-2/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#language-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#language-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>language-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Language</Name>
+        <Label>Language</Label>
+        <Definition>A language of the intellectual content of the resource.</Definition>
+        <Comment>Recommended best practice is to use RFC 3066 [RFC3066],
+        which, in conjunction with ISO 639 [ISO639], defines two-
+        and three-letter primary language tags with optional
+        subtags.  Examples include "en" or "eng" for English,
+        "akk" for Akkadian, and "en-GB" for English used in the
+        United Kingdom.</Comment>
+        <References>[RFC3066] http://www.ietf.org/rfc/rfc3066.txt</References>
+        <References>[ISO639] http://www.loc.gov/standards/iso639-2/</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2001-05-21</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2001-04</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#language-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#language-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>language-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Language</Name>
+        <Label>Language</Label>
+        <Definition>A language of the intellectual content of the resource.</Definition>
+        <Comment>Recommended best practice for the values of the Language
+        element is defined by RFC 1766 [RFC1766] which includes
+        a two-letter Language Code (taken from the ISO 639
+        standard [ISO639]), followed optionally, by a two-letter
+        Country Code (taken from the ISO 3166 standard [ISO3166]).
+        For example, 'en' for English, 'fr' for French, or
+        'en-uk' for English used in the United Kingdom.</Comment>
+        <References>[RFC1766] http://www.ietf.org/rfc/rfc1766.txt</References>
+        <References>[ISO639] http://www.loc.gov/standards/iso639-2/</References>
+        <References>[ISO3166] http://www.iso.org/iso/en/prods-services/iso3166ma/index.html</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#language-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>language-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/language</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Language</Name>
+        <Label>Language</Label>
+        <Definition>The language of the intellectual content of the resource.
+        Recommended best practice is defined in RFC 1766 [RFC1766].</Definition>
+        <References>[RFC1766] http://www.ietf.org/rfc/rfc1766.txt</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#language-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>relation-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/relation</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>relation</Name>
+    <Label>Relation</Label>
+    <Definition>A related resource.</Definition>
+    <Comment>Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#relation-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#relation-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>relation-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/relation</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>relation</Name>
+        <Label>Relation</Label>
+        <Definition>A related resource.</Definition>
+        <Comment>Recommended best practice is to identify the
+        related resource by means of a string conforming
+        to a formal identification system. </Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#relation-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#relation-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#relation-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>relation-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/relation</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>relation</Name>
+        <Label>Relation</Label>
+        <Definition>A reference to a related resource.</Definition>
+        <Comment>Recommended best practice is to reference the resource by means
+        of a string or number conforming to a formal identification
+        system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#relation-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#relation-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#relation-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>relation-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/relation</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Relation</Name>
+        <Label>Relation</Label>
+        <Definition>A reference to a related resource.</Definition>
+        <Comment>Recommended best practice is to reference the resource by means
+        of a string or number conforming to a formal identification
+        system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#relation-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#relation-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#relation-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>relation-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/relation</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Relation</Name>
+        <Label>Relation</Label>
+        <Definition>A reference to a related resource.</Definition>
+        <Comment>Recommended best practice is to reference the resource by means
+        of a string or number conforming to a formal identification
+        system.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#relation-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#relation-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>relation-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/relation</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Relation</Name>
+        <Label>Relation</Label>
+        <Definition>An identifier of a second resource and its relationship to
+        the present resource.  This element is used to express
+        linkages among related resources.  For the sake of
+        interoperability, relationships should be selected from an
+        enumerated list that is currently under development in the
+        workshop series.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#relation-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>coverage-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/coverage</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>coverage</Name>
+    <Label>Coverage</Label>
+    <Definition>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</Definition>
+    <Comment>Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</Comment>
+    <References>[TGN] http://www.getty.edu/research/tools/vocabulary/tgn/index.html</References>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#coverage-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#coverage-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>coverage-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/coverage</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>coverage</Name>
+        <Label>Coverage</Label>
+        <Definition>The spatial or temporal topic of the resource, the
+        spatial applicability of the resource, or the 
+        jurisdiction under which the resource is relevant.</Definition>
+        <Comment>Spatial topic may be a named place or a location 
+        specified by its geographic coordinates. Temporal
+        period may be a named period, date, or date
+        range. A jurisdiction may be a named administrative
+        entity or a geographic place to which the resource
+        applies. Recommended best practice is to use a 
+        controlled vocabulary such as the Thesaurus of
+        Geographic Names [TGN]).  Where appropriate, named 
+        places or time periods can be used in preference
+        to numeric identifiers such as sets of coordinates
+        or date ranges.</Comment>
+        <References>[TGN] http://www.getty.edu/research/tools/vocabulary/tgn/index.html</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#coverage-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#coverage-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#coverage-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>coverage-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/coverage</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>coverage</Name>
+        <Label>Coverage</Label>
+        <Definition>The extent or scope of the content of the resource.</Definition>
+        <Comment>Coverage will typically include spatial location (a place name
+        or geographic coordinates), temporal period (a period label,
+        date, or date range) or jurisdiction (such as a named
+        administrative entity).
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the Thesaurus of Geographic
+        Names [TGN]) and that, where appropriate, named places or time
+        periods be used in preference to numeric identifiers such as
+        sets of coordinates or date ranges.</Comment>
+        <References>[TGN] http://www.getty.edu/research/tools/vocabulary/tgn/index.html</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#coverage-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#coverage-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#coverage-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>coverage-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/coverage</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Coverage</Name>
+        <Label>Coverage</Label>
+        <Definition>The extent or scope of the content of the resource.</Definition>
+        <Comment>Coverage will typically include spatial location (a place name
+        or geographic coordinates), temporal period (a period label,
+        date, or date range) or jurisdiction (such as a named
+        administrative entity).
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the Thesaurus of Geographic
+        Names [TGN]) and that, where appropriate, named places or time
+        periods be used in preference to numeric identifiers such as
+        sets of coordinates or date ranges.</Comment>
+        <References>[TGN] http://www.getty.edu/research/tools/vocabulary/tgn/index.html</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#coverage-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#coverage-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#coverage-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>coverage-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/coverage</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Coverage</Name>
+        <Label>Coverage</Label>
+        <Definition>The extent or scope of the content of the resource.</Definition>
+        <Comment>Coverage will typically include spatial location (a place name
+        or geographic coordinates), temporal period (a period label,
+        date, or date range) or jurisdiction (such as a named
+        administrative entity).
+        Recommended best practice is to select a value from a
+        controlled vocabulary (for example, the Thesaurus of Geographic
+        Names [TGN]) and that, where appropriate, named places or time
+        periods be used in preference to numeric identifiers such as
+        sets of coordinates or date ranges.</Comment>
+        <References>[TGN] http://www.getty.edu/research/tools/vocabulary/tgn/index.html</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#coverage-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#coverage-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>coverage-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/coverage</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Coverage</Name>
+        <Label>Coverage</Label>
+        <Definition>The spatial and/or temporal characteristics of the
+        intellectual content of the resource.  Spatial coverage
+        refers to a physical region (e.g., celestial sector) using
+        place names or coordinates (e.g., longitude and latitude).
+        Temporal coverage refers to what the resource is about
+        rather than when it was created or made available (the
+        latter belonging in the Date element).  Temporal coverage is
+        typically specified using named time periods (e.g.,
+        Neolithic) or the same date/time format [W3CDTF]
+        as recommended for the Date element.</Definition>
+        <References>[W3CDTF] http://www.w3.org/TR/NOTE-datetime</References>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#coverage-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>rights-006</Anchor>
+    <URI>http://purl.org/dc/elements/1.1/rights</URI>
+    <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+    <Name>rights</Name>
+    <Label>Rights</Label>
+    <Definition>Information about rights held in and over the resource.</Definition>
+    <Comment>Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</Comment>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>1999-07-02</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#rights-006</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#rights-005</Replaces>
+</term>
+
+    <term>
+        <Anchor>rights-005</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/rights</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>rights</Name>
+        <Label>Rights</Label>
+        <Definition>Information about rights held in and 
+        over the resource.</Definition>
+        <Comment>Typically, rights information includes 
+        a statement about various property rights 
+        associated with the resource, including
+        intellectual property rights.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2006-12-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#rights-005</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#rights-004</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#rights-006</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>rights-004</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/rights</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>rights</Name>
+        <Label>Rights Management</Label> 
+        <Definition>Information about rights held in and over the resource.</Definition>
+        <Comment>Typically, a Rights element will contain a rights
+        management statement for the resource, or reference
+        a service providing such information. Rights information
+        often encompasses Intellectual Property Rights (IPR),
+        Copyright, and various Property Rights.
+        If the Rights element is absent, no assumptions can be made
+        about the status of these and other rights with respect to
+        the resource.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-10-04</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#rights-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#rights-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#rights-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>rights-003</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/rights</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Rights</Name>
+        <Label>Rights Management</Label> 
+        <Definition>Information about rights held in and over the resource.</Definition>
+        <Comment>Typically, a Rights element will contain a rights
+        management statement for the resource, or reference
+        a service providing such information. Rights information
+        often encompasses Intellectual Property Rights (IPR),
+        Copyright, and various Property Rights.
+        If the Rights element is absent, no assumptions can be made
+        about the status of these and other rights with respect to
+        the resource.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#rights-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#rights-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#rights-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>rights-002</Anchor>
+        <URI>http://purl.org/dc/elements/1.1/rights</URI>
+        <Namespace>http://purl.org/dc/elements/1.1/</Namespace>
+        <Name>Rights</Name>
+        <Label>Rights Management</Label>  
+        <Definition>Information about rights held in and over the resource.</Definition>
+        <Comment>Typically, a Rights element will contain a rights
+        management statement for the resource, or reference
+        a service providing such information. Rights information
+        often encompasses Intellectual Property Rights (IPR),
+        Copyright, and various Property Rights.
+        If the Rights element is absent, no assumptions can be made
+        about the status of these and other rights with respect to
+        the resource.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Modified>1999-07-02</Date-Modified>
+        <Date-Issued>1999-07-02</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1999-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#rights-002</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#rights-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>rights-001</Anchor>
+        <URI>http://purl.org/dc/elements/1.0/rights</URI>
+        <Namespace>http://purl.org/dc/elements/1.0/</Namespace>
+        <Name>Rights</Name>
+        <Label>Rights Management</Label>
+        <Definition>A rights management statement, an identifier that links 
+        to a rights management statement, or an identifier that 
+        links to a service providing information about rights 
+        management for the resource.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#element</Type-of-Term>
+        <Date-Issued>1998-08-06</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-1998-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#rights-001</Version>
+        <Is-Replaced-By>n.a.</Is-Replaced-By>
+    </term>
+
+
+</dc>

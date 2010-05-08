@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+
+<dc>
+
+	<term>
+		<Anchor>bibliographicCitation-002</Anchor>
+		<URI>http://purl.org/dc/terms/bibliographicCitation</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>bibliographicCitation</Name>
+		<Label>Bibliographic Citation</Label>
+		<Definition>A bibliographic reference for the resource.
+        </Definition>
+        <Comment>Recommended practice is to include sufficient 
+        bibliographic detail to identify the resource as 
+        unambiguously as possible, whether or not the
+        citation is in a standard form.
+        </Comment>
+		<Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+		<Refines>http://purl.org/dc/elements/1.1/identifier</Refines>
+        <Domain>http://example.org/dc/terms/BibliographicResource</Domain>
+        <Range>http://example.org/dc/terms/BibliographicReference</Range>
+		<Status>http://dublincore.org/usage/documents/process/#conforming</Status>
+		<Date-Issued>2007-xx-xx</Date-Issued>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2007-xx</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#bibliographicCitation-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#bibliographicCitation-001</Replaces>
+	</term>
+	
+	<term>
+		<Anchor>bibliographicCitation-001</Anchor>
+		<URI>http://purl.org/dc/terms/bibliographicCitation</URI>
+		<Namespace>http://purl.org/dc/terms/</Namespace>
+		<Name>bibliographicCitation</Name>
+		<Label>Bibliographic Citation</Label>
+		<Definition>A bibliographic reference for the resource.
+        </Definition>
+        <Comment>Recommended practice is to include sufficient 
+        bibliographic detail to identify the resource as 
+        unambiguously as possible, whether or not the
+        citation is in a standard form.
+        </Comment>
+		<Type-of-Term>http://dublincore.org/usage/documents/principles/#element-refinement</Type-of-Term>
+		<Refines>http://purl.org/dc/elements/1.1/identifier</Refines>
+		<Status>http://dublincore.org/usage/documents/process/#conforming</Status>
+		<Date-Issued>2003-02-15</Date-Issued>
+		<Decision>http://dublincore.org/usage/decisions/#Decision-2003-01</Decision>
+		<Version>http://dublincore.org/usage/terms/history/#bibliographicCitation-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#bibliographicCitation-002</Is-Replaced-By>
+	</term>
+	
+</dc>

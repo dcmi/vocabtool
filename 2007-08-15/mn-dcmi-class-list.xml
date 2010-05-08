@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+     <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+     <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+     <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+  ]>
+
+  <dc
+     xmlns:rdf="&rdfns;"
+     xmlns:rdfs="&rdfsns;"
+     xmlns:dc="&dcns;"
+     xmlns:dcterms="&dctermsns;"
+     >
+
+<class>
+  <URI>&dcns;subject</URI>
+  <rdfs:Class rdf:about="&dctermsns;SubjectScheme">
+    <rdfs:label xml:lang="en-US">Subject Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of subject encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:references rdf:resource="&dcns;subject"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;date</URI>
+  <rdfs:Class rdf:about="&dctermsns;DateScheme">
+    <rdfs:label xml:lang="en-US">Date Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of date encoding schemes and/or formats </rdfs:comment>
+    <dcterms:references rdf:resource="&dcns;date"/>
+    <dcterms:references rdf:resource="&dctermsns;temporal"/>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;format</URI>
+  <rdfs:Class rdf:about="&dctermsns;FormatScheme">
+    <rdfs:label xml:lang="en-US">Format Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of format encoding schemes.</rdfs:comment>
+    <dcterms:references rdf:resource="&dcns;format"/>
+    <rdfs:isDefinedBy rdf:resource ="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;language</URI>
+  <rdfs:Class rdf:about="&dctermsns;LanguageScheme">
+    <rdfs:label xml:lang="en-US">Language Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of language encoding schemes and/or formats.</rdfs:comment>
+    <dcterms:references rdf:resource="&dcns;language"/>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dctermsns;spatial</URI>
+  <rdfs:Class rdf:about="&dctermsns;SpatialScheme">
+    <rdfs:label xml:lang="en-US">Place Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of geographic place encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:references rdf:resource="&dctermsns;spatial"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dctermsns;temporal</URI>
+  <rdfs:Class rdf:about="&dctermsns;TemporalScheme">
+    <rdfs:label xml:lang="en-US">Encoding Schemes
+      for temporal characteristics</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of encoding schemes for 
+     the coverage qualifier &quot;temporal&quot;</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:references rdf:resource="&dctermsns;temporal"/>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;type</URI>
+  <rdfs:Class rdf:about="&dctermsns;TypeScheme">
+    <rdfs:label xml:lang="en-US">Resource Type Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of resource type encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:references rdf:resource="&dcns;type"/>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;identifier</URI>
+  <rdfs:Class rdf:about="&dctermsns;IdentifierScheme">
+    <rdfs:label xml:lang="en-US">Resource Identifier Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of resource identifier encoding schemes and/or formats</rdfs:comment>
+   <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:references rdf:resource="&dcns;identifier"/>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;relation</URI>
+  <rdfs:Class rdf:about="&dctermsns;RelationScheme">
+    <rdfs:label xml:lang="en-US">Resource Relation Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of resource relation encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:references rdf:resource="&dcns;relation"/>
+  </rdfs:Class>
+</class>
+
+<class>
+  <URI>&dcns;source</URI>
+  <rdfs:Class rdf:about="&dctermsns;SourceScheme">
+    <rdfs:label xml:lang="en-US">Source Encoding Schemes</rdfs:label>
+    <rdfs:comment xml:lang="en-US">A set of source encoding schemes and/or formats</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&dctermsns;"/>
+    <dcterms:issued>2000-07-11</dcterms:issued>
+    <dcterms:references rdf:resource="&dcns;source"/>
+  </rdfs:Class>
+</class>
+
+</dc>

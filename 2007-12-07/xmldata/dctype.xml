@@ -1,0 +1,739 @@
+<?xml version='1.0'?>
+
+<dc>
+
+<term>
+    <Anchor>Collection-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Collection</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Collection</Name>
+    <Label>Collection</Label>
+    <Definition>An aggregation of resources.</Definition>
+    <Comment>A collection is described as a group; its parts may also be separately described.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Collection-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Collection-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Collection-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Collection</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Collection</Name>
+        <Label>Collection</Label>
+        <Definition>An aggregation of resources.</Definition>
+        <Comment>A collection is described as a group; its parts
+                 may also be separately described.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Collection-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Collection-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Collection-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Collection-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Collection</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Collection</Name>
+        <Label>Collection</Label>
+        <Definition>A collection is an aggregation of items. The term 
+        collection means that the resource is described as a 
+        group; its parts may be separately described and navigated.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Collection-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Collection-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Dataset-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Dataset</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Dataset</Name>
+    <Label>Dataset</Label>
+    <Definition>Data encoded in a defined structure.</Definition>
+    <Comment>Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Dataset-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Dataset-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Dataset-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Dataset</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Dataset</Name>
+        <Label>Dataset</Label>
+        <Definition>Data encoded in a defined structure.</Definition>
+        <Comment>Examples include lists, tables, and databases.
+                 A dataset may be useful for direct machine processing.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Dataset-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Dataset-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Dataset-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Dataset-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Dataset</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Dataset</Name>
+        <Label>Dataset</Label>
+        <Definition>A dataset is information encoded in a defined structure 
+        (for example, lists, tables, and databases), intended to 
+        be useful for direct machine processing.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Dataset-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Dataset-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Event-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Event</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Event</Name>
+    <Label>Event</Label>
+    <Definition>A non-persistent, time-based occurrence.</Definition>
+    <Comment>Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Event-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Event-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Event-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Event</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Event</Name>
+        <Label>Event</Label>
+        <Definition>A non-persistent, time-based occurrence.</Definition>
+        <Comment>Metadata for an event provides descriptive
+                 information that is the basis for discovery of the
+                 purpose, location, duration, and responsible
+                 agents associated with an event. Examples 
+                 include an exhibition, webcast, conference, workshop,
+                 open day, performance, battle, trial, wedding, tea
+                 party, conflagration.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Event-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Event-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Event-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Event-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Event</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Event</Name>
+        <Label>Event</Label>
+        <Definition>An event is a non-persistent, time-based occurrence. 
+        Metadata for an event provides descriptive
+        information that is the basis for discovery of the
+        purpose, location, duration, responsible agents, and
+        links to related events and resources.  The resource
+        of type event may not be retrievable if the described
+        instantiation has expired or is yet to occur.
+        Examples - exhibition, web-cast, conference,
+        workshop, open-day, performance, battle, trial,
+        wedding, tea-party, conflagration.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Event-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Event-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Image-004</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Image</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Image</Name>
+    <Label>Image</Label>
+    <Definition>A visual representation other than text.</Definition>
+    <Comment>Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Broader-Than>http://purl.org/dc/dcmitype/StillImage</Broader-Than>
+    <Broader-Than>http://purl.org/dc/dcmitype/MovingImage</Broader-Than>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Image-004</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Image-003</Replaces>
+</term>
+
+    <term>
+        <Anchor>Image-003</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Image</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Image</Name>
+        <Label>Image</Label>
+        <Definition>A visual representation other than text.</Definition>
+        <Comment>Examples include images and photographs
+                 of physical objects, paintings, prints, drawings, other
+                 images and graphics, animations and moving
+                 pictures, film, diagrams, maps, musical
+                 notation.  Note that Image may include both
+                 electronic and physical representations.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Broader-Than>http://purl.org/dc/dcmitype/StillImage</Broader-Than>
+        <Broader-Than>http://purl.org/dc/dcmitype/MovingImage</Broader-Than>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Image-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Image-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Image-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Image-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Image</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Image</Name>
+        <Label>Image</Label>
+        <Definition>An image is a primarily symbolic visual representation 
+        other than text. For example - images and photographs of 
+        physical objects, paintings, prints, drawings, other 
+        images and graphics, animations and moving pictures, 
+        film, diagrams, maps, musical notation. Note that image 
+        may include both electronic and physical representations.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Broader-Than>http://purl.org/dc/dcmitype/StillImage</Broader-Than>
+        <Broader-Than>http://purl.org/dc/dcmitype/MovingImage</Broader-Than>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2003-11-18</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2003-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Image-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Image-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Image-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Image-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Image</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Image</Name>
+        <Label>Image</Label>
+        <Definition>An image is a primarily symbolic visual representation 
+        other than text. For example - images and photographs of 
+        physical objects, paintings, prints, drawings, other 
+        images and graphics, animations and moving pictures, 
+        film, diagrams, maps, musical notation. Note that image 
+        may include both electronic and physical representations.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Image-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Image-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>InteractiveResource-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/InteractiveResource</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>InteractiveResource</Name>
+    <Label>Interactive Resource</Label>
+    <Definition>A resource requiring interaction from the user to be understood, executed, or experienced.</Definition>
+    <Comment>Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#InteractiveResource-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#InteractiveResource-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>InteractiveResource-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/InteractiveResource</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>InteractiveResource</Name>
+        <Label>Interactive Resource</Label>
+        <Definition>A resource requiring interaction from the user to
+                 be understood, executed, or experienced.</Definition>
+        <Comment>Examples include forms on Web pages, applets, multimedia
+                 learning objects, chat services, or virtual reality 
+                 environments.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#InteractiveResource-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#InteractiveResource-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#InteractiveResource-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>InteractiveResource-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/InteractiveResource</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>InteractiveResource</Name>
+        <Label>Interactive Resource</Label>
+        <Definition>An interactive resource is a resource which requires 
+        interaction from the user to be understood, executed, 
+        or experienced. For example - forms on web pages, applets, 
+        multimedia learning objects, chat services, virtual 
+        reality.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#InteractiveResource-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#InteractiveResource-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Service-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Service</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Service</Name>
+    <Label>Service</Label>
+    <Definition>A system that provides one or more functions.</Definition>
+    <Comment>Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Service-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Service-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Service-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Service</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Service</Name>
+        <Label>Service</Label>
+        <Definition>A system that provides one or more functions.</Definition>
+        <Comment>Examples include a photocopying service, a banking service,
+                 an authentication service, interlibrary loans, a Z39.50 or 
+                 Web server.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Service-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Service-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Service-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Service-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Service</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Service</Name>
+        <Label>Service</Label>
+        <Definition>A service is a system that provides one or more 
+        functions of value to the end-user. Examples include: 
+        a photocopying service, a banking service, an 
+        authentication service, interlibrary loans, a Z39.50 
+        or Web server.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Service-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Service-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Software-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Software</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Software</Name>
+    <Label>Software</Label>
+    <Definition>A computer program in source or compiled form.</Definition>
+    <Comment>Examples include a C source file, MS-Windows .exe executable, or Perl script.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Software-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Software-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Software-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Software</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Software</Name>
+        <Label>Software</Label>
+        <Definition>A computer program in source or compiled form.</Definition>
+        <Comment>Examples include a C source file, MS-Windows .exe executable, 
+                 or Perl script.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Software-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Software-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Software-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Software-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Software</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Software</Name>
+        <Label>Software</Label>
+        <Definition>Software is a computer program in source or 
+        compiled form which may be available for installation 
+        non-transiently on another machine. For software which 
+        exists only to create an interactive environment, use 
+        interactive instead.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Software-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Software-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Sound-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Sound</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Sound</Name>
+    <Label>Sound</Label>
+    <Definition>A resource primarily intended to be heard.</Definition>
+    <Comment>Examples include a music playback file format, an audio compact disc, and recorded speech or sounds.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Sound-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Sound-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Sound-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Sound</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Sound</Name>
+        <Label>Sound</Label>
+        <Definition>A resource primarily intended to be heard.</Definition>
+        <Comment>Examples include a music playback file format, an audio
+                 compact disc, and recorded speech or sounds.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Sound-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Sound-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Sound-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Sound-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Sound</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Sound</Name>
+        <Label>Sound</Label>
+        <Definition>A sound is a resource whose content is primarily 
+        intended to be rendered as audio. For example - a 
+        music playback file format, an audio compact disc, 
+        and recorded speech or sounds.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Sound-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Sound-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>Text-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/Text</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>Text</Name>
+    <Label>Text</Label>
+    <Definition>A resource consisting primarily of words for reading.</Definition>
+    <Comment>Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#Text-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#Text-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>Text-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Text</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Text</Name>
+        <Label>Text</Label>
+        <Definition>A resource consisting primarily of words for reading.</Definition>
+        <Comment>Examples include books, letters, dissertations,
+                 poems, newspapers, articles, archives of mailing
+                 lists. Note that facsimiles or images of
+                 texts are still of the genre Text.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Text-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#Text-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Text-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>Text-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/Text</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>Text</Name>
+        <Label>Text</Label>
+        <Definition>A text is a resource whose content is primarily 
+        words for reading. For example - books, letters, 
+        dissertations, poems, newspapers, articles, 
+        archives of mailing lists. Note that facsimiles 
+        or images of texts are still of the genre text.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#Text-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#Text-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>PhysicalObject-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/PhysicalObject</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>PhysicalObject</Name>
+    <Label>Physical Object</Label>
+    <Definition>An inanimate, three-dimensional object or substance.</Definition>
+    <Comment>Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2002-07-13</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#PhysicalObject-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#PhysicalObject-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>PhysicalObject-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/PhysicalObject</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>PhysicalObject</Name>
+        <Label>Physical Object</Label>
+        <Definition>An inanimate, three-dimensional object or substance.</Definition>
+        <Comment>Note that digital representations of, or surrogates for,
+                 these objects should use Image, Text or one of the other 
+                 types.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2002-07-13</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#PhysicalObject-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#PhysicalObject-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#PhysicalObject-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>PhysicalObject-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/PhysicalObject</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>PhysicalObject</Name>
+        <Label>Physical Object</Label>
+        <Definition>An inanimate, three-dimensional object or substance.  
+        For example -- a computer, the great pyramid, a 
+        sculpture.  Note that digital representations 
+        of, or surrogates for, these things should use Image, 
+        Text or one of the other types.</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2002-07-13</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-02</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#PhysicalObject-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#PhysicalObject-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>StillImage-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/StillImage</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>StillImage</Name>
+    <Label>Still Image</Label>
+    <Definition>A static visual representation.</Definition>
+    <Comment>Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2003-11-18</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Version>http://dublincore.org/usage/terms/history/#StillImage-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#StillImage-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>StillImage-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/StillImage</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>StillImage</Name>
+        <Label>Still Image</Label>
+        <Definition>A static visual representation.</Definition>
+        <Comment>Examples include paintings, drawings,
+                 graphic designs, plans and maps. Recommended
+                 best practice is to assign the type Text to
+                 images of textual materials. Instances of the
+                 type Still Image must also be describable as
+                 instances of the broader type Image.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2003-11-18</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Version>http://dublincore.org/usage/terms/history/#StillImage-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#StillImage-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#StillImage-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>StillImage-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/StillImage</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>StillImage</Name>
+        <Label>Still Image</Label>
+        <Definition>A static visual representation. Examples of
+        still images are: paintings, drawings, graphic designs,
+        plans and maps.</Definition>
+        <Comment>Recommended best practice is to assign the type
+        "text" to images of textual materials.  Instances of
+        the type "Still Image" must also be describable as
+        instances of the broader type "Image".</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2003-02</Decision>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2003-11-18</Date-Issued>
+        <Version>http://dublincore.org/usage/terms/history/#StillImage-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#StillImage-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>MovingImage-003</Anchor>
+    <URI>http://purl.org/dc/dcmitype/MovingImage</URI>
+    <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+    <Name>MovingImage</Name>
+    <Label>Moving Image</Label>
+    <Definition>A series of visual representations imparting an impression of motion when shown in succession.</Definition>
+    <Comment>Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image.</Comment>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2003-11-18</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Member-Of>http://purl.org/dc/terms/DCMIType</Member-Of>
+    <Version>http://dublincore.org/usage/terms/history/#MovingImage-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#MovingImage-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>MovingImage-002</Anchor>
+        <URI>http://purl.org/dc/dcmitype/MovingImage</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>MovingImage</Name>
+        <Label>Moving Image</Label>
+        <Definition>A series of visual representations imparting
+                 an impression of motion when shown in succession.</Definition>
+        <Comment>Examples include animations, movies, television programs,
+                 videos, zoetropes, or visual output from a simulation. 
+                 Instances of the type Moving Image must also be describable 
+                 as instances of the broader type Image.</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2006-02</Decision>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2003-11-18</Date-Issued>
+        <Date-Modified>2006-08-28</Date-Modified>
+        <Version>http://dublincore.org/usage/terms/history/#MovingImage-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#MovingImage-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#MovingImage-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>MovingImage-001</Anchor>
+        <URI>http://purl.org/dc/dcmitype/MovingImage</URI>
+        <Namespace>http://purl.org/dc/dcmitype/</Namespace>
+        <Name>MovingImage</Name>
+        <Label>Moving Image</Label>
+        <Definition>A series of visual representations that,
+        when shown in succession, impart an impression
+        of motion.  Examples of moving images are:
+        animations, movies, television programs,
+        videos, zoetropes, or visual output from
+        a simulation.</Definition>
+        <Comment>Instances of the type "Moving Image" must 
+        also be describable as instances of the broader type "Image".</Comment>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#vocabulary-term</Type-of-Term>
+        <Narrower-Than>http://purl.org/dc/dcmitype/Image</Narrower-Than>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2003-02</Decision>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2003-11-18</Date-Issued>
+        <Version>http://dublincore.org/usage/terms/history/#MovingImage-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#MovingImage-002</Is-Replaced-By>
+    </term>
+
+</dc>

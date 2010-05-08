@@ -1,0 +1,6 @@
+#!/bin/tcsh -f
+
+setenv JAVA_HOME /usr/java/j2sdk1.4.0_01
+#setenv CLASSPATH ${CLASSPATH}:/home/mitsuharu/lib/myxt.jar
+
+java myxt $*

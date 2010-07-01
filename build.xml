@@ -82,7 +82,7 @@
 	<xslt in="${xml.dir}/dctype.xml" out="${dcmitypes.dir}/index.shtml" style="${xsl.dir}/html-dctype.xsl">
 	    <param name="ns"		expression="http://purl.org/dc/dcmitype/" />
 	    <param name="tt"		expression="http://dublincore.org/usage/documents/principles/#vocabulary-term"/>
-	    <param name="todayDate"	expression="${DSTAMP}" />
+	    <param name="todaysDate"	expression="${DSTAMP}" />
 	    <param name="header"	expression="${header.dir}/header-doc-dctype.xml" />
 	</xslt>
     </target>

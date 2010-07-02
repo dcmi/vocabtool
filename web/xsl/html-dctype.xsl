@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:transform
+	version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	>
 	
 <xsl:output
 	method="xml"
@@ -12,7 +15,7 @@
 <xsl:param name="todaysDate" select="' '"/> <!-- TODO: use date-and-time web service for default (or maybe just fallback) parameter -->
 <xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
 <xsl:param name="tt" select="' '"/> <!-- CHECKME: as above?? what is this anyway? -->
-<xsl:param name="header"/> <!-- executive decision - this should error if not supplied -->
+<xsl:param name="header"/> <!-- executive decision: this should error if not supplied -->
 
 <xsl:variable name="heading" select="document($header)"/>
 
@@ -82,7 +85,7 @@
 <xsl:template match="dc">
 	<h1>DCMI Type Vocabulary</h1>
 	<table cellspacing="0" class="border">
-    		<xsl:apply-templates select="term[not(Is-Replaced-By)]">
+		<xsl:apply-templates select="term[not(Is-Replaced-By)]">
 			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 	</table>
@@ -124,9 +127,26 @@
 	</tr>
 </xsl:template>
 
-<xsl:template match="Anchor | Namespace | Publisher | Replaces | Qualifies | Is-Replaced-By | Date-Issued | Date-Modified | Decision | Status | Name-for-Table | Name" /> <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
+ <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
+ <!-- relies on priority attribute in other template, unfortunately -->
+<xsl:template match="Anchor
+	| Namespace
+	| Publisher
+	| Replaces
+	| Qualifies
+	| Is-Replaced-By
+	| Date-Issued
+	| Date-Modified
+	| Decision
+	| Status
+	| term/Name-for-Table
+	| Name
+	" 
+	/>
 
-<xsl:template match="term/*"> <!-- apply to all children of term for which there are not specific templates, relies on specificity precedence -->
+<!-- apply to all children of term for which there are not specific templates, -->
+<!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
+<xsl:template match="term/*"	priority="-1">
 	<tr>
 		<td>
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:

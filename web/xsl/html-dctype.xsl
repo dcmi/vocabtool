@@ -31,6 +31,7 @@
 		</head>
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
+			<h1>DCMI Type Vocabulary</h1> <!-- FIXME: move up -->
 			<xsl:apply-templates select="$heading/H1" mode="docinfo" />
 			<xsl:apply-templates select="dc"/>
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
@@ -83,7 +84,6 @@
 </xsl:template>
 
 <xsl:template match="dc">
-	<h1>DCMI Type Vocabulary</h1> <!-- FIXME: move up -->
 	<table cellspacing="0" class="border">
 		<xsl:apply-templates select="term[not(Is-Replaced-By)]">
 			<xsl:sort select="Name"/>

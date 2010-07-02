@@ -31,7 +31,7 @@
 		</head>
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
-			<h1>DCMI Type Vocabulary</h1> <!-- FIXME: move up -->
+			<h1>DCMI Type Vocabulary</h1>
 			<xsl:apply-templates select="$heading/H1" mode="docinfo" />
 			<xsl:apply-templates select="dc"/>
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
@@ -55,7 +55,7 @@
 		<th><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
 		<td>
 			<xsl:choose>
-				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))"> <!-- TODO: create isURL named template for this -->
+				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<xsl:choose>
 						<xsl:when test="@label">
 							<a>
@@ -93,7 +93,7 @@
 
 <xsl:template match="term">
 	<xsl:if test="(Namespace = $ns) or ($ns = 'any')">
-		<tbody id="{Anchor}">  <!-- TODO: this may require a css tweak -->
+		<tbody id="{Anchor}">
 			<tr>
 				<th colspan="2" scope="rowgroup">
 					<xsl:text>Term Name: </xsl:text>
@@ -155,7 +155,7 @@
 		</th>
 		<td axis="{local-name()}">
 			<xsl:choose>
-				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))"> <!-- TODO: create isURL named template for this -->
+				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
 						<xsl:attribute name="href">
 							<xsl:value-of select="."/>

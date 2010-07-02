@@ -146,7 +146,7 @@
 
 <!-- apply to all children of term for which there are not specific templates, -->
 <!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
-<xsl:template match="term/*"	priority="-1">
+<xsl:template match="term/*" priority="-1">
 	<tr>
 		<td>
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:

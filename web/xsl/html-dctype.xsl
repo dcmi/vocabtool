@@ -83,7 +83,7 @@
 </xsl:template>
 
 <xsl:template match="dc">
-	<h1>DCMI Type Vocabulary</h1>
+	<h1>DCMI Type Vocabulary</h1> <!-- FIXME: move up -->
 	<table cellspacing="0" class="border">
 		<xsl:apply-templates select="term[not(Is-Replaced-By)]">
 			<xsl:sort select="Name"/>
@@ -93,23 +93,25 @@
 
 <xsl:template match="term">
 	<xsl:if test="(Namespace = $ns) or ($ns = 'any')">
-		<tr id="{Anchor}">
-			<th colspan="2">
-				<xsl:text>Term Name: </xsl:text>
-				<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
-				<xsl:value-of select="Name"/>
-			</th>
-		</tr>
-		<xsl:apply-templates />
+		<tbody id="{Anchor}">  <!-- TODO: this may require a css tweak -->
+			<tr>
+				<th colspan="2" scope="rowgroup">
+					<xsl:text>Term Name: </xsl:text>
+					<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
+					<xsl:value-of select="Name"/>
+				</th>
+			</tr>
+			<xsl:apply-templates />
+		</tbody>
 	</xsl:if>
 </xsl:template>
 
 <xsl:template match="Type-of-Term | Status">
 	<tr>
-		<td>
+		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</td>
-		<td>
+		</th>
+		<td axis="{local-name()}">
 			<a>
 				<xsl:attribute name="href">
 					<xsl:apply-templates />
@@ -148,10 +150,10 @@
 <!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
 <xsl:template match="term/*" priority="-1">
 	<tr>
-		<td>
+		<th scope="row"> <!-- TODO: this is probably going to require a css tweak + 1 more occurrence -->
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</td>
-		<td>
+		</th>
+		<td axis="{local-name()}">
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))"> <!-- TODO: create isURL named template for this -->
 					<a>

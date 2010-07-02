@@ -28,6 +28,13 @@
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
+				<![CDATA[
+				tr.attribute th {
+					background-color: #fff;
+				}
+				]]>
+			</style>
 		</head>
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
@@ -93,7 +100,7 @@
 
 <xsl:template match="term">
 	<xsl:if test="(Namespace = $ns) or ($ns = 'any')">
-		<tbody id="{Anchor}">
+		<tbody id="{Anchor}" class="term">
 			<tr>
 				<th colspan="2" scope="rowgroup">
 					<xsl:text>Term Name: </xsl:text>
@@ -107,7 +114,7 @@
 </xsl:template>
 
 <xsl:template match="Type-of-Term | Status">
-	<tr>
+	<tr class="attribute">
 		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
 		</th>
@@ -149,8 +156,8 @@
 <!-- apply to all children of term for which there are not specific templates, -->
 <!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
 <xsl:template match="term/*" priority="-1">
-	<tr>
-		<th scope="row"> <!-- TODO: this is probably going to require a css tweak + 1 more occurrence -->
+	<tr class="attribute">
+		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
 		</th>
 		<td axis="{local-name()}">

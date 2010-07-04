@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf8" ?>
 
 <xsl:transform
 	version="1.0"
@@ -29,7 +29,7 @@
 				<xsl:apply-templates select="$heading/H1/Title"/>
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
-			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[

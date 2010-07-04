@@ -3,6 +3,9 @@
 <xsl:transform
 	version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	>
 	
 <xsl:output
@@ -10,7 +13,7 @@
 	indent="yes"
 	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 	doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-	/>
+	/> <!-- CHECKME: are the doctypes still required, or even correct for XHTML+RDFa? -->
 
 <xsl:param name="todaysDate" select="' '"/> <!-- TODO: use date-and-time web service for default (or maybe just fallback) parameter -->
 <xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
@@ -20,7 +23,7 @@
 <xsl:variable name="heading" select="document($header)"/>
 
 <xsl:template match="/">
-	<html>
+	<html version="XHTML+RDFa 1.0">
 		<head>
 			<title>
 				<xsl:apply-templates select="$heading/H1/Title"/>
@@ -59,8 +62,9 @@
 <xsl:template match="H1/*" mode="docinfo">
 	<!-- TODO: make this a definition list -->
 	<tr>
-		<th><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
+		<th scope="row"><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
 		<td>
+			<xsl:copy-of select="@property" />
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<xsl:choose>
@@ -100,7 +104,7 @@
 
 <xsl:template match="term">
 	<xsl:if test="(Namespace = $ns) or ($ns = 'any')">
-		<tbody id="{Anchor}" class="term">
+		<tbody id="{Anchor}" class="term" about="{URI}">
 			<tr>
 				<th colspan="2" scope="rowgroup">
 					<xsl:text>Term Name: </xsl:text>
@@ -155,6 +159,7 @@
 
 <!-- apply to all children of term for which there are not specific templates, -->
 <!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
+<!-- TODO: see how we can put @property here where applicable -->
 <xsl:template match="term/*" priority="-1">
 	<tr class="attribute">
 		<th scope="row">

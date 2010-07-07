@@ -174,57 +174,57 @@
 					</td>
 					<td>
 						<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="."/>
-						</xsl:attribute>
+							<xsl:attribute name="href">
+								<xsl:value-of select="."/>
+							</xsl:attribute>
+							<xsl:choose>
+								<xsl:when test="contains(., '#')">
+									<xsl:value-of select="substring-after(., '#')"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="."/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</a>
+					</td>
+				</tr>
+			</xsl:when>
+			<xsl:otherwise>
+				<tr>
+					<td>
+						<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
+					</td>
+					<td>
 						<xsl:choose>
-		<xsl:when test="contains(., '#')">
-		  <xsl:value-of select="substring-after(., '#')"/>
-		</xsl:when>
-		<xsl:otherwise>
-		  <xsl:value-of select="."/>
-		</xsl:otherwise>
-	      </xsl:choose>
-	    </a>
-	  </td>
-	</tr>
-      </xsl:when>
-      <xsl:otherwise>
-	<tr>
-	  <td>
-	    <xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-	  </td>
-	  <td>
-	    <xsl:choose>
-	      <xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-		<xsl:choose>
-		  <xsl:when test="@label">
-		    <a>
-		      <xsl:attribute name="href">
-			<xsl:value-of select="."/>
-		      </xsl:attribute>
-		      <xsl:value-of select="@label"/>
-		    </a>
-		  </xsl:when>
-		  <xsl:otherwise>
-		    <a>
-		      <xsl:attribute name="href">
-			<xsl:value-of select="."/>
-		      </xsl:attribute>
-		      <xsl:value-of select="."/>
-		    </a>
-		  </xsl:otherwise>
+							<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
+								<xsl:choose>
+									<xsl:when test="@label">
+										<a>
+											<xsl:attribute name="href">
+												<xsl:value-of select="."/>
+											</xsl:attribute>
+											<xsl:value-of select="@label"/>
+										</a>
+									</xsl:when>
+									<xsl:otherwise>
+										<a>
+											<xsl:attribute name="href">
+												<xsl:value-of select="."/>
+											</xsl:attribute>
+											<xsl:value-of select="."/>
+										</a>
+									</xsl:otherwise>
+								</xsl:choose>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="."/>
+							</xsl:otherwise>
+						</xsl:choose>
+					</td>
+				</tr>
+			</xsl:otherwise>
 		</xsl:choose>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:value-of select="."/>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </td>
-	</tr>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:for-each>
+	</xsl:for-each>
 </xsl:template>
 
 </xsl:transform>

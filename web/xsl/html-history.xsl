@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <xsl:transform
 	version="1.0"
@@ -61,7 +61,6 @@
 			<xsl:call-template name="print_heading">
 				<xsl:with-param name="elem" select="local-name()"/>
 				<xsl:with-param name="label" select="@label"/>
-				<xsl:with-param name="value" select="."/>
 			</xsl:call-template>
 		</xsl:for-each>
 <!--
@@ -74,27 +73,28 @@
 
 	<xsl:call-template name="history_intro"/>
 
+	<!-- CHECKME: can't see the point of sorting these by name within classifications, especially if no headings are output -->
 	<table cellspacing="0" class="border">
 		<xsl:apply-templates select="$sec1-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec2-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec3-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec4-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec5-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec6-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 		<xsl:apply-templates select="$sec7-doc/dc/term">
-			<xsl:sort select="./Name"/>
+			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 	</table>
 </xsl:template>
@@ -102,40 +102,25 @@
 <xsl:template name="print_heading">
 	<xsl:param name="elem"/>
 	<xsl:param name="label"/>
-	<xsl:param name="value"/>
+	<xsl:param name="value" select="." />
 	<tr>
 		<th><xsl:value-of select="translate($elem, '-', ' ')"/>:</th>
 		<td>
 			<xsl:choose>
 				<xsl:when test="(starts-with($value, 'http://')) or (starts-with($value, 'mailto:'))">
-					<xsl:choose>
-						<xsl:when test="$label">
-							<a>
-								<xsl:attribute name="href">
-									<xsl:value-of select="$value"/>
-								</xsl:attribute>
+					<a href="{$value}">
+						<xsl:choose>
+							<xsl:when test="$label">
 								<xsl:value-of select="$label"/>
-							</a>
-						</xsl:when>
-						<xsl:otherwise>
-							<a>
-								<xsl:attribute name="href">
-									<xsl:value-of select="$value"/>
-								</xsl:attribute>
+							</xsl:when>
+							<xsl:otherwise>
 								<xsl:value-of select="$value"/>
-							</a>
-						</xsl:otherwise>
-					</xsl:choose>
+							</xsl:otherwise>
+						</xsl:choose>
+					</a>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:choose>
-						<xsl:when test="$elem='Title'">
-							<xsl:value-of select="$value"/>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="$value"/>
-						</xsl:otherwise>
-					</xsl:choose>	
+					<xsl:value-of select="$value"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</td>
@@ -145,14 +130,14 @@
 <xsl:template match="term">
 	<tr>
 		<th colspan="2">
-			<a>
+			<a> <!-- TODO: change this to @id on wrapper -->
 				<xsl:attribute name="name">
 					<xsl:value-of select="Anchor"/>
 				</xsl:attribute>
 			</a>
-			<xsl:text disable-output-escaping='yes'> </xsl:text>
+			<xsl:text> </xsl:text>
 			<xsl:value-of select="'Term Name: '"/>
-			<xsl:text disable-output-escaping='yes'> </xsl:text>
+			<xsl:text> </xsl:text>
 			<xsl:value-of select="Name"/>
 		</th>
 	</tr>
@@ -197,24 +182,19 @@
 					<td>
 						<xsl:choose>
 							<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-								<xsl:choose>
-									<xsl:when test="@label">
-										<a>
-											<xsl:attribute name="href">
-												<xsl:value-of select="."/>
-											</xsl:attribute>
+								<a>
+									<xsl:attribute name="href">
+										<xsl:value-of select="."/>
+									</xsl:attribute>
+									<xsl:choose>
+										<xsl:when test="@label">
 											<xsl:value-of select="@label"/>
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
-										<a>
-											<xsl:attribute name="href">
-												<xsl:value-of select="."/>
-											</xsl:attribute>
+										</xsl:when>
+										<xsl:otherwise>
 											<xsl:value-of select="."/>
-										</a>
-									</xsl:otherwise>
-								</xsl:choose>
+										</xsl:otherwise>
+									</xsl:choose>
+								</a>
 							</xsl:when>
 							<xsl:otherwise>
 								<xsl:value-of select="."/>

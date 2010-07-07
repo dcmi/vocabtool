@@ -7,16 +7,18 @@
   doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
   doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
 
-<xsl:include href="../../2008-01-14/headers/intro.history.xsl"/>
+<xsl:include href="../../2008-01-14/headers/intro.history.xsl"/> <!-- FIXME: instead import this as XML using document() relative to $sect.dir -->
 
-<xsl:param name="todaysDate" select="''"/>
-<xsl:param name="section1" select="''"/>
-<xsl:param name="section2" select="''"/>
-<xsl:param name="section3" select="''"/>
-<xsl:param name="section4" select="''"/>
-<xsl:param name="section5" select="''"/>
-<xsl:param name="section6" select="''"/>
-<xsl:param name="section7" select="''"/>
+<xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
+
+<xsl:param name="sect.dir"></xsl:param>
+<xsl:param name="section1"	select="concat($sect.dir,'/dcterms-properties.xml')" />
+<xsl:param name="section2"	select="concat($sect.dir,'/dcelements.xml')" />
+<xsl:param name="section3"	select="concat($sect.dir,'/dcterms-ves.xml')" />
+<xsl:param name="section4"	select="concat($sect.dir,'/dcterms-ses.xml')" />
+<xsl:param name="section5"	select="concat($sect.dir,'/dcterms-classes.xml')" />
+<xsl:param name="section6"	select="concat($sect.dir,'/dctype.xml')" />
+<xsl:param name="section7"	select="concat($sect.dir,'/dcam.xml')" />
 
 <xsl:variable name="sec1-doc" select="document($section1)"/>
 <xsl:variable name="sec2-doc" select="document($section2)"/>

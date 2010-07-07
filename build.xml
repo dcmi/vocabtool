@@ -88,14 +88,8 @@
 
     <target name="htmlhistory" depends="prepare">
 	<xslt in="${header.dir}/header-doc-history.xml" out="${history.dir}/index.shtml" style="${xsl.dir}/html-history.xsl">
-	    <param name="todayDate"	expression="${DSTAMP}" />
-	    <param name="section1"	expression="${xml.dir}/dcterms-properties.xml" />
-	    <param name="section2"	expression="${xml.dir}/dcelements.xml" />
-	    <param name="section3"	expression="${xml.dir}/dcterms-ves.xml" />
-	    <param name="section4"	expression="${xml.dir}/dcterms-ses.xml" />
-	    <param name="section5"	expression="${xml.dir}/dcterms-classes.xml" />
-	    <param name="section6"	expression="${xml.dir}/dctype.xml" />
-	    <param name="section7"	expression="${xml.dir}/dcam.xml" />
+	    <param name="todaysDate"	expression="${DSTAMP}" />
+         <param name="sect.dir" expression="${xml.dir}" />
 	</xslt>
     </target>
     

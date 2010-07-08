@@ -5,9 +5,10 @@
     <property file="${user.home}/build.properties"/>
     <property name="base_dir" value="${user.dir}"/>
 
-    <property name="xml.dir" value="${base_dir}/2007-12-18/xmldata"/>
+    <property name="archive.dir" value="${base_dir}/2008-01-14"/>
+    <property name="xml.dir" value="${archive.dir}/xmldata"/>
     <property name="xsl.dir" value="${base_dir}/web/xsl"/>
-    <property name="header.dir" value="${base_dir}/2007-12-18/headers"/>
+    <property name="header.dir" value="${archive.dir}/headers"/>
     <property name="result.dir" value="${base_dir}/build"/>
     <property name="html.dir" value="${base_dir}/build/html"/>
     <property name="dcmiterms.dir" value="${base_dir}/build/html/dcmi-terms"/>
@@ -89,7 +90,7 @@
     <target name="htmlhistory" depends="prepare">
 	<xslt in="${header.dir}/header-doc-history.xml" out="${history.dir}/index.shtml" style="${xsl.dir}/html-history.xsl">
 	    <param name="todaysDate"	expression="${DSTAMP}" />
-         <param name="sect.dir" expression="${xml.dir}" />
+         <param name="datestamp.dir" expression="${archive.dir}" />
 	</xslt>
     </target>
     

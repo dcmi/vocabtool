@@ -1,23 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
-<xsl:stylesheet version="1.0"	
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	>
 
-<xsl:template name="history_intro">
+<!-- this <head/> is a stub to allow the <body/> to exist within a valid XHTML document -->
+<head>
+<title>Dublin Core history Introduction</title> <!-- not expected to be rendered: included to make the document valid -->
+</head>
+
+<body>
 
 <h2>Introduction</h2>
 
-<p/>This document is an authoritative specification of
+<p>This document is an authoritative specification of
 all metadata terms maintained by the Dublin Core Metadata
-Initiative in all of their historical versions.
+Initiative in all of their historical versions.</p>
 
-<p/>Most users will not need the historical detail presented
+<p>Most users will not need the historical detail presented
 here and should instead consult the document "DCMI Metadata
 Terms", which presents only the most current information on
 terms [<a href="#A1">TERMS</a>].  In addition to the attributes 
 used to describe terms in "DCMI Metadata Terms" [<a href="#A1">TERMS</a>], 
 this document includes additional information related to the versioning
-history of individual terms:
+history of individual terms:</p>
 
 <p/>
 <table width="95%" border="0" align="center">
@@ -74,13 +80,13 @@ A term qualified by an Encoding Scheme.  (This is no longer used as of 2008-01-1
 <h3>References</h3>
 <table width="95%" border="0" align="center">
 
-<tr><td width="20%">
-<a name="A1"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[TERMS]
+<tr><td width="20%" id="A1">
+<a name="A1">&#x00A0;</a>[TERMS]
 </td><td width="80%">
 <a href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a>
 </td></tr>
 
 </table>
 
-</xsl:template>
-</xsl:stylesheet>
+</body>
+</html>

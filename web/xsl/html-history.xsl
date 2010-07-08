@@ -43,7 +43,6 @@
 <xsl:variable name="intro" select="document($intro.file)" />
 
 <xsl:template match="/">
-	<!-- |<xsl:value-of select="$intro.file" />| -->
 	<html>
 		<head>
 			<title>

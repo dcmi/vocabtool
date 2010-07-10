@@ -57,9 +57,7 @@
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
 			<!-- CHECKME: no H1 for this page? -->
 			<xsl:apply-templates select="H1" mode="docinfo" />
-			<!-- <xsl:copy-of select="$intro/xhtml:html/xhtml:body/*" /> -->
 			<xsl:apply-templates select="$intro/xhtml:html" />
-			<!-- <xsl:apply-templates select="dc"/> -->
 			<xsl:call-template name="sectionsTable" />
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
 		</body>

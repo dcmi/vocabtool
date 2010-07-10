@@ -14,9 +14,9 @@
 <xsl:output
 	method="xml"
 	indent="yes"
-	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-	doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-	/> <!-- CHECKME: are the doctypes still required, or even correct for XHTML+RDFa? -->
+	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"
+	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
+	/>
 
 <xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
 
@@ -43,15 +43,16 @@
 <xsl:variable name="intro" select="document($intro.file)" />
 
 <xsl:template match="/">
-	<html>
+	<html version="XHTML+RDFa 1.0">
 		<head>
 			<title>
 				<xsl:apply-templates select="H1/Title"/>
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
-			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<!-- TODO: a feed autodiscovery link in here? -->
 		</head>	
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>

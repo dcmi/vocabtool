@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <xsl:transform
 	version="1.0"
@@ -11,9 +11,9 @@
 <xsl:output
 	method="xml"
 	indent="yes"
-	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-	doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
-	/> <!-- CHECKME: are the doctypes still required, or even correct for XHTML+RDFa? -->
+	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"
+	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
+	/>
 
 <xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
 <xsl:param name="tt" select="' '"/> <!-- CHECKME: as above?? what is this anyway? -->
@@ -28,7 +28,7 @@
 				<xsl:apply-templates select="$heading/H1/Title"/>
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
-			<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[

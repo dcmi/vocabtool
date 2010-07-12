@@ -52,6 +52,29 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
+				<![CDATA[
+				tr.attribute th {
+					background-color: #fff;
+				}
+				table.legend,
+				table.references {
+					margin-left: 2.5%;
+					margin-right: 2.5%;
+					width: 95%;
+					table-layout:fixed;
+					border-width: 0;
+					}
+				.legend th.label,
+				.references th.abbrev {
+					width: 20%;
+				}
+				.legend td.definition,
+				.references td.citation {
+					width: 80%;
+				}
+				]]>
+			</style>
 			<!-- TODO: a feed autodiscovery link in here? -->
 		</head>	
 		<body>
@@ -65,10 +88,12 @@
 	</html>
 </xsl:template>
 
+<!-- FIXME: this template is common with html-dctype.xsl -->
 <xsl:template match="H1/Title">
 	<xsl:apply-templates />
 </xsl:template>
 
+<!-- FIXME: this template is common with html-dctype.xsl -->
 <xsl:template match="H1" mode="docinfo">
 	<table cellspacing="0" class="docinfo">
 		<xsl:apply-templates mode="docinfo" />
@@ -86,10 +111,11 @@
 	<xsl:copy-of select="xhtml:body/*" />
 </xsl:template>
 
+<!-- FIXME: this template is common with html-dctype.xsl -->
 <xsl:template match="H1/*" mode="docinfo">
 	<!-- TODO: make this a definition list -->
 	<tr>
-		<th><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th> <!--  FIXME: @scope="row" -->
+		<th scope="row"><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
 		<td>
 			<xsl:copy-of select="@property" />
 			<xsl:choose>
@@ -140,26 +166,21 @@
 	</xsl:apply-templates>
 </xsl:template>
 
+<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @about -->
 <xsl:template match="term">
-	<tr> <!-- CHECKME: this is probably the same template as used for dcmi-type -->
-		<th colspan="2">
-			<a> <!-- TODO: change this to @id on wrapper, etc -->
-				<xsl:attribute name="name">
-					<xsl:value-of select="Anchor"/>
-				</xsl:attribute>
-			</a>
-			<xsl:text> </xsl:text>
-			<xsl:text>Term Name: </xsl:text>
-			<xsl:value-of select="Name"/>
-		</th>
-	</tr>
-	<xsl:apply-templates />
+	<tbody id="{Anchor}" class="term" about="{Version}">
+		<tr>
+			<th colspan="2" scope="rowgroup">
+				<xsl:text>Term Name: </xsl:text>
+				<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
+				<xsl:value-of select="Name"/>
+			</th>
+		</tr>
+		<xsl:apply-templates />
+	</tbody>
 </xsl:template>
 
-<!-- 
-FIXME: the contents of this template have been copied without cleanup.
-Expect this to be the same as corresponding template in dcmi-types transform 
--->
+<!-- FIXME: this template's contents are common with one from html-dctype.xsl -->
 <xsl:template match="Version
 	| Type-of-Term
 	| Status
@@ -168,21 +189,21 @@ Expect this to be the same as corresponding template in dcmi-types transform
 	| Is-Replaced-By
 	"
 	>
-	<tr>
-		<td>
+	<tr class="attribute">
+		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</td>
-		<td>
+		</th>
+		<td axis="{local-name()}">
 			<a>
 				<xsl:attribute name="href">
-					<xsl:value-of select="."/>
+					<xsl:apply-templates />
 				</xsl:attribute>
 				<xsl:choose>
 					<xsl:when test="contains(., '#')">
 						<xsl:value-of select="substring-after(., '#')"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:value-of select="."/>
+						<xsl:apply-templates />
 					</xsl:otherwise>
 				</xsl:choose>
 			</a>
@@ -196,35 +217,32 @@ Expect this to be the same as corresponding template in dcmi-types transform
 	"
 	/>
 
-<!-- 
-FIXME: the contents of this template have been copied without cleanup.
-Expect this to be the same as corresponding template in dcmi-types transform 
--->
+<!-- FIXME: this template is common with html-dctype.xsl -->
 <!-- apply to all children of term for which there are not specific templates, -->
 <xsl:template match="term/*" priority="-1">
-	<tr>
-		<td>
+	<tr class="attribute">
+		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</td>
-		<td>
+		</th>
+		<td axis="{local-name()}">
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
 						<xsl:attribute name="href">
-							<xsl:value-of select="."/>
+							<xsl:apply-templates />
 						</xsl:attribute>
 						<xsl:choose>
 							<xsl:when test="@label">
 								<xsl:value-of select="@label"/>
 							</xsl:when>
 							<xsl:otherwise>
-								<xsl:value-of select="."/>
+								<xsl:apply-templates />
 							</xsl:otherwise>
 						</xsl:choose>
 					</a>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:value-of select="."/>
+					<xsl:apply-templates />
 				</xsl:otherwise>
 			</xsl:choose>
 		</td>

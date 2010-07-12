@@ -169,7 +169,7 @@
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
 						<xsl:attribute name="href">
-							<xsl:value-of select="."/>
+							<xsl:apply-templates />
 						</xsl:attribute>
 						<xsl:choose>
 							<xsl:when test="@label">

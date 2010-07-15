@@ -6,6 +6,7 @@
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	>
 	
 <xsl:output
@@ -22,6 +23,8 @@
 <xsl:param name="header"/> <!-- executive decision: this should error if not supplied -->
 
 <xsl:variable name="heading" select="document($header)"/>
+
+<xsl:key name="mapping" match="mapping" use="@element" />
 
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
@@ -110,7 +113,9 @@
 				<th colspan="2" scope="rowgroup">
 					<xsl:text>Term Name: </xsl:text>
 					<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
-					<xsl:value-of select="Name"/>
+					<span property="dc:title">
+						<xsl:value-of select="Name"/>
+					</span>
 				</th>
 			</tr>
 			<xsl:apply-templates />
@@ -167,6 +172,7 @@
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
 		</th>
 		<td axis="{local-name()}">
+			<xsl:apply-templates select="key('mapping',local-name())" />
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
@@ -189,6 +195,12 @@
 			</xsl:choose>
 		</td>
 	</tr>
+</xsl:template>
+
+<xsl:template match="mapping">
+	<xsl:attribute name="property">
+		<xsl:value-of select="@property" />
+	</xsl:attribute>
 </xsl:template>
 
 </xsl:transform>

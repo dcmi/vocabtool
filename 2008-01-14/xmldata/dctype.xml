@@ -2,6 +2,14 @@
 
 <dc>
 
+<!-- FIXME: not sure where this lookup should live: in the xslt as a variable? in its own file (in the dated version directory? one mapping for each HTML taget? just one to rule them all forever higher up?) -->
+<!-- FIXME: these element names are sub-optimal -->
+<mappings>
+	<!-- FIXME: incomplete set -->
+	<mapping element="Label" property="rdfs:label" />
+	<mapping element="Comment" property="rdfs:comment" />
+</mappings>
+
 <term>
     <Anchor>Collection-003</Anchor>
     <URI>http://purl.org/dc/dcmitype/Collection</URI>

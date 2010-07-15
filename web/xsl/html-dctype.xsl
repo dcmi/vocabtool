@@ -68,7 +68,6 @@
 	<tr>
 		<th scope="row"><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
 		<td>
-			<xsl:copy-of select="@property" />
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<xsl:choose>
@@ -77,6 +76,7 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
+								<xsl:apply-templates select="@property" mode="rel" />
 								<xsl:value-of select="@label"/>
 							</a>
 						</xsl:when>
@@ -85,17 +85,25 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
+								<xsl:apply-templates select="@property" mode="rel" />
 								<xsl:apply-templates />
 							</a>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:when>
 				<xsl:otherwise>
+					<xsl:copy-of select="@property" />
 					<xsl:apply-templates />
 				</xsl:otherwise>
 			</xsl:choose>
 		</td>
 	</tr>
+</xsl:template>
+
+<xsl:template match="@property" mode="rel">
+	<xsl:attribute name="rel">
+		<xsl:apply-templates />
+	</xsl:attribute>
 </xsl:template>
 
 <xsl:template match="dc">

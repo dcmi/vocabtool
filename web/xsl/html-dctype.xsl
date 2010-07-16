@@ -7,6 +7,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcam="http://purl.org/dc/dcam/"
 	>
 	
 <xsl:output
@@ -24,7 +26,7 @@
 
 <xsl:variable name="heading" select="document($header)"/>
 
-<xsl:key name="mapping" match="mapping" use="@element" />
+<xsl:key name="map" match="match" use="@element" />
 
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
@@ -121,7 +123,8 @@
 				<th colspan="2" scope="rowgroup">
 					<xsl:text>Term Name: </xsl:text>
 					<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
-					<span property="dc:title">
+					<span>
+						<xsl:apply-templates select="key('map','Name')" />
 						<xsl:value-of select="Name"/>
 					</span>
 				</th>
@@ -141,6 +144,7 @@
 				<xsl:attribute name="href">
 					<xsl:apply-templates />
 				</xsl:attribute>
+				<xsl:apply-templates select="key('map',local-name())" mode="rel" />
 				<xsl:choose>
 					<xsl:when test="contains(., '#')">
 						<xsl:value-of select="substring-after(., '#')"/>
@@ -154,8 +158,12 @@
 	</tr>
 </xsl:template>
 
- <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
- <!-- relies on priority attribute in other template, unfortunately -->
+<xsl:template match="match" mode="rel">
+	<xsl:apply-templates select="@property" mode="rel" />
+</xsl:template>
+
+<!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
+<!-- relies on priority attribute in other template, unfortunately -->
 <xsl:template match="Anchor
 	| Namespace
 	| Publisher
@@ -180,13 +188,13 @@
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
 		</th>
 		<td axis="{local-name()}">
-			<xsl:apply-templates select="key('mapping',local-name())" />
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
 						<xsl:attribute name="href">
 							<xsl:apply-templates />
 						</xsl:attribute>
+						<xsl:apply-templates select="key('map',local-name())" mode="rel" />
 						<xsl:choose>
 							<xsl:when test="@label">
 								<xsl:value-of select="@label"/>
@@ -198,6 +206,7 @@
 					</a>
 				</xsl:when>
 				<xsl:otherwise>
+					<xsl:apply-templates select="key('map',local-name())" />
 					<xsl:apply-templates />
 				</xsl:otherwise>
 			</xsl:choose>
@@ -205,7 +214,7 @@
 	</tr>
 </xsl:template>
 
-<xsl:template match="mapping">
+<xsl:template match="match">
 	<xsl:attribute name="property">
 		<xsl:value-of select="@property" />
 	</xsl:attribute>

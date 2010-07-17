@@ -134,6 +134,8 @@
 						<xsl:apply-templates select="key('map','Name')" />
 						<xsl:value-of select="Name"/>
 					</span>
+					<!-- FIXME: really can't work out why I should need to populate @select here. Would be more robust without it. If I leave it out, the text contents of every other <term/> child node are output. halp! -->
+					<xsl:apply-templates select="Date-Modified | Date-Issued" mode="content" />
 				</th>
 			</tr>
 			<xsl:apply-templates />
@@ -171,7 +173,6 @@
 
 <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
 <!-- relies on priority attribute in other template, unfortunately -->
-<!-- TODO: some of these, like the dates, can be processed as @content ?? -->
 <xsl:template match="Anchor
 	| Namespace
 	| Publisher
@@ -189,7 +190,6 @@
 
 <!-- apply to all children of term for which there are not specific templates, -->
 <!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
-<!-- TODO: see how we can put @property here where applicable -->
 <xsl:template match="term/*" priority="-1">
 	<tr class="attribute">
 		<th scope="row">
@@ -220,6 +220,17 @@
 			</xsl:choose>
 		</td>
 	</tr>
+</xsl:template>
+
+<!-- this has to have its own mode because its output (empty <span/>) can't be positioned between table rows, so output position needs to be controlled -->
+<!-- NB important to maintain these elements' matches in default mode so they aren't processed as table rows as well -->
+<xsl:template match="Date-Modified | Date-Issued" mode="content">
+	<span>
+		<xsl:apply-templates select="key('map',local-name())" />
+		<xsl:attribute name="content">
+			<xsl:apply-templates />
+		</xsl:attribute>
+	</span>
 </xsl:template>
 
 <xsl:template match="match">

@@ -9,6 +9,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:dcam="http://purl.org/dc/dcam/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema#"
 	>
 	
 <xsl:output
@@ -79,6 +80,7 @@
 									<xsl:apply-templates />
 								</xsl:attribute>
 								<xsl:apply-templates select="@property" mode="rel" />
+								<xsl:apply-templates select="@datatype" />
 								<xsl:value-of select="@label"/>
 							</a>
 						</xsl:when>
@@ -88,13 +90,14 @@
 									<xsl:apply-templates />
 								</xsl:attribute>
 								<xsl:apply-templates select="@property" mode="rel" />
+								<xsl:apply-templates select="@datatype" />
 								<xsl:apply-templates />
 							</a>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:copy-of select="@property" />
+					<xsl:copy-of select="@*" />
 					<xsl:apply-templates />
 				</xsl:otherwise>
 			</xsl:choose>
@@ -106,6 +109,10 @@
 	<xsl:attribute name="rel">
 		<xsl:apply-templates />
 	</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="@property | @datatype">
+	<xsl:copy />
 </xsl:template>
 
 <xsl:template match="dc">
@@ -164,6 +171,7 @@
 
 <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
 <!-- relies on priority attribute in other template, unfortunately -->
+<!-- TODO: some of these, like the dates, can be processed as @content ?? -->
 <xsl:template match="Anchor
 	| Namespace
 	| Publisher
@@ -174,7 +182,7 @@
 	| Date-Modified
 	| Decision
 	| Status
-	| term/Name-for-Table
+	| Name-for-Table
 	| Name
 	" 
 	/>
@@ -215,9 +223,8 @@
 </xsl:template>
 
 <xsl:template match="match">
-	<xsl:attribute name="property">
-		<xsl:value-of select="@property" />
-	</xsl:attribute>
+	<xsl:apply-templates select="@property" />
+	<xsl:apply-templates select="@datatype" />
 </xsl:template>
 
 </xsl:transform>

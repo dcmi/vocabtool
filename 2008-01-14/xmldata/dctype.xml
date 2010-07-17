@@ -9,8 +9,8 @@
 	<match element="Comment" property="rdfs:comment" />
 	<match element="Definition" property="dc:description" />
 	<match element="URI" property="rdfs:isDefinedBy" />
-	<match element="Date-Issued" property="dcterms:issued" />
-	<match element="Date-Modified" property="dcterms:modified" />
+	<match element="Date-Issued" property="dcterms:issued" datatype="xs:date" />
+	<match element="Date-Modified" property="dcterms:modified" datatype="xs:date" />
 	<match element="Type-of-Term" property="rdf:type" />
 	<match element="Version" property="dcterms:hasVersion" />
 	<match element="Member-Of" property="dcam:memberOf" />

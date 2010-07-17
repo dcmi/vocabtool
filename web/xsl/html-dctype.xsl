@@ -29,6 +29,8 @@
 
 <xsl:key name="map" match="match" use="@element" />
 
+<xsl:include href="html-common.xsl" />
+
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
 		<head>
@@ -54,65 +56,6 @@
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
 		</body>
 	</html>
-</xsl:template>
-
-<xsl:template match="H1/Title">
-	<xsl:apply-templates />
-</xsl:template>
-
-<xsl:template match="H1" mode="docinfo">
-	<table cellspacing="0" class="docinfo">
-		<xsl:apply-templates mode="docinfo" />
-	</table>
-</xsl:template>
-
-<xsl:template match="H1/*" mode="docinfo">
-	<!-- TODO: make this a definition list -->
-	<tr>
-		<th scope="row"><xsl:value-of select="translate(local-name(), '-', ' ')" />:</th>
-		<td>
-			<xsl:choose>
-				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-					<xsl:choose>
-						<xsl:when test="@label">
-							<a>
-								<xsl:attribute name="href">
-									<xsl:apply-templates />
-								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
-								<xsl:value-of select="@label"/>
-							</a>
-						</xsl:when>
-						<xsl:otherwise>
-							<a>
-								<xsl:attribute name="href">
-									<xsl:apply-templates />
-								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
-								<xsl:apply-templates />
-							</a>
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:copy-of select="@*" />
-					<xsl:apply-templates />
-				</xsl:otherwise>
-			</xsl:choose>
-		</td>
-	</tr>
-</xsl:template>
-
-<xsl:template match="@property" mode="rel">
-	<xsl:attribute name="rel">
-		<xsl:apply-templates />
-	</xsl:attribute>
-</xsl:template>
-
-<xsl:template match="@property | @datatype">
-	<xsl:copy />
 </xsl:template>
 
 <xsl:template match="dc">
@@ -188,40 +131,6 @@
 	" 
 	/>
 
-<!-- apply to all children of term for which there are not specific templates, -->
-<!-- thought this would have a default priority lower than templates above, but unfortunately needs @priority (slight hack) -->
-<xsl:template match="term/*" priority="-1">
-	<tr class="attribute">
-		<th scope="row">
-			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</th>
-		<td axis="{local-name()}">
-			<xsl:choose>
-				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-					<a>
-						<xsl:attribute name="href">
-							<xsl:apply-templates />
-						</xsl:attribute>
-						<xsl:apply-templates select="key('map',local-name())" mode="rel" />
-						<xsl:choose>
-							<xsl:when test="@label">
-								<xsl:value-of select="@label"/>
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:apply-templates />
-							</xsl:otherwise>
-						</xsl:choose>
-					</a>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:apply-templates select="key('map',local-name())" />
-					<xsl:apply-templates />
-				</xsl:otherwise>
-			</xsl:choose>
-		</td>
-	</tr>
-</xsl:template>
-
 <!-- this has to have its own mode because its output (empty <span/>) can't be positioned between table rows, so output position needs to be controlled -->
 <!-- NB important to maintain these elements' matches in default mode so they aren't processed as table rows as well -->
 <xsl:template match="Date-Modified | Date-Issued" mode="content">
@@ -231,11 +140,6 @@
 			<xsl:apply-templates />
 		</xsl:attribute>
 	</span>
-</xsl:template>
-
-<xsl:template match="match">
-	<xsl:apply-templates select="@property" />
-	<xsl:apply-templates select="@datatype" />
 </xsl:template>
 
 </xsl:transform>

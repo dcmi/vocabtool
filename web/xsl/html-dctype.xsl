@@ -27,7 +27,7 @@
 
 <xsl:variable name="heading" select="document($header)"/>
 
-<xsl:key name="map" match="match" use="@element" />
+<xsl:key name="map" match="match[not(../@context)]" use="@element" />
 
 <xsl:include href="html-common.xsl" />
 

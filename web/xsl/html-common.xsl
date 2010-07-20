@@ -6,15 +6,6 @@
 	xmlns="http://www.w3.org/1999/xhtml"
 	>
 
-<xsl:output
-	method="xml"
-	indent="yes"
-	version="1.0"
-	encoding="utf-8"
-	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"
-	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
-	/>
-
 <xsl:template match="H1/Title">
 	<xsl:apply-templates />
 </xsl:template>
@@ -83,6 +74,11 @@
 
 <xsl:template match="match">
 	<xsl:apply-templates select="@property" />
+	<xsl:apply-templates select="@datatype" />
+</xsl:template>
+
+<xsl:template match="match" mode="rel">
+	<xsl:apply-templates select="@property" mode="rel" />
 	<xsl:apply-templates select="@datatype" />
 </xsl:template>
 

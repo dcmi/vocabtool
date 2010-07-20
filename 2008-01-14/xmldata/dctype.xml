@@ -2,20 +2,10 @@
 
 <dc>
 
-<!-- FIXME: not sure where this lookup should live: in the xslt as a variable? in its own file (in the dated version directory? one mapping for each HTML taget? just one to rule them all forever higher up?) -->
-<map>
-	<match element="Name" property="dc:title" />
-	<match element="URI" property="rdfs:isDefinedBy" />
-	<match element="Label" property="rdfs:label" />
-	<match element="Definition" property="dc:description" />
-	<match element="Comment" property="rdfs:comment" />
-	<match element="Type-of-Term" property="rdf:type" />
-	<match element="Member-Of" property="dcam:memberOf" />
-	<match element="Version" property="dcterms:hasVersion" />
-	<match element="Date-Issued" property="dcterms:issued" datatype="xs:date" />
-	<match element="Date-Modified" property="dcterms:modified" datatype="xs:date" />
-	<match element="Replaces" property="dcterms:replaces" /> <!-- ok, this is not used -->
-</map>
+<!-- this system works, but can't easily support uses in different contexts -->
+<!-- <include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml#default" /> -->
+
+<include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
 
 <term>
     <Anchor>Collection-003</Anchor>

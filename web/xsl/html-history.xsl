@@ -7,6 +7,10 @@
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcam="http://purl.org/dc/dcam/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema#"
 	>
 
 <xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
@@ -43,6 +47,8 @@
 <xsl:variable name="sec7-doc" select="document($section7)" />
 
 <xsl:variable name="intro" select="document($intro.file)" />
+
+<xsl:key name="map" match="match[not(../@context) or ../@context='history']" use="@element" />
 
 <xsl:include href="html-common.xsl" />
 
@@ -115,14 +121,17 @@
 	</xsl:apply-templates>
 </xsl:template>
 
-<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @about -->
+<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @about, and it doesn't need to invoke templates in content mode -->
 <xsl:template match="term">
 	<tbody id="{Anchor}" class="term" about="{Version}">
 		<tr>
 			<th colspan="2" scope="rowgroup">
 				<xsl:text>Term Name: </xsl:text>
 				<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
-				<xsl:value-of select="Name"/>
+				<span>
+					<xsl:apply-templates select="key('map','Name')" />
+					<xsl:value-of select="Name"/>
+				</span>
 			</th>
 		</tr>
 		<xsl:apply-templates />
@@ -147,6 +156,7 @@
 				<xsl:attribute name="href">
 					<xsl:apply-templates />
 				</xsl:attribute>
+				<xsl:apply-templates select="key('map',local-name())" mode="rel" />
 				<xsl:choose>
 					<xsl:when test="contains(., '#')">
 						<xsl:value-of select="substring-after(., '#')"/>

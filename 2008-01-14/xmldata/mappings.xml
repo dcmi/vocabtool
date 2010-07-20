@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+
+<!-- again, this file should possibly live outside the dated directories -->
+<mappings>
+
+	<map>
+		<match element="Name" property="dc:title" />
+		<match element="URI" property="rdfs:isDefinedBy" />
+		<match element="Label" property="rdfs:label" />
+		<match element="Definition" property="dc:description" />
+		<match element="Comment" property="rdfs:comment" />
+		<match element="Type-of-Term" property="rdf:type" />
+		<match element="Member-Of" property="dcam:memberOf" />
+		<match element="Version" property="dcterms:hasVersion" />
+		<match element="Date-Issued" property="dcterms:issued" datatype="xs:date" />
+		<match element="Date-Modified" property="dcterms:modified" datatype="xs:date" />
+		<match element="Replaces" property="dcterms:replaces" /> <!-- ok, this is not used -->
+	</map>
+
+	<map context="history">
+		<match element="URI" property="dcterms:isVersionOf" />
+		<match element="Version" property="rdfs:isDefinedBy" />
+	</map>
+
+</mappings>

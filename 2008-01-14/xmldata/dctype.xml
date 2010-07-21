@@ -2,9 +2,6 @@
 
 <dc>
 
-<!-- this system works, but can't easily support uses in different contexts -->
-<!-- <include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml#default" /> -->
-
 <include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
 
 <term>

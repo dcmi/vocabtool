@@ -16,11 +16,6 @@
 		<match element="Date-Modified" property="dcterms:modified" datatype="xs:date" />
 		<match element="Replaces" property="dcterms:replaces" />
 		<match element="Is-Replaced-By" property="dcterms:isReplacedBy" />
-	</map>
-
-	<map context="history">
-		<match element="URI" property="dcterms:isVersionOf rdfs:Class" /> <!-- CHECKME: isVersionOf was mine, rdfs:Class from Tom's comment ?? -->
-		<match element="Version" property="dcterms:identifier" />
 		<match element="Namespace" property="rdfs:isDefinedBy" />
 		<match element="Has-Domain" property="rdfs:domain" />
 		<match element="Has-Range" property="rdfs:range" />
@@ -28,6 +23,11 @@
 		<match element="Note" property="skos:note" />
 		<match element="Instance-Of" property="rdf:type" />
 		<!-- many of these taken from Tom's comments in common-templates.xsl -->
+	</map>
+
+	<map context="history">
+		<match element="URI" property="dcterms:isVersionOf rdfs:Class" /> <!-- CHECKME: isVersionOf was mine, rdfs:Class from Tom's comment ?? -->
+		<match element="Version" property="dcterms:identifier" />
 	</map>
 
 </mappings>

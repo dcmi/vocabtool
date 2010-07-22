@@ -140,7 +140,6 @@
 	</tbody>
 </xsl:template>
 
-<!-- FIXME: this template's contents are common with one from html-dctype.xsl -->
 <xsl:template match="Version
 	| Type-of-Term
 	| Status
@@ -149,27 +148,7 @@
 	| Is-Replaced-By
 	"
 	>
-	<tr class="attribute">
-		<th scope="row">
-			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-		</th>
-		<td axis="{local-name()}">
-			<a>
-				<xsl:attribute name="href">
-					<xsl:apply-templates />
-				</xsl:attribute>
-				<xsl:apply-templates select="key('map',local-name())" mode="rel" />
-				<xsl:choose>
-					<xsl:when test="contains(., '#')">
-						<xsl:value-of select="substring-after(., '#')"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:apply-templates />
-					</xsl:otherwise>
-				</xsl:choose>
-			</a>
-		</td>
-	</tr>
+	<xsl:call-template name="fragmentCheckingRow" />
 </xsl:template>
 
 <!-- skip processing these ones -->

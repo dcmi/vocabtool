@@ -116,4 +116,29 @@
 	</tr>
 </xsl:template>
 
+<xsl:template name="fragmentCheckingRow">
+	<xsl:param name="context" select="." />
+	<tr class="attribute">
+		<th scope="row">
+			<xsl:value-of select="translate(local-name($context), '-', ' ')"/>:
+		</th>
+		<td axis="{local-name($context)}">
+			<a>
+				<xsl:attribute name="href">
+					<xsl:apply-templates select="$context/node()" />
+				</xsl:attribute>
+				<xsl:apply-templates select="key('map',local-name($context))" mode="rel" />
+				<xsl:choose>
+					<xsl:when test="contains($context/text(), '#')">
+						<xsl:value-of select="substring-after($context/text(), '#')"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="$context/node()" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</a>
+		</td>
+	</tr>
+</xsl:template>
+
 </xsl:transform>

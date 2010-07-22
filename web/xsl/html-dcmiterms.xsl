@@ -14,24 +14,29 @@
 
 <xsl:include href="../../2008-01-14/headers/intro.dcmi-terms.xsl"/>
 		
-<xsl:param name="todaysDate" select="' '"/>
+<xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
 
-<xsl:param name="section1" select="''" />
-<xsl:param name="section2" select="''" />
-<xsl:param name="section3" select="''" />
-<xsl:param name="section4" select="''" />
-<xsl:param name="section5" select="''" />
-<xsl:param name="section6" select="''" />
-<xsl:param name="section7" select="''" />
-<xsl:param name="section8" select="''" />
+<xsl:param name="datestamp.dir" select="concat('../../',$todaysDate)" />
+<xsl:param name="sect.dir" select="concat($datestamp.dir,'/xmldata')" />
+<xsl:param name="intro.file" select="concat($datestamp.dir,'/headers/intro.dcmi-terms.xml')" />
 
-<xsl:variable name="sec2-doc" select="document($section2)"/>
-<xsl:variable name="sec3-doc" select="document($section3)"/>
-<xsl:variable name="sec4-doc" select="document($section4)"/>
-<xsl:variable name="sec5-doc" select="document($section5)"/>
-<xsl:variable name="sec6-doc" select="document($section6)"/>
-<xsl:variable name="sec7-doc" select="document($section7)"/>
+<xsl:param name="section2"	select="concat($sect.dir,'/dcterms-properties.xml')" />
+<xsl:param name="section3"	select="concat($sect.dir,'/dcelements.xml')" />
+<xsl:param name="section4"	select="concat($sect.dir,'/dcterms-ves.xml')" />
+<xsl:param name="section5"	select="concat($sect.dir,'/dcterms-ses.xml')" />
+<xsl:param name="section6"	select="concat($sect.dir,'/dcterms-classes.xml')" />
+<xsl:param name="section7"	select="concat($sect.dir,'/dctype.xml')" />
+<xsl:param name="section8"	select="concat($sect.dir,'/dcam.xml')" />
+
+<xsl:variable name="sec2-doc" select="document($section2)" />
+<xsl:variable name="sec3-doc" select="document($section3)" />
+<xsl:variable name="sec4-doc" select="document($section4)" />
+<xsl:variable name="sec5-doc" select="document($section5)" />
+<xsl:variable name="sec6-doc" select="document($section6)" />
+<xsl:variable name="sec7-doc" select="document($section7)" />
 <xsl:variable name="sec8-doc" select="document($section8)"/>
+
+<!-- <xsl:variable name="intro" select="document($intro.file)" /> -->
 
 <xsl:template match="/">
 	<html>

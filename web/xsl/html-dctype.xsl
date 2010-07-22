@@ -21,7 +21,6 @@
 	/>
 
 <xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
-<xsl:param name="tt" select="' '"/> <!-- CHECKME: as above?? what is this anyway? -->
 <xsl:param name="header"/> <!-- executive decision: this should error if not supplied -->
 
 <xsl:variable name="heading" select="document($header)"/>

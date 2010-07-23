@@ -10,8 +10,10 @@
 <xsl:output
 	method="xml"
 	indent="yes"
-	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-	doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+	version="1.0"
+	encoding="utf-8"
+	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"
+	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
 	/>
 
 <xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
@@ -41,7 +43,7 @@
 <xsl:variable name="intro" select="document($intro.file)" />
 
 <xsl:template match="/">
-	<html>
+	<html version="XHTML+RDFa 1.0">
 		<head>
 			<title>
 				<xsl:value-of select="H1/Title"/>

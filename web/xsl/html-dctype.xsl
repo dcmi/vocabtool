@@ -48,7 +48,7 @@
 		</head>
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
-			<h1>DCMI Type Vocabulary</h1>
+			<h1><xsl:apply-templates select="$heading/H1/Title" /></h1>
 			<xsl:apply-templates select="$heading/H1" mode="docinfo" />
 			<xsl:apply-templates select="dc"/>
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>

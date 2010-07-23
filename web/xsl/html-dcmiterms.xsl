@@ -42,20 +42,46 @@
 
 <xsl:variable name="intro" select="document($intro.file)" />
 
+<xsl:include href="html-common.xsl" />
+
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
 		<head>
 			<title>
-				<xsl:value-of select="H1/Title"/>
+				<xsl:apply-templates select="H1/Title"/>
 			</title>
-			<xsl:text disable-output-escaping='yes'>&lt;!--#exec cgi="/cgi-bin/metawriter.cgi" --&gt;</xsl:text>
-			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
+				<![CDATA[
+				tr.attribute th {
+					background-color: #fff;
+				}
+				table.legend,
+				table.references {
+					margin-left: 2.5%;
+					margin-right: 2.5%;
+					width: 95%;
+					table-layout:fixed;
+					border-width: 0;
+					}
+				.legend th.label,
+				.references th.abbrev {
+					width: 20%;
+				}
+				.legend td.definition,
+				.references td.citation {
+					width: 80%;
+				}
+				]]>
+			</style>
 		</head>
 		<body>
-			<xsl:text disable-output-escaping='yes'>&lt;!--#include virtual="/ssi/header.shtml" --&gt;</xsl:text>
-			<xsl:apply-templates select="H1" mode="header" />
+			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
+			<h1><xsl:apply-templates select="H1/Title" /></h1>
+			<xsl:apply-templates select="H1" mode="docinfo" />
 			<xsl:call-template name="print-toc" />
 			<xsl:call-template name="print-index-of-terms" />
 			<xsl:call-template name="print-section1" />
@@ -66,32 +92,11 @@
 			<xsl:call-template name="print-section6" />
 			<xsl:call-template name="print-section7" />
 			<xsl:call-template name="print-section8" />
-			<xsl:text disable-output-escaping='yes'>&lt;!--#include virtual="/ssi/footer.shtml" --&gt;</xsl:text>
+			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
 		</body>
 	</html>
 </xsl:template>
 
-<xsl:template match="H1" mode="header">
-	<h1><xsl:value-of select="Title" /></h1>
-	<table cellspacing="0" class="docinfo">
-		<xsl:for-each select="*">
-			<xsl:call-template name="print_heading">
-				<xsl:with-param name="elem" select="local-name()"/>
-				<xsl:with-param name="label" select="@label"/>
-				<xsl:with-param name="value" select="."/>
-			</xsl:call-template>
-		</xsl:for-each>
-		<!--
-		<tr>
-			<th>Date Valid:</th>
-			<td>
-				<xsl:value-of select="$todaysDate"/>
-			</td>
-		</tr>	
-		-->
-	</table>
-</xsl:template>
-	
 <xsl:template match="xhtml:html">
 	<xsl:copy-of select="xhtml:body/*" />
 </xsl:template>
@@ -278,52 +283,6 @@
 			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 	</table>          
-</xsl:template>
-
-<xsl:template name="print_heading">
-	<xsl:param name="elem"/>
-	<xsl:param name="label"/>
-	<xsl:param name="value"/>
-	
-	<tr>
-		<th>
-			<xsl:value-of select="translate($elem, '-', ' ')"/>:
-		</th>
-		<td>
-			<xsl:choose>
-				<xsl:when test="(starts-with($value, 'http://')) or (starts-with($value, 'mailto:'))">
-					<xsl:choose>
-						<xsl:when test="$label">
-							<a>
-								<xsl:attribute name="href">
-									<xsl:value-of select="$value"/>
-								</xsl:attribute>
-								<xsl:value-of select="$label"/>
-							</a>
-						</xsl:when>
-						<xsl:otherwise>
-							<a>
-								<xsl:attribute name="href">
-									<xsl:value-of select="$value"/>
-								</xsl:attribute>
-								<xsl:value-of select="$value"/>
-							</a>
-						</xsl:otherwise>
-					</xsl:choose>		
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:choose>
-						<xsl:when test="$elem='Title'">
-							<xsl:value-of select="$value"/>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="$value"/>
-						</xsl:otherwise>
-					</xsl:choose>
-				</xsl:otherwise>
-			</xsl:choose>
-		</td>
-	</tr>
 </xsl:template>
 
 <xsl:template match="term">

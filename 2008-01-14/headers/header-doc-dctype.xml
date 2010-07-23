@@ -1,10 +1,10 @@
 <?xml version='1.0'?>
 
 <H1>
-	<Title property="dc:title">DCMI Type Vocabulary</Title>
-	<Creator property="dc:creator" label="DCMI Usage Board">mailto:dc-usage@jiscmail.ac.uk</Creator>
+	<Title property="dcterms:title">DCMI Type Vocabulary</Title>
+	<Creator property="dcterms:creator" label="DCMI Usage Board">mailto:dc-usage@jiscmail.ac.uk</Creator>
 
-    <Identifier property="dc:identifier">http://dublincore.org/documents/2008/01/14/dcmi-type-vocabulary/</Identifier>
+    <Identifier property="dcterms:identifier">http://dublincore.org/documents/2008/01/14/dcmi-type-vocabulary/</Identifier>
     <Date-Issued property="dcterms:issued" datatype="xs:date">2008-01-14</Date-Issued>
 
     <Latest-Version property="dcterms:isVersionOf">http://dublincore.org/documents/dcmi-type-vocabulary/</Latest-Version>
@@ -13,6 +13,6 @@
     <Translations>http://dublincore.org/resources/translations/</Translations>
 	<Document-Status>This is a DCMI Recommendation.</Document-Status>
 
-	<Description property="dc:description">The DCMI Type Vocabulary provides a general, cross-domain list of approved terms that may be used as values for the Resource Type element to identify the genre of a resource.  The terms documented here are also included in the more comprehensive document "DCMI Metadata Terms" at http://dublincore.org/documents/dcmi-terms/.</Description>
+	<Description property="dcterms:description">The DCMI Type Vocabulary provides a general, cross-domain list of approved terms that may be used as values for the Resource Type element to identify the genre of a resource.  The terms documented here are also included in the more comprehensive document "DCMI Metadata Terms" at http://dublincore.org/documents/dcmi-terms/.</Description>
 
 </H1>

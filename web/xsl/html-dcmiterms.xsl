@@ -3,6 +3,8 @@
 <xsl:transform
 	version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	>
 	
 <xsl:output
@@ -12,8 +14,8 @@
 	doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
 	/>
 
-<xsl:include href="../../2008-01-14/headers/intro.dcmi-terms.xsl"/>
-		
+<xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
+
 <xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
 
 <xsl:param name="datestamp.dir" select="concat('../../',$todaysDate)" />
@@ -36,7 +38,7 @@
 <xsl:variable name="sec7-doc" select="document($section7)" />
 <xsl:variable name="sec8-doc" select="document($section8)"/>
 
-<!-- <xsl:variable name="intro" select="document($intro.file)" /> -->
+<xsl:variable name="intro" select="document($intro.file)" />
 
 <xsl:template match="/">
 	<html>
@@ -88,6 +90,10 @@
 	</table>
 </xsl:template>
 	
+<xsl:template match="xhtml:html">
+	<xsl:copy-of select="xhtml:body/*" />
+</xsl:template>
+
 <xsl:template name="print-toc">
   <h2>Table of Contents</h2>
   <ol>
@@ -199,7 +205,7 @@
 <xsl:template name="print-section1">
 	<a name="H1"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
 	<h2>Section 1: Introduction and Definitions</h2>
-	<xsl:call-template name="terms_intro" />
+	<xsl:apply-templates select="$intro/xhtml:html" />
 </xsl:template>
 	
 <xsl:template name="print-section2">

@@ -75,6 +75,9 @@
 				.references td.citation {
 					width: 80%;
 				}
+				address.xmlns {
+					display: inline;
+				}
 				]]>
 			</style>
 		</head>
@@ -82,9 +85,9 @@
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
 			<h1><xsl:apply-templates select="H1/Title" /></h1>
 			<xsl:apply-templates select="H1" mode="docinfo" />
-			<xsl:call-template name="print-toc" />
-			<xsl:call-template name="print-index-of-terms" />
-			<xsl:call-template name="print-section1" />
+			<xsl:call-template name="tableOfContents" />
+			<xsl:call-template name="indexOfTerms" />
+			<xsl:call-template name="introSection" />
 			<xsl:call-template name="print-section2" />
 			<xsl:call-template name="print-section3" />
 			<xsl:call-template name="print-section4" />
@@ -101,24 +104,28 @@
 	<xsl:copy-of select="xhtml:body/*" />
 </xsl:template>
 
-<xsl:template name="print-toc">
+<xsl:template name="tableOfContents">
   <h2>Table of Contents</h2>
   <ol>
     <li><a href="#H1">Introduction and Definitions</a></li>
-    <li><a href="#H2">Properties in the <i>/terms/</i> namespace</a></li>
-    <li><a href="#H3">Properties in the legacy <i>/elements/1.1/</i> namespace</a></li>
-    <li><a href="#H4">Vocabulary Encoding Schemes</a></li>
-    <li><a href="#H5">Syntax Encoding Schemes</a></li>
-    <li><a href="#H6">Classes</a></li>
-    <li><a href="#H7">DCMI Type Vocabulary</a></li>
-    <li><a href="#H8">Terms related to the DCMI Abstract Model</a></li>
+	<li><a href="#H2"><xsl:apply-templates select="$sec2-doc" mode="toc" /></a></li>
+    <li><a href="#H3"><xsl:apply-templates select="$sec3-doc" mode="toc" /></a></li>
+    <li><a href="#H4"><xsl:apply-templates select="$sec4-doc" mode="toc" /></a></li>
+    <li><a href="#H5"><xsl:apply-templates select="$sec5-doc" mode="toc" /></a></li>
+    <li><a href="#H6"><xsl:apply-templates select="$sec6-doc" mode="toc" /></a></li>
+    <li><a href="#H7"><xsl:apply-templates select="$sec7-doc" mode="toc" /></a></li>
+    <li><a href="#H8"><xsl:apply-templates select="$sec8-doc" mode="toc" /></a></li>
     <!--
     <li><a href="http://dublincore.org/dcregistry/navigateServlet?reqType=termsOverviewServlet">DCMI Terms Overview</a></li>
     -->
   </ol>
 </xsl:template>
 
-<xsl:template name="print-index-of-terms">
+<xsl:template match="dc" mode="toc">
+	<xsl:copy-of select="heading/node()" />
+</xsl:template>
+
+<xsl:template name="indexOfTerms">
 	<h2>Index of Terms</h2>
 	<table cellspacing="0" border="0" class="border">
 		<tr>
@@ -209,10 +216,11 @@
 	</table>
 </xsl:template>
 
-<xsl:template name="print-section1">
-	<a name="H1"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 1: Introduction and Definitions</h2>
-	<xsl:apply-templates select="$intro/xhtml:html" />
+<xsl:template name="introSection">
+	<div id="H1">
+		<h2>Section 1: Introduction and Definitions</h2>
+		<xsl:apply-templates select="$intro/xhtml:html" />
+	</div>
 </xsl:template>
 	
 <xsl:template name="print-section2">

@@ -91,13 +91,7 @@
 			<xsl:call-template name="tableOfContents" />
 			<xsl:call-template name="indexOfTerms" />
 			<xsl:call-template name="introSection" />
-			<xsl:call-template name="print-section2" />
-			<xsl:call-template name="print-section3" />
-			<xsl:call-template name="print-section4" />
-			<xsl:call-template name="print-section5" />
-			<xsl:call-template name="print-section6" />
-			<xsl:call-template name="print-section7" />
-			<xsl:call-template name="print-section8" />
+			<xsl:call-template name="mainSections" />
 			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
 		</body>
 	</html>
@@ -161,7 +155,6 @@
 			>
 				<xsl:sort select="Name"/>
 			</xsl:apply-templates>
-
 		</td>
 	</tr>
 </xsl:template>
@@ -184,75 +177,50 @@
 		<xsl:apply-templates select="$intro/xhtml:html" />
 	</div>
 </xsl:template>
-	
-<xsl:template name="print-section2">
-	<a name="H2"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 2: Properties in the <i>/terms/</i> namespace</h2>
+
+<xsl:template name="mainSections">
+	<xsl:apply-templates select="$sec2-doc/dc">
+		<xsl:with-param name="propertiesOnly" select="true()" />
+		<xsl:with-param name="seq" select="2" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec3-doc/dc">
+		<xsl:with-param name="propertiesOnly" select="true()" />
+		<xsl:with-param name="seq" select="3" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec4-doc/dc">
+		<xsl:with-param name="seq" select="4" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec5-doc/dc">
+		<xsl:with-param name="seq" select="5" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec6-doc/dc">
+		<xsl:with-param name="seq" select="6" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec7-doc/dc">
+		<xsl:with-param name="seq" select="7" />
+	</xsl:apply-templates>
+	<xsl:apply-templates select="$sec8-doc/dc">
+		<xsl:with-param name="seq" select="8" />
+	</xsl:apply-templates>
+</xsl:template>
+
+<xsl:template match="dc">
+	<xsl:param name="propertiesOnly" />
+	<xsl:param name="seq" select="1" /> <!-- a bit unfortunate, needing this -->
+	<a name="H{$seq}"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
+	<h2>Section <xsl:value-of select="$seq" />: <xsl:apply-templates select="." mode="heading" /></h2>
 	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec2-doc/dc/term[not(Is-Replaced-By) and substring-after(Type-of-Term, '#') = 'Property']">
+		<xsl:apply-templates select="term[
+			not(Is-Replaced-By) and
+				(
+				not($propertiesOnly) or
+				substring-after(Type-of-Term, '#') = 'Property'
+				)
+			]
+		">
 			<xsl:sort select="Name"/>
 		</xsl:apply-templates>
 	</table>
-</xsl:template>
-
-<xsl:template name="print-section3">
-	<a name="H3"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 3: Properties in the legacy <i>/elements/1.1/</i> namespace</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec3-doc/dc/term[not(Is-Replaced-By) and substring-after(Type-of-Term, '#') = 'Property']">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>
-</xsl:template>
-
-<xsl:template name="print-section4">
-	<a name="H4"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 4: Vocabulary Encoding Schemes</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec4-doc/dc/term[not(Is-Replaced-By)]">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>
-</xsl:template>
-
-<xsl:template name="print-section5">
-	<a name="H5"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 5: Syntax Encoding Schemes</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec5-doc/dc/term[not(Is-Replaced-By)]">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>
-</xsl:template>
-
-<xsl:template name="print-section6">
-	<a name="H6"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 6: Classes</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec6-doc/dc/term[not(Is-Replaced-By)]">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>
-</xsl:template>
-
-<xsl:template name="print-section7">
-	<a name="H7"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 7: DCMI Type Vocabulary</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec7-doc/dc/term[not(Is-Replaced-By)]">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>          
-</xsl:template>
-
-<xsl:template name="print-section8">
-	<a name="H8"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section 8: Terms related to the DCMI Abstract Model</h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="$sec8-doc/dc/term[not(Is-Replaced-By)]">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>          
 </xsl:template>
 
 <xsl:template match="term">

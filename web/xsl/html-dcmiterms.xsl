@@ -32,6 +32,8 @@
 <xsl:param name="section7"	select="concat($sect.dir,'/dctype.xml')" />
 <xsl:param name="section8"	select="concat($sect.dir,'/dcam.xml')" />
 
+<xsl:param name="test.hostname" /> <!-- mainly so I can hook into the http://dublincore.org CSS file(s) when testing -->
+
 <xsl:variable name="sec2-doc" select="document($section2)" />
 <xsl:variable name="sec3-doc" select="document($section3)" />
 <xsl:variable name="sec4-doc" select="document($section4)" />
@@ -53,7 +55,7 @@
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
-			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[
 				tr.attribute th {
@@ -75,8 +77,9 @@
 				.references td.citation {
 					width: 80%;
 				}
-				address.xmlns {
-					display: inline;
+				abbr.xmlns {
+					font-style: italic;
+					border-bottom: 0;
 				}
 				]]>
 			</style>
@@ -108,112 +111,71 @@
   <h2>Table of Contents</h2>
   <ol>
     <li><a href="#H1">Introduction and Definitions</a></li>
-	<li><a href="#H2"><xsl:apply-templates select="$sec2-doc" mode="toc" /></a></li>
-    <li><a href="#H3"><xsl:apply-templates select="$sec3-doc" mode="toc" /></a></li>
-    <li><a href="#H4"><xsl:apply-templates select="$sec4-doc" mode="toc" /></a></li>
-    <li><a href="#H5"><xsl:apply-templates select="$sec5-doc" mode="toc" /></a></li>
-    <li><a href="#H6"><xsl:apply-templates select="$sec6-doc" mode="toc" /></a></li>
-    <li><a href="#H7"><xsl:apply-templates select="$sec7-doc" mode="toc" /></a></li>
-    <li><a href="#H8"><xsl:apply-templates select="$sec8-doc" mode="toc" /></a></li>
+	<li><a href="#H2"><xsl:apply-templates select="$sec2-doc" mode="heading" /></a></li>
+    <li><a href="#H3"><xsl:apply-templates select="$sec3-doc" mode="heading" /></a></li>
+    <li><a href="#H4"><xsl:apply-templates select="$sec4-doc" mode="heading" /></a></li>
+    <li><a href="#H5"><xsl:apply-templates select="$sec5-doc" mode="heading" /></a></li>
+    <li><a href="#H6"><xsl:apply-templates select="$sec6-doc" mode="heading" /></a></li>
+    <li><a href="#H7"><xsl:apply-templates select="$sec7-doc" mode="heading" /></a></li>
+    <li><a href="#H8"><xsl:apply-templates select="$sec8-doc" mode="heading" /></a></li>
     <!--
     <li><a href="http://dublincore.org/dcregistry/navigateServlet?reqType=termsOverviewServlet">DCMI Terms Overview</a></li>
     -->
   </ol>
 </xsl:template>
 
-<xsl:template match="dc" mode="toc">
+<xsl:template match="dc" mode="heading">
 	<xsl:copy-of select="heading/node()" />
 </xsl:template>
 
 <xsl:template name="indexOfTerms">
 	<h2>Index of Terms</h2>
 	<table cellspacing="0" border="0" class="border">
-		<tr>
-			<td>Properties in the <i>/terms/</i> namespace</td>
-			<td>
-				<xsl:for-each select="$sec2-doc/dc/term[not(Is-Replaced-By) and substring-after(Type-of-Term, '#') = 'Property']">
-					<xsl:sort select="Name"/>
-					<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="concat('#', Name-for-Table)"/>
-						</xsl:attribute>
-						<xsl:value-of select="Name"/>
-					</a>
-					<xsl:if test="position() != last()">
-						<xsl:text>, </xsl:text>
-					</xsl:if>
-				</xsl:for-each>
-			</td>
-		</tr>
-		<tr>
-			<td>Properties in the legacy <i>/elements/1.1/</i> namespace</td>
-			<td>
-				<xsl:for-each select="$sec3-doc/dc/term[not(Is-Replaced-By) and substring-after(Type-of-Term, '#') = 'Property']">
-					<xsl:sort select="Name"/>
-					<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="concat('#', Name-for-Table)"/>
-						</xsl:attribute>
-						<xsl:value-of select="Name"/>
-					</a>
-					<xsl:if test="position() != last()">
-						<xsl:text>, </xsl:text>
-					</xsl:if>
-				</xsl:for-each>
-			</td>
-		</tr>
-		<tr>
-			<td>Vocabulary Encoding Schemes</td>
-			<td>
-				<xsl:for-each select="$sec4-doc/dc/term[not(Is-Replaced-By)]">
-					<xsl:sort select="Name"/>
-					<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="concat('#', Name-for-Table)"/>
-						</xsl:attribute>
-						<xsl:value-of select="Name"/>
-					</a>
-					<xsl:if test="position() != last()">
-						<xsl:text>, </xsl:text>
-					</xsl:if>
-				</xsl:for-each>
-			</td>
-		</tr>
-		<tr>
-			<td>Syntax Encoding Schemes</td>
-			<td>
-				<xsl:for-each select="$sec5-doc/dc/term[not(Is-Replaced-By)]">
-					<xsl:sort select="Name"/>
-					<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="concat('#', Name-for-Table)"/>
-						</xsl:attribute>
-						<xsl:value-of select="Name"/>
-					</a>
-					<xsl:if test="position() != last()">
-						<xsl:text>, </xsl:text>
-					</xsl:if>
-				</xsl:for-each>
-			</td>
-		</tr>
-		<tr>
-			<td>Classes</td>
-			<td>
-				<xsl:for-each select="$sec6-doc/dc/term[not(Is-Replaced-By)]">
-					<xsl:sort select="Name"/>
-					<a>
-						<xsl:attribute name="href">
-							<xsl:value-of select="concat('#', Name-for-Table)"/>
-						</xsl:attribute>
-						<xsl:value-of select="Name"/>
-					</a>
-					<xsl:if test="position() != last()">
-						<xsl:text>, </xsl:text>
-					</xsl:if>
-				</xsl:for-each>
-			</td>
-		</tr>
+		<xsl:apply-templates select="$sec2-doc" mode="index">
+			<xsl:with-param name="propertiesOnly" select="true()" />
+		</xsl:apply-templates>
+		<xsl:apply-templates select="$sec3-doc" mode="index">
+			<xsl:with-param name="propertiesOnly" select="true()" />
+		</xsl:apply-templates>
+		<xsl:apply-templates select="$sec4-doc" mode="index" />
+		<xsl:apply-templates select="$sec5-doc" mode="index" />
+		<xsl:apply-templates select="$sec6-doc" mode="index" />
+		<xsl:apply-templates select="$sec7-doc" mode="index" />
+		<xsl:apply-templates select="$sec8-doc" mode="index" />
 	</table>
+</xsl:template>
+
+<xsl:template match="dc" mode="index">
+	<xsl:param name="propertiesOnly" />
+	<tr>
+		<td><xsl:apply-templates select="." mode="heading" /></td>
+		<td>
+			<xsl:apply-templates select="term[
+				not(Is-Replaced-By) and
+				(
+					not($propertiesOnly) or
+					substring-after(Type-of-Term, '#') = 'Property'
+				)
+			]"
+			mode="index"
+			>
+				<xsl:sort select="Name"/>
+			</xsl:apply-templates>
+
+		</td>
+	</tr>
+</xsl:template>
+
+<xsl:template match="term" mode="index">
+	<a>
+		<xsl:attribute name="href">
+			<xsl:value-of select="concat('#', Name-for-Table)"/>
+		</xsl:attribute>
+		<xsl:value-of select="Name"/>
+	</a>
+	<xsl:if test="position() != last()">
+		<xsl:text>, </xsl:text>
+	</xsl:if>
 </xsl:template>
 
 <xsl:template name="introSection">

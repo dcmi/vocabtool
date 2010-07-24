@@ -7,7 +7,7 @@
 		<match element="Name" property="dcterms:title" />
 		<match element="URI" property="rdfs:identifier" />
 		<match element="Label" property="rdfs:label" />
-		<match element="Definition" property="dc:description" />
+		<match element="Definition" property="dcterms:description" />
 		<match element="Comment" property="rdfs:comment" />
 		<match element="Type-of-Term" property="rdf:type" />
 		<match element="Member-Of" property="dcam:memberOf" />

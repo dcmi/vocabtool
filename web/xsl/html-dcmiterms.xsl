@@ -5,6 +5,12 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcam="http://purl.org/dc/dcam/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	>
 	
 <xsl:output
@@ -43,6 +49,8 @@
 <xsl:variable name="sec8-doc" select="document($section8)"/>
 
 <xsl:variable name="intro" select="document($intro.file)" />
+
+<xsl:key name="map" match="match[not(../@context)]" use="@element" />
 
 <xsl:include href="html-common.xsl" />
 
@@ -224,98 +232,49 @@
 </xsl:template>
 
 <xsl:template match="term">
-	<tr>
-		<th colspan="2">
-			<!-- set anchor point -->
-			<a>
-				<xsl:attribute name="name">
-					<!--<xsl:value-of select="Name"/>-->
-					<xsl:value-of select="Name-for-Table"/>
-				</xsl:attribute>
-			</a>
-			<xsl:text disable-output-escaping='yes'></xsl:text>
+	<tbody id="{Name-for-Table}" class="term" about="{URI}">
+		<tr>
+			<th colspan="2" scope="rowgroup">
+				<xsl:text>Term Name: </xsl:text>
+				<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
+				<span>
+					<xsl:apply-templates select="key('map','Name')" />
+					<xsl:value-of select="Name"/>
+				</span>
+				<!-- FIXME: really can't work out why I should need to populate @select here. Would be more robust without it. If I leave it out, the text contents of every other <term/> child node are output. halp! -->
+				<xsl:apply-templates select="Date-Modified | Date-Issued" mode="content" />
+			</th>
+		</tr>
+		<xsl:apply-templates />
+	</tbody>
+</xsl:template>
 
-			<xsl:value-of select="'Term Name: '"/>
-			<xsl:text disable-output-escaping='yes'></xsl:text>
-			<xsl:value-of select="Name"/>
-		</th>
-	</tr>
-	<xsl:for-each select="descendant::node()">
-		<xsl:choose>
-			<xsl:when test="local-name() = ''"/>
-			<xsl:when test="local-name() = 'Anchor'"/>
-			<xsl:when test="local-name() = 'Namespace'"/>
-			<!--
-			<xsl:when test="local-name() = 'Version'"/>
-			-->
-			<xsl:when test="local-name() = 'Publisher'"/>
-			<xsl:when test="local-name() = 'Replaces'"/>
-			<xsl:when test="local-name() = 'Qualifies'"/>
-			<xsl:when test="local-name() = 'Is-Replaced-By'"/>
-			<xsl:when test="local-name() = 'Date-Issued'"/>
-			<xsl:when test="local-name() = 'Date-Modified'"/>
-			<xsl:when test="local-name() = 'Decision'"/>
-			<xsl:when test="local-name() = 'Status'"/>
-			<xsl:when test="local-name() = 'Name-for-Table'"/>
-			<xsl:when test="local-name() = 'Name'"/>
-			<xsl:when test="(local-name() = 'Type-of-Term') or (local-name() = 'Status')">
-				<tr>
-					<td>
-						<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-					</td>
-					<td>
-						<a>
-							<xsl:attribute name="href">
-								<xsl:value-of select="."/>
-							</xsl:attribute>
-							<xsl:choose>
-								<xsl:when test="contains(.,'#')">
-									<xsl:value-of select="substring-after(., '#')"/>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:value-of select="."/>
-								</xsl:otherwise>
-							</xsl:choose>
-						</a>
-					</td>
-				</tr>
-			</xsl:when>
-			<xsl:otherwise>
-				<tr>
-					<td>
-						<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-					</td>
-					<td>
-						<xsl:choose>
-							<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-								<xsl:choose>
-									<xsl:when test="@label">
-										<a>
-											<xsl:attribute name="href">
-												<xsl:value-of select="."/>
-											</xsl:attribute>
-											<xsl:value-of select="@label"/>
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
-										<a>
-											<xsl:attribute name="href">
-												<xsl:value-of select="."/>
-											</xsl:attribute>
-											<xsl:value-of select="."/>
-										</a>
-									</xsl:otherwise>
-								</xsl:choose>		
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:value-of select="."/>
-							</xsl:otherwise>
-						</xsl:choose>
-					</td>
-				</tr>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:for-each>
+<xsl:template match="Anchor
+	| Namespace
+	| Publisher
+	| Replaces
+	| Qualifies
+	| Is-Replaced-By
+	| Date-Issued
+	| Date-Modified
+	| Decision
+	| Status
+	| Name-for-Table
+	| Name
+	" 
+	/>
+
+<xsl:template match="Type-of-Term | Status">
+	<xsl:call-template name="fragmentCheckingRow" />
+</xsl:template>
+
+<xsl:template match="Date-Modified | Date-Issued" mode="content">
+	<span>
+		<xsl:apply-templates select="key('map',local-name())" />
+		<xsl:attribute name="content">
+			<xsl:apply-templates />
+		</xsl:attribute>
+	</span>
 </xsl:template>
 
 </xsl:transform>

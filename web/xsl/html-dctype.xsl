@@ -88,10 +88,6 @@
 	<xsl:call-template name="fragmentCheckingRow" />
 </xsl:template>
 
-<xsl:template match="match" mode="rel">
-	<xsl:apply-templates select="@property" mode="rel" />
-</xsl:template>
-
 <!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
 <!-- relies on priority attribute in other template, unfortunately -->
 <xsl:template match="Anchor
@@ -110,7 +106,7 @@
 	/>
 
 <!-- this has to have its own mode because its output (empty <span/>) can't be positioned between table rows, so output position needs to be controlled -->
-<!-- NB important to maintain these elements' matches in default mode so they aren't processed as table rows as well -->
+<!-- NB important to maintain these elements' matches in default mode as well so they aren't processed as table rows -->
 <xsl:template match="Date-Modified | Date-Issued" mode="content">
 	<span>
 		<xsl:apply-templates select="key('map',local-name())" />

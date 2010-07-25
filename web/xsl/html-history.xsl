@@ -74,7 +74,7 @@
 					margin-left: 2.5%;
 					margin-right: 2.5%;
 					width: 95%;
-					table-layout:fixed;
+					table-layout: fixed;
 					border-width: 0;
 					}
 				.legend th.label,

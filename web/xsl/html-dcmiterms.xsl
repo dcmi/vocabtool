@@ -64,6 +64,7 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
+			<link rel="dcterms:tableOfContents" content="#contents" /> <!-- see note at #contents below re not implementing this as an RDFa @property -->
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[
 				tr.attribute th {
@@ -89,6 +90,15 @@
 					font-style: italic;
 					border-bottom: 0;
 				}
+				table.border.index td,
+				table.border.index th {
+					border-spacing: 0;
+				}
+				table.index th {
+					border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding: .5em; /* FIXME: if this selector gets added to table.border th, then these duplicate CSS settings won't be needed. The ones below are the overrides */
+					font-weight: normal;
+					background-color: transparent;
+				}
 				]]>
 			</style>
 		</head>
@@ -110,20 +120,22 @@
 </xsl:template>
 
 <xsl:template name="tableOfContents">
-  <h2>Table of Contents</h2>
-  <ol>
-    <li><a href="#H1">Introduction and Definitions</a></li>
-	<li><a href="#H2"><xsl:apply-templates select="$sec2-doc" mode="heading" /></a></li>
-    <li><a href="#H3"><xsl:apply-templates select="$sec3-doc" mode="heading" /></a></li>
-    <li><a href="#H4"><xsl:apply-templates select="$sec4-doc" mode="heading" /></a></li>
-    <li><a href="#H5"><xsl:apply-templates select="$sec5-doc" mode="heading" /></a></li>
-    <li><a href="#H6"><xsl:apply-templates select="$sec6-doc" mode="heading" /></a></li>
-    <li><a href="#H7"><xsl:apply-templates select="$sec7-doc" mode="heading" /></a></li>
-    <li><a href="#H8"><xsl:apply-templates select="$sec8-doc" mode="heading" /></a></li>
-    <!--
-    <li><a href="http://dublincore.org/dcregistry/navigateServlet?reqType=termsOverviewServlet">DCMI Terms Overview</a></li>
-    -->
-  </ol>
+	<div id="contents"> <!-- CHECKME: had @property = "dcterms:tableOfContents" here, which check.rdfa.info liked, but it's value was XHTML markup, doesn't seem exactly right -->
+		<h2>Table of Contents</h2>
+		<ol>
+			<li><a href="#H1">Introduction and Definitions</a></li>
+			<li><a href="#H2"><xsl:apply-templates select="$sec2-doc" mode="heading" /></a></li>
+			<li><a href="#H3"><xsl:apply-templates select="$sec3-doc" mode="heading" /></a></li>
+			<li><a href="#H4"><xsl:apply-templates select="$sec4-doc" mode="heading" /></a></li>
+			<li><a href="#H5"><xsl:apply-templates select="$sec5-doc" mode="heading" /></a></li>
+			<li><a href="#H6"><xsl:apply-templates select="$sec6-doc" mode="heading" /></a></li>
+			<li><a href="#H7"><xsl:apply-templates select="$sec7-doc" mode="heading" /></a></li>
+			<li><a href="#H8"><xsl:apply-templates select="$sec8-doc" mode="heading" /></a></li>
+			<!--
+			<li><a href="http://dublincore.org/dcregistry/navigateServlet?reqType=termsOverviewServlet">DCMI Terms Overview</a></li>
+			-->
+		</ol>
+	</div>
 </xsl:template>
 
 <xsl:template match="dc" mode="heading">
@@ -132,7 +144,7 @@
 
 <xsl:template name="indexOfTerms">
 	<h2>Index of Terms</h2>
-	<table cellspacing="0" border="0" class="border">
+	<table class="border index">
 		<xsl:apply-templates select="$sec2-doc" mode="index">
 			<xsl:with-param name="propertiesOnly" select="true()" />
 		</xsl:apply-templates>
@@ -150,7 +162,7 @@
 <xsl:template match="dc" mode="index">
 	<xsl:param name="propertiesOnly" />
 	<tr>
-		<td><xsl:apply-templates select="." mode="heading" /></td>
+		<th scope="row"><xsl:apply-templates select="." mode="heading" /></th>
 		<td>
 			<xsl:apply-templates select="term[
 				not(Is-Replaced-By) and
@@ -168,15 +180,12 @@
 </xsl:template>
 
 <xsl:template match="term" mode="index">
-	<a>
-		<xsl:attribute name="href">
-			<xsl:value-of select="concat('#', Name-for-Table)"/>
-		</xsl:attribute>
-		<xsl:value-of select="Name"/>
-	</a>
-	<xsl:if test="position() != last()">
+	<xsl:if test="position() &gt; 1">
 		<xsl:text>, </xsl:text>
 	</xsl:if>
+	<a href="#{Name-for-Table}" class="term">
+		<xsl:value-of select="Name"/>
+	</a>
 </xsl:template>
 
 <xsl:template name="introSection">
@@ -215,20 +224,21 @@
 <xsl:template match="dc">
 	<xsl:param name="propertiesOnly" />
 	<xsl:param name="seq" select="1" /> <!-- a bit unfortunate, needing this -->
-	<a name="H{$seq}"><xsl:text disable-output-escaping='yes'> </xsl:text></a>
-	<h2>Section <xsl:value-of select="$seq" />: <xsl:apply-templates select="." mode="heading" /></h2>
-	<table cellspacing="0" class="border">
-		<xsl:apply-templates select="term[
-			not(Is-Replaced-By) and
-				(
-				not($propertiesOnly) or
-				substring-after(Type-of-Term, '#') = 'Property'
-				)
-			]
-		">
-			<xsl:sort select="Name"/>
-		</xsl:apply-templates>
-	</table>
+	<div id="H{$seq}">
+		<h2>Section <xsl:value-of select="$seq" />: <xsl:apply-templates select="." mode="heading" /></h2>
+		<table cellspacing="0" class="border">
+			<xsl:apply-templates select="term[
+				not(Is-Replaced-By) and
+					(
+					not($propertiesOnly) or
+					substring-after(Type-of-Term, '#') = 'Property'
+					)
+				]
+			">
+				<xsl:sort select="Name"/>
+			</xsl:apply-templates>
+		</table>
+	</div>
 </xsl:template>
 
 <xsl:template match="term">

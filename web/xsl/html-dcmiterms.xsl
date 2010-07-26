@@ -53,6 +53,7 @@
 <xsl:key name="map" match="match[not(../@context)]" use="@element" />
 
 <xsl:include href="html-common.xsl" />
+<xsl:include href="html-regular.xsl" />
 
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
@@ -257,34 +258,6 @@
 		</tr>
 		<xsl:apply-templates />
 	</tbody>
-</xsl:template>
-
-<xsl:template match="Anchor
-	| Namespace
-	| Publisher
-	| Replaces
-	| Qualifies
-	| Is-Replaced-By
-	| Date-Issued
-	| Date-Modified
-	| Decision
-	| Status
-	| Name-for-Table
-	| Name
-	" 
-	/>
-
-<xsl:template match="Type-of-Term | Status">
-	<xsl:call-template name="fragmentCheckingRow" />
-</xsl:template>
-
-<xsl:template match="Date-Modified | Date-Issued" mode="content">
-	<span>
-		<xsl:apply-templates select="key('map',local-name())" />
-		<xsl:attribute name="content">
-			<xsl:apply-templates />
-		</xsl:attribute>
-	</span>
 </xsl:template>
 
 </xsl:transform>

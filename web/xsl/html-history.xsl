@@ -38,6 +38,8 @@
 <xsl:param name="section6"	select="concat($sect.dir,'/dctype.xml')" />
 <xsl:param name="section7"	select="concat($sect.dir,'/dcam.xml')" />
 
+<xsl:param name="test.hostname" /> <!-- set to "http://dublincore.org" to use its CSS when testing -->
+
 <xsl:variable name="sec1-doc" select="document($section1)" />
 <xsl:variable name="sec2-doc" select="document($section2)" />
 <xsl:variable name="sec3-doc" select="document($section3)" />
@@ -63,7 +65,7 @@
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="meta" href="index.shtml.rdf" />
-			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[
 				tr.attribute th {

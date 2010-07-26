@@ -23,11 +23,14 @@
 <xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
 <xsl:param name="header"/> <!-- executive decision: this should error if not supplied -->
 
+<xsl:param name="test.hostname" /> <!-- set to "http://dublincore.org" to use its CSS when testing -->
+
 <xsl:variable name="heading" select="document($header)"/>
 
 <xsl:key name="map" match="match[not(../@context)]" use="@element" />
 
 <xsl:include href="html-common.xsl" />
+<xsl:include href="html-regular.xsl" />
 
 <xsl:template match="/">
 	<html version="XHTML+RDFa 1.0">
@@ -37,7 +40,7 @@
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<link rel="stylesheet" href="/css/default.css" type="text/css" />
+			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[
 				tr.attribute th {
@@ -82,38 +85,6 @@
 			<xsl:apply-templates />
 		</tbody>
 	</xsl:if>
-</xsl:template>
-
-<xsl:template match="Type-of-Term | Status">
-	<xsl:call-template name="fragmentCheckingRow" />
-</xsl:template>
-
-<!-- skip processing these ones, we could have gone the other way (listed the elements to process, not ignore, but this list is enumerated already by the legacy code -->
-<!-- relies on priority attribute in other template, unfortunately -->
-<xsl:template match="Anchor
-	| Namespace
-	| Publisher
-	| Replaces
-	| Qualifies
-	| Is-Replaced-By
-	| Date-Issued
-	| Date-Modified
-	| Decision
-	| Status
-	| Name-for-Table
-	| Name
-	" 
-	/>
-
-<!-- this has to have its own mode because its output (empty <span/>) can't be positioned between table rows, so output position needs to be controlled -->
-<!-- NB important to maintain these elements' matches in default mode as well so they aren't processed as table rows -->
-<xsl:template match="Date-Modified | Date-Issued" mode="content">
-	<span>
-		<xsl:apply-templates select="key('map',local-name())" />
-		<xsl:attribute name="content">
-			<xsl:apply-templates />
-		</xsl:attribute>
-	</span>
 </xsl:template>
 
 </xsl:transform>

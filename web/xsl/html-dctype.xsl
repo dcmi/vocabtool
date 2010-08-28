@@ -20,8 +20,12 @@
 	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
 	/>
 
-<xsl:param name="ns" select="' '"/> <!-- CHECKME: if this is required, this should have no default to force runtime error?? -->
-<xsl:param name="header"/> <!-- executive decision: this should error if not supplied -->
+<xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
+
+<xsl:param name="datestamp.dir" select="concat('../../',$todaysDate)" />
+<xsl:param name="header" select="concat($datestamp.dir,'/headers/header-doc-dctype.xml')" />
+
+<xsl:param name="ns">http://purl.org/dc/dcmitype/</xsl:param>
 
 <xsl:param name="test.hostname" /> <!-- set to "http://dublincore.org" to use its CSS when testing -->
 

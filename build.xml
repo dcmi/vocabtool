@@ -76,8 +76,9 @@
 	<!-- FIXME: refer comment above target "htmldcmiterms" above -->
     <target name="htmldctype" depends="prepare">
 	<xslt in="${xml.dir}/dctype.xml" out="${dcmitypes.dir}/index.shtml" style="${xsl.dir}/html-dctype.xsl">
-	    <param name="ns"		expression="http://purl.org/dc/dcmitype/" />
-	    <param name="header"	expression="${header.dir}/header-doc-dctype.xml" />
+	    <!-- <param name="ns"		expression="http://purl.org/dc/dcmitype/" /> -->
+	    <!-- <param name="header"	expression="${header.dir}/header-doc-dctype.xml" /> -->
+		<param name="datestamp.dir" expression="${archive.dir}" />
 	</xslt>
     </target>
 

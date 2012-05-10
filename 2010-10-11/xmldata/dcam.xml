@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+
+<dc>
+
+<term>
+    <Anchor>memberOf-002</Anchor>
+    <Name>memberOf</Name>
+    <Name-for-Table>dcam-memberOf</Name-for-Table>
+    <URI>http://purl.org/dc/dcam/memberOf</URI>
+    <Namespace>http://purl.org/dc/dcam/</Namespace>
+    <Label>Member Of</Label>
+    <Definition>A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.</Definition>
+    <See>http://dublincore.org/documents/2007/06/04/abstract-model/</See>
+    <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Date-Modified>2010-10-11</Date-Modified>
+    <Has-Range>http://purl.org/dc/dcam/VocabularyEncodingScheme</Has-Range>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2010-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#memberOf-002</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#memberOf-001</Replaces>
+</term>
+
+    <term>
+        <Anchor>memberOf-001</Anchor>
+        <Name>memberOf</Name>
+        <Name-for-Table>dcam-memberOf</Name-for-Table>
+        <URI>http://purl.org/dc/dcam/memberOf</URI>
+        <Namespace>http://purl.org/dc/dcam/</Namespace>
+        <Label>Member Of</Label>
+        <Definition>A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.</Definition>
+        <See>http://dublincore.org/documents/2007/06/04/abstract-model/</See>
+        <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+        <Date-Issued>2008-01-14</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#memberOf-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#memberOf-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>VocabularyEncodingScheme-001</Anchor>
+    <Name>VocabularyEncodingScheme</Name>
+    <Name-for-Table>dcam-VocabularyEncodingScheme</Name-for-Table>
+    <URI>http://purl.org/dc/dcam/VocabularyEncodingScheme</URI>
+    <Namespace>http://purl.org/dc/dcam/</Namespace>
+    <Label>Vocabulary Encoding Scheme</Label>
+    <Definition>An enumerated set of resources.</Definition>
+    <See>http://dublincore.org/documents/2007/06/04/abstract-model/</See>
+    <Type-of-Term>http://www.w3.org/2000/01/rdf-schema#Class</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
+    <Date-Issued>2008-01-14</Date-Issued>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#VocabularyEncodingScheme-001</Version>
+</term>
+
+</dc>

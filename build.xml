@@ -48,7 +48,7 @@
 	<xslt in="${xml.dir}/dctype.xml" out="${result.dir}/dctype.rdf" style="${xsl.dir}/dctype.xsl">
 	    <param name="language"		expression="${language}" />
 	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-	    <param name="header"		expression="${header.dir}/header-rdf-dctype.xml" />
+        <param name="header"        expression="${header.dir}/header-rdf-dctype.xml" />
 	</xslt>
     </target>
 

@@ -5,9 +5,9 @@
     <property file="${user.home}/build.properties"/>
     <property name="base_dir" value="${user.dir}"/>
 
-    <property name="xml.dir" value="${base_dir}/2007-12-18/xmldata"/>
+    <property name="xml.dir" value="${base_dir}/2012-05-14/xmldata"/>
     <property name="xsl.dir" value="${base_dir}/web/xsl"/>
-    <property name="header.dir" value="${base_dir}/2007-12-18/headers"/>
+    <property name="header.dir" value="${base_dir}/2012-05-14/headers"/>
     <property name="result.dir" value="${base_dir}/build"/>
     <property name="html.dir" value="${base_dir}/build/html"/>
     <property name="dcmiterms.dir" value="${base_dir}/build/html/dcmi-terms"/>

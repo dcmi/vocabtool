@@ -28,19 +28,32 @@
 	[1] http://github.com/dublincore/website/blob/16f695c7aed63feeb87ac60dbcfb54f2a1cbfc6b/web/xsl/html-dctype.xsl#LC133
 	[2] http://github.com/dublincore/website/blob/16f695c7aed63feeb87ac60dbcfb54f2a1cbfc6b/web/xsl/html-dcmiterms.xsl#LC343
 	-->
+<!-- gk: this should really by @typeof on the element -->
 <xsl:template match="Type-of-Term">
-	<xsl:call-template name="fragmentCheckingRow" />
+	<xsl:call-template name="fragmentCheckingRow">
+    <xsl:with-param name="property">rdf:type</xsl:with-param>
+  </xsl:call-template>
 </xsl:template>
 
 <!-- this has to have its own mode because its output (empty <span/>) can't be positioned between table rows, so output position needs to be controlled -->
 <!-- NB important to maintain these elements' matches in default mode as well so they aren't processed as table rows -->
-<xsl:template match="Date-Modified | Date-Issued" mode="content">
-	<span>
+<xsl:template match="Date-Modified" mode="content">
+	<time>
 		<xsl:apply-templates select="key('map',local-name())" />
-		<xsl:attribute name="content">
+    <xsl:attribute name="property">dcterms:modfified</xsl:attribute>
+		<xsl:attribute name="datetime">
 			<xsl:apply-templates />
 		</xsl:attribute>
-	</span>
+	</time>
+</xsl:template>
+<xsl:template match="Date-Issued" mode="content">
+	<time>
+		<xsl:apply-templates select="key('map',local-name())" />
+    <xsl:attribute name="property">dcterms:issued</xsl:attribute>
+		<xsl:attribute name="datetime">
+			<xsl:apply-templates />
+		</xsl:attribute>
+	</time>
 </xsl:template>
 
 </xsl:transform>

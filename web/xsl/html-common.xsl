@@ -93,6 +93,66 @@
 			<xsl:choose>
 				<xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
 					<a>
+            <!-- gk: this should use mappings -->
+            <xsl:choose>
+              <xsl:when test="local-name()='Name'">
+                <xsl:attribute name="property">dcterms:name</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='URI'">
+                <xsl:attribute name="property">rdfs:identifier</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Label'">
+                <xsl:attribute name="property">rdfs:label</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Definition'">
+                <xsl:attribute name="property">dcterms:description</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Comment'">
+                <xsl:attribute name="property">rdfs:comment</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Member-Of'">
+                <xsl:attribute name="property">dcam:memberOf</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Version'">
+                <xsl:attribute name="property">dcterms:hasVersion</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Replaces'">
+                <xsl:attribute name="property">dcterms:replaces</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Refines'">
+                <xsl:attribute name="property">rdfs:subPropertyOf</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Narrower-Than'">
+                <xsl:attribute name="property">rdfs:subClassOf</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Is-Replaced-By'">
+                <xsl:attribute name="property">dcterms:isReplacedBy</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Namespace'">
+                <xsl:attribute name="property">rdfs:isDefinedBy</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Has-Domain'">
+                <xsl:attribute name="property">rdfs:domain</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Has-Range'">
+                <xsl:attribute name="property">rdfs:range</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='See'">
+                <xsl:attribute name="property">rdfs:seeAlso</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Note'">
+                <xsl:attribute name="property">skos:note</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Instance-Of'">
+                <xsl:attribute name="property">rdf:type</xsl:attribute>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message>
+                  <xsl:text>Missing mapping for </xsl:text>
+                  <xsl:value-of select="local-name()"/>
+                </xsl:message>
+              </xsl:otherwise>
+            </xsl:choose>
 						<xsl:attribute name="href">
 							<xsl:apply-templates />
 						</xsl:attribute>
@@ -118,12 +178,13 @@
 
 <xsl:template name="fragmentCheckingRow">
 	<xsl:param name="context" select="." />
+  <xsl:param name="property" />
 	<tr class="attribute">
 		<th scope="row">
 			<xsl:value-of select="translate(local-name($context), '-', ' ')"/>:
 		</th>
 		<td axis="{local-name($context)}">
-			<a>
+			<a property="{$property}">
 				<xsl:attribute name="href">
 					<xsl:apply-templates select="$context/node()" />
 				</xsl:attribute>

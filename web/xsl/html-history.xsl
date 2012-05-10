@@ -5,23 +5,18 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
-	xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:dcam="http://purl.org/dc/dcam/"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema#"
-	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	>
 
 <xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
 	
+<!-- gk: HTML5 really shouldn't have either system or public DOCTYPE elements, but removing these results in no DOCTYPE -->
 <xsl:output
 	method="xml"
 	indent="yes"
 	version="1.0"
 	encoding="utf-8"
-	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"
-	doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN"
+	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd"
+	doctype-public="-//W3C//DTD XHTML+RDFa 1.1//EN"
 	/>
 
 <xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
@@ -57,7 +52,7 @@
 <xsl:include href="html-common.xsl" />
 
 <xsl:template match="/">
-	<html version="XHTML+RDFa 1.0">
+	<html prefix="dcam: http://purl.org/dc/dcam/" lang="en">
 		<head>
 			<title>
 				<xsl:apply-templates select="H1/Title"/>
@@ -90,7 +85,8 @@
 				]]>
 			</style>
 			<!-- TODO: a feed autodiscovery link in here? -->
-		</head>	
+		</head>
+    <!-- gk: this should have a resource defining the top-level IRI -->	
 		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
 			<!-- CHECKME: no H1 for this page? -->
@@ -125,9 +121,9 @@
 	</xsl:apply-templates>
 </xsl:template>
 
-<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @about, and it doesn't need to invoke templates in content mode -->
+<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @resource, and it doesn't need to invoke templates in content mode -->
 <xsl:template match="term">
-	<tbody id="{Anchor}" class="term" about="{Version}">
+	<tbody id="{Anchor}" class="term" resource="{Version}">
 		<tr>
 			<th colspan="2" scope="rowgroup">
 				<xsl:text>Term Name: </xsl:text>

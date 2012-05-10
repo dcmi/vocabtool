@@ -7,7 +7,7 @@
     doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
     doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
 
-<xsl:include href="../../2008-01-14/headers/intro.dcmi-terms.xsl"/>
+<xsl:include href="../../2012-05-14/headers/intro.dcmi-terms.xsl"/>
 		
 <xsl:param name="todaysDate" select="' '"/>
 

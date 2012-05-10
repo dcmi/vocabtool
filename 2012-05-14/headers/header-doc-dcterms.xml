@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+
+<H1>
+    <Title>DCMI Metadata Terms</Title>
+    <Creator label="DCMI Usage Board">DCMI Usage Board</Creator>
+
+    <Identifier>http://dublincore.org/documents/2012/05/14/dcmi-terms/</Identifier>
+    <Date-Issued>2012-05-14</Date-Issued>
+   
+    <Latest-Version>http://dublincore.org/documents/dcmi-terms/</Latest-Version>
+	<Replaces>http://dublincore.org/documents/2010/10/11/dcmi-terms/</Replaces>
+		
+    <Translations>http://dublincore.org/resources/translations/</Translations>
+    <Document-Status>This is a DCMI Recommendation.</Document-Status>
+
+    <Description>This document is an up-to-date specification of all metadata terms maintained by the Dublin Core Metadata Initiative, including properties, vocabulary encoding schemes, syntax encoding schemes, and classes.</Description>
+		
+</H1>
+

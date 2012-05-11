@@ -5,7 +5,7 @@
 	<Creator property="dcterms:creator" label="DCMI Usage Board">mailto:dc-usage@jiscmail.ac.uk</Creator>
 
 	<Identifier property="dcterms:identifier">http://dublincore.org/documents/2008/01/14/dcmi-terms/</Identifier>
-	<Date-Issued property="dcterms:issued" datatype="xs:date">2008-01-14</Date-Issued>
+	<Date-Issued><time property="dcterms:issued">2008-01-14</time></Date-Issued>
 
 	<Latest-Version property="dcterms:isVersionOf">http://dublincore.org/documents/dcmi-terms/</Latest-Version>
 	<Replaces property="dcterms:replaces">http://dublincore.org/documents/2006/12/18/dcmi-terms/</Replaces>

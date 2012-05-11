@@ -5,15 +5,15 @@
     <property file="${user.home}/build.properties"/>
     <property name="base_dir" value="${user.dir}"/>
 
-    <property name="archive.dir" value="${base_dir}/2008-01-14"/>
+    <property name="archive.dir" value="${base_dir}/2012-05-14"/>
     <property name="xml.dir" value="${archive.dir}/xmldata"/>
     <property name="xsl.dir" value="${base_dir}/web/xsl"/>
     <property name="header.dir" value="${archive.dir}/headers"/>
     <property name="result.dir" value="${base_dir}/build"/>
     <property name="html.dir" value="${base_dir}/build/html"/>
     <property name="dcmiterms.dir" value="${base_dir}/build/html/dcmi-terms"/>
-    <property name="dcmitypes.dir" value="${base_dir}/build/html/dcmi-types"/>
-    <property name="history.dir" value="${base_dir}/build/html/history"/>
+    <!--property name="dcmitypes.dir" value="${base_dir}/build/html/dcmi-types"/>
+    <property name="history.dir" value="${base_dir}/build/html/history"/ -->
 
     <!--
 	you can specify xml:lang using 'language' property.
@@ -25,7 +25,10 @@
     <tstamp/>
     <property name="xsltp" value="org.apache.xalan.xslt.Process"/>
 
+    <!-- only implement htmldcmiterms
     <target name="generate" depends="dcam,dcelements,dctype,dcterms,htmldcmiterms,htmldctype,htmlhistory" description="generate DCES, DCQ and DCMIType Vocabulary"/>
+     -->
+    <target name="generate" depends="htmldcmiterms" description="generate DCES, DCQ and DCMIType Vocabulary"/>
 
     <!-- new targets -->
 

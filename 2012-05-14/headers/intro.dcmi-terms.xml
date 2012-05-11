@@ -1,11 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
-<xsl:stylesheet version="1.0"	
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<xsl:template name="terms_intro">
+<!-- this <head/> is a stub to allow the <body/> to exist within a valid XHTML document -->
+<head>
+	<title>Dublin Core Metadata Initiative terms</title> <!-- not expected to be rendered: included to make the document valid -->
+</head>
 
-<p>This document is an up-to-date, authoritative specification
+<body>
+
+	<div id="introduction">
+	<p>This document is an up-to-date, authoritative specification
 of all metadata terms maintained by the Dublin Core Metadata
 Initiative.  Included are the fifteen terms of the Dublin Core
 Metadata Element Set, which have also been published as IETF
@@ -141,55 +146,56 @@ href="#TRANSLATIONS">TRANSLATIONS</a>].</p>
 <table width="95%" border="0" align="center">
 
 <tr><td width="20%">
-<a name="DCAM"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[DCAM]
+<a name="DCAM">&#x00A0;</a>[DCAM]
 </td><td width="80%">
 <a href="/documents/2007/06/04/abstract-model/">http://dublincore.org/documents/2007/06/04/abstract-model/</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="HISTORY"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[HISTORY]
+<a name="HISTORY">&#x00A0;</a>[HISTORY]
 </td><td width="80%">
 <a href="/usage/terms/history/">http://dublincore.org/usage/terms/history/</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="ISO15836"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[ISO15836]
+<a name="ISO15836">&#x00A0;</a>[ISO15836]
 </td><td width="80%">
 <a href="http://www.iso.org/iso/search.htm?qt=15836&amp;searchSubmit=Search&amp;sort=rel&amp;type=simple&amp;published=on">http://www.iso.org/iso/search.htm?qt=15836&amp;searchSubmit=Search&amp;sort=rel&amp;type=simple&amp;published=on</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="NAMESPACE"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[NAMESPACE]
+<a name="NAMESPACE">&#x00A0;</a>[NAMESPACE]
 </td><td width="80%">
 <a href="/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="NISOZ3985"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[NISOZ3985]
+<a name="NISOZ3985">&#x00A0;</a>[NISOZ3985]
 </td><td width="80%">
 <a href="http://www.niso.org/standards/z39-85-2007/">http://www.niso.org/standards/z39-85-2007/</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="REVISIONS"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[REVISIONS]
+<a name="REVISIONS">&#x00A0;</a>[REVISIONS]
 </td><td width="80%">
 <a href="/usage/decisions/2012/dcterms-changes/">http://dublincore.org/usage/decisions/2012/dcterms-changes/</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="RFC5013"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[RFC5013]
+<a name="RFC5013">&#x00A0;</a>[RFC5013]
 </td><td width="80%">
 <a href="http://www.ietf.org/rfc/rfc5013.txt">http://www.ietf.org/rfc/rfc5013.txt</a>
 </td></tr>
 
 <tr><td width="20%">
-<a name="TRANSLATIONS"><xsl:text disable-output-escaping='yes'>&amp;nbsp;</xsl:text></a>[TRANSLATIONS]
+<a name="TRANSLATIONS">&#x00A0;</a>[TRANSLATIONS]
 </td><td width="80%">
 <a href="/resources/translations/">http://dublincore.org/resources/translations/</a>
 </td></tr>
 
 
 </table>
-</xsl:template>
-</xsl:stylesheet>
+</div>
+</body>
+</html>
 

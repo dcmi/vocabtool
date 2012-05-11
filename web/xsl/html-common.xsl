@@ -36,8 +36,7 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
+								<xsl:apply-templates select="@property" />
 								<xsl:value-of select="@label"/>
 							</a>
 						</xsl:when>
@@ -46,13 +45,18 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
+								<xsl:apply-templates select="@property" />
 								<xsl:apply-templates />
 							</a>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:when>
+        <xsl:when test="local-name()='Date-Issued'">
+          <time>
+						<xsl:apply-templates select="@property" />
+						<xsl:apply-templates />
+          </time>
+        </xsl:when>
 				<xsl:otherwise>
 					<xsl:copy-of select="@*" />
 					<xsl:apply-templates />
@@ -62,23 +66,12 @@
 	</tr>
 </xsl:template>
 
-<xsl:template match="@property" mode="rel">
-	<xsl:attribute name="rel">
-		<xsl:apply-templates />
-	</xsl:attribute>
-</xsl:template>
-
 <xsl:template match="@property | @datatype">
 	<xsl:copy />
 </xsl:template>
 
 <xsl:template match="match">
 	<xsl:apply-templates select="@property" />
-	<xsl:apply-templates select="@datatype" />
-</xsl:template>
-
-<xsl:template match="match" mode="rel">
-	<xsl:apply-templates select="@property" mode="rel" />
 	<xsl:apply-templates select="@datatype" />
 </xsl:template>
 
@@ -95,20 +88,10 @@
 					<a>
             <!-- gk: this should use mappings -->
             <xsl:choose>
-              <xsl:when test="local-name()='Name'">
-                <xsl:attribute name="property">dcterms:name</xsl:attribute>
-              </xsl:when>
               <xsl:when test="local-name()='URI'">
+                <!-- gk: this is redundant with the subject URI
                 <xsl:attribute name="property">rdfs:identifier</xsl:attribute>
-              </xsl:when>
-              <xsl:when test="local-name()='Label'">
-                <xsl:attribute name="property">rdfs:label</xsl:attribute>
-              </xsl:when>
-              <xsl:when test="local-name()='Definition'">
-                <xsl:attribute name="property">dcterms:description</xsl:attribute>
-              </xsl:when>
-              <xsl:when test="local-name()='Comment'">
-                <xsl:attribute name="property">rdfs:comment</xsl:attribute>
+                -->
               </xsl:when>
               <xsl:when test="local-name()='Member-Of'">
                 <xsl:attribute name="property">dcam:memberOf</xsl:attribute>
@@ -140,11 +123,11 @@
               <xsl:when test="local-name()='See'">
                 <xsl:attribute name="property">rdfs:seeAlso</xsl:attribute>
               </xsl:when>
-              <xsl:when test="local-name()='Note'">
-                <xsl:attribute name="property">skos:note</xsl:attribute>
-              </xsl:when>
               <xsl:when test="local-name()='Instance-Of'">
                 <xsl:attribute name="property">rdf:type</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Broader-Than'">
+                <!-- no semantic markup -->
               </xsl:when>
               <xsl:otherwise>
                 <xsl:message>
@@ -156,7 +139,7 @@
 						<xsl:attribute name="href">
 							<xsl:apply-templates />
 						</xsl:attribute>
-						<xsl:apply-templates select="key('map',local-name())" mode="rel" />
+						<xsl:apply-templates select="key('map',local-name())" />
 						<xsl:choose>
 							<xsl:when test="@label">
 								<xsl:value-of select="@label"/>
@@ -168,6 +151,36 @@
 					</a>
 				</xsl:when>
 				<xsl:otherwise>
+            <!-- gk: this should use mappings -->
+            <xsl:choose>
+              <xsl:when test="local-name()='Name'">
+                <xsl:attribute name="property">dcterms:name</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Label'">
+                <xsl:attribute name="property">rdfs:label</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Definition'">
+                <xsl:attribute name="property">dcterms:description</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Comment'">
+                <xsl:attribute name="property">rdfs:comment</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Version'">
+                <xsl:attribute name="property">dcterms:hasVersion</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='Note'">
+                <xsl:attribute name="property">skos:note</xsl:attribute>
+              </xsl:when>
+              <xsl:when test="local-name()='References'">
+                <!-- no semantic markup -->
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message>
+                  <xsl:text>Missing mapping for </xsl:text>
+                  <xsl:value-of select="local-name()"/>
+                </xsl:message>
+              </xsl:otherwise>
+            </xsl:choose>
 					<xsl:apply-templates select="key('map',local-name())" />
 					<xsl:apply-templates />
 				</xsl:otherwise>
@@ -188,7 +201,7 @@
 				<xsl:attribute name="href">
 					<xsl:apply-templates select="$context/node()" />
 				</xsl:attribute>
-				<xsl:apply-templates select="key('map',local-name($context))" mode="rel" />
+				<xsl:apply-templates select="key('map',local-name($context))" />
 				<xsl:choose>
 					<xsl:when test="contains($context/text(), '#')">
 						<xsl:value-of select="substring-after($context/text(), '#')"/>

@@ -248,7 +248,7 @@
 					<xsl:value-of select="Name"/>
 				</span>
 				<!-- FIXME: really can't work out why I should need to populate @select here. Would be more robust without it. If I leave it out, the text contents of every other <term/> child node are output. halp! -->
-				<xsl:apply-templates select="Date-Modified | Date-Issued" mode="content" />
+				<xsl:apply-templates select="Date-Modified | Date-Issued | Namespace" mode="content" />
 			</th>
 		</tr>
 		<xsl:apply-templates />

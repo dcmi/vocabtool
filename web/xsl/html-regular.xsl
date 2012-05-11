@@ -39,21 +39,31 @@
 <!-- NB important to maintain these elements' matches in default mode as well so they aren't processed as table rows -->
 <xsl:template match="Date-Modified" mode="content">
 	<time>
-		<xsl:apply-templates select="key('map',local-name())" />
     <xsl:attribute name="property">dcterms:modfified</xsl:attribute>
 		<xsl:attribute name="datetime">
 			<xsl:apply-templates />
 		</xsl:attribute>
+		<xsl:apply-templates select="key('map',local-name())" />
+    <xsl:text> </xsl:text>
 	</time>
 </xsl:template>
 <xsl:template match="Date-Issued" mode="content">
 	<time>
-		<xsl:apply-templates select="key('map',local-name())" />
     <xsl:attribute name="property">dcterms:issued</xsl:attribute>
 		<xsl:attribute name="datetime">
 			<xsl:apply-templates />
 		</xsl:attribute>
+		<xsl:apply-templates select="key('map',local-name())" />
+    <xsl:text> </xsl:text>
 	</time>
+</xsl:template>
+<xsl:template match="Namespace" mode="content">
+  <link>
+    <xsl:attribute name="property">rdfs:isDefinedBy</xsl:attribute>
+    <xsl:attribute name="href">
+			<xsl:apply-templates />
+    </xsl:attribute>
+  </link>
 </xsl:template>
 
 </xsl:transform>

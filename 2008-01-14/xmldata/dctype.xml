@@ -2,6 +2,10 @@
 
 <dc>
 
+<include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
+
+<heading>DCMI Type Vocabulary</heading>
+
 <term>
     <Anchor>Collection-003</Anchor>
     <URI>http://purl.org/dc/dcmitype/Collection</URI>

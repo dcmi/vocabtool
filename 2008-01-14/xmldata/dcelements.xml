@@ -2,6 +2,10 @@
 
 <dc>
 
+<include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
+
+<heading>Properties in the legacy <abbr xmlns="http://www.w3.org/1999/xhtml" title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</heading>
+
 <term>
     <Anchor>title-006</Anchor>
     <URI>http://purl.org/dc/elements/1.1/title</URI>

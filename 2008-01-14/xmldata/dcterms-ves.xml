@@ -2,6 +2,10 @@
 
 <dc>
 
+<include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
+
+<heading>Vocabulary Encoding Schemes</heading>
+
 <term>
     <Anchor>LCSH-003</Anchor>
     <URI>http://purl.org/dc/terms/LCSH</URI>

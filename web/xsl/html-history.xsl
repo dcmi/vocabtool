@@ -1,219 +1,158 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="utf-8" ?>
 
-<xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:transform
+	version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	>
+
+<xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
 	
-<xsl:output method="xml" indent="yes" encoding="UTF-8"
-  doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-  doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" />
+<!-- gk: HTML5 really shouldn't have either system or public DOCTYPE elements, but removing these results in no DOCTYPE -->
+<xsl:output
+	method="xml"
+	indent="yes"
+	version="1.0"
+	encoding="utf-8"
+	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd"
+	doctype-public="-//W3C//DTD XHTML+RDFa 1.1//EN"
+	/>
 
-<xsl:include href="../../2012-05-14/headers/intro.history.xsl"/>
+<xsl:param name="todaysDate" select="substring-before(document('http://xobjex.com/service/date.xsl')/date/utc/@stamp,'T')"/>
 
-<xsl:param name="todaysDate" select="''"/>
-<xsl:param name="section1" select="''"/>
-<xsl:param name="section2" select="''"/>
-<xsl:param name="section3" select="''"/>
-<xsl:param name="section4" select="''"/>
-<xsl:param name="section5" select="''"/>
-<xsl:param name="section6" select="''"/>
-<xsl:param name="section7" select="''"/>
+<xsl:param name="datestamp.dir" select="concat('../../',$todaysDate)" />
+<xsl:param name="sect.dir" select="concat($datestamp.dir,'/xmldata')" />
+<xsl:param name="intro.file" select="concat($datestamp.dir,'/headers/intro.history.xml')" />
 
-<xsl:variable name="sec1-doc" select="document($section1)"/>
-<xsl:variable name="sec2-doc" select="document($section2)"/>
-<xsl:variable name="sec3-doc" select="document($section3)"/>
-<xsl:variable name="sec4-doc" select="document($section4)"/>
-<xsl:variable name="sec5-doc" select="document($section5)"/>
-<xsl:variable name="sec6-doc" select="document($section6)"/>
-<xsl:variable name="sec7-doc" select="document($section7)"/>
+<xsl:param name="section1"	select="concat($sect.dir,'/dcterms-properties.xml')" />
+<xsl:param name="section2"	select="concat($sect.dir,'/dcelements.xml')" />
+<xsl:param name="section3"	select="concat($sect.dir,'/dcterms-ves.xml')" />
+<xsl:param name="section4"	select="concat($sect.dir,'/dcterms-ses.xml')" />
+<xsl:param name="section5"	select="concat($sect.dir,'/dcterms-classes.xml')" />
+<xsl:param name="section6"	select="concat($sect.dir,'/dctype.xml')" />
+<xsl:param name="section7"	select="concat($sect.dir,'/dcam.xml')" />
+
+<xsl:param name="test.hostname" /> <!-- set to "http://dublincore.org" to use its CSS when testing -->
+
+<xsl:variable name="sec1-doc" select="document($section1)" />
+<xsl:variable name="sec2-doc" select="document($section2)" />
+<xsl:variable name="sec3-doc" select="document($section3)" />
+<xsl:variable name="sec4-doc" select="document($section4)" />
+<xsl:variable name="sec5-doc" select="document($section5)" />
+<xsl:variable name="sec6-doc" select="document($section6)" />
+<xsl:variable name="sec7-doc" select="document($section7)" />
+
+<xsl:variable name="intro" select="document($intro.file)" />
+
+<!-- <xsl:variable name="mappings" select="document(concat($sect.dir,'/mappings.xml'))" /> -->
+
+<xsl:key name="map" match="match[not(../@context) or ../@context='history']" use="@element" />
+
+<xsl:include href="html-common.xsl" />
 
 <xsl:template match="/">
-  <html>
-    <head>
-      <title>
-	<xsl:value-of select="H1/Title"/>
-      </title>
-      <xsl:text disable-output-escaping='yes'>&lt;!--#exec cgi="/cgi-bin/metawriter.cgi" --&gt;</xsl:text>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-      <link rel="meta" href="index.shtml.rdf" />
-      <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    </head>	
-    <body>
-      <xsl:text disable-output-escaping='yes'>&lt;!--#include virtual="/ssi/header.shtml" --&gt;</xsl:text>
-      <xsl:call-template name="print-body"/>
-      <xsl:text disable-output-escaping='yes'>&lt;!--#include virtual="/ssi/footer.shtml" --&gt;</xsl:text>
-    </body>
-  </html>
+	<html prefix="dcam: http://purl.org/dc/dcam/" lang="en">
+		<head>
+			<title>
+				<xsl:apply-templates select="H1/Title"/>
+			</title>
+			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<link rel="meta" href="index.shtml.rdf" />
+			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
+			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
+				<![CDATA[
+				tr.attribute th {
+					background-color: #fff;
+				}
+				table.legend,
+				table.references {
+					margin-left: 2.5%;
+					margin-right: 2.5%;
+					width: 95%;
+					table-layout: fixed;
+					border-width: 0;
+					}
+				.legend th.label,
+				.references th.abbrev {
+					width: 20%;
+				}
+				.legend td.definition,
+				.references td.citation {
+					width: 80%;
+				}
+				]]>
+			</style>
+			<!-- TODO: a feed autodiscovery link in here? -->
+		</head>
+    <!-- gk: this should have a resource defining the top-level IRI -->	
+		<body>
+			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
+			<!-- CHECKME: no H1 for this page? -->
+			<xsl:apply-templates select="H1" mode="docinfo" />
+			<xsl:apply-templates select="$intro/xhtml:html" />
+			<xsl:call-template name="sectionsTable" />
+			<xsl:comment>#include virtual="/ssi/footer.shtml" </xsl:comment>
+		</body>
+	</html>
 </xsl:template>
 
-<xsl:template name="print-body">
-  <table cellspacing="0" class="docinfo">	 
-    <xsl:for-each select="H1/*">
-      <xsl:call-template name="print_heading">
-	<xsl:with-param name="elem" select="local-name()"/>
-	<xsl:with-param name="label" select="@label"/>
-	<xsl:with-param name="value" select="."/>
-      </xsl:call-template>
-    </xsl:for-each>
-    <!--
-    <tr>
-      <th>Date Valid:</th>
-      <td><xsl:value-of select="$todaysDate"/></td>
-    </tr>
-    -->
-  </table>
-
-  <xsl:call-template name="history_intro"/>
-
-  <table cellspacing="0" class="border">
-    <xsl:apply-templates select="$sec1-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec2-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec3-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec4-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec5-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec6-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-    <xsl:apply-templates select="$sec7-doc/dc/term">
-      <xsl:sort select="./Name"/>
-    </xsl:apply-templates>
-  </table>
+<xsl:template match="xhtml:html">
+	<xsl:copy-of select="xhtml:body/*" />
 </xsl:template>
 
-<xsl:template name="print_heading">
-  <xsl:param name="elem"/>
-  <xsl:param name="label"/>
-  <xsl:param name="value"/>
-  <tr>
-    <th><xsl:value-of select="translate($elem, '-', ' ')"/>:</th>
-    <td>
-      <xsl:choose>
-	<xsl:when test="(starts-with($value, 'http://')) or (starts-with($value, 'mailto:'))">
-	  <xsl:choose>
-	    <xsl:when test="$label">
-	      <a>
-		<xsl:attribute name="href">
-		  <xsl:value-of select="$value"/>
-		</xsl:attribute>
-		<xsl:value-of select="$label"/>
-	      </a>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <a>
-		<xsl:attribute name="href">
-		  <xsl:value-of select="$value"/>
-		</xsl:attribute>
-		<xsl:value-of select="$value"/>
-	      </a>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:choose>
-	    <xsl:when test="$elem='Title'">
-	      <xsl:value-of select="$value"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:value-of select="$value"/>
-	    </xsl:otherwise>
-	  </xsl:choose>	
-	</xsl:otherwise>
-      </xsl:choose>
-    </td>
-  </tr>
+<xsl:template name="sectionsTable">
+	<table cellspacing="0" class="border">
+		<xsl:apply-templates select="$sec1-doc/dc" />
+		<xsl:apply-templates select="$sec2-doc/dc" />
+		<xsl:apply-templates select="$sec3-doc/dc" />
+		<xsl:apply-templates select="$sec4-doc/dc" />
+		<xsl:apply-templates select="$sec5-doc/dc" />
+		<xsl:apply-templates select="$sec6-doc/dc" />
+		<xsl:apply-templates select="$sec7-doc/dc" />
+	</table>
 </xsl:template>
 
+<xsl:template match="dc">
+	<!-- CHECKME: can't see the point of sorting these by name within classifications, especially if no headings are output -->
+	<xsl:apply-templates select="term">
+		<xsl:sort select="Name"/>
+	</xsl:apply-templates>
+</xsl:template>
+
+<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @resource, and it doesn't need to invoke templates in content mode -->
 <xsl:template match="term">
-  <tr>
-    <th colspan="2">
-      <a>
-	<xsl:attribute name="name">
-	  <xsl:value-of select="Anchor"/>
-	</xsl:attribute>
-      </a>
-      <xsl:text disable-output-escaping='yes'> </xsl:text>
-      <xsl:value-of select="'Term Name: '"/>
-      <xsl:text disable-output-escaping='yes'> </xsl:text>
-      <xsl:value-of select="Name"/>
-    </th>
-  </tr>
-  <xsl:for-each select="descendant::node()">
-    <xsl:choose>
-      <xsl:when test="local-name() = ''"/>
-      <xsl:when test="local-name() = 'Anchor'"/>
-      <xsl:when test="local-name() = 'Name'"/>
-      <xsl:when test="(local-name() = 'Version') or
-		      (local-name() = 'Type-of-Term') or
-		      (local-name() = 'Status') or
-		      (local-name() = 'Decision') or
-		      (local-name() = 'Replaces') or
-		      (local-name() = 'Is-Replaced-By')">
-	<tr>
-	  <td>
-	    <xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-	  </td>
-	  <td>
-	    <a>
-	      <xsl:attribute name="href">
-		<xsl:value-of select="."/>
-	      </xsl:attribute>
-	      <xsl:choose>
-		<xsl:when test="contains(., '#')">
-		  <xsl:value-of select="substring-after(., '#')"/>
-		</xsl:when>
-		<xsl:otherwise>
-		  <xsl:value-of select="."/>
-		</xsl:otherwise>
-	      </xsl:choose>
-	    </a>
-	  </td>
-	</tr>
-      </xsl:when>
-      <xsl:otherwise>
-	<tr>
-	  <td>
-	    <xsl:value-of select="translate(local-name(), '-', ' ')"/>:
-	  </td>
-	  <td>
-	    <xsl:choose>
-	      <xsl:when test="(starts-with(., 'http://')) or (starts-with(., 'mailto:'))">
-		<xsl:choose>
-		  <xsl:when test="@label">
-		    <a>
-		      <xsl:attribute name="href">
-			<xsl:value-of select="."/>
-		      </xsl:attribute>
-		      <xsl:value-of select="@label"/>
-		    </a>
-		  </xsl:when>
-		  <xsl:otherwise>
-		    <a>
-		      <xsl:attribute name="href">
-			<xsl:value-of select="."/>
-		      </xsl:attribute>
-		      <xsl:value-of select="."/>
-		    </a>
-		  </xsl:otherwise>
-		</xsl:choose>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:value-of select="."/>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </td>
-	</tr>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:for-each>
+	<tbody id="{Anchor}" class="term" resource="{Version}">
+		<tr>
+			<th colspan="2" scope="rowgroup">
+				<xsl:text>Term Name: </xsl:text>
+				<xsl:text disable-output-escaping="yes">&amp;nbsp;&amp;nbsp;</xsl:text>
+				<span>
+					<xsl:apply-templates select="key('map','Name')" />
+					<xsl:value-of select="Name"/>
+				</span>
+			</th>
+		</tr>
+		<xsl:apply-templates />
+	</tbody>
 </xsl:template>
 
-</xsl:stylesheet>
+<xsl:template match="Version
+	| Type-of-Term
+	| Status
+	| Decision
+	| Replaces
+	| Is-Replaced-By
+	"
+	>
+	<xsl:call-template name="fragmentCheckingRow" />
+</xsl:template>
+
+<!-- skip processing these ones -->
+<xsl:template match="Anchor
+	| Name
+	"
+	/>
+
+</xsl:transform>

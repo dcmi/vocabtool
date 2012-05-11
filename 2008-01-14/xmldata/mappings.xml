@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+
+<!-- again, this file should possibly live outside the dated directories -->
+<mappings>
+
+	<map>
+		<match element="Name" property="dcterms:title" />
+		<match element="URI" property="rdfs:identifier" />
+		<match element="Label" property="rdfs:label" />
+		<match element="Definition" property="dcterms:description" />
+		<match element="Comment" property="rdfs:comment" />
+		<match element="Type-of-Term" property="rdf:type" />
+		<match element="Member-Of" property="dcam:memberOf" />
+		<match element="Version" property="dcterms:hasVersion" />
+		<match element="Date-Issued" property="dcterms:issued" datatype="xs:date" />
+		<match element="Date-Modified" property="dcterms:modified" datatype="xs:date" />
+		<match element="Replaces" property="dcterms:replaces" />
+		<match element="Is-Replaced-By" property="dcterms:isReplacedBy" />
+		<match element="Namespace" property="rdfs:isDefinedBy" />
+		<match element="Has-Domain" property="rdfs:domain" />
+		<match element="Has-Range" property="rdfs:range" />
+		<match element="See" property="rdfs:seeAlso" />
+		<match element="Note" property="skos:note" />
+		<match element="Instance-Of" property="rdf:type" />
+		<!-- many of these taken from Tom's comments in common-templates.xsl -->
+	</map>
+
+	<map context="history">
+		<match element="URI" property="dcterms:isVersionOf rdfs:Class" /> <!-- CHECKME: isVersionOf was mine, rdfs:Class from Tom's comment ?? -->
+		<match element="Version" property="dcterms:identifier" />
+	</map>
+
+</mappings>

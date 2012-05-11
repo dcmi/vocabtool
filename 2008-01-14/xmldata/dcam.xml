@@ -2,6 +2,10 @@
 
 <dc>
 
+<include xmlns="http://www.w3.org/2001/XInclude" href="mappings.xml" />
+
+<heading>Terms related to the DCMI Abstract Model</heading>
+
 <term>
     <Anchor>memberOf-002</Anchor>
     <Name>memberOf</Name>

@@ -5,9 +5,10 @@
     <property file="${user.home}/build.properties"/>
     <property name="base_dir" value="${user.dir}"/>
 
-    <property name="xml.dir" value="${base_dir}/2012-05-14/xmldata"/>
+    <property name="archive.dir" value="${base_dir}/2008-01-14"/>
+    <property name="xml.dir" value="${archive.dir}/xmldata"/>
     <property name="xsl.dir" value="${base_dir}/web/xsl"/>
-    <property name="header.dir" value="${base_dir}/2012-05-14/headers"/>
+    <property name="header.dir" value="${archive.dir}/headers"/>
     <property name="result.dir" value="${base_dir}/build"/>
     <property name="html.dir" value="${base_dir}/build/html"/>
     <property name="dcmiterms.dir" value="${base_dir}/build/html/dcmi-terms"/>
@@ -48,7 +49,7 @@
 	<xslt in="${xml.dir}/dctype.xml" out="${result.dir}/dctype.rdf" style="${xsl.dir}/dctype.xsl">
 	    <param name="language"		expression="${language}" />
 	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-        <param name="header"        expression="${header.dir}/header-rdf-dctype.xml" />
+	    <param name="header"		expression="${header.dir}/header-rdf-dctype.xml" />
 	</xslt>
     </target>
 
@@ -63,40 +64,29 @@
 	</xslt>
     </target>
     
+	<!-- CHECKME: the version of xsltproc I am using to test this requires a doubledash-xinclude command line argument to support XInclude.
+		Just in case this is also required in the XSLT processor used to run this ant script (xalan), it will need to be passed in somewhere around here -->
     <target name="htmldcmiterms" depends="prepare">
 	<xslt in="${header.dir}/header-doc-dcterms.xml" out="${dcmiterms.dir}/index.shtml" style="${xsl.dir}/html-dcmiterms.xsl">
-	    <param name="hfn"		expression="../xml/header.dcmi-terms.shtml" />
-	    <param name="todayDate"	expression="${DSTAMP}" />
-	    <param name="section1"	expression="${header.dir}/intro.dcmi-terms.xsl" />
-	    <param name="section2"	expression="${xml.dir}/dcterms-properties.xml" />
-	    <param name="section3"	expression="${xml.dir}/dcelements.xml" />
-	    <param name="section4"	expression="${xml.dir}/dcterms-ves.xml" />
-	    <param name="section5"	expression="${xml.dir}/dcterms-ses.xml" />
-	    <param name="section6"	expression="${xml.dir}/dcterms-classes.xml" />
-	    <param name="section7"	expression="${xml.dir}/dctype.xml" />
-	    <param name="section8"	expression="${xml.dir}/dcam.xml" />
+		<param name="todaysDate"	expression="${DSTAMP}" />
+    	<param name="datestamp.dir" expression="${archive.dir}" />
 	</xslt>
     </target>
     
+	<!-- FIXME: refer comment above target "htmldcmiterms" above -->
     <target name="htmldctype" depends="prepare">
 	<xslt in="${xml.dir}/dctype.xml" out="${dcmitypes.dir}/index.shtml" style="${xsl.dir}/html-dctype.xsl">
-	    <param name="ns"		expression="http://purl.org/dc/dcmitype/" />
-	    <param name="tt"		expression="http://dublincore.org/usage/documents/principles/#vocabulary-term"/>
-	    <param name="todayDate"	expression="${DSTAMP}" />
-	    <param name="header"	expression="${header.dir}/header-doc-dctype.xml" />
+	    <!-- <param name="ns"		expression="http://purl.org/dc/dcmitype/" /> -->
+	    <!-- <param name="header"	expression="${header.dir}/header-doc-dctype.xml" /> -->
+		<param name="datestamp.dir" expression="${archive.dir}" />
 	</xslt>
     </target>
 
+	<!-- FIXME: refer comment above target "htmldcmiterms" above -->
     <target name="htmlhistory" depends="prepare">
 	<xslt in="${header.dir}/header-doc-history.xml" out="${history.dir}/index.shtml" style="${xsl.dir}/html-history.xsl">
-	    <param name="todayDate"	expression="${DSTAMP}" />
-	    <param name="section1"	expression="${xml.dir}/dcterms-properties.xml" />
-	    <param name="section2"	expression="${xml.dir}/dcelements.xml" />
-	    <param name="section3"	expression="${xml.dir}/dcterms-ves.xml" />
-	    <param name="section4"	expression="${xml.dir}/dcterms-ses.xml" />
-	    <param name="section5"	expression="${xml.dir}/dcterms-classes.xml" />
-	    <param name="section6"	expression="${xml.dir}/dctype.xml" />
-	    <param name="section7"	expression="${xml.dir}/dcam.xml" />
+		<param name="todaysDate"	expression="${DSTAMP}" />
+    	<param name="datestamp.dir" expression="${archive.dir}" />
 	</xslt>
     </target>
     

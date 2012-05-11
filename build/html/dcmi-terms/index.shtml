@@ -444,6 +444,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-abstract" class="term" resource="http://purl.org/dc/terms/abstract">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>abstract</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -489,20 +491,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -516,6 +506,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accessRights" class="term" resource="http://purl.org/dc/terms/accessRights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accessRights</span>
+<time property="dcterms:issued" datetime="2003-02-15"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -566,20 +558,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2003-02-15</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -600,6 +580,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualMethod" class="term" resource="http://purl.org/dc/terms/accrualMethod">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualMethod</span>
+<time property="dcterms:issued" datetime="2005-06-13"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -631,20 +613,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2005-06-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Domain:
 		</th>
@@ -672,6 +642,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualPeriodicity" class="term" resource="http://purl.org/dc/terms/accrualPeriodicity">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualPeriodicity</span>
+<time property="dcterms:issued" datetime="2005-06-13"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -703,20 +675,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2005-06-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Domain:
 		</th>
@@ -744,6 +704,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualPolicy" class="term" resource="http://purl.org/dc/terms/accrualPolicy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualPolicy</span>
+<time property="dcterms:issued" datetime="2005-06-13"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -775,20 +737,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2005-06-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Domain:
 		</th>
@@ -816,6 +766,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-alternative" class="term" resource="http://purl.org/dc/terms/alternative">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>alternative</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -866,20 +818,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -900,6 +840,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-audience" class="term" resource="http://purl.org/dc/terms/audience">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>audience</span>
+<time property="dcterms:issued" datetime="2001-05-21"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -931,13 +873,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2001-05-21</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -945,13 +881,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/AgentClass">http://purl.org/dc/terms/AgentClass</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -965,6 +895,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-available" class="term" resource="http://purl.org/dc/terms/available">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>available</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1010,20 +942,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1044,6 +964,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-bibliographicCitation" class="term" resource="http://purl.org/dc/terms/bibliographicCitation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>bibliographicCitation</span>
+<time property="dcterms:issued" datetime="2003-02-15"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1094,20 +1016,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2003-02-15</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Domain:
 		</th>
@@ -1135,6 +1045,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-conformsTo" class="term" resource="http://purl.org/dc/terms/conformsTo">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>conformsTo</span>
+<time property="dcterms:issued" datetime="2001-05-21"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1180,20 +1092,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2001-05-21</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1214,6 +1114,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-contributor" class="term" resource="http://purl.org/dc/terms/contributor">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>contributor</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -1250,13 +1152,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -1271,13 +1167,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/Agent">http://purl.org/dc/terms/Agent</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
     
     
     <tr class="attribute">
@@ -1291,6 +1181,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-coverage" class="term" resource="http://purl.org/dc/terms/coverage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>coverage</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1332,13 +1224,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -1353,13 +1239,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">http://purl.org/dc/terms/LocationPeriodOrJurisdiction</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -1372,6 +1252,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-created" class="term" resource="http://purl.org/dc/terms/created">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>created</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1417,20 +1299,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1451,6 +1321,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-creator" class="term" resource="http://purl.org/dc/terms/creator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>creator</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -1487,13 +1359,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -1515,13 +1381,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/Agent">http://purl.org/dc/terms/Agent</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
     
     
     <tr class="attribute">
@@ -1542,6 +1402,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-date" class="term" resource="http://purl.org/dc/terms/date">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>date</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1583,13 +1445,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -1604,13 +1460,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal">http://www.w3.org/2000/01/rdf-schema#Literal</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -1623,6 +1473,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateAccepted" class="term" resource="http://purl.org/dc/terms/dateAccepted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateAccepted</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1673,20 +1525,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1707,6 +1547,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateCopyrighted" class="term" resource="http://purl.org/dc/terms/dateCopyrighted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateCopyrighted</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1752,20 +1594,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1786,6 +1616,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateSubmitted" class="term" resource="http://purl.org/dc/terms/dateSubmitted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateSubmitted</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1836,20 +1668,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -1870,6 +1690,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-description" class="term" resource="http://purl.org/dc/terms/description">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>description</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1906,13 +1728,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -1920,13 +1736,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:subPropertyOf" href="http://purl.org/dc/elements/1.1/description">http://purl.org/dc/elements/1.1/description</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -1939,6 +1749,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-educationLevel" class="term" resource="http://purl.org/dc/terms/educationLevel">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>educationLevel</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -1977,20 +1789,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -2011,6 +1811,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-extent" class="term" resource="http://purl.org/dc/terms/extent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>extent</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2056,20 +1858,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -2090,6 +1880,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-format" class="term" resource="http://purl.org/dc/terms/format">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>format</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2131,13 +1923,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -2152,13 +1938,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/MediaTypeOrExtent">http://purl.org/dc/terms/MediaTypeOrExtent</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2171,6 +1951,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasFormat" class="term" resource="http://purl.org/dc/terms/hasFormat">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasFormat</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2216,20 +1998,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2248,6 +2018,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasPart" class="term" resource="http://purl.org/dc/terms/hasPart">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasPart</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2293,20 +2065,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2325,6 +2085,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasVersion" class="term" resource="http://purl.org/dc/terms/hasVersion">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasVersion</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2370,20 +2132,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2402,6 +2152,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-identifier" class="term" resource="http://purl.org/dc/terms/identifier">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>identifier</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2438,13 +2190,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -2459,13 +2205,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal">http://www.w3.org/2000/01/rdf-schema#Literal</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2478,6 +2218,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-instructionalMethod" class="term" resource="http://purl.org/dc/terms/instructionalMethod">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>instructionalMethod</span>
+<time property="dcterms:issued" datetime="2005-06-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2514,20 +2256,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2005-06-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -2548,6 +2278,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isFormatOf" class="term" resource="http://purl.org/dc/terms/isFormatOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isFormatOf</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2593,20 +2325,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2625,6 +2345,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isPartOf" class="term" resource="http://purl.org/dc/terms/isPartOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isPartOf</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2670,20 +2392,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2702,6 +2412,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isReferencedBy" class="term" resource="http://purl.org/dc/terms/isReferencedBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isReferencedBy</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2747,20 +2459,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2779,6 +2479,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isReplacedBy" class="term" resource="http://purl.org/dc/terms/isReplacedBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isReplacedBy</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2824,20 +2526,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2856,6 +2546,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isRequiredBy" class="term" resource="http://purl.org/dc/terms/isRequiredBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isRequiredBy</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2901,20 +2593,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -2933,6 +2613,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-issued" class="term" resource="http://purl.org/dc/terms/issued">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>issued</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -2978,20 +2660,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -3012,6 +2682,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isVersionOf" class="term" resource="http://purl.org/dc/terms/isVersionOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isVersionOf</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3062,20 +2734,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3094,6 +2754,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-language" class="term" resource="http://purl.org/dc/terms/language">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>language</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3135,13 +2797,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -3156,13 +2812,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/LinguisticSystem">http://purl.org/dc/terms/LinguisticSystem</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3175,6 +2825,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-license" class="term" resource="http://purl.org/dc/terms/license">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>license</span>
+<time property="dcterms:issued" datetime="2004-06-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3220,20 +2872,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2004-06-14</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -3254,6 +2894,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-mediator" class="term" resource="http://purl.org/dc/terms/mediator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>mediator</span>
+<time property="dcterms:issued" datetime="2001-05-21"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3297,20 +2939,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2001-05-21</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -3331,6 +2961,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-medium" class="term" resource="http://purl.org/dc/terms/medium">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>medium</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3376,20 +3008,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Domain:
 		</th>
@@ -3417,6 +3037,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-modified" class="term" resource="http://purl.org/dc/terms/modified">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>modified</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3462,20 +3084,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -3496,6 +3106,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-provenance" class="term" resource="http://purl.org/dc/terms/provenance">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>provenance</span>
+<time property="dcterms:issued" datetime="2004-09-20"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3532,20 +3144,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2004-09-20</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -3566,6 +3166,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-publisher" class="term" resource="http://purl.org/dc/terms/publisher">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>publisher</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -3602,13 +3204,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -3623,13 +3219,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/Agent">http://purl.org/dc/terms/Agent</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
     
     
     <tr class="attribute">
@@ -3643,6 +3233,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-references" class="term" resource="http://purl.org/dc/terms/references">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>references</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3688,20 +3280,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3720,6 +3300,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-relation" class="term" resource="http://purl.org/dc/terms/relation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>relation</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3756,13 +3338,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -3770,13 +3346,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:subPropertyOf" href="http://purl.org/dc/elements/1.1/relation">http://purl.org/dc/elements/1.1/relation</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3794,6 +3364,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-replaces" class="term" resource="http://purl.org/dc/terms/replaces">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>replaces</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3839,20 +3411,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3871,6 +3431,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-requires" class="term" resource="http://purl.org/dc/terms/requires">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>requires</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3916,20 +3478,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -3948,6 +3498,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-rights" class="term" resource="http://purl.org/dc/terms/rights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rights</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -3984,13 +3536,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -4005,13 +3551,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://purl.org/dc/terms/RightsStatement">http://purl.org/dc/terms/RightsStatement</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4024,6 +3564,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-rightsHolder" class="term" resource="http://purl.org/dc/terms/rightsHolder">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rightsHolder</span>
+<time property="dcterms:issued" datetime="2004-06-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4055,20 +3597,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2004-06-14</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -4089,6 +3619,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-source" class="term" resource="http://purl.org/dc/terms/source">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>source</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4125,13 +3657,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -4146,13 +3672,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:subPropertyOf" href="http://purl.org/dc/terms/relation">http://purl.org/dc/terms/relation</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4170,6 +3690,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-spatial" class="term" resource="http://purl.org/dc/terms/spatial">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>spatial</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4215,20 +3737,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -4249,6 +3759,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-subject" class="term" resource="http://purl.org/dc/terms/subject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
 </tr>
     
@@ -4285,13 +3797,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -4299,13 +3805,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:subPropertyOf" href="http://purl.org/dc/elements/1.1/subject">http://purl.org/dc/elements/1.1/subject</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2012-05-14</time>
-</td>
-</tr>
+    
     
     
     <tr class="attribute">
@@ -4324,6 +3824,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-tableOfContents" class="term" resource="http://purl.org/dc/terms/tableOfContents">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>tableOfContents</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4369,20 +3871,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4396,6 +3886,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-temporal" class="term" resource="http://purl.org/dc/terms/temporal">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>temporal</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4441,20 +3933,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -4475,6 +3955,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-title" class="term" resource="http://purl.org/dc/terms/title">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>title</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -4506,13 +3988,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -4520,13 +3996,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:subPropertyOf" href="http://purl.org/dc/elements/1.1/title">http://purl.org/dc/elements/1.1/title</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
     
     
     <tr class="attribute">
@@ -4547,6 +4017,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-type" class="term" resource="http://purl.org/dc/terms/type">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>type</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4588,13 +4060,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     <tr class="attribute">
 <th scope="row">Refines:
 		</th>
@@ -4609,13 +4075,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Class">http://www.w3.org/2000/01/rdf-schema#Class</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4628,6 +4088,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-valid" class="term" resource="http://purl.org/dc/terms/valid">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>valid</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4673,20 +4135,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -4712,6 +4162,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-contributor" class="term" resource="http://purl.org/dc/elements/1.1/contributor">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>contributor</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4748,20 +4200,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4780,6 +4220,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-coverage" class="term" resource="http://purl.org/dc/elements/1.1/coverage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>coverage</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4821,20 +4263,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4853,6 +4283,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-creator" class="term" resource="http://purl.org/dc/elements/1.1/creator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>creator</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4889,20 +4321,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4921,6 +4341,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-date" class="term" resource="http://purl.org/dc/elements/1.1/date">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>date</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -4962,20 +4384,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -4994,6 +4404,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-description" class="term" resource="http://purl.org/dc/elements/1.1/description">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>description</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5030,20 +4442,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5062,6 +4462,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-format" class="term" resource="http://purl.org/dc/elements/1.1/format">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>format</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5103,20 +4505,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5135,6 +4525,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-identifier" class="term" resource="http://purl.org/dc/elements/1.1/identifier">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>identifier</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5171,20 +4563,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5203,6 +4583,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-language" class="term" resource="http://purl.org/dc/elements/1.1/language">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>language</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5251,20 +4633,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5283,6 +4653,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-publisher" class="term" resource="http://purl.org/dc/elements/1.1/publisher">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>publisher</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5319,20 +4691,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5351,6 +4711,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-relation" class="term" resource="http://purl.org/dc/elements/1.1/relation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>relation</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5387,20 +4749,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5419,6 +4769,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-rights" class="term" resource="http://purl.org/dc/elements/1.1/rights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rights</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5455,20 +4807,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5487,6 +4827,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-source" class="term" resource="http://purl.org/dc/elements/1.1/source">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>source</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5523,20 +4865,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5555,6 +4885,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-subject" class="term" resource="http://purl.org/dc/elements/1.1/subject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
 </tr>
     
@@ -5591,20 +4923,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2012-05-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5623,6 +4943,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-title" class="term" resource="http://purl.org/dc/elements/1.1/title">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>title</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5654,20 +4976,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5686,6 +4996,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-type" class="term" resource="http://purl.org/dc/elements/1.1/type">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>type</span>
+<time property="dcterms:issued" datetime="1999-07-02"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5727,20 +5039,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">1999-07-02</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5764,6 +5064,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-DCMIType" class="term" resource="http://purl.org/dc/terms/DCMIType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -5809,20 +5111,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5836,6 +5126,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-DDC" class="term" resource="http://purl.org/dc/terms/DDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DDC</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5874,20 +5166,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5901,6 +5181,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-IMT" class="term" resource="http://purl.org/dc/terms/IMT">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>IMT</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -5939,20 +5221,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -5966,6 +5236,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-LCC" class="term" resource="http://purl.org/dc/terms/LCC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCC</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6004,20 +5276,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6031,6 +5291,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-LCSH" class="term" resource="http://purl.org/dc/terms/LCSH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCSH</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6062,20 +5324,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6089,6 +5339,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-MESH" class="term" resource="http://purl.org/dc/terms/MESH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MESH</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6127,20 +5379,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6154,6 +5394,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-NLM" class="term" resource="http://purl.org/dc/terms/NLM">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>NLM</span>
+<time property="dcterms:issued" datetime="2005-06-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6192,20 +5434,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2005-06-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6219,6 +5449,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-TGN" class="term" resource="http://purl.org/dc/terms/TGN">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>TGN</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6257,20 +5489,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6284,6 +5504,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-UDC" class="term" resource="http://purl.org/dc/terms/UDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>UDC</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6322,20 +5544,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6354,6 +5564,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-Box" class="term" resource="http://purl.org/dc/terms/Box">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Box</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6392,20 +5604,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6419,6 +5619,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO3166" class="term" resource="http://purl.org/dc/terms/ISO3166">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO3166</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6457,20 +5659,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6484,6 +5674,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO639-2" class="term" resource="http://purl.org/dc/terms/ISO639-2">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-2</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6522,20 +5714,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6549,6 +5729,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO639-3" class="term" resource="http://purl.org/dc/terms/ISO639-3">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-3</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6595,17 +5776,13 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#ISO639-3-001">http://dublincore.org/usage/terms/history/#ISO639-3-001</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
 </tbody>
 <tbody id="ses-Period" class="term" resource="http://purl.org/dc/terms/Period">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Period</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6644,20 +5821,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6671,6 +5836,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-Point" class="term" resource="http://purl.org/dc/terms/Point">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Point</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6709,20 +5876,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6736,6 +5891,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC1766" class="term" resource="http://purl.org/dc/terms/RFC1766">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC1766</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6774,20 +5931,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6801,6 +5946,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC3066" class="term" resource="http://purl.org/dc/terms/RFC3066">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC3066</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6844,20 +5991,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -6871,6 +6006,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC4646" class="term" resource="http://purl.org/dc/terms/RFC4646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC4646</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -6922,17 +6058,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#RFC4646-001">http://dublincore.org/usage/terms/history/#RFC4646-001</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
 </tbody>
 <tbody id="ses-RFC5646" class="term" resource="http://purl.org/dc/terms/RFC5646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC5646</span>
+<time property="dcterms:issued" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -6984,17 +6115,13 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#RFC5646-001">http://dublincore.org/usage/terms/history/#RFC5646-001</a>
 </td>
 </tr>
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2010-10-11</time>
-</td>
-</tr>
+    
 </tbody>
 <tbody id="ses-URI" class="term" resource="http://purl.org/dc/terms/URI">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>URI</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7033,20 +6160,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7060,6 +6175,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-W3CDTF" class="term" resource="http://purl.org/dc/terms/W3CDTF">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>W3CDTF</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7098,20 +6215,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7130,6 +6235,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Agent" class="term" resource="http://purl.org/dc/terms/Agent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Agent</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7173,13 +6279,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7192,6 +6292,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-AgentClass" class="term" resource="http://purl.org/dc/terms/AgentClass">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>AgentClass</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
 </tr>
     
@@ -7235,20 +6337,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2012-05-14</time>
-</td>
-</tr>
+    
+    
     
     
     <tr class="attribute">
@@ -7262,6 +6352,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-BibliographicResource" class="term" resource="http://purl.org/dc/terms/BibliographicResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>BibliographicResource</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7293,13 +6384,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7312,6 +6397,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-FileFormat" class="term" resource="http://purl.org/dc/terms/FileFormat">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>FileFormat</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7355,13 +6441,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7374,6 +6454,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Frequency" class="term" resource="http://purl.org/dc/terms/Frequency">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Frequency</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7405,13 +6486,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7424,6 +6499,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Jurisdiction" class="term" resource="http://purl.org/dc/terms/Jurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Jurisdiction</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7462,13 +6538,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7481,6 +6551,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LicenseDocument" class="term" resource="http://purl.org/dc/terms/LicenseDocument">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LicenseDocument</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7519,13 +6590,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7538,6 +6603,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LinguisticSystem" class="term" resource="http://purl.org/dc/terms/LinguisticSystem">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LinguisticSystem</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7574,13 +6640,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7593,6 +6653,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Location" class="term" resource="http://purl.org/dc/terms/Location">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Location</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7631,13 +6692,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7650,6 +6705,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LocationPeriodOrJurisdiction" class="term" resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LocationPeriodOrJurisdiction</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7681,13 +6737,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7700,6 +6750,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MediaType" class="term" resource="http://purl.org/dc/terms/MediaType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaType</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7738,13 +6789,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7757,6 +6802,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MediaTypeOrExtent" class="term" resource="http://purl.org/dc/terms/MediaTypeOrExtent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaTypeOrExtent</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7788,13 +6834,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7807,6 +6847,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MethodOfAccrual" class="term" resource="http://purl.org/dc/terms/MethodOfAccrual">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfAccrual</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7838,13 +6879,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7857,6 +6892,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MethodOfInstruction" class="term" resource="http://purl.org/dc/terms/MethodOfInstruction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfInstruction</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7888,13 +6924,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7907,6 +6937,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PeriodOfTime" class="term" resource="http://purl.org/dc/terms/PeriodOfTime">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PeriodOfTime</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -7945,13 +6976,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -7964,6 +6989,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PhysicalMedium" class="term" resource="http://purl.org/dc/terms/PhysicalMedium">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalMedium</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8007,13 +7033,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8026,6 +7046,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PhysicalResource" class="term" resource="http://purl.org/dc/terms/PhysicalResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalResource</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8057,13 +7078,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8076,6 +7091,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Policy" class="term" resource="http://purl.org/dc/terms/Policy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Policy</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8107,13 +7123,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8126,6 +7136,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-ProvenanceStatement" class="term" resource="http://purl.org/dc/terms/ProvenanceStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ProvenanceStatement</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8157,13 +7168,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8176,6 +7181,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-RightsStatement" class="term" resource="http://purl.org/dc/terms/RightsStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RightsStatement</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8207,13 +7213,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8226,6 +7226,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-SizeOrDuration" class="term" resource="http://purl.org/dc/terms/SizeOrDuration">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>SizeOrDuration</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8269,13 +7270,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8288,6 +7283,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Standard" class="term" resource="http://purl.org/dc/terms/Standard">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Standard</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8319,13 +7315,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:
@@ -8343,6 +7333,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Collection" class="term" resource="http://purl.org/dc/dcmitype/Collection">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Collection</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8379,20 +7371,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8413,6 +7393,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Dataset" class="term" resource="http://purl.org/dc/dcmitype/Dataset">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Dataset</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8449,20 +7431,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8483,6 +7453,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Event" class="term" resource="http://purl.org/dc/dcmitype/Event">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Event</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8519,20 +7491,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8553,6 +7513,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Image" class="term" resource="http://purl.org/dc/dcmitype/Image">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Image</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8603,20 +7565,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8637,6 +7587,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-InteractiveResource" class="term" resource="http://purl.org/dc/dcmitype/InteractiveResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>InteractiveResource</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8673,20 +7625,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8707,6 +7647,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-MovingImage" class="term" resource="http://purl.org/dc/dcmitype/MovingImage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MovingImage</span>
+<time property="dcterms:issued" datetime="2003-11-18"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8751,20 +7693,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2003-11-18</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8784,6 +7714,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-PhysicalObject" class="term" resource="http://purl.org/dc/dcmitype/PhysicalObject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalObject</span>
+<time property="dcterms:issued" datetime="2002-07-13"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8820,20 +7752,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2002-07-13</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8854,6 +7774,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Service" class="term" resource="http://purl.org/dc/dcmitype/Service">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Service</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8890,20 +7812,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8924,6 +7834,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Software" class="term" resource="http://purl.org/dc/dcmitype/Software">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Software</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -8960,20 +7872,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -8994,6 +7894,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Sound" class="term" resource="http://purl.org/dc/dcmitype/Sound">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Sound</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -9030,20 +7932,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -9064,6 +7954,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-StillImage" class="term" resource="http://purl.org/dc/dcmitype/StillImage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>StillImage</span>
+<time property="dcterms:issued" datetime="2003-11-18"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -9108,20 +8000,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2003-11-18</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -9141,6 +8021,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Text" class="term" resource="http://purl.org/dc/dcmitype/Text">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Text</span>
+<time property="dcterms:issued" datetime="2000-07-11"> </time>
+<time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -9177,20 +8059,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2000-07-11</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2008-01-14</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Member Of:
 		</th>
@@ -9216,6 +8086,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcam-memberOf" class="term" resource="http://purl.org/dc/dcam/memberOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>memberOf</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
+<time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
 </tr>
     
@@ -9254,20 +8126,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">Date Modified:
-		</th>
-<td axis="Date-Modified">
-<time property="dcterms:modified">2010-10-11</time>
-</td>
-</tr>
+    
+    
     <tr class="attribute">
 <th scope="row">Has Range:
 		</th>
@@ -9288,6 +8148,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcam-VocabularyEncodingScheme" class="term" resource="http://purl.org/dc/dcam/VocabularyEncodingScheme">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>VocabularyEncodingScheme</span>
+<time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
     
@@ -9326,13 +8187,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
     
-    <tr class="attribute">
-<th scope="row">Date Issued:
-		</th>
-<td axis="Date-Issued">
-<time property="dcterms:issued">2008-01-14</time>
-</td>
-</tr>
+    
     
     <tr class="attribute">
 <th scope="row">Version:

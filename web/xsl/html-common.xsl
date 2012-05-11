@@ -150,18 +150,6 @@
 						</xsl:choose>
 					</a>
 				</xsl:when>
-        <xsl:when test="local-name()='Date-Issued'">
-					<xsl:apply-templates select="key('map',local-name())" />
-          <time property="dcterms:issued">
-            <xsl:apply-templates />
-          </time>
-        </xsl:when>
-        <xsl:when test="local-name()='Date-Modified'">
-					<xsl:apply-templates select="key('map',local-name())" />
-          <time property="dcterms:modified">
-            <xsl:apply-templates />
-          </time>
-        </xsl:when>
 				<xsl:otherwise>
             <!-- gk: this should use mappings -->
             <xsl:choose>

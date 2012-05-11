@@ -36,8 +36,7 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
+								<xsl:apply-templates select="@property" />
 								<xsl:value-of select="@label"/>
 							</a>
 						</xsl:when>
@@ -46,13 +45,18 @@
 								<xsl:attribute name="href">
 									<xsl:apply-templates />
 								</xsl:attribute>
-								<xsl:apply-templates select="@property" mode="rel" />
-								<xsl:apply-templates select="@datatype" />
+								<xsl:apply-templates select="@property" />
 								<xsl:apply-templates />
 							</a>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:when>
+        <xsl:when test="local-name()='Date-Issued'">
+          <time>
+						<xsl:apply-templates select="@property" />
+						<xsl:apply-templates />
+          </time>
+        </xsl:when>
 				<xsl:otherwise>
 					<xsl:copy-of select="@*" />
 					<xsl:apply-templates />
@@ -62,23 +66,12 @@
 	</tr>
 </xsl:template>
 
-<xsl:template match="@property" mode="rel">
-	<xsl:attribute name="rel">
-		<xsl:apply-templates />
-	</xsl:attribute>
-</xsl:template>
-
 <xsl:template match="@property | @datatype">
 	<xsl:copy />
 </xsl:template>
 
 <xsl:template match="match">
 	<xsl:apply-templates select="@property" />
-	<xsl:apply-templates select="@datatype" />
-</xsl:template>
-
-<xsl:template match="match" mode="rel">
-	<xsl:apply-templates select="@property" mode="rel" />
 	<xsl:apply-templates select="@datatype" />
 </xsl:template>
 
@@ -146,7 +139,7 @@
 						<xsl:attribute name="href">
 							<xsl:apply-templates />
 						</xsl:attribute>
-						<xsl:apply-templates select="key('map',local-name())" mode="rel" />
+						<xsl:apply-templates select="key('map',local-name())" />
 						<xsl:choose>
 							<xsl:when test="@label">
 								<xsl:value-of select="@label"/>
@@ -220,7 +213,7 @@
 				<xsl:attribute name="href">
 					<xsl:apply-templates select="$context/node()" />
 				</xsl:attribute>
-				<xsl:apply-templates select="key('map',local-name($context))" mode="rel" />
+				<xsl:apply-templates select="key('map',local-name($context))" />
 				<xsl:choose>
 					<xsl:when test="contains($context/text(), '#')">
 						<xsl:value-of select="substring-after($context/text(), '#')"/>

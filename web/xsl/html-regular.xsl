@@ -57,5 +57,13 @@
     <xsl:text> </xsl:text>
 	</time>
 </xsl:template>
+<xsl:template match="Namespace" mode="content">
+  <link>
+    <xsl:attribute name="property">rdfs:isDefinedBy</xsl:attribute>
+    <xsl:attribute name="href">
+			<xsl:apply-templates />
+    </xsl:attribute>
+  </link>
+</xsl:template>
 
 </xsl:transform>

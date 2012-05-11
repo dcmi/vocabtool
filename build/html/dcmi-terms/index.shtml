@@ -444,6 +444,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-abstract" class="term" resource="http://purl.org/dc/terms/abstract">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>abstract</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -506,6 +507,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accessRights" class="term" resource="http://purl.org/dc/terms/accessRights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accessRights</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2003-02-15"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -580,6 +582,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualMethod" class="term" resource="http://purl.org/dc/terms/accrualMethod">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualMethod</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2005-06-13"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -642,6 +645,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualPeriodicity" class="term" resource="http://purl.org/dc/terms/accrualPeriodicity">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualPeriodicity</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2005-06-13"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -704,6 +708,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-accrualPolicy" class="term" resource="http://purl.org/dc/terms/accrualPolicy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>accrualPolicy</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2005-06-13"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -766,6 +771,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-alternative" class="term" resource="http://purl.org/dc/terms/alternative">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>alternative</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -840,6 +846,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-audience" class="term" resource="http://purl.org/dc/terms/audience">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>audience</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2001-05-21"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -895,6 +902,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-available" class="term" resource="http://purl.org/dc/terms/available">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>available</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -964,6 +972,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-bibliographicCitation" class="term" resource="http://purl.org/dc/terms/bibliographicCitation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>bibliographicCitation</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2003-02-15"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1045,6 +1054,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-conformsTo" class="term" resource="http://purl.org/dc/terms/conformsTo">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>conformsTo</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2001-05-21"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1114,6 +1124,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-contributor" class="term" resource="http://purl.org/dc/terms/contributor">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>contributor</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -1181,6 +1192,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-coverage" class="term" resource="http://purl.org/dc/terms/coverage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>coverage</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1252,6 +1264,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-created" class="term" resource="http://purl.org/dc/terms/created">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>created</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1321,6 +1334,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-creator" class="term" resource="http://purl.org/dc/terms/creator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>creator</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -1402,6 +1416,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-date" class="term" resource="http://purl.org/dc/terms/date">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>date</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1473,6 +1488,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateAccepted" class="term" resource="http://purl.org/dc/terms/dateAccepted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateAccepted</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1547,6 +1563,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateCopyrighted" class="term" resource="http://purl.org/dc/terms/dateCopyrighted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateCopyrighted</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1616,6 +1633,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-dateSubmitted" class="term" resource="http://purl.org/dc/terms/dateSubmitted">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>dateSubmitted</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1690,6 +1708,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-description" class="term" resource="http://purl.org/dc/terms/description">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>description</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1749,6 +1768,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-educationLevel" class="term" resource="http://purl.org/dc/terms/educationLevel">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>educationLevel</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1811,6 +1831,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-extent" class="term" resource="http://purl.org/dc/terms/extent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>extent</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1880,6 +1901,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-format" class="term" resource="http://purl.org/dc/terms/format">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>format</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -1951,6 +1973,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasFormat" class="term" resource="http://purl.org/dc/terms/hasFormat">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasFormat</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2018,6 +2041,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasPart" class="term" resource="http://purl.org/dc/terms/hasPart">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasPart</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2085,6 +2109,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-hasVersion" class="term" resource="http://purl.org/dc/terms/hasVersion">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>hasVersion</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2152,6 +2177,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-identifier" class="term" resource="http://purl.org/dc/terms/identifier">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>identifier</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2218,6 +2244,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-instructionalMethod" class="term" resource="http://purl.org/dc/terms/instructionalMethod">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>instructionalMethod</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2005-06-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2278,6 +2305,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isFormatOf" class="term" resource="http://purl.org/dc/terms/isFormatOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isFormatOf</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2345,6 +2373,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isPartOf" class="term" resource="http://purl.org/dc/terms/isPartOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isPartOf</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2412,6 +2441,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isReferencedBy" class="term" resource="http://purl.org/dc/terms/isReferencedBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isReferencedBy</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2479,6 +2509,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isReplacedBy" class="term" resource="http://purl.org/dc/terms/isReplacedBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isReplacedBy</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2546,6 +2577,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isRequiredBy" class="term" resource="http://purl.org/dc/terms/isRequiredBy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isRequiredBy</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2613,6 +2645,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-issued" class="term" resource="http://purl.org/dc/terms/issued">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>issued</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2682,6 +2715,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-isVersionOf" class="term" resource="http://purl.org/dc/terms/isVersionOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>isVersionOf</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2754,6 +2788,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-language" class="term" resource="http://purl.org/dc/terms/language">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>language</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2825,6 +2860,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-license" class="term" resource="http://purl.org/dc/terms/license">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>license</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2004-06-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2894,6 +2930,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-mediator" class="term" resource="http://purl.org/dc/terms/mediator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>mediator</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2001-05-21"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -2961,6 +2998,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-medium" class="term" resource="http://purl.org/dc/terms/medium">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>medium</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3037,6 +3075,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-modified" class="term" resource="http://purl.org/dc/terms/modified">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>modified</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3106,6 +3145,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-provenance" class="term" resource="http://purl.org/dc/terms/provenance">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>provenance</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2004-09-20"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3166,6 +3206,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-publisher" class="term" resource="http://purl.org/dc/terms/publisher">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>publisher</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -3233,6 +3274,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-references" class="term" resource="http://purl.org/dc/terms/references">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>references</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3300,6 +3342,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-relation" class="term" resource="http://purl.org/dc/terms/relation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>relation</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3364,6 +3407,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-replaces" class="term" resource="http://purl.org/dc/terms/replaces">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>replaces</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3431,6 +3475,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-requires" class="term" resource="http://purl.org/dc/terms/requires">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>requires</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3498,6 +3543,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-rights" class="term" resource="http://purl.org/dc/terms/rights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rights</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3564,6 +3610,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-rightsHolder" class="term" resource="http://purl.org/dc/terms/rightsHolder">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rightsHolder</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2004-06-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3619,6 +3666,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-source" class="term" resource="http://purl.org/dc/terms/source">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>source</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3690,6 +3738,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-spatial" class="term" resource="http://purl.org/dc/terms/spatial">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>spatial</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3759,6 +3808,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-subject" class="term" resource="http://purl.org/dc/terms/subject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
@@ -3824,6 +3874,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-tableOfContents" class="term" resource="http://purl.org/dc/terms/tableOfContents">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>tableOfContents</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3886,6 +3937,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-temporal" class="term" resource="http://purl.org/dc/terms/temporal">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>temporal</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -3955,6 +4007,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-title" class="term" resource="http://purl.org/dc/terms/title">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>title</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -4017,6 +4070,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-type" class="term" resource="http://purl.org/dc/terms/type">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>type</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4088,6 +4142,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="terms-valid" class="term" resource="http://purl.org/dc/terms/valid">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>valid</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4162,6 +4217,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-contributor" class="term" resource="http://purl.org/dc/elements/1.1/contributor">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>contributor</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4220,6 +4276,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-coverage" class="term" resource="http://purl.org/dc/elements/1.1/coverage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>coverage</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4283,6 +4340,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-creator" class="term" resource="http://purl.org/dc/elements/1.1/creator">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>creator</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4341,6 +4399,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-date" class="term" resource="http://purl.org/dc/elements/1.1/date">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>date</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4404,6 +4463,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-description" class="term" resource="http://purl.org/dc/elements/1.1/description">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>description</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4462,6 +4522,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-format" class="term" resource="http://purl.org/dc/elements/1.1/format">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>format</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4525,6 +4586,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-identifier" class="term" resource="http://purl.org/dc/elements/1.1/identifier">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>identifier</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4583,6 +4645,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-language" class="term" resource="http://purl.org/dc/elements/1.1/language">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>language</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4653,6 +4716,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-publisher" class="term" resource="http://purl.org/dc/elements/1.1/publisher">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>publisher</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4711,6 +4775,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-relation" class="term" resource="http://purl.org/dc/elements/1.1/relation">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>relation</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4769,6 +4834,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-rights" class="term" resource="http://purl.org/dc/elements/1.1/rights">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>rights</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4827,6 +4893,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-source" class="term" resource="http://purl.org/dc/elements/1.1/source">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>source</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4885,6 +4952,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-subject" class="term" resource="http://purl.org/dc/elements/1.1/subject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
@@ -4943,6 +5011,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-title" class="term" resource="http://purl.org/dc/elements/1.1/title">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>title</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -4996,6 +5065,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="elements-type" class="term" resource="http://purl.org/dc/elements/1.1/type">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>type</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5064,6 +5134,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-DCMIType" class="term" resource="http://purl.org/dc/terms/DCMIType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -5126,6 +5197,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-DDC" class="term" resource="http://purl.org/dc/terms/DDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DDC</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5181,6 +5253,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-IMT" class="term" resource="http://purl.org/dc/terms/IMT">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>IMT</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5236,6 +5309,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-LCC" class="term" resource="http://purl.org/dc/terms/LCC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCC</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5291,6 +5365,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-LCSH" class="term" resource="http://purl.org/dc/terms/LCSH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCSH</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5339,6 +5414,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-MESH" class="term" resource="http://purl.org/dc/terms/MESH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MESH</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5394,6 +5470,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-NLM" class="term" resource="http://purl.org/dc/terms/NLM">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>NLM</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2005-06-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5449,6 +5526,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-TGN" class="term" resource="http://purl.org/dc/terms/TGN">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>TGN</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5504,6 +5582,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ves-UDC" class="term" resource="http://purl.org/dc/terms/UDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>UDC</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5564,6 +5643,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-Box" class="term" resource="http://purl.org/dc/terms/Box">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Box</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5619,6 +5699,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO3166" class="term" resource="http://purl.org/dc/terms/ISO3166">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO3166</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5674,6 +5755,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO639-2" class="term" resource="http://purl.org/dc/terms/ISO639-2">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-2</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5729,6 +5811,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-ISO639-3" class="term" resource="http://purl.org/dc/terms/ISO639-3">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-3</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -5781,6 +5864,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-Period" class="term" resource="http://purl.org/dc/terms/Period">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Period</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5836,6 +5920,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-Point" class="term" resource="http://purl.org/dc/terms/Point">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Point</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5891,6 +5976,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC1766" class="term" resource="http://purl.org/dc/terms/RFC1766">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC1766</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -5946,6 +6032,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC3066" class="term" resource="http://purl.org/dc/terms/RFC3066">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC3066</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -6006,6 +6093,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC4646" class="term" resource="http://purl.org/dc/terms/RFC4646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC4646</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6063,6 +6151,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-RFC5646" class="term" resource="http://purl.org/dc/terms/RFC5646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC5646</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2010-10-11"> </time>
 </th>
 </tr>
@@ -6120,6 +6209,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-URI" class="term" resource="http://purl.org/dc/terms/URI">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>URI</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -6175,6 +6265,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="ses-W3CDTF" class="term" resource="http://purl.org/dc/terms/W3CDTF">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>W3CDTF</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -6235,6 +6326,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Agent" class="term" resource="http://purl.org/dc/terms/Agent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Agent</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6292,6 +6384,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-AgentClass" class="term" resource="http://purl.org/dc/terms/AgentClass">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>AgentClass</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2012-05-14"> </time>
 </th>
@@ -6352,6 +6445,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-BibliographicResource" class="term" resource="http://purl.org/dc/terms/BibliographicResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>BibliographicResource</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6397,6 +6491,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-FileFormat" class="term" resource="http://purl.org/dc/terms/FileFormat">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>FileFormat</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6454,6 +6549,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Frequency" class="term" resource="http://purl.org/dc/terms/Frequency">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Frequency</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6499,6 +6595,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Jurisdiction" class="term" resource="http://purl.org/dc/terms/Jurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Jurisdiction</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6551,6 +6648,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LicenseDocument" class="term" resource="http://purl.org/dc/terms/LicenseDocument">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LicenseDocument</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6603,6 +6701,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LinguisticSystem" class="term" resource="http://purl.org/dc/terms/LinguisticSystem">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LinguisticSystem</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6653,6 +6752,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Location" class="term" resource="http://purl.org/dc/terms/Location">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Location</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6705,6 +6805,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-LocationPeriodOrJurisdiction" class="term" resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LocationPeriodOrJurisdiction</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6750,6 +6851,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MediaType" class="term" resource="http://purl.org/dc/terms/MediaType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaType</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6802,6 +6904,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MediaTypeOrExtent" class="term" resource="http://purl.org/dc/terms/MediaTypeOrExtent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaTypeOrExtent</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6847,6 +6950,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MethodOfAccrual" class="term" resource="http://purl.org/dc/terms/MethodOfAccrual">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfAccrual</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6892,6 +6996,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-MethodOfInstruction" class="term" resource="http://purl.org/dc/terms/MethodOfInstruction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfInstruction</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6937,6 +7042,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PeriodOfTime" class="term" resource="http://purl.org/dc/terms/PeriodOfTime">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PeriodOfTime</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -6989,6 +7095,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PhysicalMedium" class="term" resource="http://purl.org/dc/terms/PhysicalMedium">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalMedium</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7046,6 +7153,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-PhysicalResource" class="term" resource="http://purl.org/dc/terms/PhysicalResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalResource</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7091,6 +7199,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Policy" class="term" resource="http://purl.org/dc/terms/Policy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Policy</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7136,6 +7245,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-ProvenanceStatement" class="term" resource="http://purl.org/dc/terms/ProvenanceStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ProvenanceStatement</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7181,6 +7291,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-RightsStatement" class="term" resource="http://purl.org/dc/terms/RightsStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RightsStatement</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7226,6 +7337,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-SizeOrDuration" class="term" resource="http://purl.org/dc/terms/SizeOrDuration">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>SizeOrDuration</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7283,6 +7395,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="classes-Standard" class="term" resource="http://purl.org/dc/terms/Standard">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Standard</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>
@@ -7333,6 +7446,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Collection" class="term" resource="http://purl.org/dc/dcmitype/Collection">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Collection</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7393,6 +7507,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Dataset" class="term" resource="http://purl.org/dc/dcmitype/Dataset">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Dataset</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7453,6 +7568,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Event" class="term" resource="http://purl.org/dc/dcmitype/Event">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Event</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7513,6 +7629,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Image" class="term" resource="http://purl.org/dc/dcmitype/Image">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Image</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7587,6 +7704,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-InteractiveResource" class="term" resource="http://purl.org/dc/dcmitype/InteractiveResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>InteractiveResource</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7647,6 +7765,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-MovingImage" class="term" resource="http://purl.org/dc/dcmitype/MovingImage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MovingImage</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2003-11-18"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7714,6 +7833,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-PhysicalObject" class="term" resource="http://purl.org/dc/dcmitype/PhysicalObject">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalObject</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2002-07-13"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7774,6 +7894,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Service" class="term" resource="http://purl.org/dc/dcmitype/Service">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Service</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7834,6 +7955,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Software" class="term" resource="http://purl.org/dc/dcmitype/Software">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Software</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7894,6 +8016,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Sound" class="term" resource="http://purl.org/dc/dcmitype/Sound">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Sound</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -7954,6 +8077,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-StillImage" class="term" resource="http://purl.org/dc/dcmitype/StillImage">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>StillImage</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2003-11-18"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -8021,6 +8145,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcmitype-Text" class="term" resource="http://purl.org/dc/dcmitype/Text">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Text</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcmitype/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
 <time property="dcterms:modfified" datetime="2008-01-14"> </time>
 </th>
@@ -8086,6 +8211,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcam-memberOf" class="term" resource="http://purl.org/dc/dcam/memberOf">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>memberOf</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcam/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 <time property="dcterms:modfified" datetime="2010-10-11"> </time>
 </th>
@@ -8148,6 +8274,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <tbody id="dcam-VocabularyEncodingScheme" class="term" resource="http://purl.org/dc/dcam/VocabularyEncodingScheme">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>VocabularyEncodingScheme</span>
+<link property="rdfs:isDefinedBy" href="http://purl.org/dc/dcam/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
 </th>
 </tr>

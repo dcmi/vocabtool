@@ -10948,7 +10948,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Date Modified:
 		</th>
-<td axis="Date-Modified">2012-05-14</td>
+<td axis="Date-Modified">2012-05-21</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Decision:
@@ -18805,7 +18805,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Date Modified:
 		</th>
-<td axis="Date-Modified">2012-05-14</td>
+<td axis="Date-Modified">2012-05-21</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Decision:
@@ -20406,7 +20406,7 @@ history of individual terms:</p>
 </td>
 </tr>
     </tbody>
-<tbody id="DCMIType-004" class="term" resource="http://dublincore.org/usage/terms/history/#DCMIType-003">
+<tbody id="DCMIType-005" class="term" resource="http://dublincore.org/usage/terms/history/#DCMIType-005">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
 </th>
@@ -20446,13 +20446,6 @@ history of individual terms:</p>
 <th scope="row">See:
 		</th>
 <td axis="See">
-<a href="http://dublincore.org/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">See:
-		</th>
-<td axis="See">
 <a href="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/</a>
 </td>
 </tr>
@@ -20478,30 +20471,133 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Date Modified:
 		</th>
-<td axis="Date-Modified">2010-10-11</td>
+<td axis="Date-Modified">2012-05-21</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Decision:
 		</th>
 <td axis="Decision">
-<a href="http://dublincore.org/usage/decisions/#Decision-2010-01">Decision-2010-01</a>
+<a href="http://dublincore.org/usage/decisions/#Decision-2012-01">Decision-2012-01</a>
 </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Version:
 		</th>
 <td axis="Version">
-<a href="http://dublincore.org/usage/terms/history/#DCMIType-003">DCMIType-003</a>
+<a href="http://dublincore.org/usage/terms/history/#DCMIType-005">DCMIType-005</a>
 </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Replaces:
 		</th>
 <td axis="Replaces">
-<a href="http://dublincore.org/usage/terms/history/#DCMIType-003">DCMIType-003</a>
+<a href="http://dublincore.org/usage/terms/history/#DCMIType-004">DCMIType-004</a>
 </td>
 </tr>
 </tbody>
+<tbody id="DCMIType-004" class="term" resource="http://dublincore.org/usage/terms/history/#DCMIType-004">
+<tr>
+<th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
+</th>
+</tr>
+        
+        <tr class="attribute">
+<th scope="row">URI:
+		</th>
+<td axis="URI">
+<a href="http://purl.org/dc/terms/DCMIType">http://purl.org/dc/terms/DCMIType</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Namespace:
+		</th>
+<td axis="Namespace">
+<a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>
+</td>
+</tr>
+        
+        <tr class="attribute">
+<th scope="row">Name for Table:
+		</th>
+<td axis="Name-for-Table">ves-DCMIType</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Label:
+		</th>
+<td axis="Label">DCMI Type Vocabulary</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Definition:
+		</th>
+<td axis="Definition">The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">See:
+		</th>
+<td axis="See">
+<a href="http://dublincore.org/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">See:
+		</th>
+<td axis="See">
+<a href="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Type of Term:
+		</th>
+<td axis="Type-of-Term">
+<a href="http://purl.org/dc/dcam/VocabularyEncodingScheme">http://purl.org/dc/dcam/VocabularyEncodingScheme</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Status:
+		</th>
+<td axis="Status">
+<a href="http://dublincore.org/usage/documents/process/#registered">registered</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Date Issued:
+		</th>
+<td axis="Date-Issued">2000-07-11</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Date Modified:
+		</th>
+<td axis="Date-Modified">2010-10-11</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Decision:
+		</th>
+<td axis="Decision">
+<a href="http://dublincore.org/usage/decisions/#Decision-2010-01">Decision-2010-01</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Version:
+		</th>
+<td axis="Version">
+<a href="http://dublincore.org/usage/terms/history/#DCMIType-004">DCMIType-004</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Replaces:
+		</th>
+<td axis="Replaces">
+<a href="http://dublincore.org/usage/terms/history/#DCMIType-003">DCMIType-003</a>
+</td>
+</tr>
+        <tr class="attribute">
+<th scope="row">Is Replaced By:
+		</th>
+<td axis="Is-Replaced-By">
+<a href="http://dublincore.org/usage/terms/history/#DCMIType-005">DCMIType-005</a>
+</td>
+</tr>
+    </tbody>
 <tbody id="DCMIType-003" class="term" resource="http://dublincore.org/usage/terms/history/#DCMIType-003">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
@@ -25759,7 +25855,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Date Modified:
 		</th>
-<td axis="Date-Modified">2012-05-14</td>
+<td axis="Date-Modified">2012-05-21</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Decision:

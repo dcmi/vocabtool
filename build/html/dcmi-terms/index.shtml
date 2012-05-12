@@ -3809,7 +3809,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -4953,7 +4953,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -5135,7 +5135,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
-<time property="dcterms:modified" datetime="2010-10-11"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -5163,13 +5163,6 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th scope="row">See:
 		</th>
 <td axis="See">
-<a property="rdfs:seeAlso" href="http://dublincore.org/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a>
-</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">See:
-		</th>
-<td axis="See">
 <a property="rdfs:seeAlso" href="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/</a>
 </td>
 </tr>
@@ -5188,7 +5181,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th scope="row">Version:
 		</th>
 <td axis="Version">
-<a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#DCMIType-003">http://dublincore.org/usage/terms/history/#DCMIType-003</a>
+<a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#DCMIType-005">http://dublincore.org/usage/terms/history/#DCMIType-005</a>
 </td>
 </tr>
     
@@ -6385,7 +6378,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>AgentClass</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     

@@ -4,8 +4,8 @@
     <Title property="dcterms:title">DCMI Metadata Terms</Title>
     <Creator property="dcterms:creator" label="DCMI Usage Board">DCMI Usage Board</Creator>
 
-    <Identifier property="dcterms:identifier">http://dublincore.org/documents/2012/05/14/dcmi-terms/</Identifier>
-    <Date-Issued property="dcterms:issued">2012-05-14</Date-Issued>
+    <Identifier property="dcterms:identifier">http://dublincore.org/documents/2012/05/21/dcmi-terms/</Identifier>
+    <Date-Issued property="dcterms:issued">2012-05-21</Date-Issued>
    
     <Latest-Version property="dcterms:isVersionOf">http://dublincore.org/documents/dcmi-terms/</Latest-Version>
 	  <Replaces property="dcterms:replaces">http://dublincore.org/documents/2010/10/11/dcmi-terms/</Replaces>

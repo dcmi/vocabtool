@@ -12,8 +12,7 @@
     <property name="result.dir" value="${base_dir}/build"/>
     <property name="html.dir" value="${base_dir}/build/html"/>
     <property name="dcmiterms.dir" value="${base_dir}/build/html/dcmi-terms"/>
-    <!--property name="dcmitypes.dir" value="${base_dir}/build/html/dcmi-types"/>
-    <property name="history.dir" value="${base_dir}/build/html/history"/ -->
+    <property name="history.dir" value="${base_dir}/build/html/history"/>
 
     <!--
 	you can specify xml:lang using 'language' property.
@@ -25,48 +24,10 @@
     <tstamp/>
     <property name="xsltp" value="org.apache.xalan.xslt.Process"/>
 
-    <!-- only implement htmldcmiterms
-    <target name="generate" depends="dcam,dcelements,dctype,dcterms,htmldcmiterms,htmldctype,htmlhistory" description="generate DCES, DCQ and DCMIType Vocabulary"/>
-     -->
-    <target name="generate" depends="htmldcmiterms" description="generate DCES, DCQ and DCMIType Vocabulary"/>
+    <target name="generate" depends="htmldcmiterms,htmlhistory" description="generate DCES, DCQ and DCMIType Vocabulary"/>
 
     <!-- new targets -->
 
-    <target name="dcam" depends="prepare">
-	<xslt in="${xml.dir}/dcam.xml" out="${result.dir}/dcam.rdf" style="${xsl.dir}/dcam.xsl">
-	    <param name="language"		expression="${language}" />
-	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-	    <param name="header"		expression="${header.dir}/header-rdf-dcam.xml" />
-	</xslt>
-    </target>
-
-    <target name="dcelements" depends="prepare">
-	<xslt in="${xml.dir}/dcelements.xml" out="${result.dir}/dcelements.rdf" style="${xsl.dir}/dcelements.xsl">
-	    <param name="language"		expression="${language}" />
-	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-	    <param name="header"		expression="${header.dir}/header-rdf-dcelements.xml" />
-	</xslt>
-    </target>
-
-    <target name="dctype" depends="prepare">
-	<xslt in="${xml.dir}/dctype.xml" out="${result.dir}/dctype.rdf" style="${xsl.dir}/dctype.xsl">
-	    <param name="language"		expression="${language}" />
-	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-	    <param name="header"		expression="${header.dir}/header-rdf-dctype.xml" />
-	</xslt>
-    </target>
-
-    <target name="dcterms" depends="prepare">
-	<xslt in="${xml.dir}/dcterms-classes.xml" out="${result.dir}/dcterms.rdf" style="${xsl.dir}/dcterms.xsl">
-	    <param name="language"		expression="${language}" />
-	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
-	    <param name="header"		expression="${header.dir}/header-rdf-dcterms.xml" />
-	    <param name="properties"		expression="${xml.dir}/dcterms-properties.xml" />
-	    <param name="ses"			expression="${xml.dir}/dcterms-ses.xml" />
-	    <param name="ves"			expression="${xml.dir}/dcterms-ves.xml" />
-	</xslt>
-    </target>
-    
 	<!-- CHECKME: the version of xsltproc I am using to test this requires a doubledash-xinclude command line argument to support XInclude.
 		Just in case this is also required in the XSLT processor used to run this ant script (xalan), it will need to be passed in somewhere around here -->
     <target name="htmldcmiterms" depends="prepare">
@@ -76,15 +37,6 @@
 	</xslt>
     </target>
     
-	<!-- FIXME: refer comment above target "htmldcmiterms" above -->
-    <target name="htmldctype" depends="prepare">
-	<xslt in="${xml.dir}/dctype.xml" out="${dcmitypes.dir}/index.shtml" style="${xsl.dir}/html-dctype.xsl">
-	    <!-- <param name="ns"		expression="http://purl.org/dc/dcmitype/" /> -->
-	    <!-- <param name="header"	expression="${header.dir}/header-doc-dctype.xml" /> -->
-		<param name="datestamp.dir" expression="${archive.dir}" />
-	</xslt>
-    </target>
-
 	<!-- FIXME: refer comment above target "htmldcmiterms" above -->
     <target name="htmlhistory" depends="prepare">
 	<xslt in="${header.dir}/header-doc-history.xml" out="${history.dir}/index.shtml" style="${xsl.dir}/html-history.xsl">
@@ -97,7 +49,6 @@
 	<mkdir dir="${result.dir}"/>
         <mkdir dir="${html.dir}"/>
 	<mkdir dir="${dcmiterms.dir}"/>
-	<mkdir dir="${dcmitypes.dir}"/>
 	<mkdir dir="${history.dir}"/>
     </target>
 

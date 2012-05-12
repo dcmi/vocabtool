@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
-<html prefix="dcam: http://purl.org/dc/dcam/" lang="en" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>DCMI Metadata Terms</title>
 <!--#exec cgi="/cgi-bin/metawriter.cgi" -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="meta" href="index.shtml.rdf"/>
 <link rel="stylesheet" href="/css/default.css" type="text/css"/>
 <link rel="dcterms:tableOfContents" href="#contents" title="Table of Contents"/>
 <style type="text/css"> 
@@ -468,7 +467,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A summary of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A summary of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -531,12 +530,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Information about who can access the resource or an indication of its security status.</td>
+<td axis="Definition" property="rdfs:comment">Information about who can access the resource or an indication of its security status.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.</td>
+<td axis="Comment" property="dcterms:description">Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -606,7 +605,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The method by which items are added to a collection.</td>
+<td axis="Definition" property="rdfs:comment">The method by which items are added to a collection.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -669,7 +668,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The frequency with which items are added to a collection.</td>
+<td axis="Definition" property="rdfs:comment">The frequency with which items are added to a collection.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -732,7 +731,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The policy governing the addition of items to a collection.</td>
+<td axis="Definition" property="rdfs:comment">The policy governing the addition of items to a collection.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -795,12 +794,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An alternative name for the resource.</td>
+<td axis="Definition" property="rdfs:comment">An alternative name for the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">The distinction between titles and alternative titles is application-specific.</td>
+<td axis="Comment" property="dcterms:description">The distinction between titles and alternative titles is application-specific.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -870,7 +869,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A class of entity for whom the resource is intended or useful.</td>
+<td axis="Definition" property="rdfs:comment">A class of entity for whom the resource is intended or useful.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -926,7 +925,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date (often a range) that the resource became or will become available.</td>
+<td axis="Definition" property="rdfs:comment">Date (often a range) that the resource became or will become available.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -996,12 +995,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A bibliographic reference for the resource.</td>
+<td axis="Definition" property="rdfs:comment">A bibliographic reference for the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.</td>
+<td axis="Comment" property="dcterms:description">Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1078,7 +1077,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An established standard to which the described resource conforms.</td>
+<td axis="Definition" property="rdfs:comment">An established standard to which the described resource conforms.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1148,12 +1147,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity responsible for making contributions to the resource.</td>
+<td axis="Definition" property="rdfs:comment">An entity responsible for making contributions to the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Contributor include a person, an organization, or a service.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Contributor include a person, an organization, or a service.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1216,12 +1215,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</td>
+<td axis="Definition" property="rdfs:comment">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</td>
+<td axis="Comment" property="dcterms:description">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -1288,7 +1287,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date of creation of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Date of creation of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1358,12 +1357,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity primarily responsible for making the resource.</td>
+<td axis="Definition" property="rdfs:comment">An entity primarily responsible for making the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Creator include a person, an organization, or a service.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Creator include a person, an organization, or a service.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1409,7 +1408,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th scope="row">EquivalentProperty:
 		</th>
 <td axis="EquivalentProperty">
-<a href="http://xmlns.com/foaf/0.1/maker">http://xmlns.com/foaf/0.1/maker</a>
+<a property="owl:equivalentProperty" href="http://xmlns.com/foaf/0.1/maker">http://xmlns.com/foaf/0.1/maker</a>
 </td>
 </tr>
 </tbody>
@@ -1440,12 +1439,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A point or period of time associated with an event in the lifecycle of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A point or period of time associated with an event in the lifecycle of the resource.</td>
 </tr> 
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</td>
+<td axis="Comment" property="dcterms:description">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -1512,12 +1511,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date of acceptance of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Date of acceptance of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal).</td>
+<td axis="Comment" property="dcterms:description">Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal).</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1587,7 +1586,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date of copyright.</td>
+<td axis="Definition" property="rdfs:comment">Date of copyright.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1657,12 +1656,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date of submission of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Date of submission of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal).</td>
+<td axis="Comment" property="dcterms:description">Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal).</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1732,12 +1731,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An account of the resource.</td>
+<td axis="Definition" property="rdfs:comment">An account of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</td>
+<td axis="Comment" property="dcterms:description">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1792,7 +1791,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended.</td>
+<td axis="Definition" property="rdfs:comment">A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1855,7 +1854,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The size or duration of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The size or duration of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -1925,12 +1924,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The file format, physical medium, or dimensions of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The file format, physical medium, or dimensions of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</td>
+<td axis="Comment" property="dcterms:description">Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -1997,7 +1996,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is substantially the same as the pre-existing described resource, but in another format.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is substantially the same as the pre-existing described resource, but in another format.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2065,7 +2064,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is included either physically or logically in the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is included either physically or logically in the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2133,7 +2132,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is a version, edition, or adaptation of the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is a version, edition, or adaptation of the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2201,12 +2200,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An unambiguous reference to the resource within a given context.</td>
+<td axis="Definition" property="rdfs:comment">An unambiguous reference to the resource within a given context.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2268,12 +2267,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support.</td>
+<td axis="Definition" property="rdfs:comment">A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback.</td>
+<td axis="Comment" property="dcterms:description">Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2329,7 +2328,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is substantially the same as the described resource, but in another format.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is substantially the same as the described resource, but in another format.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2397,7 +2396,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource in which the described resource is physically or logically included.</td>
+<td axis="Definition" property="rdfs:comment">A related resource in which the described resource is physically or logically included.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2465,7 +2464,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that references, cites, or otherwise points to the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that references, cites, or otherwise points to the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2533,7 +2532,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that supplants, displaces, or supersedes the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that supplants, displaces, or supersedes the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2601,7 +2600,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that requires the described resource to support its function, delivery, or coherence.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that requires the described resource to support its function, delivery, or coherence.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2669,7 +2668,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date of formal issuance (e.g., publication) of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Date of formal issuance (e.g., publication) of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2739,12 +2738,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource of which the described resource is a version, edition, or adaptation.</td>
+<td axis="Definition" property="rdfs:comment">A related resource of which the described resource is a version, edition, or adaptation.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Changes in version imply substantive changes in content rather than differences in format.</td>
+<td axis="Comment" property="dcterms:description">Changes in version imply substantive changes in content rather than differences in format.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2812,12 +2811,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A language of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A language of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -2884,7 +2883,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A legal document giving official permission to do something with the resource.</td>
+<td axis="Definition" property="rdfs:comment">A legal document giving official permission to do something with the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -2954,12 +2953,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity that mediates access to the resource and for whom the resource is intended or useful.</td>
+<td axis="Definition" property="rdfs:comment">An entity that mediates access to the resource and for whom the resource is intended or useful.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">In an educational context, a mediator might be a parent, teacher, teaching assistant, or care-giver.</td>
+<td axis="Comment" property="dcterms:description">In an educational context, a mediator might be a parent, teacher, teaching assistant, or care-giver.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3022,7 +3021,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The material or physical carrier of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The material or physical carrier of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3099,7 +3098,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date on which the resource was changed.</td>
+<td axis="Definition" property="rdfs:comment">Date on which the resource was changed.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3169,12 +3168,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.</td>
+<td axis="Definition" property="rdfs:comment">A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">The statement may include a description of any changes successive custodians made to the resource.</td>
+<td axis="Comment" property="dcterms:description">The statement may include a description of any changes successive custodians made to the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3230,12 +3229,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity responsible for making the resource available.</td>
+<td axis="Definition" property="rdfs:comment">An entity responsible for making the resource available.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Publisher include a person, an organization, or a service.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Publisher include a person, an organization, or a service.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3298,7 +3297,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3366,12 +3365,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3431,7 +3430,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is supplanted, displaced, or superseded by the described resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is supplanted, displaced, or superseded by the described resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3499,7 +3498,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource that is required by the described resource to support its function, delivery, or coherence.</td>
+<td axis="Definition" property="rdfs:comment">A related resource that is required by the described resource to support its function, delivery, or coherence.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3567,12 +3566,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Information about rights held in and over the resource.</td>
+<td axis="Definition" property="rdfs:comment">Information about rights held in and over the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</td>
+<td axis="Comment" property="dcterms:description">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3634,7 +3633,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A person or organization owning or managing rights over the resource.</td>
+<td axis="Definition" property="rdfs:comment">A person or organization owning or managing rights over the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3690,12 +3689,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource from which the described resource is derived.</td>
+<td axis="Definition" property="rdfs:comment">A related resource from which the described resource is derived.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</td>
+<td axis="Comment" property="dcterms:description">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3762,7 +3761,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Spatial characteristics of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Spatial characteristics of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3810,7 +3809,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -3832,12 +3831,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The topic of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The topic of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</td>
+<td axis="Comment" property="dcterms:description">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3898,7 +3897,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A list of subunits of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A list of subunits of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -3961,7 +3960,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Temporal characteristics of the resource.</td>
+<td axis="Definition" property="rdfs:comment">Temporal characteristics of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4031,7 +4030,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A name given to the resource.</td>
+<td axis="Definition" property="rdfs:comment">A name given to the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4094,12 +4093,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The nature or genre of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The nature or genre of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -4166,7 +4165,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Date (often a range) of validity of a resource.</td>
+<td axis="Definition" property="rdfs:comment">Date (often a range) of validity of a resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4241,12 +4240,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity responsible for making contributions to the resource.</td>
+<td axis="Definition" property="rdfs:comment">An entity responsible for making contributions to the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4300,12 +4299,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</td>
+<td axis="Definition" property="rdfs:comment">The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</td>
+<td axis="Comment" property="dcterms:description">Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -4364,12 +4363,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity primarily responsible for making the resource.</td>
+<td axis="Definition" property="rdfs:comment">An entity primarily responsible for making the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4423,12 +4422,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A point or period of time associated with an event in the lifecycle of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A point or period of time associated with an event in the lifecycle of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</td>
+<td axis="Comment" property="dcterms:description">Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -4487,12 +4486,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An account of the resource.</td>
+<td axis="Definition" property="rdfs:comment">An account of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</td>
+<td axis="Comment" property="dcterms:description">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4546,12 +4545,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The file format, physical medium, or dimensions of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The file format, physical medium, or dimensions of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</td>
+<td axis="Comment" property="dcterms:description">Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -4610,12 +4609,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An unambiguous reference to the resource within a given context.</td>
+<td axis="Definition" property="rdfs:comment">An unambiguous reference to the resource within a given context.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4669,12 +4668,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A language of the resource.</td>
+<td axis="Definition" property="rdfs:comment">A language of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -4740,12 +4739,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An entity responsible for making the resource available.</td>
+<td axis="Definition" property="rdfs:comment">An entity responsible for making the resource available.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</td>
+<td axis="Comment" property="dcterms:description">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4799,12 +4798,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource.</td>
+<td axis="Definition" property="rdfs:comment">A related resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. </td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4858,12 +4857,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Information about rights held in and over the resource.</td>
+<td axis="Definition" property="rdfs:comment">Information about rights held in and over the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</td>
+<td axis="Comment" property="dcterms:description">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4917,12 +4916,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A related resource from which the described resource is derived.</td>
+<td axis="Definition" property="rdfs:comment">A related resource from which the described resource is derived.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</td>
+<td axis="Comment" property="dcterms:description">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -4954,7 +4953,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>subject</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/elements/1.1/"/>
 <time property="dcterms:issued" datetime="1999-07-02"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -4976,12 +4975,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The topic of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The topic of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</td>
+<td axis="Comment" property="dcterms:description">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -5035,7 +5034,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A name given to the resource.</td>
+<td axis="Definition" property="rdfs:comment">A name given to the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -5089,12 +5088,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The nature or genre of the resource.</td>
+<td axis="Definition" property="rdfs:comment">The nature or genre of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</td>
+<td axis="Comment" property="dcterms:description">Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">References:
@@ -5136,7 +5135,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2000-07-11"> </time>
-<time property="dcterms:modified" datetime="2010-10-11"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -5158,14 +5157,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</td>
-</tr>
-    <tr class="attribute">
-<th scope="row">See:
-		</th>
-<td axis="See">
-<a property="rdfs:seeAlso" href="http://dublincore.org/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a>
-</td>
+<td axis="Definition" property="rdfs:comment">The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5189,7 +5181,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th scope="row">Version:
 		</th>
 <td axis="Version">
-<a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#DCMIType-003">http://dublincore.org/usage/terms/history/#DCMIType-003</a>
+<a property="dcterms:hasVersion" href="http://dublincore.org/usage/terms/history/#DCMIType-005">http://dublincore.org/usage/terms/history/#DCMIType-005</a>
 </td>
 </tr>
     
@@ -5221,7 +5213,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of conceptual resources specified by the Dewey Decimal Classification.</td>
+<td axis="Definition" property="rdfs:comment">The set of conceptual resources specified by the Dewey Decimal Classification.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5277,7 +5269,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of media types specified by the Internet Assigned Numbers Authority.</td>
+<td axis="Definition" property="rdfs:comment">The set of media types specified by the Internet Assigned Numbers Authority.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5333,7 +5325,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of conceptual resources specified by the Library of Congress Classification.</td>
+<td axis="Definition" property="rdfs:comment">The set of conceptual resources specified by the Library of Congress Classification.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5389,7 +5381,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of labeled concepts specified by the Library of Congress Subject Headings.</td>
+<td axis="Definition" property="rdfs:comment">The set of labeled concepts specified by the Library of Congress Subject Headings.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -5438,7 +5430,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of labeled concepts specified by the Medical Subject Headings.</td>
+<td axis="Definition" property="rdfs:comment">The set of labeled concepts specified by the Medical Subject Headings.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5494,7 +5486,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of conceptual resources specified by the National Library of Medicine Classification.</td>
+<td axis="Definition" property="rdfs:comment">The set of conceptual resources specified by the National Library of Medicine Classification.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5550,7 +5542,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of places specified by the Getty Thesaurus of Geographic Names.</td>
+<td axis="Definition" property="rdfs:comment">The set of places specified by the Getty Thesaurus of Geographic Names.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5606,7 +5598,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of conceptual resources specified by the Universal Decimal Classification.</td>
+<td axis="Definition" property="rdfs:comment">The set of conceptual resources specified by the Universal Decimal Classification.</td>
 </tr> 
     <tr class="attribute">
 <th scope="row">See:
@@ -5667,7 +5659,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme.</td>
+<td axis="Definition" property="rdfs:comment">The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5723,7 +5715,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of codes listed in ISO 3166-1 for the representation of names of countries.</td>
+<td axis="Definition" property="rdfs:comment">The set of codes listed in ISO 3166-1 for the representation of names of countries.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5779,7 +5771,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages.</td>
+<td axis="Definition" property="rdfs:comment">The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5834,7 +5826,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of three-letter codes listed in ISO 639-3 for the representation of names of languages.</td>
+<td axis="Definition" property="rdfs:comment">The set of three-letter codes listed in ISO 639-3 for the representation of names of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5888,7 +5880,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme.</td>
+<td axis="Definition" property="rdfs:comment">The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -5944,7 +5936,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of points in space defined by their geographic coordinates according to the DCMI Point Encoding Scheme.</td>
+<td axis="Definition" property="rdfs:comment">The set of points in space defined by their geographic coordinates according to the DCMI Point Encoding Scheme.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6000,7 +5992,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of tags, constructed according to RFC 1766, for the identification of languages.</td>
+<td axis="Definition" property="rdfs:comment">The set of tags, constructed according to RFC 1766, for the identification of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6056,12 +6048,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of tags constructed according to RFC 3066 for the identification of languages.</td>
+<td axis="Definition" property="rdfs:comment">The set of tags constructed according to RFC 3066 for the identification of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">RFC 3066 has been obsoleted by RFC 4646.</td>
+<td axis="Comment" property="dcterms:description">RFC 3066 has been obsoleted by RFC 4646.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6116,12 +6108,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of tags constructed according to RFC 4646 for the identification of languages.</td>
+<td axis="Definition" property="rdfs:comment">The set of tags constructed according to RFC 4646 for the identification of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">RFC 4646 obsoletes RFC 3066.</td>
+<td axis="Comment" property="dcterms:description">RFC 4646 obsoletes RFC 3066.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6174,12 +6166,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of tags constructed according to RFC 5646 for the identification of languages.</td>
+<td axis="Definition" property="rdfs:comment">The set of tags constructed according to RFC 5646 for the identification of languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">RFC 5646 obsoletes RFC 4646.</td>
+<td axis="Comment" property="dcterms:description">RFC 5646 obsoletes RFC 4646.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6233,7 +6225,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force.</td>
+<td axis="Definition" property="rdfs:comment">The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6289,7 +6281,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The set of dates and times constructed according to the W3C Date and Time Formats Specification.</td>
+<td axis="Definition" property="rdfs:comment">The set of dates and times constructed according to the W3C Date and Time Formats Specification.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -6349,12 +6341,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A resource that acts or has the power to act.</td>
+<td axis="Definition" property="rdfs:comment">A resource that acts or has the power to act.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of Agent include person, organization, and software agent.</td>
+<td axis="Comment" property="dcterms:description">Examples of Agent include person, organization, and software agent.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6386,7 +6378,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>AgentClass</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
 <time property="dcterms:issued" datetime="2008-01-14"> </time>
-<time property="dcterms:modified" datetime="2012-05-14"> </time>
+<time property="dcterms:modified" datetime="2012-05-21"> </time>
 </th>
 </tr>
     
@@ -6408,12 +6400,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A group of agents.</td>
+<td axis="Definition" property="rdfs:comment">A group of agents.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers.</td>
+<td axis="Comment" property="dcterms:description">Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6468,7 +6460,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A book, article, or other documentary resource.</td>
+<td axis="Definition" property="rdfs:comment">A book, article, or other documentary resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6514,12 +6506,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A digital resource format.</td>
+<td axis="Definition" property="rdfs:comment">A digital resource format.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include the formats defined by the list of Internet Media Types.</td>
+<td axis="Comment" property="dcterms:description">Examples include the formats defined by the list of Internet Media Types.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6572,7 +6564,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A rate at which something recurs.</td>
+<td axis="Definition" property="rdfs:comment">A rate at which something recurs.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6618,7 +6610,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">The extent or range of judicial, law enforcement, or other authority.</td>
+<td axis="Definition" property="rdfs:comment">The extent or range of judicial, law enforcement, or other authority.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6671,7 +6663,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A legal document giving official permission to do something with a Resource.</td>
+<td axis="Definition" property="rdfs:comment">A legal document giving official permission to do something with a Resource.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6724,12 +6716,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include written, spoken, sign, and computer languages.</td>
+<td axis="Comment" property="dcterms:description">Examples include written, spoken, sign, and computer languages.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A system of signs, symbols, sounds, gestures, or rules used in communication.</td>
+<td axis="Definition" property="rdfs:comment">A system of signs, symbols, sounds, gestures, or rules used in communication.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6775,7 +6767,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A spatial region or named place.</td>
+<td axis="Definition" property="rdfs:comment">A spatial region or named place.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6828,7 +6820,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A location, period of time, or jurisdiction.</td>
+<td axis="Definition" property="rdfs:comment">A location, period of time, or jurisdiction.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6874,7 +6866,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A file format or physical medium.</td>
+<td axis="Definition" property="rdfs:comment">A file format or physical medium.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6927,7 +6919,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A media type or extent.</td>
+<td axis="Definition" property="rdfs:comment">A media type or extent.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -6973,7 +6965,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A method by which resources are added to a collection.</td>
+<td axis="Definition" property="rdfs:comment">A method by which resources are added to a collection.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7019,7 +7011,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A process that is used to engender knowledge, attitudes, and skills.</td>
+<td axis="Definition" property="rdfs:comment">A process that is used to engender knowledge, attitudes, and skills.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7065,7 +7057,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An interval of time that is named or defined by its start and end dates.</td>
+<td axis="Definition" property="rdfs:comment">An interval of time that is named or defined by its start and end dates.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7118,12 +7110,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A physical material or carrier.</td>
+<td axis="Definition" property="rdfs:comment">A physical material or carrier.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include paper, canvas, or DVD.</td>
+<td axis="Comment" property="dcterms:description">Examples include paper, canvas, or DVD.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7176,7 +7168,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A material thing.</td>
+<td axis="Definition" property="rdfs:comment">A material thing.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7222,7 +7214,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters.</td>
+<td axis="Definition" property="rdfs:comment">A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7268,7 +7260,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.</td>
+<td axis="Definition" property="rdfs:comment">A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7314,7 +7306,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A statement about the intellectual property rights (IPR) held in or over a Resource, a legal document giving official permission to do something with a resource, or a statement about access rights.</td>
+<td axis="Definition" property="rdfs:comment">A statement about the intellectual property rights (IPR) held in or over a Resource, a legal document giving official permission to do something with a resource, or a statement about access rights.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7360,12 +7352,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A dimension or extent, or a time taken to play or execute.</td>
+<td axis="Definition" property="rdfs:comment">A dimension or extent, or a time taken to play or execute.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds.</td>
+<td axis="Comment" property="dcterms:description">Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7418,7 +7410,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A basis for comparison; a reference point against which other things can be evaluated.</td>
+<td axis="Definition" property="rdfs:comment">A basis for comparison; a reference point against which other things can be evaluated.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7470,12 +7462,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An aggregation of resources.</td>
+<td axis="Definition" property="rdfs:comment">An aggregation of resources.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">A collection is described as a group; its parts may also be separately described.</td>
+<td axis="Comment" property="dcterms:description">A collection is described as a group; its parts may also be separately described.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7531,12 +7523,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">Data encoded in a defined structure.</td>
+<td axis="Definition" property="rdfs:comment">Data encoded in a defined structure.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing.</td>
+<td axis="Comment" property="dcterms:description">Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7592,12 +7584,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A non-persistent, time-based occurrence.</td>
+<td axis="Definition" property="rdfs:comment">A non-persistent, time-based occurrence.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.</td>
+<td axis="Comment" property="dcterms:description">Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7653,12 +7645,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A visual representation other than text.</td>
+<td axis="Definition" property="rdfs:comment">A visual representation other than text.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations.</td>
+<td axis="Comment" property="dcterms:description">Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7728,12 +7720,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A resource requiring interaction from the user to be understood, executed, or experienced.</td>
+<td axis="Definition" property="rdfs:comment">A resource requiring interaction from the user to be understood, executed, or experienced.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.</td>
+<td axis="Comment" property="dcterms:description">Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7789,12 +7781,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A series of visual representations imparting an impression of motion when shown in succession.</td>
+<td axis="Definition" property="rdfs:comment">A series of visual representations imparting an impression of motion when shown in succession.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image.</td>
+<td axis="Comment" property="dcterms:description">Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7857,12 +7849,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An inanimate, three-dimensional object or substance.</td>
+<td axis="Definition" property="rdfs:comment">An inanimate, three-dimensional object or substance.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types.</td>
+<td axis="Comment" property="dcterms:description">Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7918,12 +7910,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A system that provides one or more functions.</td>
+<td axis="Definition" property="rdfs:comment">A system that provides one or more functions.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server.</td>
+<td axis="Comment" property="dcterms:description">Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -7979,12 +7971,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A computer program in source or compiled form.</td>
+<td axis="Definition" property="rdfs:comment">A computer program in source or compiled form.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include a C source file, MS-Windows .exe executable, or Perl script.</td>
+<td axis="Comment" property="dcterms:description">Examples include a C source file, MS-Windows .exe executable, or Perl script.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -8040,12 +8032,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A resource primarily intended to be heard.</td>
+<td axis="Definition" property="rdfs:comment">A resource primarily intended to be heard.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include a music playback file format, an audio compact disc, and recorded speech or sounds.</td>
+<td axis="Comment" property="dcterms:description">Examples include a music playback file format, an audio compact disc, and recorded speech or sounds.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -8101,12 +8093,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A static visual representation.</td>
+<td axis="Definition" property="rdfs:comment">A static visual representation.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image.</td>
+<td axis="Comment" property="dcterms:description">Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -8169,12 +8161,12 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A resource consisting primarily of words for reading.</td>
+<td axis="Definition" property="rdfs:comment">A resource consisting primarily of words for reading.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Comment:
 		</th>
-<td axis="Comment" property="rdfs:comment">Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.</td>
+<td axis="Comment" property="dcterms:description">Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Type of Term:
@@ -8235,7 +8227,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.</td>
+<td axis="Definition" property="rdfs:comment">A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:
@@ -8297,7 +8289,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
     <tr class="attribute">
 <th scope="row">Definition:
 		</th>
-<td axis="Definition" property="dcterms:description">An enumerated set of resources.</td>
+<td axis="Definition" property="rdfs:comment">An enumerated set of resources.</td>
 </tr>
     <tr class="attribute">
 <th scope="row">See:

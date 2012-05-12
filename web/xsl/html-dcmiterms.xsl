@@ -51,14 +51,13 @@
 <xsl:include href="html-regular.xsl" />
 
 <xsl:template match="/">
-	<html prefix="dcam: http://purl.org/dc/dcam/" lang="en">
+	<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en">
 		<head>
 			<title>
 				<xsl:apply-templates select="H1/Title"/>
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
 			<link rel="dcterms:tableOfContents" href="#contents" title="Table of Contents" /> <!-- see note at #contents below re not implementing this as an RDFa @property -->
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->

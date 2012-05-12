@@ -1,18 +1,18 @@
 <?xml version='1.0'?>
 
 <H1>
-	<Title>DCMI Metadata Terms: A complete historical record</Title>
-	<Creator label="DCMI Usage Board">DCMI Usage board</Creator>
+	<Title property="dcterms:title">DCMI Metadata Terms: A complete historical record</Title>
+	<Creator property="dcterms:creator" label="DCMI Usage Board">DCMI Usage board</Creator>
 
-    <Identifier>http://dublincore.org/usage/terms/history/2012/05/14/</Identifier>
-    <Date-Issued>2012-05-14</Date-Issued>
+    <Identifier property="dcterms:identifier">http://dublincore.org/usage/terms/history/2012/05/14/</Identifier>
+    <Date-Issued property="dcterms:issued">2012-05-14</Date-Issued>
 
-    <Latest-Version>http://dublincore.org/usage/terms/history/</Latest-Version>
-    <Replaces>http://dublincore.org/usage/terms/history/2010/10/11/</Replaces>
+    <Latest-Version property="dcterms:isVersionOf">http://dublincore.org/usage/terms/history/</Latest-Version>
+    <Replaces property="dcterms:replaces">http://dublincore.org/usage/terms/history/2010/10/11/</Replaces>
     <Replaced-By>Not applicable</Replaced-By>
     <Translations>http://dublincore.org/resources/translations/</Translations>
 	<Document-Status>This is a DCMI Recommendation.</Document-Status>
 
-	<Description>This document is a consolidated, historically complete, and updated representation of all Elements, Element Refinements, Encoding Schemes, and Vocabulary Terms in DCMI-maintained namespaces in all of their historical versions both current and superseded.  While this document may be useful for tracking changes in the status and attributes of terms over time, most users will need just "the latest" information, which is held in the document "DCMI Metadata Terms" at http://dublincore.org/usage/documents/dcmi-terms/.</Description>
+	<Description property="dcterms:description">This document is a consolidated, historically complete, and updated representation of all Elements, Element Refinements, Encoding Schemes, and Vocabulary Terms in DCMI-maintained namespaces in all of their historical versions both current and superseded.  While this document may be useful for tracking changes in the status and attributes of terms over time, most users will need just "the latest" information, which is held in the document "DCMI Metadata Terms" at http://dublincore.org/usage/documents/dcmi-terms/.</Description>
 
 </H1>

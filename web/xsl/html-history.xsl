@@ -59,7 +59,6 @@
 			</title>
 			<xsl:comment>#exec cgi="/cgi-bin/metawriter.cgi" </xsl:comment>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<link rel="meta" href="index.shtml.rdf" />
 			<link rel="stylesheet" href="{$test.hostname}/css/default.css" type="text/css" />
 			<style type="text/css"> <!-- FIXME: this inline style is for development only, and it should be placed inside the stylesheet referenced above -->
 				<![CDATA[
@@ -121,7 +120,6 @@
 	</xsl:apply-templates>
 </xsl:template>
 
-<!-- FIXME: this template is common with html-dctype.xsl, except it's surrounded by a condition there, and this version uses the Version element to source its RDFa @resource, and it doesn't need to invoke templates in content mode -->
 <xsl:template match="term">
 	<tbody id="{Anchor}" class="term" resource="{Version}">
 		<tr>
@@ -134,7 +132,9 @@
 				</span>
 			</th>
 		</tr>
-		<xsl:apply-templates />
+		<xsl:apply-templates>
+      <xsl:with-param name="no-rdfa" select="true()" />
+    </xsl:apply-templates>
 	</tbody>
 </xsl:template>
 

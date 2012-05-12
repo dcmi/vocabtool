@@ -78,6 +78,7 @@
 <!-- apply to all children of term for which there are not specific templates, -->
 <!-- thought this would have a default priority lower than other matching templates, but unfortunately needs @priority (slight hack) -->
 <xsl:template match="term/*" priority="-1">
+  <xsl:param name="no-rdfa"/>
 	<tr class="attribute">
 		<th scope="row">
 			<xsl:value-of select="translate(local-name(), '-', ' ')"/>:
@@ -88,6 +89,9 @@
 					<a>
             <!-- gk: this should use mappings -->
             <xsl:choose>
+              <xsl:when test="$no-rdfa">
+                <!-- no semantic markup -->
+              </xsl:when>
               <xsl:when test="local-name()='URI'">
                 <!-- gk: this is redundant with the subject URI
                 <xsl:attribute name="property">rdfs:identifier</xsl:attribute>
@@ -153,6 +157,9 @@
 				<xsl:otherwise>
             <!-- gk: this should use mappings -->
             <xsl:choose>
+              <xsl:when test="$no-rdfa">
+                <!-- no semantic markup -->
+              </xsl:when>
               <xsl:when test="local-name()='Name'">
                 <xsl:attribute name="property">dcterms:name</xsl:attribute>
               </xsl:when>
@@ -197,7 +204,14 @@
 			<xsl:value-of select="translate(local-name($context), '-', ' ')"/>:
 		</th>
 		<td axis="{local-name($context)}">
-			<a property="{$property}">
+			<a>
+        <xsl:choose>
+          <xsl:when test="$property">
+            <xsl:attribute name="property">
+              <xsl:value-of select="$property"/>
+            </xsl:attribute>
+          </xsl:when>
+        </xsl:choose>
 				<xsl:attribute name="href">
 					<xsl:apply-templates select="$context/node()" />
 				</xsl:attribute>

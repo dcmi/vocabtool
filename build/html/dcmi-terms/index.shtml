@@ -1408,7 +1408,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <th scope="row">EquivalentProperty:
 		</th>
 <td axis="EquivalentProperty">
-<a href="http://xmlns.com/foaf/0.1/maker">http://xmlns.com/foaf/0.1/maker</a>
+<a property="owl:equivalentProperty" href="http://xmlns.com/foaf/0.1/maker">http://xmlns.com/foaf/0.1/maker</a>
 </td>
 </tr>
 </tbody>

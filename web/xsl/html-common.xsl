@@ -130,6 +130,9 @@
               <xsl:when test="local-name()='Instance-Of'">
                 <xsl:attribute name="property">rdf:type</xsl:attribute>
               </xsl:when>
+              <xsl:when test="local-name()='EquivalentProperty'">
+                <xsl:attribute name="property">owl:equivalentProperty</xsl:attribute>
+              </xsl:when>
               <xsl:when test="local-name()='Broader-Than'">
                 <!-- no semantic markup -->
               </xsl:when>

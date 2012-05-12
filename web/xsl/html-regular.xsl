@@ -39,7 +39,7 @@
 <!-- NB important to maintain these elements' matches in default mode as well so they aren't processed as table rows -->
 <xsl:template match="Date-Modified" mode="content">
 	<time>
-    <xsl:attribute name="property">dcterms:modfified</xsl:attribute>
+    <xsl:attribute name="property">dcterms:modified</xsl:attribute>
 		<xsl:attribute name="datetime">
 			<xsl:apply-templates />
 		</xsl:attribute>

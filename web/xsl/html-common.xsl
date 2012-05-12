@@ -160,10 +160,10 @@
                 <xsl:attribute name="property">rdfs:label</xsl:attribute>
               </xsl:when>
               <xsl:when test="local-name()='Definition'">
-                <xsl:attribute name="property">dcterms:description</xsl:attribute>
+                <xsl:attribute name="property">rdfs:comment</xsl:attribute>
               </xsl:when>
               <xsl:when test="local-name()='Comment'">
-                <xsl:attribute name="property">rdfs:comment</xsl:attribute>
+                <xsl:attribute name="property">dcterms:description</xsl:attribute>
               </xsl:when>
               <xsl:when test="local-name()='Version'">
                 <xsl:attribute name="property">dcterms:hasVersion</xsl:attribute>

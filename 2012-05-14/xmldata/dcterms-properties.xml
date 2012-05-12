@@ -98,7 +98,7 @@
     <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
     <Date-Issued>2008-01-14</Date-Issued>
     <Refines>http://purl.org/dc/elements/1.1/subject</Refines>
-    <Date-Modified>2012-05-14</Date-Modified>
+    <Date-Modified>2012-05-21</Date-Modified>
     <Decision>http://dublincore.org/usage/decisions/#Decision-2012-01</Decision>
     <Replaces>http://dublincore.org/usage/terms/history/#subjectT-001</Replaces>
     <Version>http://dublincore.org/usage/terms/history/#subjectT-002</Version>

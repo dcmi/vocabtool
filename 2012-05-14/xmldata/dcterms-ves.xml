@@ -267,23 +267,42 @@
     </term>
 
 <term>
-    <Anchor>DCMIType-004</Anchor>
+    <Anchor>DCMIType-005</Anchor>
     <URI>http://purl.org/dc/terms/DCMIType</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>DCMIType</Name>
     <Name-for-Table>ves-DCMIType</Name-for-Table>
     <Label>DCMI Type Vocabulary</Label>
     <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
-    <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
     <See>http://purl.org/dc/dcmitype/</See>
     <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
     <Status>http://dublincore.org/usage/documents/process/#registered</Status>
     <Date-Issued>2000-07-11</Date-Issued>
-    <Date-Modified>2010-10-11</Date-Modified>
-    <Decision>http://dublincore.org/usage/decisions/#Decision-2010-01</Decision>
-    <Version>http://dublincore.org/usage/terms/history/#DCMIType-003</Version>
-    <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-003</Replaces>
+    <Date-Modified>2012-05-21</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2012-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#DCMIType-005</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-004</Replaces>
 </term>
+
+    <term>
+        <Anchor>DCMIType-004</Anchor>
+        <URI>http://purl.org/dc/terms/DCMIType</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DCMIType</Name>
+        <Name-for-Table>ves-DCMIType</Name-for-Table>
+        <Label>DCMI Type Vocabulary</Label>
+        <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
+        <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
+        <See>http://purl.org/dc/dcmitype/</See>
+        <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2010-10-11</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2010-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DCMIType-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DCMIType-005</Is-Replaced-By>
+    </term>
 
     <term>
         <Anchor>DCMIType-003</Anchor>

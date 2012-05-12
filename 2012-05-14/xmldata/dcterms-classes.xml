@@ -34,7 +34,7 @@
     <Narrower-Than>http://www.w3.org/2000/01/rdf-schema#Class</Narrower-Than>
     <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
     <Date-Issued>2008-01-14</Date-Issued>
-    <Date-Modified>2012-05-14</Date-Modified>
+    <Date-Modified>2012-05-21</Date-Modified>
     <Decision>http://dublincore.org/usage/decisions/#Decision-2012-01</Decision>
     <Replaces>http://dublincore.org/usage/terms/history/#AgentClass-002</Replaces>
     <Version>http://dublincore.org/usage/terms/history/#AgentClass-003</Version>

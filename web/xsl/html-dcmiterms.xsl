@@ -51,7 +51,7 @@
 <xsl:include href="html-regular.xsl" />
 
 <xsl:template match="/">
-	<html prefix="dcam: http://purl.org/dc/dcam/" lang="en">
+	<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en">
 		<head>
 			<title>
 				<xsl:apply-templates select="H1/Title"/>

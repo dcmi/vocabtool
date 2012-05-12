@@ -13,8 +13,6 @@
 	indent="yes"
 	version="1.0"
 	encoding="utf-8"
-	doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd"
-	doctype-public="-//W3C//DTD XHTML+RDFa 1.1//EN"
 	/>
 
 <xsl:namespace-alias result-prefix="xhtml" stylesheet-prefix="#default" />
@@ -51,6 +49,7 @@
 <xsl:include href="html-regular.xsl" />
 
 <xsl:template match="/">
+  <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html>&#10;</xsl:text>
 	<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en">
 		<head>
 			<title>

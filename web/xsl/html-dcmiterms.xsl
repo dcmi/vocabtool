@@ -50,7 +50,11 @@
 
 <xsl:template match="/">
   <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html>&#10;</xsl:text>
-	<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en">
+	<html
+    prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/"
+    lang="en"
+    resource="http://purl.org/dc/"
+  >
 		<head>
 			<title>
 				<xsl:apply-templates select="H1/Title"/>
@@ -96,7 +100,7 @@
 				]]>
 			</style>
 		</head>
-		<body resource="http://purl.org/dc/terms/">
+		<body>
 			<xsl:comment>#include virtual="/ssi/header.shtml" </xsl:comment>
 			<h1><xsl:apply-templates select="H1/Title" /></h1>
 			<xsl:apply-templates select="H1" mode="docinfo" />

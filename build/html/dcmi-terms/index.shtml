@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+<html prefix="dcam: http://purl.org/dc/dcam/ dctype: http://purl.org/dc/dcmitype/" lang="en" resource="http://purl.org/dc/" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>DCMI Metadata Terms</title>
 <!--#exec cgi="/cgi-bin/metawriter.cgi" -->
@@ -44,7 +44,7 @@
 				
 			</style>
 </head>
-<body resource="http://purl.org/dc/terms/">
+<body>
 <!--#include virtual="/ssi/header.shtml" -->
 <h1>DCMI Metadata Terms</h1>
 <table cellspacing="0" class="docinfo">

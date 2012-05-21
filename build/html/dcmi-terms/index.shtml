@@ -110,7 +110,7 @@
 <a href="#H2">Properties in the <abbr title="http://purl.org/dc/terms/" class="xmlns">/terms/</abbr> namespace</a>
 </li>
 <li>
-<a href="#H3">Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</a>
+<a href="#H3">Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</a>
 </li>
 <li>
 <a href="#H4">Vocabulary Encoding Schemes</a>
@@ -138,7 +138,7 @@
 </td>
 </tr>
 <tr>
-<th scope="row">Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</th>
+<th scope="row">Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</th>
 <td>
 <a href="#elements-contributor" class="term">contributor</a>, <a href="#elements-coverage" class="term">coverage</a>, <a href="#elements-creator" class="term">creator</a>, <a href="#elements-date" class="term">date</a>, <a href="#elements-description" class="term">description</a>, <a href="#elements-format" class="term">format</a>, <a href="#elements-identifier" class="term">identifier</a>, <a href="#elements-language" class="term">language</a>, <a href="#elements-publisher" class="term">publisher</a>, <a href="#elements-relation" class="term">relation</a>, <a href="#elements-rights" class="term">rights</a>, <a href="#elements-source" class="term">source</a>, <a href="#elements-subject" class="term">subject</a>, <a href="#elements-title" class="term">title</a>, <a href="#elements-type" class="term">type</a>
 </td>
@@ -4211,7 +4211,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </table>
 </div>
 <div id="H3">
-<h2>Section 3: Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</h2>
+<h2>Section 3: Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</h2>
 <table cellspacing="0" class="border">
 <tbody id="elements-contributor" class="term" resource="http://purl.org/dc/elements/1.1/contributor">
 <tr>

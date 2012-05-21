@@ -12,7 +12,7 @@
 <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 <xsl:param name="xml-lang-for-date" select="'no'"/> 
-<xsl:param name="language" select="'en-US'" />
+<xsl:param name="language" select="'en'" />
 
 <!-- legacy use (See Qualifies)  -->
 <!-- no longer used -->

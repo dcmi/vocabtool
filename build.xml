@@ -18,7 +18,7 @@
 	you can specify xml:lang using 'language' property.
 	e.g. fr, de, ja, etc...
     -->
-    <property name="language" value="enS"/>
+    <property name="language" value="en"/>
     <property name="use-xml-lang" value="no"/>
     
     <tstamp/>

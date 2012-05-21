@@ -13,7 +13,7 @@
 <dcterms:title xml:lang="en">Dublin Core Metadata Element Set, Version 1.1</dcterms:title>
 <dcterms:publisher rdf:resource="http://purl.org/dc/aboutdcmi#DCMI"/>
 <dcterms:modified>2012-05-14</dcterms:modified>
-</rdf:Description>Properties in the legacy /elements/1.1/ namespace<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/title">
+</rdf:Description>Properties in the /elements/1.1/ namespace<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/title">
 <rdfs:label xml:lang="en">Title</rdfs:label>
 <rdfs:comment xml:lang="en">A name given to the resource.</rdfs:comment>
 <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>

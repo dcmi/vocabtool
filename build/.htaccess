@@ -3,12 +3,13 @@ Options -MultiViews
 
 # Directive to ensure *.rdf files served as appropriate content type,
 # if not present in main apache config
-AddType application/x-httpd-php  .html .htm .rdf .ttl
+AddType application/rdf+xml .rdf
+AddType text/turtle  .ttl
 
 <ifModule mod_rewrite.c>
- 	# Rewrite engine setup
- 	RewriteEngine On
-#	RewriteBase /2012/05/22
+	# Rewrite engine setup
+	RewriteEngine On
+	#RewriteBase /2012/05/22
 
 	# make sure we don't have the file or a directory index to serve
 	# the rest fails to redirect if we do
@@ -18,6 +19,7 @@ AddType application/x-httpd-php  .html .htm .rdf .ttl
 
 	# Rewrite rule to make sure we serve the turtle content when requested
 	RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
+	RewriteCond %{HTTP_ACCEPT} application/rdf+turtle [OR]
 	RewriteCond %{HTTP_ACCEPT} application/turtle
 	RewriteRule ^(.*)$ %{REQUEST_URI}.ttl [R=303,L]
 
@@ -37,6 +39,12 @@ AddType application/x-httpd-php  .html .htm .rdf .ttl
 	RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
 	RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms\?v=dcam [R=303,L,NE,NC]
 
-	# this catch-all means there's never a 404, any unservable request will serve dcmi-terms/index.html
+	# either of these catch-alls means there's never a 404
+	# any unservable request will serve dcmi-terms/index.html
 	RewriteRule ^(.*)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms/ [R=303,L,NE]
+
+	#uncomment either the rule above or the rule below to control the default
+
+	# any unservable request will serve RDF Rurtle
+	#RewriteRule ^(.*)$ %{REQUEST_URI}.ttl [R=303,L]
 </ifModule>

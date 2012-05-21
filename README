@@ -135,3 +135,6 @@ http://dublincore.org
 
 [1] http://ant.apache.org/
 [2] http://www.jiscmail.ac.uk/lists/dc-architecture.html
+#!/bin/bash
+
+http://rdf.greggkellogg.net/distiller?format=turtle&in_fmt=rdfa&uri=https://raw.github.com/dublincore/website/master/build/html/dcmi-terms/index.shtml

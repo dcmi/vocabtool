@@ -24,10 +24,45 @@
     <tstamp/>
     <property name="xsltp" value="org.apache.xalan.xslt.Process"/>
 
-    <target name="generate" depends="htmldcmiterms,htmlhistory" description="generate DCES, DCQ and DCMIType Vocabulary"/>
+    <target name="generate" depends="dcam,dcelements,dctype,dcterms,htmldcmiterms,htmlhistory" description="generate DCMI Metadata Terms (schemas and HTML) and version history"/>
 
     <!-- new targets -->
 
+    <target name="dcam" depends="prepare">
+	<xslt in="${xml.dir}/dcam.xml" out="${result.dir}/dcam.rdf" style="${xsl.dir}/dcam.xsl">
+	    <param name="language"		expression="${language}" />
+	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
+	    <param name="header"		expression="${header.dir}/header-rdf-dcam.xml" />
+	</xslt>
+    </target>
+
+    <target name="dcelements" depends="prepare">
+	<xslt in="${xml.dir}/dcelements.xml" out="${result.dir}/dcelements.rdf" style="${xsl.dir}/dcelements.xsl">
+	    <param name="language"		expression="${language}" />
+	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
+	    <param name="header"		expression="${header.dir}/header-rdf-dcelements.xml" />
+	</xslt>
+    </target>
+
+    <target name="dctype" depends="prepare">
+	<xslt in="${xml.dir}/dctype.xml" out="${result.dir}/dctype.rdf" style="${xsl.dir}/dctype.xsl">
+	    <param name="language"		expression="${language}" />
+	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
+	    <param name="header"		expression="${header.dir}/header-rdf-dctype.xml" />
+	</xslt>
+    </target>
+
+    <target name="dcterms" depends="prepare">
+	<xslt in="${xml.dir}/dcterms-classes.xml" out="${result.dir}/dcterms.rdf" style="${xsl.dir}/dcterms.xsl">
+	    <param name="language"		expression="${language}" />
+	    <param name="xml-lang-for-date"	expression="${use-xml-lang}" />
+	    <param name="header"		expression="${header.dir}/header-rdf-dcterms.xml" />
+	    <param name="properties"		expression="${xml.dir}/dcterms-properties.xml" />
+	    <param name="ses"			expression="${xml.dir}/dcterms-ses.xml" />
+	    <param name="ves"			expression="${xml.dir}/dcterms-ves.xml" />
+	</xslt>
+    </target>
+    
 	<!-- CHECKME: the version of xsltproc I am using to test this requires a doubledash-xinclude command line argument to support XInclude.
 		Just in case this is also required in the XSLT processor used to run this ant script (xalan), it will need to be passed in somewhere around here -->
     <target name="htmldcmiterms" depends="prepare">

@@ -58,8 +58,8 @@
         <Replaces>http://dublincore.org/usage/terms/history/#AgentClass-001</Replaces>
         <Version>http://dublincore.org/usage/terms/history/#AgentClass-002</Version>
         <Is-Replaced-By>http://dublincore.org/usage/terms/history/#AgentClass-003</Is-Replaced-By>
-        <Note>As described in the Decision document of 2012-05-14, this term was described with
-        an incorrect sub-property relationship from 2010-10-11 to 2012-05-14.</Note>
+        <Note>As described in the Decision document of 2012-06-01, this term was described with
+        an incorrect sub-property relationship from 2010-10-11 to 2012-06-01.</Note>
     </term>
 
     <term>

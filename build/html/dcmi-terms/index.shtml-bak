@@ -110,7 +110,7 @@
 <a href="#H2">Properties in the <abbr title="http://purl.org/dc/terms/" class="xmlns">/terms/</abbr> namespace</a>
 </li>
 <li>
-<a href="#H3">Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</a>
+<a href="#H3">Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</a>
 </li>
 <li>
 <a href="#H4">Vocabulary Encoding Schemes</a>
@@ -138,7 +138,7 @@
 </td>
 </tr>
 <tr>
-<th scope="row">Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</th>
+<th scope="row">Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</th>
 <td>
 <a href="#elements-contributor" class="term">contributor</a>, <a href="#elements-coverage" class="term">coverage</a>, <a href="#elements-creator" class="term">creator</a>, <a href="#elements-date" class="term">date</a>, <a href="#elements-description" class="term">description</a>, <a href="#elements-format" class="term">format</a>, <a href="#elements-identifier" class="term">identifier</a>, <a href="#elements-language" class="term">language</a>, <a href="#elements-publisher" class="term">publisher</a>, <a href="#elements-relation" class="term">relation</a>, <a href="#elements-rights" class="term">rights</a>, <a href="#elements-source" class="term">source</a>, <a href="#elements-subject" class="term">subject</a>, <a href="#elements-title" class="term">title</a>, <a href="#elements-type" class="term">type</a>
 </td>
@@ -146,19 +146,19 @@
 <tr>
 <th scope="row">Vocabulary Encoding Schemes</th>
 <td>
-<a href="#terms-DCMIType" class="term">DCMIType</a>, <a href="#terms-DDC" class="term">DDC</a>, <a href="#terms-IMT" class="term">IMT</a>, <a href="#terms-LCC" class="term">LCC</a>, <a href="#terms-LCSH" class="term">LCSH</a>, <a href="#terms-MESH" class="term">MESH</a>, <a href="#terms-NLM" class="term">NLM</a>, <a href="#terms-TGN" class="term">TGN</a>, <a href="#terms-UDC" class="term">UDC</a>
+<a href="#ves-DCMIType" class="term">DCMIType</a>, <a href="#ves-DDC" class="term">DDC</a>, <a href="#ves-IMT" class="term">IMT</a>, <a href="#ves-LCC" class="term">LCC</a>, <a href="#ves-LCSH" class="term">LCSH</a>, <a href="#ves-MESH" class="term">MESH</a>, <a href="#ves-NLM" class="term">NLM</a>, <a href="#ves-TGN" class="term">TGN</a>, <a href="#ves-UDC" class="term">UDC</a>
 </td>
 </tr>
 <tr>
 <th scope="row">Syntax Encoding Schemes</th>
 <td>
-<a href="#terms-Box" class="term">Box</a>, <a href="#terms-ISO3166" class="term">ISO3166</a>, <a href="#terms-ISO639-2" class="term">ISO639-2</a>, <a href="#terms-ISO639-3" class="term">ISO639-3</a>, <a href="#terms-Period" class="term">Period</a>, <a href="#terms-Point" class="term">Point</a>, <a href="#terms-RFC1766" class="term">RFC1766</a>, <a href="#terms-RFC3066" class="term">RFC3066</a>, <a href="#terms-RFC4646" class="term">RFC4646</a>, <a href="#terms-RFC5646" class="term">RFC5646</a>, <a href="#terms-URI" class="term">URI</a>, <a href="#terms-W3CDTF" class="term">W3CDTF</a>
+<a href="#ses-Box" class="term">Box</a>, <a href="#ses-ISO3166" class="term">ISO3166</a>, <a href="#ses-ISO639-2" class="term">ISO639-2</a>, <a href="#ses-ISO639-3" class="term">ISO639-3</a>, <a href="#ses-Period" class="term">Period</a>, <a href="#ses-Point" class="term">Point</a>, <a href="#ses-RFC1766" class="term">RFC1766</a>, <a href="#ses-RFC3066" class="term">RFC3066</a>, <a href="#ses-RFC4646" class="term">RFC4646</a>, <a href="#ses-RFC5646" class="term">RFC5646</a>, <a href="#ses-URI" class="term">URI</a>, <a href="#ses-W3CDTF" class="term">W3CDTF</a>
 </td>
 </tr>
 <tr>
 <th scope="row">Classes</th>
 <td>
-<a href="#terms-Agent" class="term">Agent</a>, <a href="#terms-AgentClass" class="term">AgentClass</a>, <a href="#terms-BibliographicResource" class="term">BibliographicResource</a>, <a href="#terms-FileFormat" class="term">FileFormat</a>, <a href="#terms-Frequency" class="term">Frequency</a>, <a href="#terms-Jurisdiction" class="term">Jurisdiction</a>, <a href="#terms-LicenseDocument" class="term">LicenseDocument</a>, <a href="#terms-LinguisticSystem" class="term">LinguisticSystem</a>, <a href="#terms-Location" class="term">Location</a>, <a href="#terms-LocationPeriodOrJurisdiction" class="term">LocationPeriodOrJurisdiction</a>, <a href="#terms-MediaType" class="term">MediaType</a>, <a href="#terms-MediaTypeOrExtent" class="term">MediaTypeOrExtent</a>, <a href="#terms-MethodOfAccrual" class="term">MethodOfAccrual</a>, <a href="#terms-MethodOfInstruction" class="term">MethodOfInstruction</a>, <a href="#terms-PeriodOfTime" class="term">PeriodOfTime</a>, <a href="#terms-PhysicalMedium" class="term">PhysicalMedium</a>, <a href="#terms-PhysicalResource" class="term">PhysicalResource</a>, <a href="#terms-Policy" class="term">Policy</a>, <a href="#terms-ProvenanceStatement" class="term">ProvenanceStatement</a>, <a href="#terms-RightsStatement" class="term">RightsStatement</a>, <a href="#terms-SizeOrDuration" class="term">SizeOrDuration</a>, <a href="#terms-Standard" class="term">Standard</a>
+<a href="#classes-Agent" class="term">Agent</a>, <a href="#classes-AgentClass" class="term">AgentClass</a>, <a href="#classes-BibliographicResource" class="term">BibliographicResource</a>, <a href="#classes-FileFormat" class="term">FileFormat</a>, <a href="#classes-Frequency" class="term">Frequency</a>, <a href="#classes-Jurisdiction" class="term">Jurisdiction</a>, <a href="#classes-LicenseDocument" class="term">LicenseDocument</a>, <a href="#classes-LinguisticSystem" class="term">LinguisticSystem</a>, <a href="#classes-Location" class="term">Location</a>, <a href="#classes-LocationPeriodOrJurisdiction" class="term">LocationPeriodOrJurisdiction</a>, <a href="#classes-MediaType" class="term">MediaType</a>, <a href="#classes-MediaTypeOrExtent" class="term">MediaTypeOrExtent</a>, <a href="#classes-MethodOfAccrual" class="term">MethodOfAccrual</a>, <a href="#classes-MethodOfInstruction" class="term">MethodOfInstruction</a>, <a href="#classes-PeriodOfTime" class="term">PeriodOfTime</a>, <a href="#classes-PhysicalMedium" class="term">PhysicalMedium</a>, <a href="#classes-PhysicalResource" class="term">PhysicalResource</a>, <a href="#classes-Policy" class="term">Policy</a>, <a href="#classes-ProvenanceStatement" class="term">ProvenanceStatement</a>, <a href="#classes-RightsStatement" class="term">RightsStatement</a>, <a href="#classes-SizeOrDuration" class="term">SizeOrDuration</a>, <a href="#classes-Standard" class="term">Standard</a>
 </td>
 </tr>
 <tr>
@@ -4211,7 +4211,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </table>
 </div>
 <div id="H3">
-<h2>Section 3: Properties in the <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</h2>
+<h2>Section 3: Properties in the legacy <abbr title="http://purl.org/dc/elements/1.1/" class="xmlns">/elements/1.1/</abbr> namespace</h2>
 <table cellspacing="0" class="border">
 <tbody id="elements-contributor" class="term" resource="http://purl.org/dc/elements/1.1/contributor">
 <tr>
@@ -5130,7 +5130,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <div id="H4">
 <h2>Section 4: Vocabulary Encoding Schemes</h2>
 <table cellspacing="0" class="border">
-<tbody id="terms-DCMIType" class="term" resource="http://purl.org/dc/terms/DCMIType">
+<tbody id="ves-DCMIType" class="term" resource="http://purl.org/dc/terms/DCMIType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DCMIType</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5186,7 +5186,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-DDC" class="term" resource="http://purl.org/dc/terms/DDC">
+<tbody id="ves-DDC" class="term" resource="http://purl.org/dc/terms/DDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>DDC</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5242,7 +5242,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-IMT" class="term" resource="http://purl.org/dc/terms/IMT">
+<tbody id="ves-IMT" class="term" resource="http://purl.org/dc/terms/IMT">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>IMT</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5298,7 +5298,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-LCC" class="term" resource="http://purl.org/dc/terms/LCC">
+<tbody id="ves-LCC" class="term" resource="http://purl.org/dc/terms/LCC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCC</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5354,7 +5354,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-LCSH" class="term" resource="http://purl.org/dc/terms/LCSH">
+<tbody id="ves-LCSH" class="term" resource="http://purl.org/dc/terms/LCSH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LCSH</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5403,7 +5403,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-MESH" class="term" resource="http://purl.org/dc/terms/MESH">
+<tbody id="ves-MESH" class="term" resource="http://purl.org/dc/terms/MESH">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MESH</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5459,7 +5459,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-NLM" class="term" resource="http://purl.org/dc/terms/NLM">
+<tbody id="ves-NLM" class="term" resource="http://purl.org/dc/terms/NLM">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>NLM</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5515,7 +5515,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-TGN" class="term" resource="http://purl.org/dc/terms/TGN">
+<tbody id="ves-TGN" class="term" resource="http://purl.org/dc/terms/TGN">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>TGN</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5571,7 +5571,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-UDC" class="term" resource="http://purl.org/dc/terms/UDC">
+<tbody id="ves-UDC" class="term" resource="http://purl.org/dc/terms/UDC">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>UDC</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5632,7 +5632,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <div id="H5">
 <h2>Section 5: Syntax Encoding Schemes</h2>
 <table cellspacing="0" class="border">
-<tbody id="terms-Box" class="term" resource="http://purl.org/dc/terms/Box">
+<tbody id="ses-Box" class="term" resource="http://purl.org/dc/terms/Box">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Box</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5688,7 +5688,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-ISO3166" class="term" resource="http://purl.org/dc/terms/ISO3166">
+<tbody id="ses-ISO3166" class="term" resource="http://purl.org/dc/terms/ISO3166">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO3166</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5744,7 +5744,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-ISO639-2" class="term" resource="http://purl.org/dc/terms/ISO639-2">
+<tbody id="ses-ISO639-2" class="term" resource="http://purl.org/dc/terms/ISO639-2">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-2</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5800,7 +5800,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-ISO639-3" class="term" resource="http://purl.org/dc/terms/ISO639-3">
+<tbody id="ses-ISO639-3" class="term" resource="http://purl.org/dc/terms/ISO639-3">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ISO639-3</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5853,7 +5853,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-Period" class="term" resource="http://purl.org/dc/terms/Period">
+<tbody id="ses-Period" class="term" resource="http://purl.org/dc/terms/Period">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Period</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5909,7 +5909,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-Point" class="term" resource="http://purl.org/dc/terms/Point">
+<tbody id="ses-Point" class="term" resource="http://purl.org/dc/terms/Point">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Point</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -5965,7 +5965,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-RFC1766" class="term" resource="http://purl.org/dc/terms/RFC1766">
+<tbody id="ses-RFC1766" class="term" resource="http://purl.org/dc/terms/RFC1766">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC1766</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6021,7 +6021,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-RFC3066" class="term" resource="http://purl.org/dc/terms/RFC3066">
+<tbody id="ses-RFC3066" class="term" resource="http://purl.org/dc/terms/RFC3066">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC3066</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6082,7 +6082,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-RFC4646" class="term" resource="http://purl.org/dc/terms/RFC4646">
+<tbody id="ses-RFC4646" class="term" resource="http://purl.org/dc/terms/RFC4646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC4646</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6140,7 +6140,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-RFC5646" class="term" resource="http://purl.org/dc/terms/RFC5646">
+<tbody id="ses-RFC5646" class="term" resource="http://purl.org/dc/terms/RFC5646">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RFC5646</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6198,7 +6198,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-URI" class="term" resource="http://purl.org/dc/terms/URI">
+<tbody id="ses-URI" class="term" resource="http://purl.org/dc/terms/URI">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>URI</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6254,7 +6254,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tr>
     
 </tbody>
-<tbody id="terms-W3CDTF" class="term" resource="http://purl.org/dc/terms/W3CDTF">
+<tbody id="ses-W3CDTF" class="term" resource="http://purl.org/dc/terms/W3CDTF">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>W3CDTF</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6315,7 +6315,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 <div id="H6">
 <h2>Section 6: Classes</h2>
 <table cellspacing="0" class="border">
-<tbody id="terms-Agent" class="term" resource="http://purl.org/dc/terms/Agent">
+<tbody id="classes-Agent" class="term" resource="http://purl.org/dc/terms/Agent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Agent</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6373,7 +6373,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-AgentClass" class="term" resource="http://purl.org/dc/terms/AgentClass">
+<tbody id="classes-AgentClass" class="term" resource="http://purl.org/dc/terms/AgentClass">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>AgentClass</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6434,7 +6434,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-BibliographicResource" class="term" resource="http://purl.org/dc/terms/BibliographicResource">
+<tbody id="classes-BibliographicResource" class="term" resource="http://purl.org/dc/terms/BibliographicResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>BibliographicResource</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6480,7 +6480,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-FileFormat" class="term" resource="http://purl.org/dc/terms/FileFormat">
+<tbody id="classes-FileFormat" class="term" resource="http://purl.org/dc/terms/FileFormat">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>FileFormat</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6538,7 +6538,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-Frequency" class="term" resource="http://purl.org/dc/terms/Frequency">
+<tbody id="classes-Frequency" class="term" resource="http://purl.org/dc/terms/Frequency">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Frequency</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6584,7 +6584,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-Jurisdiction" class="term" resource="http://purl.org/dc/terms/Jurisdiction">
+<tbody id="classes-Jurisdiction" class="term" resource="http://purl.org/dc/terms/Jurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Jurisdiction</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6637,7 +6637,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-LicenseDocument" class="term" resource="http://purl.org/dc/terms/LicenseDocument">
+<tbody id="classes-LicenseDocument" class="term" resource="http://purl.org/dc/terms/LicenseDocument">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LicenseDocument</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6690,7 +6690,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-LinguisticSystem" class="term" resource="http://purl.org/dc/terms/LinguisticSystem">
+<tbody id="classes-LinguisticSystem" class="term" resource="http://purl.org/dc/terms/LinguisticSystem">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LinguisticSystem</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6741,7 +6741,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-Location" class="term" resource="http://purl.org/dc/terms/Location">
+<tbody id="classes-Location" class="term" resource="http://purl.org/dc/terms/Location">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Location</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6794,7 +6794,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-LocationPeriodOrJurisdiction" class="term" resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
+<tbody id="classes-LocationPeriodOrJurisdiction" class="term" resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>LocationPeriodOrJurisdiction</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6840,7 +6840,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-MediaType" class="term" resource="http://purl.org/dc/terms/MediaType">
+<tbody id="classes-MediaType" class="term" resource="http://purl.org/dc/terms/MediaType">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaType</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6893,7 +6893,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-MediaTypeOrExtent" class="term" resource="http://purl.org/dc/terms/MediaTypeOrExtent">
+<tbody id="classes-MediaTypeOrExtent" class="term" resource="http://purl.org/dc/terms/MediaTypeOrExtent">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MediaTypeOrExtent</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6939,7 +6939,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-MethodOfAccrual" class="term" resource="http://purl.org/dc/terms/MethodOfAccrual">
+<tbody id="classes-MethodOfAccrual" class="term" resource="http://purl.org/dc/terms/MethodOfAccrual">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfAccrual</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -6985,7 +6985,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-MethodOfInstruction" class="term" resource="http://purl.org/dc/terms/MethodOfInstruction">
+<tbody id="classes-MethodOfInstruction" class="term" resource="http://purl.org/dc/terms/MethodOfInstruction">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>MethodOfInstruction</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7031,7 +7031,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-PeriodOfTime" class="term" resource="http://purl.org/dc/terms/PeriodOfTime">
+<tbody id="classes-PeriodOfTime" class="term" resource="http://purl.org/dc/terms/PeriodOfTime">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PeriodOfTime</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7084,7 +7084,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-PhysicalMedium" class="term" resource="http://purl.org/dc/terms/PhysicalMedium">
+<tbody id="classes-PhysicalMedium" class="term" resource="http://purl.org/dc/terms/PhysicalMedium">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalMedium</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7142,7 +7142,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-PhysicalResource" class="term" resource="http://purl.org/dc/terms/PhysicalResource">
+<tbody id="classes-PhysicalResource" class="term" resource="http://purl.org/dc/terms/PhysicalResource">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>PhysicalResource</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7188,7 +7188,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-Policy" class="term" resource="http://purl.org/dc/terms/Policy">
+<tbody id="classes-Policy" class="term" resource="http://purl.org/dc/terms/Policy">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Policy</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7234,7 +7234,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-ProvenanceStatement" class="term" resource="http://purl.org/dc/terms/ProvenanceStatement">
+<tbody id="classes-ProvenanceStatement" class="term" resource="http://purl.org/dc/terms/ProvenanceStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>ProvenanceStatement</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7280,7 +7280,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-RightsStatement" class="term" resource="http://purl.org/dc/terms/RightsStatement">
+<tbody id="classes-RightsStatement" class="term" resource="http://purl.org/dc/terms/RightsStatement">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>RightsStatement</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7326,7 +7326,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-SizeOrDuration" class="term" resource="http://purl.org/dc/terms/SizeOrDuration">
+<tbody id="classes-SizeOrDuration" class="term" resource="http://purl.org/dc/terms/SizeOrDuration">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>SizeOrDuration</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -7384,7 +7384,7 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </td>
 </tr>
 </tbody>
-<tbody id="terms-Standard" class="term" resource="http://purl.org/dc/terms/Standard">
+<tbody id="classes-Standard" class="term" resource="http://purl.org/dc/terms/Standard">
 <tr>
 <th colspan="2" scope="rowgroup">Term Name: &nbsp;&nbsp;<span>Standard</span>
 <link property="rdfs:isDefinedBy" href="http://purl.org/dc/terms/"/>
@@ -8318,8 +8318,6 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tbody>
 </table>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-<script src="jump2location.js" type="text/javascript"></script>
 <!--#include virtual="/ssi/footer.shtml" -->
 </body>
 </html>

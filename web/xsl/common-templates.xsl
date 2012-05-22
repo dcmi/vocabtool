@@ -6,13 +6,14 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:dcam="http://purl.org/dc/dcam/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
     exclude-result-prefixes="xml"
 >
 
 <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 <xsl:param name="xml-lang-for-date" select="'no'"/> 
-<xsl:param name="language" select="'en-US'" />
+<xsl:param name="language" select="'en'" />
 
 <!-- legacy use (See Qualifies)  -->
 <!-- no longer used -->
@@ -30,12 +31,14 @@
     &lt;!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
     &lt;!ENTITY dcamns 'http://purl.org/dc/dcam/'>
     &lt;!ENTITY skosns 'http://www.w3.org/2004/02/skos/core#'>
+    &lt;!ENTITY owlns 'http://www.w3.org/2002/07/owl#'>
 ]>
 </xsl:text>
 </xsl:template>
 
 <xsl:template name="literal-or-resource">
     <xsl:param name="use-xml-lang" select="'yes'"/>
+    <xsl:param name="use-date-datatype" select="'no'"/>
     <xsl:variable name="tmp" select="normalize-space(.)"/>
     <xsl:choose>
         <xsl:when test="starts-with($tmp,'http://') or starts-with($tmp,'ftp://') or starts-with($tmp,'mailto:')">
@@ -49,6 +52,9 @@
 		<xsl:attribute name="xml:lang">
 		    <xsl:value-of select="$language"/>
 		</xsl:attribute>
+	    </xsl:if>
+	    <xsl:if test="$use-date-datatype = 'yes'">
+		<xsl:attribute name="rdf:datatype">http://www.w3.org/2001/XMLSchema#date</xsl:attribute>
 	    </xsl:if>
             <xsl:value-of select="."/>
         </xsl:otherwise>
@@ -127,6 +133,8 @@
     Has-Range		= rdfs:range
     Member-Of		= dcam:memberOf
     Refines		= rdfs:subPropertyOf
+
+    EquivalentProperty  = owl:equivalentProperty
   -->
 
 <xsl:template match="Title">
@@ -254,6 +262,7 @@
     <dcterms:issued>
 	<xsl:call-template name="literal-or-resource">
 	    <xsl:with-param name="use-xml-lang" select="$xml-lang-for-date"/>
+	    <xsl:with-param name="use-date-datatype" select="'yes'"/>
 	</xsl:call-template>
     </dcterms:issued>
 </xsl:template>
@@ -324,6 +333,12 @@
     </dcam:memberOf>
 </xsl:template>
 
+<xsl:template match="EquivalentProperty">
+    <owl:equivalentProperty>
+	<xsl:call-template name="literal-or-resource"/>
+    </owl:equivalentProperty>
+</xsl:template>
+
 <xsl:template name="print-properties-common">
   <xsl:apply-templates select="Label"/>
   <xsl:apply-templates select="Definition"/>
@@ -343,6 +358,7 @@
   <xsl:apply-templates select="Refines"/>
   <xsl:apply-templates select="Title"/>
   <xsl:apply-templates select="Publisher"/>
+  <xsl:apply-templates select="EquivalentProperty"/>
 </xsl:template>
 
 </xsl:stylesheet>

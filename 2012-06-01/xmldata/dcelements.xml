@@ -242,7 +242,7 @@
     <Type-of-Term>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</Type-of-Term>
     <Status>http://dublincore.org/usage/documents/process/#recommended</Status>
     <Date-Issued>1999-07-02</Date-Issued>
-    <Date-Modified>2012-05-21</Date-Modified>
+    <Date-Modified>2012-06-01</Date-Modified>
     <Decision>http://dublincore.org/usage/decisions/#Decision-2012-01</Decision>
     <Version>http://dublincore.org/usage/terms/history/#subject-007</Version>
     <Replaces>http://dublincore.org/usage/terms/history/#subject-006</Replaces>

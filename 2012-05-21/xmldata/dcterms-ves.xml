@@ -9,7 +9,7 @@
     <URI>http://purl.org/dc/terms/LCSH</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>LCSH</Name>
-    <Name-for-Table>ves-LCSH</Name-for-Table>
+    <Name-for-Table>terms-LCSH</Name-for-Table>
     <Label>LCSH</Label>
     <Definition>The set of labeled concepts specified by the Library of Congress Subject Headings.</Definition>
     <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
@@ -59,7 +59,7 @@
     <URI>http://purl.org/dc/terms/MESH</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>MESH</Name>
-    <Name-for-Table>ves-MESH</Name-for-Table>
+    <Name-for-Table>terms-MESH</Name-for-Table>
     <Label>MeSH</Label>
     <Definition>The set of labeled concepts specified by the Medical Subject Headings.</Definition>
     <See>http://www.nlm.nih.gov/mesh/meshhome.html</See>
@@ -112,7 +112,7 @@
     <URI>http://purl.org/dc/terms/DDC</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>DDC</Name>
-    <Name-for-Table>ves-DDC</Name-for-Table>
+    <Name-for-Table>terms-DDC</Name-for-Table>
     <Label>DDC</Label>
     <Definition>The set of conceptual resources specified by the Dewey Decimal Classification.</Definition>
     <See>http://www.oclc.org/dewey/</See>
@@ -165,7 +165,7 @@
     <URI>http://purl.org/dc/terms/LCC</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>LCC</Name>
-    <Name-for-Table>ves-LCC</Name-for-Table>
+    <Name-for-Table>terms-LCC</Name-for-Table>
     <Label>LCC</Label>
     <Definition>The set of conceptual resources specified by the Library of Congress Classification.</Definition>
     <See>http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html</See>
@@ -218,7 +218,7 @@
     <URI>http://purl.org/dc/terms/UDC</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>UDC</Name>
-    <Name-for-Table>ves-UDC</Name-for-Table>
+    <Name-for-Table>terms-UDC</Name-for-Table>
     <Label>UDC</Label>
     <Definition>The set of conceptual resources specified by the Universal Decimal Classification.</Definition> 
     <See>http://www.udcc.org/</See>
@@ -271,7 +271,7 @@
     <URI>http://purl.org/dc/terms/DCMIType</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>DCMIType</Name>
-    <Name-for-Table>ves-DCMIType</Name-for-Table>
+    <Name-for-Table>terms-DCMIType</Name-for-Table>
     <Label>DCMI Type Vocabulary</Label>
     <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
     <See>http://purl.org/dc/dcmitype/</See>
@@ -290,7 +290,7 @@
         <Namespace>http://purl.org/dc/terms/</Namespace>
         <Name>DCMIType</Name>
         <Name-for-Table>ves-DCMIType</Name-for-Table>
-        <Label>DCMI Type Vocabulary</Label>
+        <Label>DCMI TypetermsVocabulary</Label>
         <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
         <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
         <See>http://purl.org/dc/dcmitype/</See>
@@ -310,7 +310,7 @@
         <Namespace>http://purl.org/dc/terms/</Namespace>
         <Name>DCMIType</Name>
         <Name-for-Table>ves-DCMIType</Name-for-Table>
-        <Label>DCMI Type Vocabulary</Label>
+        <Label>DCMI TypetermsVocabulary</Label>
         <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
         <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
         <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
@@ -365,7 +365,7 @@
     <URI>http://purl.org/dc/terms/IMT</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>IMT</Name>
-    <Name-for-Table>ves-IMT</Name-for-Table>
+    <Name-for-Table>terms-IMT</Name-for-Table>
     <Label>IMT</Label>
     <Definition>The set of media types specified by the Internet Assigned Numbers Authority.</Definition>
     <See>http://www.iana.org/assignments/media-types/</See>
@@ -437,7 +437,7 @@
     <URI>http://purl.org/dc/terms/TGN</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>TGN</Name>
-    <Name-for-Table>ves-TGN</Name-for-Table>
+    <Name-for-Table>terms-TGN</Name-for-Table>
     <Label>TGN</Label>
     <Definition>The set of places specified by the Getty Thesaurus of Geographic Names.</Definition>
     <See>http://www.getty.edu/research/tools/vocabulary/tgn/index.html</See>
@@ -488,7 +488,7 @@
 <term>
     <Anchor>NLM-002</Anchor>
     <Name>NLM</Name>
-    <Name-for-Table>ves-NLM</Name-for-Table>
+    <Name-for-Table>terms-NLM</Name-for-Table>
     <URI>http://purl.org/dc/terms/NLM</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Label>NLM</Label>

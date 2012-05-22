@@ -20430,7 +20430,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-DCMIType</td>
+<td axis="Name-for-Table">terms-DCMIType</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -20524,7 +20524,7 @@ history of individual terms:</p>
         <tr class="attribute">
 <th scope="row">Label:
 		</th>
-<td axis="Label">DCMI Type Vocabulary</td>
+<td axis="Label">DCMI TypetermsVocabulary</td>
 </tr>
         <tr class="attribute">
 <th scope="row">Definition:
@@ -20627,7 +20627,7 @@ history of individual terms:</p>
         <tr class="attribute">
 <th scope="row">Label:
 		</th>
-<td axis="Label">DCMI Type Vocabulary</td>
+<td axis="Label">DCMI TypetermsVocabulary</td>
 </tr>
         <tr class="attribute">
 <th scope="row">Definition:
@@ -20897,7 +20897,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-DDC</td>
+<td axis="Name-for-Table">terms-DDC</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -21163,7 +21163,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-IMT</td>
+<td axis="Name-for-Table">terms-IMT</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -21527,7 +21527,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-LCC</td>
+<td axis="Name-for-Table">terms-LCC</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -21793,7 +21793,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-LCSH</td>
+<td axis="Name-for-Table">terms-LCSH</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -22038,7 +22038,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-MESH</td>
+<td axis="Name-for-Table">terms-MESH</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -22290,7 +22290,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-NLM</td>
+<td axis="Name-for-Table">terms-NLM</td>
 </tr>
     <tr class="attribute">
 <th scope="row">URI:
@@ -22479,7 +22479,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-TGN</td>
+<td axis="Name-for-Table">terms-TGN</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -22745,7 +22745,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ves-UDC</td>
+<td axis="Name-for-Table">terms-UDC</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -23011,7 +23011,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-Box</td>
+<td axis="Name-for-Table">terms-Box</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -23277,7 +23277,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-ISO3166</td>
+<td axis="Name-for-Table">terms-ISO3166</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -23641,7 +23641,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-ISO639-2</td>
+<td axis="Name-for-Table">terms-ISO639-2</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -23893,7 +23893,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-ISO639-3</td>
+<td axis="Name-for-Table">terms-ISO639-3</td>
 </tr>
     <tr class="attribute">
 <th scope="row">URI:
@@ -23984,7 +23984,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-Period</td>
+<td axis="Name-for-Table">terms-Period</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -24264,7 +24264,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-Point</td>
+<td axis="Name-for-Table">terms-Point</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -24530,7 +24530,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-RFC1766</td>
+<td axis="Name-for-Table">terms-RFC1766</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -24800,7 +24800,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-RFC3066</td>
+<td axis="Name-for-Table">terms-RFC3066</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -24975,7 +24975,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-RFC4646</td>
+<td axis="Name-for-Table">terms-RFC4646</td>
 </tr>
     <tr class="attribute">
 <th scope="row">URI:
@@ -25057,7 +25057,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-RFC5646</td>
+<td axis="Name-for-Table">terms-RFC5646</td>
 </tr>
     <tr class="attribute">
 <th scope="row">URI:
@@ -25153,7 +25153,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-URI</td>
+<td axis="Name-for-Table">terms-URI</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -25447,7 +25447,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">ses-W3CDTF</td>
+<td axis="Name-for-Table">terms-W3CDTF</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -25727,7 +25727,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Agent</td>
+<td axis="Name-for-Table">terms-Agent</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -25809,7 +25809,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-AgentClass</td>
+<td axis="Name-for-Table">terms-AgentClass</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26099,7 +26099,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-BibliographicResource</td>
+<td axis="Name-for-Table">terms-BibliographicResource</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26169,7 +26169,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-FileFormat</td>
+<td axis="Name-for-Table">terms-FileFormat</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26251,7 +26251,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Frequency</td>
+<td axis="Name-for-Table">terms-Frequency</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26321,7 +26321,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Jurisdiction</td>
+<td axis="Name-for-Table">terms-Jurisdiction</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26398,7 +26398,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-LicenseDocument</td>
+<td axis="Name-for-Table">terms-LicenseDocument</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26475,7 +26475,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-LinguisticSystem</td>
+<td axis="Name-for-Table">terms-LinguisticSystem</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26550,7 +26550,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Location</td>
+<td axis="Name-for-Table">terms-Location</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26627,7 +26627,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-LocationPeriodOrJurisdiction</td>
+<td axis="Name-for-Table">terms-LocationPeriodOrJurisdiction</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26697,7 +26697,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-MediaType</td>
+<td axis="Name-for-Table">terms-MediaType</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26774,7 +26774,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-MediaTypeOrExtent</td>
+<td axis="Name-for-Table">terms-MediaTypeOrExtent</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26844,7 +26844,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-MethodOfAccrual</td>
+<td axis="Name-for-Table">terms-MethodOfAccrual</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26914,7 +26914,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-MethodOfInstruction</td>
+<td axis="Name-for-Table">terms-MethodOfInstruction</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -26984,7 +26984,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-PeriodOfTime</td>
+<td axis="Name-for-Table">terms-PeriodOfTime</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27061,7 +27061,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-PhysicalMedium</td>
+<td axis="Name-for-Table">terms-PhysicalMedium</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27143,7 +27143,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-PhysicalResource</td>
+<td axis="Name-for-Table">terms-PhysicalResource</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27213,7 +27213,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Policy</td>
+<td axis="Name-for-Table">terms-Policy</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27283,7 +27283,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-ProvenanceStatement</td>
+<td axis="Name-for-Table">terms-ProvenanceStatement</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27353,7 +27353,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-RightsStatement</td>
+<td axis="Name-for-Table">terms-RightsStatement</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27423,7 +27423,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-SizeOrDuration</td>
+<td axis="Name-for-Table">terms-SizeOrDuration</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:
@@ -27505,7 +27505,7 @@ history of individual terms:</p>
     <tr class="attribute">
 <th scope="row">Name for Table:
 		</th>
-<td axis="Name-for-Table">classes-Standard</td>
+<td axis="Name-for-Table">terms-Standard</td>
 </tr>
     <tr class="attribute">
 <th scope="row">Label:

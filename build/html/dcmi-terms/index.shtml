@@ -8318,6 +8318,8 @@ of semantic specifications and related DCMI documents [<a href="#TRANSLATIONS">T
 </tbody>
 </table>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="jump2location.js" type="text/javascript"></script>
 <!--#include virtual="/ssi/footer.shtml" -->
 </body>
 </html>

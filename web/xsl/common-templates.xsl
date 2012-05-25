@@ -184,6 +184,7 @@
     <dcterms:modified>
 	<xsl:call-template name="literal-or-resource">
 	    <xsl:with-param name="use-xml-lang" select="$xml-lang-for-date"/>
+	    <xsl:with-param name="use-date-datatype" select="'yes'"/>
 	</xsl:call-template>
     </dcterms:modified>
 </xsl:template>

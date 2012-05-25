@@ -14,6 +14,7 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:dcam="http://purl.org/dc/dcam/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
 >
 
 <xsl:include href="common-templates.xsl"/>
@@ -45,7 +46,7 @@
 	      <xsl:text>rdfs:Class</xsl:text>
 	    </xsl:when>
 	    <xsl:otherwise>
-	      <xsl:text>rdf:Property</xsl:text>
+	      <xsl:text>rdf:Description</xsl:text>
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:variable>

@@ -4,8 +4,8 @@
 	<Title property="dcterms:title">DCMI Metadata Terms: A complete historical record</Title>
 	<Creator property="dcterms:creator" label="DCMI Usage Board">DCMI Usage board</Creator>
 
-    <Identifier property="dcterms:identifier">http://dublincore.org/usage/terms/history/2012/05/21/</Identifier>
-    <Date-Issued property="dcterms:issued">2012-05-21</Date-Issued>
+    <Identifier property="dcterms:identifier">http://dublincore.org/usage/terms/history/2012/06/01/</Identifier>
+    <Date-Issued property="dcterms:issued">2012-06-01</Date-Issued>
 
     <Latest-Version property="dcterms:isVersionOf">http://dublincore.org/usage/terms/history/</Latest-Version>
     <Replaces property="dcterms:replaces">http://dublincore.org/usage/terms/history/2010/10/11/</Replaces>

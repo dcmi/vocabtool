@@ -17,6 +17,12 @@
 <xsl:param name="ses" select="''"/>
 <xsl:param name="ves" select="''"/>
 
+<!-- 
+     NOTE: 
+     primary xml data source is dcterms-classes.xml (see build.xml). 
+     The following three lines import other xml data sources via document
+     function.
+-->
 <xsl:variable name="properties-doc" select="document($properties)/dc"/>
 <xsl:variable name="ses-doc" select="document($ses)/dc"/>
 <xsl:variable name="ves-doc" select="document($ves)/dc"/>
@@ -31,75 +37,43 @@
 	<xsl:call-template name="Heading">
 	    <xsl:with-param name="header" select="$header"/>
 	</xsl:call-template>
-        <xsl:call-template name="print-properties">
-	  <xsl:with-param name="doc" select="$properties-doc"/>
+        <xsl:call-template name="print-terms">
+	    <xsl:with-param name="doc" select="$properties-doc"/>
 	</xsl:call-template>
-        <xsl:call-template name="print-classes"/>
-        <xsl:call-template name="print-properties">
-	  <xsl:with-param name="doc" select="$ses-doc"/>
+        <xsl:call-template name="print-terms">
+	    <xsl:with-param name="doc" select="/dc"/>
 	</xsl:call-template>
-        <xsl:call-template name="print-properties">
-	  <xsl:with-param name="doc" select="$ves-doc"/>
+        <xsl:call-template name="print-terms">
+	    <xsl:with-param name="doc" select="$ses-doc"/>
+	</xsl:call-template>
+        <xsl:call-template name="print-terms">
+	    <xsl:with-param name="doc" select="$ves-doc"/>
 	</xsl:call-template>
     </rdf:RDF>
 </xsl:template>
 
-<xsl:template match="term">
-  <xsl:variable name="irb" select="normalize-space(Is-Replaced-By)"/>
-  <xsl:variable name="ns" select="normalize-space(Namespace)"/>
-  <xsl:if test="$irb = '' and $ns = $target-ns">
-    <xsl:call-template name="rdf-property"/>
-  </xsl:if>
+<xsl:template name="print-terms">
+  <xsl:param name="doc" select="''" />
+  <xsl:for-each select="$doc/term">
+      <xsl:variable name="irb" select="normalize-space(Is-Replaced-By)"/>
+      <xsl:variable name="ns" select="normalize-space(Namespace)"/>
+      <xsl:if test="$irb = '' and $ns = $target-ns">
+	  <xsl:call-template name="rdf-description"/>
+      </xsl:if>
+  </xsl:for-each>
 </xsl:template>
 
-<xsl:template name="print-classes">
-  <xsl:apply-templates select="term"/>
-</xsl:template>
-
-<xsl:template name="print-properties">
-    <xsl:param name="doc" select="''" />
-    <xsl:for-each select="$doc/term">
-	<xsl:variable name="irb" select="normalize-space(Is-Replaced-By)"/>
-	<xsl:variable name="ns" select="normalize-space(Namespace)"/>
-	<xsl:if test="$irb = '' and $ns = $target-ns">
-	    <xsl:call-template name="rdf-property-for-qualifiers"/>
-	</xsl:if>
-    </xsl:for-each>
-</xsl:template>
-
-<xsl:template name="rdf-property-for-qualifiers">
+<xsl:template name="rdf-description">
+  <!--
+       NOTE:
+       'print-properties-common' template makes an RDFS definition which is
+       defined in common-templates.xsl.
+       It is required to modify 'print-properties-common' when you add a new
+       element (e.g. EquivalentProperty) to xml data sources.
+  -->
   <rdf:Description rdf:about="{normalize-space(URI)}">
     <xsl:call-template name="print-properties-common" />
   </rdf:Description>
 </xsl:template>
-
-<xsl:template name="rdf-property">
-  <rdf:Description rdf:about="{URI}">
-    <xsl:call-template name="print-properties-common" />
-  </rdf:Description>
-</xsl:template>
-
-<!--
-<xsl:template name="print-properties-common">
-  <xsl:apply-templates select="Label"/>
-  <xsl:apply-templates select="Definition"/>
-  <xsl:apply-templates select="Comment"/>
-  <xsl:apply-templates select="Namespace"/>
-  <xsl:apply-templates select="Date-Issued"/>
-  <xsl:apply-templates select="Date-Modified"/>
-  <xsl:apply-templates select="Type-of-Term"/>
-  <xsl:apply-templates select="Instance-Of"/>
-  <xsl:apply-templates select="Version"/>
-  <xsl:apply-templates select="See"/>
-  <xsl:apply-templates select="Has-Domain"/>
-  <xsl:apply-templates select="Has-Range"/>
-  <xsl:apply-templates select="Member-Of"/>
-  <xsl:apply-templates select="Narrower-Than"/>
-  <xsl:apply-templates select="Note"/>
-  <xsl:apply-templates select="Refines"/>
-  <xsl:apply-templates select="Title"/>
-  <xsl:apply-templates select="Publisher"/>
-</xsl:template>
--->
 
 </xsl:stylesheet>

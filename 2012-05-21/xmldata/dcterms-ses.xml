@@ -9,7 +9,7 @@
     <URI>http://purl.org/dc/terms/ISO639-2</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>ISO639-2</Name>
-    <Name-for-Table>ses-ISO639-2</Name-for-Table>
+    <Name-for-Table>terms-ISO639-2</Name-for-Table>
     <Label>ISO 639-2</Label>
     <Definition>The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages.</Definition>
     <See>http://lcweb.loc.gov/standards/iso639-2/langhome.html</See>
@@ -62,7 +62,7 @@
     <URI>http://purl.org/dc/terms/RFC1766</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>RFC1766</Name>
-    <Name-for-Table>ses-RFC1766</Name-for-Table>
+    <Name-for-Table>terms-RFC1766</Name-for-Table>
     <Label>RFC 1766</Label>
     <Definition>The set of tags, constructed according to RFC 1766, for the identification of languages.</Definition>
     <See>http://www.ietf.org/rfc/rfc1766.txt</See>
@@ -119,7 +119,7 @@
     <URI>http://purl.org/dc/terms/URI</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>URI</Name>
-    <Name-for-Table>ses-URI</Name-for-Table>
+    <Name-for-Table>terms-URI</Name-for-Table>
     <Label>URI</Label>
     <Definition>The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force.</Definition>
     <See>http://www.ietf.org/rfc/rfc3986.txt</See>
@@ -176,7 +176,7 @@
     <URI>http://purl.org/dc/terms/Point</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>Point</Name>
-    <Name-for-Table>ses-Point</Name-for-Table>
+    <Name-for-Table>terms-Point</Name-for-Table>
     <Label>DCMI Point</Label>
     <Definition>The set of points in space defined by their geographic coordinates according to the DCMI Point Encoding Scheme.</Definition>
     <See>http://dublincore.org/documents/dcmi-point/</See>
@@ -229,7 +229,7 @@
     <URI>http://purl.org/dc/terms/ISO3166</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>ISO3166</Name>
-    <Name-for-Table>ses-ISO3166</Name-for-Table>
+    <Name-for-Table>terms-ISO3166</Name-for-Table>
     <Label>ISO 3166</Label>
     <Definition>The set of codes listed in ISO 3166-1 for the representation of names of countries.</Definition>
     <See>http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html</See>
@@ -301,7 +301,7 @@
     <URI>http://purl.org/dc/terms/Box</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>Box</Name>
-    <Name-for-Table>ses-Box</Name-for-Table>
+    <Name-for-Table>terms-Box</Name-for-Table>
     <Label>DCMI Box</Label>
     <Definition>The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme.</Definition>
     <See>http://dublincore.org/documents/dcmi-box/</See>
@@ -354,7 +354,7 @@
     <URI>http://purl.org/dc/terms/Period</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>Period</Name>
-    <Name-for-Table>ses-Period</Name-for-Table>
+    <Name-for-Table>terms-Period</Name-for-Table>
     <Label>DCMI Period</Label>
     <Definition>The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme.</Definition>
     <See>http://dublincore.org/documents/dcmi-period/</See>
@@ -409,7 +409,7 @@
     <URI>http://purl.org/dc/terms/W3CDTF</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>W3CDTF</Name>
-    <Name-for-Table>ses-W3CDTF</Name-for-Table>
+    <Name-for-Table>terms-W3CDTF</Name-for-Table>
     <Label>W3C-DTF</Label>
     <Definition>The set of dates and times constructed according to the W3C Date and Time Formats Specification.</Definition>
     <See>http://www.w3.org/TR/NOTE-datetime</See>
@@ -464,7 +464,7 @@
     <URI>http://purl.org/dc/terms/RFC3066</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Name>RFC3066</Name>
-    <Name-for-Table>ses-RFC3066</Name-for-Table>
+    <Name-for-Table>terms-RFC3066</Name-for-Table>
     <Label>RFC 3066</Label>
     <Definition>The set of tags constructed according to RFC 3066 for the identification of languages.</Definition>
     <Comment>RFC 3066 has been obsoleted by RFC 4646.</Comment>
@@ -507,7 +507,7 @@
 <term>
     <Anchor>RFC5646-001</Anchor>
     <Name>RFC5646</Name>
-    <Name-for-Table>ses-RFC5646</Name-for-Table>
+    <Name-for-Table>terms-RFC5646</Name-for-Table>
     <URI>http://purl.org/dc/terms/RFC5646</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Label>RFC 5646</Label>
@@ -524,7 +524,7 @@
 <term>
     <Anchor>RFC4646-001</Anchor>
     <Name>RFC4646</Name>
-    <Name-for-Table>ses-RFC4646</Name-for-Table>
+    <Name-for-Table>terms-RFC4646</Name-for-Table>
     <URI>http://purl.org/dc/terms/RFC4646</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Label>RFC 4646</Label>
@@ -541,7 +541,7 @@
 <term>
     <Anchor>ISO639-3-001</Anchor>
     <Name>ISO639-3</Name>
-    <Name-for-Table>ses-ISO639-3</Name-for-Table>
+    <Name-for-Table>terms-ISO639-3</Name-for-Table>
     <URI>http://purl.org/dc/terms/ISO639-3</URI>
     <Namespace>http://purl.org/dc/terms/</Namespace>
     <Label>ISO 639-3</Label>

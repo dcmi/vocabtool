@@ -34,14 +34,14 @@ AddType text/turtle  .ttl
 	RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 	# redirects all requests for individual vocabs to /dcmi-terms/
 	# which should serve /dcmi-terms/index.html
-	RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms?v=elements [R=303,L,NE,NC]
-	RewriteRule ^(dcterms)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms\?v=terms [R=303,L,NE,NC]
-	RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
-	RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms\?v=dcam [R=303,L,NE,NC]
+	RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms?v=elements [R=303,L,NE,NC]
+	RewriteRule ^(dcterms)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=terms [R=303,L,NE,NC]
+	RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
+	RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=dcam [R=303,L,NE,NC]
 
 	# either of these catch-alls means there's never a 404
 	# any unservable request will serve dcmi-terms/index.html
-	RewriteRule ^(.*)$ HTTP://%{HTTP_HOST}/documents/dcmi-terms/ [R=303,L,NE]
+	RewriteRule ^(.*)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms/ [R=303,L,NE]
 
 	#uncomment either the rule above or the rule below to control the default
 

@@ -126,9 +126,9 @@
         <xsl:call-template name="introSection" />
         <xsl:call-template name="mainSections" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
-                type="text/javascript"></script>
+                type="text/javascript">&amp;nbsp;</script>
         <script src="jump2location.js"
-                type="text/javascript"></script>
+                type="text/javascript">&amp;nbsp;</script>
         <xsl:comment>#include virtual="/ssi/footer.shtml"</xsl:comment>
       </body>
     </html>

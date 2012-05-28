@@ -9081,9 +9081,5 @@ Term Name:
 </tr>
 </tbody>
 </table>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"/>
-<script src="jump2location.js" type="text/javascript"/>
-<!--#include virtual="/ssi/footer.shtml"-->
-</body>
+</div> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>  <script src="jump2location.js" type="text/javascript"></script> <!--#include virtual="/ssi/footer.shtml"--></body>
 </html>

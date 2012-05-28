@@ -125,10 +125,8 @@
         <xsl:call-template name="indexOfTerms" />
         <xsl:call-template name="introSection" />
         <xsl:call-template name="mainSections" />
-        <xsl:text disable-output-escaping="yes"><![CDATA[ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
-                type="text/javascript"></script> ]]></xsl:text>
-        <xsl:text disable-output-escaping="yes"><![CDATA[ <script src="jump2location.js"
-                type="text/javascript"></script> ]]></xsl:text>
+        <xsl:text disable-output-escaping="yes"><![CDATA[ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script> ]]></xsl:text>
+        <xsl:text disable-output-escaping="yes"><![CDATA[ <script src="jump2location.js" type="text/javascript"></script> ]]></xsl:text>
         <xsl:comment>#include virtual="/ssi/footer.shtml"</xsl:comment>
       </body>
     </html>

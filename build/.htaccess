@@ -19,12 +19,12 @@ AddType text/turtle  .ttl
 
 	# Rewrite rule to make sure we serve the turtle content when requested
 	RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
-	RewriteCond %{HTTP_ACCEPT} application/rdf+turtle [OR]
+	RewriteCond %{HTTP_ACCEPT} application/rdf\+turtle [OR]
 	RewriteCond %{HTTP_ACCEPT} application/turtle
 	RewriteRule ^(.*)$ %{REQUEST_URI}.ttl [R=303,L]
 
 	# Rewrite rule to make sure we serve the RDF/XML content from the namespace URI by default
-	# if we get to here, yhey're getting RDF/xml
+	# if we get to here, they're getting RDF/xml
 	RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
 	RewriteRule ^(.*)$ %{REQUEST_URI}.rdf [R=303,L]
 
@@ -34,7 +34,7 @@ AddType text/turtle  .ttl
 	RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 	# redirects all requests for individual vocabs to /dcmi-terms/
 	# which should serve /dcmi-terms/index.html
-	RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms?v=elements [R=303,L,NE,NC]
+	RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=elements [R=303,L,NE,NC]
 	RewriteRule ^(dcterms)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=terms [R=303,L,NE,NC]
 	RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
 	RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/2012/06/01/dcmi-terms\?v=dcam [R=303,L,NE,NC]
@@ -45,6 +45,6 @@ AddType text/turtle  .ttl
 
 	#uncomment either the rule above or the rule below to control the default
 
-	# any unservable request will serve RDF Rurtle
+	# any unservable request will serve RDF Turtle
 	#RewriteRule ^(.*)$ %{REQUEST_URI}.ttl [R=303,L]
 </ifModule>

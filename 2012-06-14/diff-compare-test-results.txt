@@ -53,3 +53,4 @@
 #curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
 #curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image

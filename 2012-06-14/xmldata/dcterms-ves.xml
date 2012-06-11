@@ -1,0 +1,523 @@
+<?xml version='1.0'?>
+
+<dc>
+
+<heading>Vocabulary Encoding Schemes</heading>
+
+<term>
+    <Anchor>LCSH-003</Anchor>
+    <URI>http://purl.org/dc/terms/LCSH</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>LCSH</Name>
+    <Name-for-Table>terms-LCSH</Name-for-Table>
+    <Label>LCSH</Label>
+    <Definition>The set of labeled concepts specified by the Library of Congress Subject Headings.</Definition>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#LCSH-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#LCSH-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>LCSH-002</Anchor>
+        <URI>http://purl.org/dc/terms/LCSH</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>LCSH</Name>
+        <Label>LCSH</Label>
+        <Definition>Library of Congress Subject Headings</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#LCSH-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#LCSH-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCSH-002</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>LCSH-001</Anchor>
+        <URI>http://purl.org/dc/terms/LCSH</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>LCSH</Name>
+        <Label>LCSH</Label>
+        <Definition>Library of Congress Subject Headings</Definition>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#LCSH-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCSH-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>MESH-003</Anchor>
+    <URI>http://purl.org/dc/terms/MESH</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>MESH</Name>
+    <Name-for-Table>terms-MESH</Name-for-Table>
+    <Label>MeSH</Label>
+    <Definition>The set of labeled concepts specified by the Medical Subject Headings.</Definition>
+    <See>http://www.nlm.nih.gov/mesh/meshhome.html</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#MESH-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#MESH-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>MESH-002</Anchor>
+        <URI>http://purl.org/dc/terms/MESH</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>MESH</Name>
+        <Label>MeSH</Label>
+        <Definition>Medical Subject Headings</Definition>
+        <See>http://www.nlm.nih.gov/mesh/meshhome.html</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#MESH-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#MESH-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#MESH-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>MESH-001</Anchor>
+        <URI>http://purl.org/dc/terms/MESH</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>MESH</Name>
+        <Label>MeSH</Label>
+        <Definition>Medical Subject Headings</Definition>
+        <See>http://www.nlm.nih.gov/mesh/meshhome.html</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#MESH-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#MESH-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>DDC-003</Anchor>
+    <URI>http://purl.org/dc/terms/DDC</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>DDC</Name>
+    <Name-for-Table>terms-DDC</Name-for-Table>
+    <Label>DDC</Label>
+    <Definition>The set of conceptual resources specified by the Dewey Decimal Classification.</Definition>
+    <See>http://www.oclc.org/dewey/</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#DDC-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#DDC-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>DDC-002</Anchor>
+        <URI>http://purl.org/dc/terms/DDC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DDC</Name>
+        <Label>DDC</Label>
+        <Definition>Dewey Decimal Classification</Definition>
+        <See>http://www.oclc.org/dewey/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DDC-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#DDC-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DDC-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>DDC-001</Anchor>
+        <URI>http://purl.org/dc/terms/DDC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DDC</Name>
+        <Label>DDC</Label>
+        <Definition>Dewey Decimal Classification</Definition>
+        <See>http://www.oclc.org/dewey/index.htm</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DDC-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DDC-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>LCC-003</Anchor>
+    <URI>http://purl.org/dc/terms/LCC</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>LCC</Name>
+    <Name-for-Table>terms-LCC</Name-for-Table>
+    <Label>LCC</Label>
+    <Definition>The set of conceptual resources specified by the Library of Congress Classification.</Definition>
+    <See>http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#LCC-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#LCC-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>LCC-002</Anchor>
+        <URI>http://purl.org/dc/terms/LCC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>LCC</Name>
+        <Label>LCC</Label>
+        <Definition>Library of Congress Classification</Definition>
+        <See>http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#LCC-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#LCC-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCC-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>LCC-001</Anchor>
+        <URI>http://purl.org/dc/terms/LCC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>LCC</Name>
+        <Label>LCC</Label>
+        <Definition>Library of Congress Classification</Definition> 
+        <See>http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#LCC-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#LCC-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>UDC-003</Anchor>
+    <URI>http://purl.org/dc/terms/UDC</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>UDC</Name>
+    <Name-for-Table>terms-UDC</Name-for-Table>
+    <Label>UDC</Label>
+    <Definition>The set of conceptual resources specified by the Universal Decimal Classification.</Definition> 
+    <See>http://www.udcc.org/</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#UDC-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#UDC-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>UDC-002</Anchor>
+        <URI>http://purl.org/dc/terms/UDC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>UDC</Name>
+        <Label>UDC</Label>
+        <Definition>Universal Decimal Classification</Definition> 
+        <See>http://www.udcc.org/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#UDC-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#UDC-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#UDC-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>UDC-001</Anchor>
+        <URI>http://purl.org/dc/terms/UDC</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>UDC</Name>
+        <Label>UDC</Label>
+        <Definition>Universal Decimal Classification</Definition> 
+        <See>http://www.udcc.org/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#UDC-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#UDC-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>DCMIType-005</Anchor>
+    <URI>http://purl.org/dc/terms/DCMIType</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>DCMIType</Name>
+    <Name-for-Table>terms-DCMIType</Name-for-Table>
+    <Label>DCMI Type Vocabulary</Label>
+    <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
+    <See>http://purl.org/dc/dcmitype/</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2012-06-01</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2012-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#DCMIType-005</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-004</Replaces>
+</term>
+
+    <term>
+        <Anchor>DCMIType-004</Anchor>
+        <URI>http://purl.org/dc/terms/DCMIType</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DCMIType</Name>
+        <Name-for-Table>ves-DCMIType</Name-for-Table>
+        <Label>DCMI TypetermsVocabulary</Label>
+        <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
+        <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
+        <See>http://purl.org/dc/dcmitype/</See>
+        <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2010-10-11</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2010-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DCMIType-004</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-003</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DCMIType-005</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>DCMIType-003</Anchor>
+        <URI>http://purl.org/dc/terms/DCMIType</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DCMIType</Name>
+        <Name-for-Table>ves-DCMIType</Name-for-Table>
+        <Label>DCMI TypetermsVocabulary</Label>
+        <Definition>The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource.</Definition>
+        <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
+        <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2008-01-14</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DCMIType-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DCMIType-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>DCMIType-002</Anchor>
+        <URI>http://purl.org/dc/terms/DCMIType</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DCMIType</Name>
+        <Label>DCMI Type Vocabulary</Label>
+        <Definition>A list of types used to categorize the nature or genre 
+        of the content of the resource.</Definition>
+        <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/type</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DCMIType-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#DCMIType-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DCMIType-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>DCMIType-001</Anchor>
+        <URI>http://purl.org/dc/terms/DCMIType</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>DCMIType</Name>
+        <Label>DCMI Type Vocabulary</Label>
+        <Definition>A list of types used to categorize the nature or genre 
+        of the content of the resource.</Definition>
+        <See>http://dublincore.org/documents/dcmi-type-vocabulary/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/type</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#DCMIType-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#DCMIType-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>IMT-004</Anchor>
+    <URI>http://purl.org/dc/terms/IMT</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>IMT</Name>
+    <Name-for-Table>terms-IMT</Name-for-Table>
+    <Label>IMT</Label>
+    <Definition>The set of media types specified by the Internet Assigned Numbers Authority.</Definition>
+    <See>http://www.iana.org/assignments/media-types/</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#IMT-004</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#IMT-003</Replaces>
+</term>
+
+    <term>
+        <Anchor>IMT-003</Anchor>
+        <URI>http://purl.org/dc/terms/IMT</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>IMT</Name>
+        <Label>IMT</Label>
+        <Definition>The Internet media type of the resource.</Definition>
+        <See>http://www.iana.org/assignments/media-types/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/format</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2004-12-17</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2004-03</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#IMT-003</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#IMT-002</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#IMT-004</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>IMT-002</Anchor>
+        <URI>http://purl.org/dc/terms/IMT</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>IMT</Name>
+        <Label>IMT</Label>
+        <Definition>The Internet media type of the resource.</Definition>
+        <See>http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/format</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#IMT-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#IMT-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#IMT-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>IMT-001</Anchor>
+        <URI>http://purl.org/dc/terms/IMT</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>IMT</Name>
+        <Label>IMT</Label>
+        <Definition>The Internet media type of the resource.</Definition>
+        <See>http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/format</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#IMT-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#IMT-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>TGN-003</Anchor>
+    <URI>http://purl.org/dc/terms/TGN</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Name>TGN</Name>
+    <Name-for-Table>terms-TGN</Name-for-Table>
+    <Label>TGN</Label>
+    <Definition>The set of places specified by the Getty Thesaurus of Geographic Names.</Definition>
+    <See>http://www.getty.edu/research/tools/vocabulary/tgn/index.html</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2000-07-11</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#TGN-003</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#TGN-002</Replaces>
+</term>
+
+    <term>
+        <Anchor>TGN-002</Anchor>
+        <URI>http://purl.org/dc/terms/TGN</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>TGN</Name>
+        <Label>TGN</Label>
+        <Definition>The Getty Thesaurus of Geographic Names</Definition>
+        <See>http://www.getty.edu/research/tools/vocabulary/tgn/index.html</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/terms/spatial</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Date-Modified>2002-06-15</Date-Modified>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2002-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#TGN-002</Version>
+        <Replaces>http://dublincore.org/usage/terms/history/#TGN-001</Replaces>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#TGN-003</Is-Replaced-By>
+    </term>
+
+    <term>
+        <Anchor>TGN-001</Anchor>
+        <URI>http://purl.org/dc/terms/TGN</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Name>TGN</Name>
+        <Label>TGN</Label>
+        <Definition>The Getty Thesaurus of Geographic Names</Definition>
+        <See>http://shiva.pub.getty.edu/tgn_browser/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/terms/spatial</Qualifies>
+        <Date-Issued>2000-07-11</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2000-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#TGN-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#TGN-002</Is-Replaced-By>
+    </term>
+
+<term>
+    <Anchor>NLM-002</Anchor>
+    <Name>NLM</Name>
+    <Name-for-Table>terms-NLM</Name-for-Table>
+    <URI>http://purl.org/dc/terms/NLM</URI>
+    <Namespace>http://purl.org/dc/terms/</Namespace>
+    <Label>NLM</Label>
+    <Definition>The set of conceptual resources specified by the National Library of Medicine Classification.</Definition>
+    <See>http://wwwcf.nlm.nih.gov/class/</See>
+    <Type-of-Term>http://purl.org/dc/dcam/VocabularyEncodingScheme</Type-of-Term>
+    <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+    <Date-Issued>2005-06-13</Date-Issued>
+    <Date-Modified>2008-01-14</Date-Modified>
+    <Decision>http://dublincore.org/usage/decisions/#Decision-2008-01</Decision>
+    <Version>http://dublincore.org/usage/terms/history/#NLM-002</Version>
+    <Replaces>http://dublincore.org/usage/terms/history/#NLM-001</Replaces>
+</term>
+
+    <term>
+        <Anchor>NLM-001</Anchor>
+        <Name>NLM</Name>
+        <URI>http://purl.org/dc/terms/NLM</URI>
+        <Namespace>http://purl.org/dc/terms/</Namespace>
+        <Label>NLM</Label>
+        <Definition>National Library of Medicine Classification</Definition>
+        <See>http://wwwcf.nlm.nih.gov/class/</See>
+        <Type-of-Term>http://dublincore.org/usage/documents/principles/#encoding-scheme</Type-of-Term>
+        <Qualifies>http://purl.org/dc/elements/1.1/subject</Qualifies>
+        <Status>http://dublincore.org/usage/documents/process/#registered</Status>
+        <Date-Issued>2005-06-13</Date-Issued>
+        <Decision>http://dublincore.org/usage/decisions/#Decision-2005-01</Decision>
+        <Version>http://dublincore.org/usage/terms/history/#NLM-001</Version>
+        <Is-Replaced-By>http://dublincore.org/usage/terms/history/#NLM-002</Is-Replaced-By>
+    </term>
+
+</dc>

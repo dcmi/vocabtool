@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	>
+
+<!-- this <head/> is a stub to allow the <body/> to exist within a valid XHTML document -->
+<head>
+	<title>Dublin Core history Introduction</title> <!-- not expected to be rendered: included to make the document valid -->
+</head>
+
+<body>
+
+	<div id="introduction">
+	<h2>Introduction</h2>
+
+	<p>This document is an authoritative specification of
+all metadata terms maintained by the Dublin Core Metadata
+Initiative in all of their historical versions.</p>
+
+	<p>Most users will not need the historical detail presented
+here and should instead consult the document "DCMI Metadata
+Terms", which presents only the most current information on
+terms [<a href="#A1">TERMS</a>].  In addition to the attributes 
+used to describe terms in "DCMI Metadata Terms" [<a href="#A1">TERMS</a>], 
+this document includes additional information related to the versioning
+history of individual terms:</p>
+
+	<table class="legend" id="legend">  <!-- attributes shifted to CSS after complaints from the validator here; should probably be implemented as definition list, anyway -->
+		<tr>
+			<th class="label" scope="row">Namespace:</th>
+			<td class="definition">The DCMI Namespace within which the term is defined.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Date Issued:</th>
+			<td class="definition">Date on which a term was first declared.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Date Modified:</th>
+			<td class="definition">Date on which a term description was subsequently modified.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Decision:</th>
+			<td class="definition">A Usage Board decision with regard to a description of a term.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Replaces:</th>
+			<td class="definition">The immediately precedent historical description of a term.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Is Replaced By:</th>
+			<td class="definition">The immediately subsequent historical description of a term.</td>
+		</tr>
+
+		<tr>
+			<th class="label" scope="row">Status:</th>
+			<td class="definition">Status assigned to the term by the DCMI Usage Board.</td>
+		</tr>
+											
+		<tr>
+			<th class="label" scope="row">Qualifies:</th>
+			<td class="definition">A term qualified by an Encoding Scheme.  (No longer used as of 2008-01-14.)</td>
+		</tr>
+	</table>
+											
+	<div id="references">
+		<h3>References</h3>
+
+		<table class="references">
+			<tr id="A1">
+				<th class="abbrev" scope="row">&#x00A0;[TERMS]</th>
+				<td class="citation">
+					<a href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a>
+				</td>
+			</tr>
+		</table>
+	</div> <!-- @id="references" -->
+	</div> <!-- @id="introduction" -->
+
+</body>
+</html>

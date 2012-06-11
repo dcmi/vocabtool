@@ -1,0 +1,55 @@
+<PRE>
+======================================================================
+Now: check the following on stage then (after build) on production:
+
+--  RDF, TTL, and .htaccess
+
+    <a href="http://dublincore.org:8080/2012/06/14/.htaccess">http://dublincore.org:8080/2012/06/14/.htaccess</a>        
+         <a href="http://dublincore.org/2012/06/14/.htaccess">http://dublincore.org/2012/06/14/.htaccess</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcam.rdf">http://dublincore.org:8080/2012/06/14/dcam.rdf</a>         
+         <a href="http://dublincore.org/2012/06/14/dcam.rdf">http://dublincore.org/2012/06/14/dcam.rdf</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcelements.rdf">http://dublincore.org:8080/2012/06/14/dcelements.rdf</a>   
+         <a href="http://dublincore.org/2012/06/14/dcelements.rdf">http://dublincore.org/2012/06/14/dcelements.rdf</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcterms.rdf">http://dublincore.org:8080/2012/06/14/dcterms.rdf</a>      
+         <a href="http://dublincore.org/2012/06/14/dcterms.rdf">http://dublincore.org/2012/06/14/dcterms.rdf</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dctype.rdf">http://dublincore.org:8080/2012/06/14/dctype.rdf</a>       
+         <a href="http://dublincore.org/2012/06/14/dctype.rdf">http://dublincore.org/2012/06/14/dctype.rdf</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcam.ttl">http://dublincore.org:8080/2012/06/14/dcam.ttl</a>         
+         <a href="http://dublincore.org/2012/06/14/dcam.ttl">http://dublincore.org/2012/06/14/dcam.ttl</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcelements.ttl">http://dublincore.org:8080/2012/06/14/dcelements.ttl</a>   
+         <a href="http://dublincore.org/2012/06/14/dcelements.ttl">http://dublincore.org/2012/06/14/dcelements.ttl</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dcterms.ttl">http://dublincore.org:8080/2012/06/14/dcterms.ttl</a>      
+         <a href="http://dublincore.org/2012/06/14/dcterms.ttl">http://dublincore.org/2012/06/14/dcterms.ttl</a>
+    <a href="http://dublincore.org:8080/2012/06/14/dctype.ttl">http://dublincore.org:8080/2012/06/14/dctype.ttl</a>       
+         <a href="http://dublincore.org/2012/06/14/dctype.ttl">http://dublincore.org/2012/06/14/dctype.ttl</a>
+
+--  Web documents - on stage (now) and on production (after build)
+
+    <a href="http://dublincore.org:8080/documents/2012/05/14/dcmi-terms/index.shtml">http://dublincore.org:8080/documents/2012/05/14/dcmi-terms/</a> 
+         <a href="http://dublincore.org/documents/2012/05/14/dcmi-terms/index.shtml">http://dublincore.org/documents/2012/05/14/dcmi-terms/</a>
+    <a href="http://dublincore.org:8080/usage/terms/history/2012/06/14/index.shtml">http://dublincore.org:8080/usage/terms/history/2012/06/14/</a>
+         <a href="http://dublincore.org/usage/terms/history/2012/06/14/index.shtml">http://dublincore.org/usage/terms/history/2012/06/14/</a>
+    <a href="http://dublincore.org:8080/documents/2012/06/14/dces/index.shtml">http://dublincore.org:8080/documents/2012/06/14/dces/</a> (hand-edited stand-alone DCMES document)
+         <a href="http://dublincore.org/documents/2012/06/14/dces/index.shtml">http://dublincore.org/documents/2012/06/14/dces/</a>
+
+======================================================================
+Between Monday and Wednesday builds (Tuesday and Thursday Seoul)
+
+--  edit "latest version" redirects and check on production after Wednesday/Thursday build
+
+    <a href="http://dublincore.org:8080/documents/dcmi-terms/index.shtml">http://dublincore.org:8080/documents/dcmi-terms/</a> 
+         <a href="http://dublincore.org/documents/dcmi-terms/index.shtml">http://dublincore.org/documents/dcmi-terms/</a>
+    <a href="http://dublincore.org:8080/usage/terms/history/index.shtml">http://dublincore.org:8080/usage/terms/history/</a>
+         <a href="http://dublincore.org/usage/terms/history/index.shtml">http://dublincore.org/usage/terms/history/</a>
+    <a href="http://dublincore.org:8080/documents/dces/index.shtml">http://dublincore.org:8080/documents/dces/</a>
+         <a href="http://dublincore.org/documents/dces/index.shtml">http://dublincore.org/documents/dces/</a>
+
+======================================================================
+Immediately after Wednesday/Thursday build
+
+--  edit PURLs - all as "partial redirect PURLs"
+
+    <a href="http://purl.org/dc/dcam/">http://purl.org/dc/dcam/</a>          =&gt; <a href="http://dublincore.org/2012/06/14/dcam#">http://dublincore.org/2012/06/14/dcam#</a>
+    <a href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/</a>  =&gt; <a href="http://dublincore.org/2012/06/14/dcelements#">http://dublincore.org/2012/06/14/dcelements#</a>
+    <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>         =&gt; <a href="http://dublincore.org/2012/06/14/dcterms#">http://dublincore.org/2012/06/14/dcterms#</a>
+    <a href="http://purl.org/dc/type/">http://purl.org/dc/type/</a>          =&gt; <a href="http://dublincore.org/2012/06/14/dctype#">http://dublincore.org/2012/06/14/dctype#</a>

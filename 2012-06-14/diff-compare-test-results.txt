@@ -25,3 +25,28 @@
 #diff build-20120612/dcam.ttl                               build/dcam.ttl        # ok - only the date has changed (as expected)
 #diff build-20120612/dcterms.ttl                            build/dcterms.ttl        # ok - only the date has changed (as expected)
 #diff build-20120612/dcelements.ttl                         build/dcelements.ttl        # ok - only the date has changed (as expected)
+#diff documents/2012/06/12/dces/index.shtml.rdf documents/2012/06/14/dces/index.shtml.rdf    # ok - only the date changed
+#diff documents/2012/06/12/dces/index.shtml documents/2012/06/14/dces/index.shtml    # ok - only the date changed
+#diff documents/2012/06/12/dcmi-terms/index.shtml documents/2012/06/14/dcmi-terms/index.shtml    # ok - only the date changed
+#diff documents/2012/06/12/dcmi-terms/jump2location.js documents/2012/06/14/dcmi-terms/jump2location.js    # ok - only the date changed
+#diff /Users/tbaker/agit/website/build/html/dcmi-terms/index.shtml documents/2012/06/14/dcmi-terms/index.shtml # ok - files copied correctly
+#diff /Users/tbaker/agit/website/build/html/dcmi-terms/jump2location.js documents/2012/06/14/dcmi-terms/jump2location.js # ok - files copied correctly
+#diff /Users/tbaker/agit/website/build/html/history/index.shtml history/2012/06/14/index.shtml # ok - file correctly staged
+#diff 2012/06/14/dctype.rdf /Users/tbaker/agit/website/build/dctype.rdf        # ok - files were copied over correctly
+#diff 2012/06/14/dcam.rdf /Users/tbaker/agit/website/build/dcam.rdf        # ok - files were copied over correctly
+#diff 2012/06/14/dcterms.rdf /Users/tbaker/agit/website/build/dcterms.rdf        # ok - files were copied over correctly
+#diff 2012/06/14/dcelements.rdf /Users/tbaker/agit/website/build/dcelements.rdf        # ok - files were copied over correctly
+#diff 2012/06/14/dctype.ttl /Users/tbaker/agit/website/build/dctype.ttl        # ok - files were copied over correctly
+#diff 2012/06/14/dcam.ttl /Users/tbaker/agit/website/build/dcam.ttl        # ok - files were copied over correctly
+#diff 2012/06/14/dcterms.ttl /Users/tbaker/agit/website/build/dcterms.ttl        # ok - files were copied over correctly
+#diff 2012/06/14/dcelements.ttl /Users/tbaker/agit/website/build/dcelements.ttl        # ok - files were copied over correctly
+#diff 2012/06/14/.htaccess /Users/tbaker/agit/website/build/.htaccess        # ok - files were copied over correctly
+#diff ./12/dctype.rdf ./14/dctype.rdf         # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcam.rdf ./14/dcam.rdf             # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcterms.rdf ./14/dcterms.rdf       # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcelements.rdf ./14/dcelements.rdf # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dctype.ttl ./14/dctype.ttl         # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcam.ttl ./14/dcam.ttl             # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcterms.ttl ./14/dcterms.ttl       # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/dcelements.ttl ./14/dcelements.ttl # ok - what we used for testing differs from what is now staged only by date
+#diff ./12/.htaccess ./14/.htaccess           # ok - what we used for testing differs from what is now staged only by date

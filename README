@@ -206,14 +206,22 @@ How to prepare a new release of DCMI Metadata Terms
 
         http://dublincore.org/usage/terms/history/2012/06/14/index.shtml
 
-17. Ensure that content negotiation is working correctly by editing a test PURL
+17. Set up test partial-redirect PURLs at http://purl.org, e.g.:
+
+        http://purl.org/dc/test/dcelements/ => http://dublincore.org/2012/06/12/dcelements#
+        http://purl.org/dc/test/dcterms/    => http://dublincore.org/2012/06/12/dcterms#
+        http://purl.org/dc/test/dctype/     => http://dublincore.org/2012/06/12/dctype#
+        http://purl.org/dc/test/dcam/       => http://dublincore.org/2012/06/12/dcam#
+
+18. Ensure that content negotiation is working correctly by editing a test PURL
     and sending different accept requests, e.g.:
 
         curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
         curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
         curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
+        curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image
 
-18. Prepare for the final publication by editing and commiting the "latest 
+19. Prepare for the final publication by editing and commiting the "latest 
     version" URLs to point to the latest version:
 
     http://dublincore.org:8080/documents/dcmi-terms/index.shtml  
@@ -225,9 +233,9 @@ How to prepare a new release of DCMI Metadata Terms
     http://dublincore.org:8080/documents/dces/index.shtml
         <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
 
-19. Do not forget to prepare and stage a news announcement!
+20. Do not forget to prepare and stage a news announcement!
 
-20. Immediately after the files above are built, edit the following PURLs (all
+21. Immediately after the files above are built, edit the following PURLs (all
     as "partial redirect PURLs"):
 
     http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#

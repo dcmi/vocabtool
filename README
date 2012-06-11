@@ -245,6 +245,14 @@ How to prepare a new release of DCMI Metadata Terms
 
     Test the PURLs to ensure that they resolve as expected.
 
+    NOTE: There are four types of partial-redirect PURLs, of which 
+    the first should be selected:
+
+    --> Partial-redirect PURL
+    not Partial-redirect PURL with appended file extension(s)
+    not Partial-redirect PURL with ignored file extension(s)
+    not Partial-redirect PURL with replaced file extension(s)
+
 Any comments or feedback on this tool or the general approach to publishing
 DCMI Metadata Terms (such as versioning) is most welcome.  To submit a comment,
 please either subscribe to the dc-architecture mailing list [2] and post there

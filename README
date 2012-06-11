@@ -206,9 +206,14 @@ How to prepare a new release of DCMI Metadata Terms
 
         http://dublincore.org/usage/terms/history/2012/06/14/index.shtml
 
-   Ensure that content negotiation is working correctly.
+17. Ensure that content negotiation is working correctly by editing a test PURL
+    and sending different accept requests, e.g.:
 
-17. Prepare for the final publication by editing and commiting the "latest 
+        curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
+        curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
+        curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
+
+18. Prepare for the final publication by editing and commiting the "latest 
     version" URLs to point to the latest version:
 
     http://dublincore.org:8080/documents/dcmi-terms/index.shtml  
@@ -220,9 +225,9 @@ How to prepare a new release of DCMI Metadata Terms
     http://dublincore.org:8080/documents/dces/index.shtml
         <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
 
-18. Do not forget to prepare and stage a news announcement!
+19. Do not forget to prepare and stage a news announcement!
 
-19. Immediately after the files above are built, edit the following PURLs (all
+20. Immediately after the files above are built, edit the following PURLs (all
     as "partial redirect PURLs"):
 
     http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#

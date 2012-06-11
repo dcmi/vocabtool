@@ -50,3 +50,6 @@
 #diff ./12/dcterms.ttl ./14/dcterms.ttl       # ok - what we used for testing differs from what is now staged only by date
 #diff ./12/dcelements.ttl ./14/dcelements.ttl # ok - what we used for testing differs from what is now staged only by date
 #diff ./12/.htaccess ./14/.htaccess           # ok - what we used for testing differs from what is now staged only by date
+#curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod

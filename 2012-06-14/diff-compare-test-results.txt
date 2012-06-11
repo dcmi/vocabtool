@@ -21,3 +21,7 @@
 #diff 2012-06-01/headers/intro.history.xml                  2012-06-14/headers/intro.history.xml  # ok - nothing changed (as expected)   
 #diff build-20120612/html/dcmi-terms/jump2location.js       build/html/dcmi-terms/jump2location.js  # ok - nothing changed (as expected)   
 #diff build-20120612/.htaccess                              build/.htaccess     # ok - nothing changed (as expected)   
+#diff build-20120612/dctype.ttl                             build/dctype.ttl   # ok - only the date has changed (as expected)
+#diff build-20120612/dcam.ttl                               build/dcam.ttl        # ok - only the date has changed (as expected)
+#diff build-20120612/dcterms.ttl                            build/dcterms.ttl        # ok - only the date has changed (as expected)
+#diff build-20120612/dcelements.ttl                         build/dcelements.ttl        # ok - only the date has changed (as expected)

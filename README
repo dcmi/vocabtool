@@ -235,9 +235,11 @@ How to prepare a new release of DCMI Metadata Terms
     http://dublincore.org:8080/documents/dces/index.shtml
         <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
 
-20. Do not forget to prepare and stage a news announcement!
+20. Prepare and stage a news announcements!
 
-21. Immediately after the files above are built, edit the following PURLs (all
+21. Build the production server from stage.
+
+22. Immediately after the the production server is published, edit the following PURLs (all
     as "partial redirect PURLs"):
 
     http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#

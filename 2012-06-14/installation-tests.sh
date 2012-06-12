@@ -1,3 +1,4 @@
+# 2012-06-11 tests
 #diff build-20120612/dctype.rdf                             build/dctype.rdf       # ok - only date has changed (as expected)
 #diff build-20120612/dcam.rdf                               build/dcam.rdf         # ok - only date has changed (as expected)
 #diff build-20120612/dcterms.rdf                            build/dcterms.rdf      # ok - only date has changed (as expected)
@@ -50,7 +51,14 @@
 #diff ./12/dcterms.ttl ./14/dcterms.ttl       # ok - what we used for testing differs from what is now staged only by date
 #diff ./12/dcelements.ttl ./14/dcelements.ttl # ok - what we used for testing differs from what is now staged only by date
 #diff ./12/.htaccess ./14/.htaccess           # ok - what we used for testing differs from what is now staged only by date
+# 2012-06-12 tests
 #curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image
+#curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/elements/title
+#curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
+#curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/am/memberOf
 #curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image

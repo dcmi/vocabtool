@@ -181,7 +181,7 @@ How to prepare a new release of DCMI Metadata Terms
     with no unexpected results.  See, for example, the tests run for the 2012-06-14
     build:
 
-    https://github.com/dublincore/website/blob/master/2012-06-14/diff-compare-test-results.txt
+    https://github.com/dublincore/website/blob/master/2012-06-14/installation-tests.sh
 
 16. Ask for a build of the stage server to production and test all of the 
     following
@@ -208,16 +208,18 @@ How to prepare a new release of DCMI Metadata Terms
 
 17. Set up test partial-redirect PURLs at http://purl.org, e.g.:
 
-        http://purl.org/dc/test/dcelements/ => http://dublincore.org/2012/06/12/dcelements#
-        http://purl.org/dc/test/dcterms/    => http://dublincore.org/2012/06/12/dcterms#
-        http://purl.org/dc/test/dctype/     => http://dublincore.org/2012/06/12/dctype#
-        http://purl.org/dc/test/dcam/       => http://dublincore.org/2012/06/12/dcam#
+        http://purl.org/dc/test/elements/ => http://dublincore.org/2012/06/14/dcelements#
+        http://purl.org/dc/test/terms/    => http://dublincore.org/2012/06/14/dcterms#
+        http://purl.org/dc/test/type/     => http://dublincore.org/2012/06/14/dctype#
+        http://purl.org/dc/test/am/       => http://dublincore.org/2012/06/14/dcam#
 
 18. Ensure that content negotiation is working correctly by editing a test PURL
     and sending different accept requests, e.g.:
 
         curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
+        curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/elements/title
         curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
+        curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/am/memberOf
         curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
         curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image
 

@@ -241,9 +241,9 @@ How to prepare a new release of DCMI Metadata Terms
     as "partial redirect PURLs"):
 
     http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#
+    http://purl.org/dc/dcmitype/      => http://dublincore.org/2012/06/14/dctype#
     http://purl.org/dc/elements/1.1/  => http://dublincore.org/2012/06/14/dcelements#
     http://purl.org/dc/terms/         => http://dublincore.org/2012/06/14/dcterms#
-    http://purl.org/dc/type/          => http://dublincore.org/2012/06/14/dctype#
 
     Test the PURLs to ensure that they resolve as expected.
 

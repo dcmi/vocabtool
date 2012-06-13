@@ -217,11 +217,9 @@ How to prepare a new release of DCMI Metadata Terms
     and sending different accept requests, e.g.:
 
         curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/terms/instructionalMethod
-        curl -L -I  --header "Accept: application/rdf+xml" http://purl.org/dc/test/elements/title
-        curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
-        curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/am/memberOf
         curl -L -I  --header "Accept: application/rdf+turtle" http://purl.org/dc/test/terms/instructionalMethod
         curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image
+        curl -L -I  --header "Accept: text/turtle" http://purl.org/dc/test/terms/instructionalMethod
 
 19. Prepare for the final publication by editing and commiting the "latest 
     version" URLs to point to the latest version:
@@ -236,6 +234,8 @@ How to prepare a new release of DCMI Metadata Terms
         <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
 
 20. Prepare and stage a news announcements!
+
+21. Add references to the new RDF schemas to http://dublincore.org/schemas/rdfs/.
 
 21. Build the production server from stage.
 

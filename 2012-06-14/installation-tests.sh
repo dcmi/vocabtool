@@ -65,3 +65,6 @@
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/am/memberOf
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/terms/instructionalMethod
 #curl -L -I  --header "Accept: application/turtle" http://purl.org/dc/test/type/Image
+
+# 2012-06-13 tests - also passed :-)
+#curl -L -I  --header "Accept: text/turtle" http://purl.org/dc/test/terms/instructionalMethod

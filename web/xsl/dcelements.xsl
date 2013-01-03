@@ -32,7 +32,7 @@
 	<xsl:call-template name="Heading">
 	    <xsl:with-param name="header" select="$header"/>
 	</xsl:call-template>
-	<xsl:apply-templates select="*"/>
+	<xsl:apply-templates select="term"/>
     </rdf:RDF>
 </xsl:template>
 

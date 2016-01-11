@@ -269,3 +269,8 @@ http://dublincore.org
 
 [1] http://www.jiscmail.ac.uk/lists/dc-architecture.html
 
+----------------------------------------------------------------------
+Notes for next build:
+
+* 2016-01-11: in dcterms-ves.xml, add #H7 to link to DCMI Type 
+Vocabulary: http://dublincore.org/documents/dcmi-type-vocabulary/#H7.

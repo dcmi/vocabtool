@@ -32,7 +32,7 @@ The source code for this tool is maintained in a github repository [4].
 
 
 ======================================================================
-How to prepare a new release of DCMI Metadata Terms
+#### How to prepare a new release of DCMI Metadata Terms
 
 1. Make a copy of the latest data set to a new time-stamped directory, e.g.:
 

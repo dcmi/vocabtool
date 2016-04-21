@@ -1,6 +1,7 @@
-Vocabulary Management Tool 
+## Vocabulary Management Tool 
 
-2012-06-14
+2016-04-21. Moved from [github.com/dublincore/website](https://github.com/dublincore/website) to [github.com/dcmi/vocabtool](https://github.com/dublincore/vocabtool)<br>
+2012-06-14. How-to instructions added<br>
 
 This tool was developed in circa 2002 by Mitsuharu Nagamori and Harry Wagner in
 order to generate the RDF schemas and Web pages which document DCMI Metadata
@@ -13,19 +14,19 @@ resulting code.
 
 Jon Phipps (with help from Tom Baker) made two further improvements:
 
--- Added an .htaccess file to the RDF directory for managing content negotiation
-   of PURLs to RDF, Turtle, or HTML [2].
+* Added an .htaccess file to the RDF directory for managing content negotiation
+  of PURLs to RDF, Turtle, or HTML [2].
 
--- Added a Javascript script to the directory for the RDFa/HTML document in order
-   to support resolution of PURLs for specific terms to specific-term HTML anchors 
-   in the document [3].
+* Added a Javascript script to the directory for the RDFa/HTML document in order
+  to support resolution of PURLs for specific terms to specific-term HTML anchors 
+  in the document [3].
 
 The source code for this tool is maintained in a github repository [4].
 
-[1] http://dublincore.org/documents/dcmi-terms/
-[2] http://dublincore.org/2012/06/14/.htaccess
-[3] http://dublincore.org/documents/2012/06/14/dcmi-terms/jump2location.js
-[4] https://github.com/dublincore/website
+[1] http://dublincore.org/documents/dcmi-terms/ <br>
+[2] http://dublincore.org/2012/06/14/.htaccess <br>
+[3] http://dublincore.org/documents/2012/06/14/dcmi-terms/jump2location.js <br>
+[4] https://github.com/dublincore/website <br>
 
 
 ======================================================================

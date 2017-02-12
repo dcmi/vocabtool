@@ -1,6 +1,9 @@
-Vocabulary Management Tool 
+## Vocabulary Management Tool 
 
-2012-06-14
+See also [list of DCMI PURLs](https://github.com/dcmi/purls)
+
+2016-04-21. Moved from [github.com/dublincore/website](https://github.com/dublincore/website) to [github.com/dcmi/vocabtool](https://github.com/dublincore/vocabtool)<br>
+2012-06-14. How-to instructions added<br>
 
 This tool was developed in circa 2002 by Mitsuharu Nagamori and Harry Wagner in
 order to generate the RDF schemas and Web pages which document DCMI Metadata
@@ -13,23 +16,23 @@ resulting code.
 
 Jon Phipps (with help from Tom Baker) made two further improvements:
 
--- Added an .htaccess file to the RDF directory for managing content negotiation
-   of PURLs to RDF, Turtle, or HTML [2].
+* Added an .htaccess file to the RDF directory for managing content negotiation
+  of PURLs to RDF, Turtle, or HTML [2].
 
--- Added a Javascript script to the directory for the RDFa/HTML document in order
-   to support resolution of PURLs for specific terms to specific-term HTML anchors 
-   in the document [3].
+* Added a Javascript script to the directory for the RDFa/HTML document in order
+  to support resolution of PURLs for specific terms to specific-term HTML anchors 
+  in the document [3].
 
 The source code for this tool is maintained in a github repository [4].
 
-[1] http://dublincore.org/documents/dcmi-terms/
-[2] http://dublincore.org/2012/06/14/.htaccess
-[3] http://dublincore.org/documents/2012/06/14/dcmi-terms/jump2location.js
-[4] https://github.com/dublincore/website
+[1] http://dublincore.org/documents/dcmi-terms/ <br>
+[2] http://dublincore.org/2012/06/14/.htaccess <br>
+[3] http://dublincore.org/documents/2012/06/14/dcmi-terms/jump2location.js <br>
+[4] https://github.com/dublincore/website <br>
 
 
 ======================================================================
-How to prepare a new release of DCMI Metadata Terms
+#### How to prepare a new release of DCMI Metadata Terms
 
 1. Make a copy of the latest data set to a new time-stamped directory, e.g.:
 
@@ -54,29 +57,29 @@ How to prepare a new release of DCMI Metadata Terms
 
 4. Edit the included "header" files as follows:
 
-    2012-06-14/headers/header-doc-dcterms.xml
-        <Identifier property="dcterms:identifier">http://dublincore.org/documents/2012/06/14/dcmi-terms/</Identifier>
-
-    2012-06-14/headers/header-doc-dcterms.xml
-        <Date-Issued property="dcterms:issued">2012-06-14</Date-Issued>
-
-    2012-06-14/headers/header-doc-history.xml
-        <Identifier property="dcterms:identifier">http://dublincore.org/usage/terms/history/2012/06/14/</Identifier>
-
-    2012-06-14/headers/header-doc-history.xml
-        <Date-Issued property="dcterms:issued">2012-06-14</Date-Issued>
-
-    2012-06-14/headers/header-rdf-dcam.xml
-        <Date-Modified>2012-06-14</Date-Modified> 
-
-    2012-06-14/headers/header-rdf-dcelements.xml
-        <Date-Modified>2012-06-14</Date-Modified> 
-
-    2012-06-14/headers/header-rdf-dcterms.xml
-        <Date-Modified>2012-06-14</Date-Modified> 
-
-    2012-06-14/headers/header-rdf-dctype.xml
-        <Date-Modified>2012-06-14</Date-Modified> 
+         2012-06-14/headers/header-doc-dcterms.xml
+             <Identifier property="dcterms:identifier">http://dublincore.org/documents/2012/06/14/dcmi-terms/</Identifier>
+     
+         2012-06-14/headers/header-doc-dcterms.xml
+             <Date-Issued property="dcterms:issued">2012-06-14</Date-Issued>
+     
+         2012-06-14/headers/header-doc-history.xml
+             <Identifier property="dcterms:identifier">http://dublincore.org/usage/terms/history/2012/06/14/</Identifier>
+     
+         2012-06-14/headers/header-doc-history.xml
+             <Date-Issued property="dcterms:issued">2012-06-14</Date-Issued>
+     
+         2012-06-14/headers/header-rdf-dcam.xml
+             <Date-Modified>2012-06-14</Date-Modified> 
+     
+         2012-06-14/headers/header-rdf-dcelements.xml
+             <Date-Modified>2012-06-14</Date-Modified> 
+     
+         2012-06-14/headers/header-rdf-dcterms.xml
+             <Date-Modified>2012-06-14</Date-Modified> 
+     
+         2012-06-14/headers/header-rdf-dctype.xml
+             <Date-Modified>2012-06-14</Date-Modified> 
 
 5. Edit the introductory text to DCMI Metadata Terms and the historical versioning
    document as needed:
@@ -86,29 +89,29 @@ How to prepare a new release of DCMI Metadata Terms
 
 6. Delete the TTL, RDF, and SHTML files in /build:
 
-         build/dcam.rdf
-         build/dcam.ttl
-         build/dcelements.rdf
-         build/dcelements.ttl
-         build/dcterms.rdf
-         build/dcterms.ttl
-         build/dctype.rdf
-         build/dctype.ttl
-         build/html/dcmi-terms/index.shtml
-         build/html/history/index.shtml
+        build/dcam.rdf
+        build/dcam.ttl
+        build/dcelements.rdf
+        build/dcelements.ttl
+        build/dcterms.rdf
+        build/dcterms.ttl
+        build/dctype.rdf
+        build/dctype.ttl
+        build/html/dcmi-terms/index.shtml
+        build/html/history/index.shtml
 
    NOTE: Do _not_ delete:
 
-         build/.htaccess
-         build/html/dcmi-terms/jump2location.js
+        build/.htaccess
+        build/html/dcmi-terms/jump2location.js
 
 7. Edit the following lines in build/.htaccess to reflect the date of the new build:
 
-	RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=elements [R=303,L,NE,NC]
-	RewriteRule ^(dcterms)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=terms [R=303,L,NE,NC]
-	RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
-	RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=dcam [R=303,L,NE,NC]
-	RewriteRule ^(.*)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms/ [R=303,L,NE]
+        RewriteRule ^(dcelements)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=elements [R=303,L,NE,NC]
+        RewriteRule ^(dcterms)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=terms [R=303,L,NE,NC]
+        RewriteRule ^(dctype)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=dcmitype [R=303,L,NE,NC]
+        RewriteRule ^(dcam)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms\?v=dcam [R=303,L,NE,NC]
+        RewriteRule ^(.*)$ HTTP://%{HTTP_HOST}/documents/2012/06/14/dcmi-terms/ [R=303,L,NE]
 
 8. Apache Ant (version 1.7 or higher) is required to run the program.
    From the top directory, execute:
@@ -146,47 +149,47 @@ How to prepare a new release of DCMI Metadata Terms
    project -- listed here with their "stage" and "production"
    server addresses:
 
-    http://dublincore.org:8080/2012/06/14/.htaccess        
-    http://dublincore.org:8080/2012/06/14/dcam.rdf         
-    http://dublincore.org:8080/2012/06/14/dcelements.rdf   
-    http://dublincore.org:8080/2012/06/14/dcterms.rdf      
-    http://dublincore.org:8080/2012/06/14/dctype.rdf       
-    http://dublincore.org:8080/2012/06/14/dcam.ttl         
-    http://dublincore.org:8080/2012/06/14/dcelements.ttl   
-    http://dublincore.org:8080/2012/06/14/dcterms.ttl      
-    http://dublincore.org:8080/2012/06/14/dctype.ttl       
+        http://dublincore.org:8080/2012/06/14/.htaccess        
+        http://dublincore.org:8080/2012/06/14/dcam.rdf         
+        http://dublincore.org:8080/2012/06/14/dcelements.rdf   
+        http://dublincore.org:8080/2012/06/14/dcterms.rdf      
+        http://dublincore.org:8080/2012/06/14/dctype.rdf       
+        http://dublincore.org:8080/2012/06/14/dcam.ttl         
+        http://dublincore.org:8080/2012/06/14/dcelements.ttl   
+        http://dublincore.org:8080/2012/06/14/dcterms.ttl      
+        http://dublincore.org:8080/2012/06/14/dctype.ttl       
 
 12. Copy build/html/dcmi-terms/index.shtml to a new timestamped 
     directory under the /documents tree in the SVN project -- listed here 
     with its "stage" and "production" server addresses:
 
-    http://dublincore.org:8080/documents/2012/06/14/dcmi-terms/index.shtml 
+        http://dublincore.org:8080/documents/2012/06/14/dcmi-terms/index.shtml 
 
 13. Copy build/html/history/index.shtml to a new timestamped 
     directory under the /usage/terms/history/ tree in the SVN project -- 
     listed here with its "stage" and "production" server addresses:
 
-    http://dublincore.org:8080/usage/terms/history/2012/06/14/index.shtml
+        http://dublincore.org:8080/usage/terms/history/2012/06/14/index.shtml
 
 14. Note that as of June 2012, the stand-alone DCMES document is currently maintained 
     by hand.  Edit the following file to change the date of publication.
 
-    http://dublincore.org:8080/documents/2012/06/14/dces/index.shtml
-         http://dublincore.org/documents/2012/06/14/dces/index.shtml
+        http://dublincore.org:8080/documents/2012/06/14/dces/index.shtml
+             http://dublincore.org/documents/2012/06/14/dces/index.shtml
 
-    NOTE: Any changes to the fifteen properties of DCMES will need to be made
-    in this document by hand!
+* NOTE: Any changes to the fifteen properties of DCMES will need to be made in
+  this document by hand!
 
 15. Check your work with diffs to ensure that files were generated correctly,
     with no unexpected results.  See, for example, the tests run for the 2012-06-14
     build:
 
-    https://github.com/dublincore/website/blob/master/2012-06-14/installation-tests.sh
+        https://github.com/dublincore/website/blob/master/2012-06-14/installation-tests.sh
 
 16. Ask for a build of the stage server to production and test all of the 
     following
 
-    --  RDF, TTL, and .htaccess
+* RDF, TTL, and .htaccess
 
         http://dublincore.org/2012/06/14/.htaccess        
         http://dublincore.org/2012/06/14/dcam.rdf         
@@ -198,11 +201,11 @@ How to prepare a new release of DCMI Metadata Terms
         http://dublincore.org/2012/06/14/dcterms.ttl      
         http://dublincore.org/2012/06/14/dctype.ttl       
 
-   --   DCMI Metadata Terms (with RDFa)
+* DCMI Metadata Terms (with RDFa)
 
         http://dublincore.org/documents/2012/06/14/dcmi-terms/index.shtml 
 
-   --   Version history document (without RDFa)
+* Version history document (without RDFa)
 
         http://dublincore.org/usage/terms/history/2012/06/14/index.shtml
 
@@ -224,14 +227,14 @@ How to prepare a new release of DCMI Metadata Terms
 19. Prepare for the final publication by editing and commiting the "latest 
     version" URLs to point to the latest version:
 
-    http://dublincore.org:8080/documents/dcmi-terms/index.shtml  
-        <!--#include virtual="/documents/2012/06/14/dcmi-terms/index.shtml" -->
+        http://dublincore.org:8080/documents/dcmi-terms/index.shtml  
+            <!--#include virtual="/documents/2012/06/14/dcmi-terms/index.shtml" -->
 
-    http://dublincore.org:8080/usage/terms/history/index.shtml
-        <!--#include virtual="/usage/terms/history/2012/06/14/index.shtml" -->
+        http://dublincore.org:8080/usage/terms/history/index.shtml
+            <!--#include virtual="/usage/terms/history/2012/06/14/index.shtml" -->
 
-    http://dublincore.org:8080/documents/dces/index.shtml
-        <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
+        http://dublincore.org:8080/documents/dces/index.shtml
+            <!--#include virtual="/documents/2012/06/14/dces/index.shtml" -->
 
 20. Prepare and stage a news announcements!
 
@@ -242,20 +245,20 @@ How to prepare a new release of DCMI Metadata Terms
 22. Immediately after the the production server is published, edit the following PURLs (all
     as "partial redirect PURLs"):
 
-    http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#
-    http://purl.org/dc/dcmitype/      => http://dublincore.org/2012/06/14/dctype#
-    http://purl.org/dc/elements/1.1/  => http://dublincore.org/2012/06/14/dcelements#
-    http://purl.org/dc/terms/         => http://dublincore.org/2012/06/14/dcterms#
+        http://purl.org/dc/dcam/          => http://dublincore.org/2012/06/14/dcam#
+        http://purl.org/dc/dcmitype/      => http://dublincore.org/2012/06/14/dctype#
+        http://purl.org/dc/elements/1.1/  => http://dublincore.org/2012/06/14/dcelements#
+        http://purl.org/dc/terms/         => http://dublincore.org/2012/06/14/dcterms#
 
-    Test the PURLs to ensure that they resolve as expected.
+* Test the PURLs to ensure that they resolve as expected.
 
-    NOTE: There are four types of partial-redirect PURLs, of which 
-    the first should be selected:
+* NOTE: There are four types of partial-redirect PURLs, of which the first
+  should be selected:
 
-    --> Partial-redirect PURL
-    not Partial-redirect PURL with appended file extension(s)
-    not Partial-redirect PURL with ignored file extension(s)
-    not Partial-redirect PURL with replaced file extension(s)
+        --> Partial-redirect PURL
+        not Partial-redirect PURL with appended file extension(s)
+        not Partial-redirect PURL with ignored file extension(s)
+        not Partial-redirect PURL with replaced file extension(s)
 
 Any comments or feedback on this tool or the general approach to publishing
 DCMI Metadata Terms (such as versioning) is most welcome.  To submit a comment,
@@ -263,11 +266,11 @@ please either subscribe to the dc-architecture mailing list [2] and post there
 or send comments to tom@tombaker.org indicating whether or not they may be shared
 with the list.
 
-Tom Baker <tom@tombaker.org>
-CIO, Dublin Core Metadata Initiative Ltd.
-http://dublincore.org
+Tom Baker <tom@tombaker.org> <br>
+CIO, Dublin Core Metadata Initiative <br>
+http://dublincore.org <br>
 
-[1] http://www.jiscmail.ac.uk/lists/dc-architecture.html
+[1] https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=dc-architecture
 
 ----------------------------------------------------------------------
 Notes for next build:

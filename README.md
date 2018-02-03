@@ -1,4 +1,4 @@
-## Vocabulary Management Tool 
+## Vocabulary Management Tool (will be replaced by new system)
 
 See also [list of DCMI PURLs](https://github.com/dcmi/purls)
 
